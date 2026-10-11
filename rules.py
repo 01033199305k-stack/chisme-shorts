@@ -17,6 +17,8 @@ NEEDS = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"], "stamp": [
 
 # v2 visual (motion.py): いらすとや scenes built up item by item
 V_TYPES = ["illust", "text", "emoji", "crowd"]
+# いらすとや draws these as Japan-specific pictures; a Korean story must never show them
+JP_ONLY_WORDS = ["日本", "地図", "日の丸", "国旗", "都道府県", "東京", "富士山", "神社", "鳥居", "着物", "和服", "新幹線", "円"]
 V_STYLES = ["big", "label", "small", "red", "stamp", "bubble", "row", "post"]
 V_POS = ["center", "left", "right", "top", "bottom", "top-left", "top-right", "bottom-left", "bottom-right"]
 V_FX = ["pop", "drop", "slide-left", "slide-right", "zoom", "fade", "shake", "stamp", "run-left", "run-right", "sparkle"]
@@ -53,6 +55,10 @@ def _check_visual(i: int, v: dict) -> list[str]:
         q = it.get("q", "")
         if typ in ("illust", "crowd") and not (any(str(x).strip() for x in q) if isinstance(q, list) else str(q).strip()):
             p.append(f"{tag}: {typ} needs q (いらすとや search words in Japanese, or a list of alternatives)")
+        qs = q if isinstance(q, list) else [q]
+        bad = [w for w in JP_ONLY_WORDS for x in qs if w in str(x)]
+        if typ in ("illust", "crowd") and bad:
+            p.append(f"{tag}: q has {sorted(set(bad))} - いらすとや maps/flags/landmarks are Japanese (2026-10-12 a Korean story showed a map of Japan); show the place with text/emoji instead")
         if typ in ("text", "emoji") and not str(it.get("text", "")).strip():
             p.append(f"{tag}: {typ} needs text")
         if typ == "text" and it.get("style", "label") not in V_STYLES:
