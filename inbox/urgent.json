@@ -1,64 +1,22 @@
 {
- "detected_at": "2026-10-12T00:57+09:00",
+ "detected_at": "2026-10-12T08:58+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보]주진우 “대구 구조 10시50분 끝났는데, 靑 12시30분에 메시지…장난치나”",
-   "url": "https://n.news.naver.com/article/021/0002824284",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "靑 ‘李, 태릉CC 방문’ 이례적 공개…“골프장서 대구 사고 수습 지시”",
-   "url": "https://n.news.naver.com/article/020/0003754056",
-   "press": "동아일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "SBS",
-     "title": "청와대 \"이 대통령, 골프장서 대구 사고 신속수습지시\"",
-     "url": "https://n.news.naver.com/article/055/0001394563"
-    },
-    {
-     "press": "채널A",
-     "title": "주진우 “이 대통령, 대구 천장 붕괴 사고 때 골프장 방문”…청와대 “현장서 보고 받고 수습 지시”",
-     "url": "https://n.news.naver.com/article/449/0000363671"
-    },
-    {
-     "press": "강원일보",
-     "title": "靑 “李대통령 골프장서 가족들과 있다가 ‘대구 상가 천장 붕괴 사고’ 보고 받고 신속 수습 지시”",
-     "url": "https://n.news.naver.com/article/087/0001222931"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "靑 “李대통령, 가족과 골프... 대구 붕괴사고 보고 받고 지시\"",
-   "url": "https://n.news.naver.com/article/023/0004003152",
+   "title": "‘한동훈 딸’을 때리자... ‘김민석 아들’로 반격",
+   "url": "https://n.news.naver.com/article/023/0004003175",
    "press": "조선일보",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "SBS",
-     "title": "청와대 \"이 대통령, 골프장서 대구 사고 신속수습지시\"",
-     "url": "https://n.news.naver.com/article/055/0001394563"
+     "press": "중앙일보",
+     "title": "‘한동훈 딸’ 공격하자 ‘김민석 아들’ 반격…자녀까지 파묘 전쟁",
+     "url": "https://n.news.naver.com/article/025/0003557117"
     },
     {
-     "press": "MBC",
-     "title": "국힘 주진우 \"이 대통령, 대구 상가 사고 때 태릉서 골프\"",
-     "url": "https://n.news.naver.com/article/214/0001528295"
-    },
-    {
-     "press": "채널A",
-     "title": "주진우 “이 대통령, 대구 천장 붕괴 사고 때 골프장 방문”…청와대 “현장서 보고 받고 수습 지시”",
-     "url": "https://n.news.naver.com/article/449/0000363671"
-    },
-    {
-     "press": "강원일보",
-     "title": "靑 “李대통령 골프장서 가족들과 있다가 ‘대구 상가 천장 붕괴 사고’ 보고 받고 신속 수습 지시”",
-     "url": "https://n.news.naver.com/article/087/0001222931"
+     "press": "헤럴드경제",
+     "title": "민주당 “한동훈 딸 논문 대필 재수사”…韓 “김민석 아들 법안은 공직 사유화”",
+     "url": "https://n.news.naver.com/article/016/0002707740"
     }
    ]
   }
