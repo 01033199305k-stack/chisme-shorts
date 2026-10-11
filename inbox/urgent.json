@@ -1,59 +1,64 @@
 {
- "detected_at": "2026-10-11T18:17+09:00",
+ "detected_at": "2026-10-12T00:57+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "주진우 \"상가 붕괴 때 李 황제 골프\"…靑 \"보고받고 수습 지시\"",
-   "url": "https://n.news.naver.com/article/079/0004197425",
-   "press": "노컷뉴스",
-   "why": "언론사 7곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "주진우 “李대통령, ‘대구 붕괴’ 당일 황제골프”…靑 “골프장서 신속수습 지시”",
-     "url": "https://n.news.naver.com/article/005/0001877939"
-    },
-    {
-     "press": "조선비즈",
-     "title": "靑 “李 대통령, ‘대구 상가 붕괴’ 골프장에서 보고 받고 신속 수습 지시\"",
-     "url": "https://n.news.naver.com/article/366/0001197200"
-    },
-    {
-     "press": "강원일보",
-     "title": "靑 “李대통령 골프장서 가족들과 있다가 ‘대구 상가 천장 붕괴 사고’ 보고 받고 신속 수습 지시”",
-     "url": "https://n.news.naver.com/article/087/0001222931"
-    },
-    {
-     "press": "YTN",
-     "title": "주진우 \"대통령, 대구 상가 사고 때 '황제 골프'\"...청와대 \"정치 공방 유감\"",
-     "url": "https://n.news.naver.com/article/052/0002417272"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] “살상·고문·욕설·흡연 보여줘 아동학대”…‘암살자(들) 단체관람’ 초중고·교육감도 피고발",
-   "url": "https://n.news.naver.com/article/029/0003052383",
-   "press": "디지털타임스",
+   "title": "[속보]주진우 “대구 구조 10시50분 끝났는데, 靑 12시30분에 메시지…장난치나”",
+   "url": "https://n.news.naver.com/article/021/0002824284",
+   "press": "문화일보",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "청와대 \"정치적 공방 유감\"... 주진우 \"내로남불\"",
-   "url": "https://n.news.naver.com/article/047/0002531770",
-   "press": "오마이뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "靑 ‘李, 태릉CC 방문’ 이례적 공개…“골프장서 대구 사고 수습 지시”",
+   "url": "https://n.news.naver.com/article/020/0003754056",
+   "press": "동아일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "YTN",
-     "title": "주진우 \"대통령, 대구 상가 사고 때 '황제 골프'\"...청와대 \"정치 공방 유감\"",
-     "url": "https://n.news.naver.com/article/052/0002417272"
+     "press": "SBS",
+     "title": "청와대 \"이 대통령, 골프장서 대구 사고 신속수습지시\"",
+     "url": "https://n.news.naver.com/article/055/0001394563"
     },
     {
-     "press": "뉴시스",
-     "title": "주진우 \"李, 대구 붕괴 사고 때 골프\"…靑 \"정치적 공방 활용 유감\"(종합)",
-     "url": "https://n.news.naver.com/article/003/0014245358"
+     "press": "채널A",
+     "title": "주진우 “이 대통령, 대구 천장 붕괴 사고 때 골프장 방문”…청와대 “현장서 보고 받고 수습 지시”",
+     "url": "https://n.news.naver.com/article/449/0000363671"
+    },
+    {
+     "press": "강원일보",
+     "title": "靑 “李대통령 골프장서 가족들과 있다가 ‘대구 상가 천장 붕괴 사고’ 보고 받고 신속 수습 지시”",
+     "url": "https://n.news.naver.com/article/087/0001222931"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "靑 “李대통령, 가족과 골프... 대구 붕괴사고 보고 받고 지시\"",
+   "url": "https://n.news.naver.com/article/023/0004003152",
+   "press": "조선일보",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "SBS",
+     "title": "청와대 \"이 대통령, 골프장서 대구 사고 신속수습지시\"",
+     "url": "https://n.news.naver.com/article/055/0001394563"
+    },
+    {
+     "press": "MBC",
+     "title": "국힘 주진우 \"이 대통령, 대구 상가 사고 때 태릉서 골프\"",
+     "url": "https://n.news.naver.com/article/214/0001528295"
+    },
+    {
+     "press": "채널A",
+     "title": "주진우 “이 대통령, 대구 천장 붕괴 사고 때 골프장 방문”…청와대 “현장서 보고 받고 수습 지시”",
+     "url": "https://n.news.naver.com/article/449/0000363671"
+    },
+    {
+     "press": "강원일보",
+     "title": "靑 “李대통령 골프장서 가족들과 있다가 ‘대구 상가 천장 붕괴 사고’ 보고 받고 신속 수습 지시”",
+     "url": "https://n.news.naver.com/article/087/0001222931"
     }
    ]
   }
