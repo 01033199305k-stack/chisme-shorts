@@ -17,7 +17,8 @@ NEEDS = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"], "stamp": [
 
 # v2 visual (motion.py): いらすとや scenes built up item by item
 V_TYPES = ["illust", "text", "emoji", "crowd"]
-# いらすとや draws these as Japan-specific pictures; a Korean story must never show them
+# いらすとや draws these as Japan-specific pictures - fine for a story set in Japan,
+# wrong for a Korean story (2026-10-12: a Seoul->Jeonju story showed a map of Japan)
 JP_ONLY_WORDS = ["日本", "地図", "日の丸", "国旗", "都道府県", "東京", "富士山", "神社", "鳥居", "着物", "和服", "新幹線", "円"]
 V_STYLES = ["big", "label", "small", "red", "stamp", "bubble", "row", "post"]
 V_POS = ["center", "left", "right", "top", "bottom", "top-left", "top-right", "bottom-left", "bottom-right"]
@@ -58,7 +59,7 @@ def _check_visual(i: int, v: dict) -> list[str]:
         qs = q if isinstance(q, list) else [q]
         bad = [w for w in JP_ONLY_WORDS for x in qs if w in str(x)]
         if typ in ("illust", "crowd") and bad:
-            p.append(f"{tag}: q has {sorted(set(bad))} - いらすとや maps/flags/landmarks are Japanese (2026-10-12 a Korean story showed a map of Japan); show the place with text/emoji instead")
+            p.append(f"{tag}: q has {sorted(set(bad))} - いらすとや draws these as Japan; this story is not set in Japan, so show the place with text/emoji instead")
         if typ in ("text", "emoji") and not str(it.get("text", "")).strip():
             p.append(f"{tag}: {typ} needs text")
         if typ == "text" and it.get("style", "label") not in V_STYLES:
@@ -132,6 +133,7 @@ def validate(script: dict) -> list[str]:
         return [] if script["skip_reason"].strip() else ["skip=true needs skip_reason"]
     if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+){1,6}", script["slug"]):
         p.append(f"slug must be lowercase kebab-case ascii: {script['slug']!r}")
+    in_japan = "일본" in " ".join(str(x.get("text", "")) for x in script["segments"])
     tl = script["title_lines"]
     if len(tl) != 2:
         p.append("title_lines must have exactly 2 lines")
@@ -180,7 +182,10 @@ def validate(script: dict) -> list[str]:
         if tone is not None and not (isinstance(tone, str) and len(tone.strip()) <= 40):
             p.append(f"segment {i}: tone must be a short delivery note for the voice (max 40 chars)")
         if "visual" in s:
-            p += _check_visual(i, s["visual"])
+            vp = _check_visual(i, s["visual"])
+            if in_japan:
+                vp = [x for x in vp if "draws these as Japan" not in x]
+            p += vp
             continue
         c = s["card"]
         missing = [f for f in CARD_FIELDS if f not in c]
