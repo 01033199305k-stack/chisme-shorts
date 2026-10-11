@@ -1,56 +1,91 @@
 {
- "detected_at": "2026-10-11T11:10+09:00",
+ "detected_at": "2026-10-11T15:17+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "[국갤] 스타벅스, '탱크데이' 논란 5개월 만에 신용·체크카드 결제액 1위",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469456&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(연합뉴스)",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/001/0016368666",
-     "headline": "'탱크데이' 논란 5개월 만에…스타벅스, 투썸 제치고 1위 탈환"
-    }
-   ]
-  },
-  {
    "kind": "news",
-   "title": "[속보] 연휴 마지막 날 귀경길 정체…강릉→서울 2시간 40분, 오후 5시 혼잡 절정",
-   "url": "https://n.news.naver.com/article/654/0000204617",
-   "press": "강원도민일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 무인텔서 10대 여친·지인 폭행한 20대 실형…무면허 음주운전까지",
-   "url": "https://n.news.naver.com/article/087/0001222798",
-   "press": "강원일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 靑 “李대통령 단순한 SNS 정치 아냐…국정과 국민 사이 벽 낮추는 소통”",
-   "url": "https://n.news.naver.com/article/022/0004165606",
-   "press": "세계일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "이 대통령에 반박한 김용민… \"자리 탐하려고 정치한 것 아니다\"",
+   "url": "https://n.news.naver.com/article/469/0000958704",
+   "press": "한국일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 \"품격없다 비난해도 SNS 소통 계속할 것\"",
-     "url": "https://n.news.naver.com/article/422/0000914323"
+     "press": "MBC",
+     "title": "김용민 \"자리 탐하려고 정치한 것 아냐\"‥이 대통령 정면 반박?",
+     "url": "https://n.news.naver.com/article/214/0001528274"
+    },
+    {
+     "press": "시사저널",
+     "title": "李대통령 발언 겨냥? 김용민 \"자리 탐하려 정치 시작한 것 아냐\"",
+     "url": "https://n.news.naver.com/article/586/0000139714"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 성기홍 \"李대통령 직접소통 다양해질 것…SNS는 여러통로 중 하나\"",
-   "url": "https://n.news.naver.com/article/215/0001268757",
-   "press": "한국경제TV",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "이 대통령, 추미애 겨냥했나…\"혈세로 호사 누리며 서민복지 삭감\"",
+   "url": "https://n.news.naver.com/article/082/0001401885",
+   "press": "부산일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "뉴스1",
+     "title": "李대통령 \"고관대작, 소시민 삶 이해 어려워…혈세로 호사\" 추미애 겨냥한 듯",
+     "url": "https://n.news.naver.com/article/421/0009220336"
+    },
+    {
+     "press": "동아일보",
+     "title": "李, 추미애 겨냥했나…“혈세로 호사 누리면서 서민 복지예산 삭감”",
+     "url": "https://n.news.naver.com/article/020/0003754038"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "이 대통령 \"혈세로 호사 누리며 서민 복지 예산 삭감\"…추미애 저격?",
+     "url": "https://n.news.naver.com/article/422/0000914436"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "李 “평생 고관대작, 서민 혈세로 호사 누려”...추미애 겨냥?",
+   "url": "https://n.news.naver.com/article/023/0004003133",
+   "press": "조선일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "뉴스1",
+     "title": "李대통령 \"고관대작, 소시민 삶 이해 어려워…혈세로 호사\" 추미애 겨냥한 듯",
+     "url": "https://n.news.naver.com/article/421/0009220336"
+    },
+    {
+     "press": "동아일보",
+     "title": "李, 추미애 겨냥했나…“혈세로 호사 누리면서 서민 복지예산 삭감”",
+     "url": "https://n.news.naver.com/article/020/0003754038"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "이 대통령 \"혈세로 호사 누리며 서민 복지 예산 삭감\"…추미애 저격?",
+     "url": "https://n.news.naver.com/article/422/0000914436"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 행안장관 “임은정 광주청장 감찰 지시…중수청 정치기관 착각”",
+   "url": "https://n.news.naver.com/article/016/0002707664",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울신문",
+     "title": "윤호중 행안장관, 임은정 광주중수청장 감찰 지시",
+     "url": "https://n.news.naver.com/article/081/0003687719"
+    },
+    {
+     "press": "경향신문",
+     "title": "[속보]윤호중 행안장관 “임은정 광주중수청장 감찰 지시…중수청을 정치 기관으로 착각해”",
+     "url": "https://n.news.naver.com/article/032/0003475486"
+    }
+   ]
   }
  ]
 }

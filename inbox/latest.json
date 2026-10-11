@@ -1,68 +1,80 @@
 {
- "generated_at": "2026-10-11T11:10+09:00",
+ "generated_at": "2026-10-11T15:17+09:00",
  "warnings": [
   "에펨 포텐: HTTPError HTTP Error 430: Unknown",
   "개드립: HTTPError HTTP Error 403: Forbidden"
  ],
  "posts": [
   {
-   "title": "[국갤] 스타벅스, '탱크데이' 논란 5개월 만에 신용·체크카드 결제액 1위",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469456&_dcbest=1&page=1",
-   "views": 5714,
-   "comments": 261,
-   "board": "디시 실베",
-   "heat": 0.8571428571428571,
-   "also_on": [
-    "더쿠"
-   ],
-   "score": 1.657,
-   "in_news": "연합뉴스",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/001/0016368666",
-     "headline": "'탱크데이' 논란 5개월 만에…스타벅스, 투썸 제치고 1위 탈환"
-    }
-   ]
-  },
-  {
    "title": "'탱크데이' 논란 5개월 만에…스타벅스, 투썸 제치고 1위 탈환",
    "url": "https://theqoo.net/hot/4371579324",
-   "views": 20317,
-   "comments": 364,
+   "views": 46397,
+   "comments": 745,
    "board": "더쿠 HOT",
-   "heat": 0.75,
+   "heat": 1.0,
    "also_on": [
     "디시"
    ],
-   "score": 1.55,
-   "in_news": "연합뉴스",
+   "score": 1.8,
+   "in_news": "노컷뉴스",
    "news": [
     {
-     "url": "https://n.news.naver.com/article/001/0016368666",
-     "headline": "'탱크데이' 논란 5개월 만에…스타벅스, 투썸 제치고 1위 탈환"
+     "url": "https://n.news.naver.com/article/079/0004197389",
+     "headline": "'탱크데이' 논란 5개월 만에…스타벅스 결제액 1위 재탈환"
     }
    ]
   },
   {
-   "title": "[잡갤] “한국에서 태어난 건 축복이다” 입소문 탄 ‘80억 분의 1’ 뭐길래",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469402&_dcbest=1&page=1",
-   "views": 21844,
-   "comments": 741,
+   "title": "[국갤] 스타벅스, '탱크데이' 논란 5개월 만에 신용·체크카드 결제액 1위",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469456&_dcbest=1&page=1",
+   "views": 15938,
+   "comments": 511,
+   "board": "디시 실베",
+   "heat": 0.9795918367346939,
+   "also_on": [
+    "더쿠"
+   ],
+   "score": 1.78,
+   "in_news": "노컷뉴스",
+   "news": [
+    {
+     "url": "https://n.news.naver.com/article/079/0004197389",
+     "headline": "'탱크데이' 논란 5개월 만에…스타벅스 결제액 1위 재탈환"
+    }
+   ]
+  },
+  {
+   "title": "제자에게 “공부를 그렇게 못하면 어짜노”… 초등 담임 벌금 500만원 확정",
+   "url": "https://theqoo.net/hot/4371602229",
+   "views": 55225,
+   "comments": 590,
+   "board": "더쿠 HOT",
+   "heat": 0.9,
+   "also_on": [],
+   "score": 1.2,
+   "in_news": "조선비즈",
+   "news": [
+    {
+     "url": "https://n.news.naver.com/article/366/0001197143",
+     "headline": "제자에게 “공부를 그렇게 못하면 어짜노”… 초등 담임 벌금 500만원 확정"
+    }
+   ]
+  },
+  {
+   "title": "[더갤] [속보] 조선일보, 나무위키는 빨GANG이 선언 ㄷㄷ",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469470&_dcbest=1&page=1",
+   "views": 16057,
+   "comments": 641,
    "board": "디시 실베",
    "heat": 1.0,
    "also_on": [],
    "score": 1.0,
-   "news": [
-    {
-     "url": "https://v.daum.net/v/20261010000411398",
-     "headline": "“한국에서 태어난 건 축복이다” 입소문 탄 ‘80억 분의 1’ 뭐길래 [주말특급]"
-    }
-   ]
+   "news": []
   },
   {
    "title": "그 시절, 우리가 사랑했던 디시인사이드...manhwa",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17806&page=1",
-   "views": 139405,
+   "views": 139431,
    "comments": 926,
    "board": "디시 HIT",
    "heat": 1.0,
@@ -71,21 +83,10 @@
    "news": []
   },
   {
-   "title": "최근 트위터에서 플도는 '뉴진스' 없는 케이팝에 대한 다양한 의견들",
-   "url": "https://theqoo.net/hot/4371458552",
-   "views": 54049,
-   "comments": 1115,
-   "board": "더쿠 HOT",
-   "heat": 1.0,
-   "also_on": [],
-   "score": 1.0,
-   "news": []
-  },
-  {
-   "title": "아들한테 개지ral하고 후회막급 속상하네요.jpg",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/76984128",
-   "views": 13846,
-   "comments": 70,
+   "title": "PS 한국 스토어, 가격 인상 게임들(일부)",
+   "url": "https://bbs.ruliweb.com/best/board/300001/read/2364227",
+   "views": 15708,
+   "comments": 114,
    "board": "루리웹 베스트",
    "heat": 1.0,
    "also_on": [],
@@ -95,8 +96,8 @@
   {
    "title": "부모님이 남자친구를 반대하시는데 어떡하죠",
    "url": "https://pann.nate.com/talk/375663351",
-   "views": 11108,
-   "comments": 66,
+   "views": 19934,
+   "comments": 126,
    "board": "네이트판",
    "heat": 1.0,
    "also_on": [],
@@ -104,10 +105,10 @@
    "news": []
   },
   {
-   "title": "MZ 축구 선수들이 손흥민과 안맞는 이유",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038800",
+   "title": "96' 은퇴즈 관련 현직기사 피셜 유튜브 댓글",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038879",
    "views": 0,
-   "comments": 44,
+   "comments": 65,
    "board": "보배드림 베스트",
    "heat": 1.0,
    "also_on": [],
@@ -115,21 +116,10 @@
    "news": []
   },
   {
-   "title": "[싱갤] 오늘자 일본축제 대참사....mp4",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469394&_dcbest=1&page=1",
-   "views": 31412,
-   "comments": 571,
-   "board": "디시 실베",
-   "heat": 0.9795918367346939,
-   "also_on": [],
-   "score": 0.98,
-   "news": []
-  },
-  {
    "title": "키작녀 올려치기에 빡친 키큰녀들",
    "url": "https://pann.nate.com/talk/375663339",
-   "views": 25857,
-   "comments": 61,
+   "views": 37042,
+   "comments": 94,
    "board": "네이트판",
    "heat": 0.98,
    "also_on": [],
@@ -139,7 +129,7 @@
   {
    "title": "메피스토펠레스 완성 + 제작 과정",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17809&page=1",
-   "views": 126512,
+   "views": 126538,
    "comments": 806,
    "board": "디시 HIT",
    "heat": 0.9787234042553191,
@@ -148,10 +138,10 @@
    "news": []
   },
   {
-   "title": "커뮤에 올라오는 요즘 예능 어쩌구 글이 웃김",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/76984232",
-   "views": 9717,
-   "comments": 63,
+   "title": "페미가 결혼할 나이 됐다는 증거",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/76985078",
+   "views": 22441,
+   "comments": 107,
    "board": "루리웹 베스트",
    "heat": 0.967741935483871,
    "also_on": [],
@@ -159,21 +149,10 @@
    "news": []
   },
   {
-   "title": "이번에 공개 총살한다는 미군 범죄자",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038823",
-   "views": 0,
-   "comments": 29,
-   "board": "보배드림 베스트",
-   "heat": 0.9629629629629629,
-   "also_on": [],
-   "score": 0.963,
-   "news": []
-  },
-  {
-   "title": "카리나는 광고 네개짤려도 관심도 없구나",
-   "url": "https://pann.nate.com/talk/375663041",
-   "views": 12565,
-   "comments": 37,
+   "title": "설윤 안나한테 정면으로발림 ㅋ",
+   "url": "https://pann.nate.com/talk/375663696",
+   "views": 17609,
+   "comments": 64,
    "board": "네이트판",
    "heat": 0.96,
    "also_on": [],
@@ -181,10 +160,10 @@
    "news": []
   },
   {
-   "title": "[김갤] 남녀가 서로 이해못하는 목욕탕 문화",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469370&_dcbest=1&page=1",
-   "views": 32477,
-   "comments": 459,
+   "title": "[미갤] 이창용: 반도체 슈퍼사이클 10년? ㅋㅋㅋㅋㅋㅋ",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469420&_dcbest=1&page=1",
+   "views": 24805,
+   "comments": 348,
    "board": "디시 실베",
    "heat": 0.9591836734693877,
    "also_on": [],
@@ -192,9 +171,20 @@
    "news": []
   },
   {
+   "title": "살다살다 이런 해괴한 사고도 벌어지는군요..상대방이 위반할것도 방어운전 해야하나..",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038914",
+   "views": 0,
+   "comments": 43,
+   "board": "보배드림 베스트",
+   "heat": 0.9583333333333334,
+   "also_on": [],
+   "score": 0.958,
+   "news": []
+  },
+  {
    "title": "전에 주워서 키웠던 응애참새",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17763&page=1",
-   "views": 98076,
+   "views": 98085,
    "comments": 759,
    "board": "디시 HIT",
    "heat": 0.9574468085106383,
@@ -203,10 +193,10 @@
    "news": []
   },
   {
-   "title": "근데 자기얘기 안하는 사람들은 왜그런거임",
-   "url": "https://theqoo.net/hot/4371425683",
-   "views": 65535,
-   "comments": 622,
+   "title": "여동생 남친패서 전과있는 남자 어때..",
+   "url": "https://theqoo.net/hot/4371541586",
+   "views": 76669,
+   "comments": 735,
    "board": "더쿠 HOT",
    "heat": 0.95,
    "also_on": [],
@@ -214,10 +204,10 @@
    "news": []
   },
   {
-   "title": "해외여행가는거 눈치주는 남친 맞나요?",
-   "url": "https://pann.nate.com/talk/375663034",
-   "views": 9085,
-   "comments": 36,
+   "title": "자녀가 없는 삶은 진짜 심심하구나",
+   "url": "https://pann.nate.com/talk/375663309",
+   "views": 25378,
+   "comments": 59,
    "board": "네이트판",
    "heat": 0.94,
    "also_on": [],
@@ -225,10 +215,10 @@
    "news": []
   },
   {
-   "title": "[트갤] 월급 300만원에 200만원 저축하는 가족",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469410&_dcbest=1&page=1",
-   "views": 19594,
-   "comments": 459,
+   "title": "[만갤] 전라도 여수 섬박람회 결말 근황........jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469466&_dcbest=1&page=1",
+   "views": 16696,
+   "comments": 348,
    "board": "디시 실베",
    "heat": 0.9387755102040817,
    "also_on": [],
@@ -238,7 +228,7 @@
   {
    "title": "야쿠르트 아줌마의 비밀병기",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17808&page=1",
-   "views": 123019,
+   "views": 123041,
    "comments": 521,
    "board": "디시 HIT",
    "heat": 0.9361702127659575,
@@ -247,61 +237,50 @@
    "news": []
   },
   {
-   "title": "MBK : 잘 먹고 갑니다",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/76983905",
-   "views": 10972,
-   "comments": 59,
+   "title": "박진영 \"하나님은 한 분이 아니야\"",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/76986662",
+   "views": 6516,
+   "comments": 97,
    "board": "루리웹 베스트",
    "heat": 0.9354838709677419,
    "also_on": [],
-   "score": 0.935
+   "score": 0.935,
+   "news": []
   },
   {
-   "title": "[김갤] 아내가 돈을 더 많이 벌수록 남편들이 많이 하는것",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469445&_dcbest=1&page=1",
-   "views": 8931,
-   "comments": 93,
-   "board": "디시 실베",
-   "heat": 0.42857142857142855,
-   "also_on": [
-    "엠팍"
-   ],
-   "score": 0.929
-  },
-  {
-   "title": "결혼정보회사 사장이 여자들에게 짜증난다는 점",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038820",
-   "views": 0,
-   "comments": 28,
-   "board": "보배드림 베스트",
-   "heat": 0.9259259259259259,
-   "also_on": [],
-   "score": 0.926
-  },
-  {
-   "title": "카리나 팬들이 코 안했다고 하지 않음?",
-   "url": "https://pann.nate.com/talk/375663837",
-   "views": 7676,
-   "comments": 35,
+   "title": "시동생과의 갈등",
+   "url": "https://pann.nate.com/talk/375663776",
+   "views": 10767,
+   "comments": 55,
    "board": "네이트판",
    "heat": 0.92,
    "also_on": [],
    "score": 0.92
   },
   {
-   "title": "[대갤] 음습주의) 어느 한국인이 결코 잊을 수 없는 일본에서의 차별",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469384&_dcbest=1&page=1",
-   "views": 18348,
-   "comments": 416,
+   "title": "[중갤] 이진숙, 李대통령 부모 묘소 찾더니…\"법 위에 있느냐\" 비판",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469462&_dcbest=1&page=1",
+   "views": 9709,
+   "comments": 317,
    "board": "디시 실베",
    "heat": 0.9183673469387755,
    "also_on": [],
    "score": 0.918
   },
   {
+   "title": "유튜버가 요즘 현대차 정말 심각한 문제라고 하는 것",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038882",
+   "views": 0,
+   "comments": 29,
+   "board": "보배드림 베스트",
+   "heat": 0.9166666666666666,
+   "also_on": [],
+   "score": 0.917
+  },
+  {
    "title": "하와이안 미트 피자",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17776&page=1",
-   "views": 73729,
+   "views": 73737,
    "comments": 458,
    "board": "디시 HIT",
    "heat": 0.9148936170212766,
@@ -309,40 +288,30 @@
    "score": 0.915
   },
   {
-   "title": "얼음의 본질을 알아낸 과학자들.....",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/76984568",
-   "views": 7103,
-   "comments": 45,
+   "title": "게임 도전과제 100% 노릴 때 공감",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/76986901",
+   "views": 6276,
+   "comments": 31,
    "board": "루리웹 베스트",
    "heat": 0.9032258064516129,
    "also_on": [],
    "score": 0.903
   },
   {
-   "title": "친구 소개해줬던 선배랑 사귀게됨 언제 말할까",
-   "url": "https://theqoo.net/hot/4371398259",
-   "views": 66597,
-   "comments": 589,
-   "board": "더쿠 HOT",
-   "heat": 0.9,
-   "also_on": [],
-   "score": 0.9
-  },
-  {
-   "title": "시동생과의 갈등",
-   "url": "https://pann.nate.com/talk/375663776",
-   "views": 6217,
-   "comments": 33,
+   "title": "부부 사이 대화 누가 문젠지 봐주세요",
+   "url": "https://pann.nate.com/talk/375664195",
+   "views": 4449,
+   "comments": 40,
    "board": "네이트판",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "[미갤] 이창용: 반도체 슈퍼사이클 10년? ㅋㅋㅋㅋㅋㅋ",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469420&_dcbest=1&page=1",
-   "views": 20224,
-   "comments": 280,
+   "title": "[코갤] \"공부를 그렇게 못하면 어쩌냐\"",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469496&_dcbest=1&page=1",
+   "views": 11272,
+   "comments": 316,
    "board": "디시 실베",
    "heat": 0.8979591836734694,
    "also_on": [],
@@ -351,7 +320,7 @@
   {
    "title": "전 특수부대 저격수 예비군 갔다 온 만화",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17764&page=1",
-   "views": 86551,
+   "views": 86559,
    "comments": 456,
    "board": "디시 HIT",
    "heat": 0.8936170212765957,
@@ -359,39 +328,39 @@
    "score": 0.894
   },
   {
-   "title": "#16 관리소장과 전쟁을 시작했다",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038825",
-   "views": 2416,
+   "title": "제니 라이브한거 욕 왤캐 많이 먹어??",
+   "url": "https://pann.nate.com/talk/375663785",
+   "views": 6887,
    "comments": 26,
-   "board": "보배드림 베스트",
-   "heat": 0.8888888888888888,
-   "also_on": [],
-   "score": 0.889
-  },
-  {
-   "title": "설윤 안나한테 정면으로발림 ㅋ",
-   "url": "https://pann.nate.com/talk/375663696",
-   "views": 8302,
-   "comments": 32,
    "board": "네이트판",
    "heat": 0.88,
    "also_on": [],
    "score": 0.88
   },
   {
-   "title": "[싱갤] 싱글벙글 흡연 vs 음주",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469374&_dcbest=1&page=1",
-   "views": 21547,
-   "comments": 271,
+   "title": "[문갤] 자취방에 팬티 벗어두고 간 여사친",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469418&_dcbest=1&page=1",
+   "views": 43820,
+   "comments": 292,
    "board": "디시 실베",
    "heat": 0.8775510204081632,
    "also_on": [],
    "score": 0.878
   },
   {
+   "title": "간밤에 올린 이재명 SNS에 부정적인 반응을 모아보니",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038891",
+   "views": 3741,
+   "comments": 19,
+   "board": "보배드림 베스트",
+   "heat": 0.875,
+   "also_on": [],
+   "score": 0.875
+  },
+  {
    "title": "추석 .MANHWA",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17802&page=1",
-   "views": 154871,
+   "views": 154888,
    "comments": 430,
    "board": "디시 HIT",
    "heat": 0.8723404255319149,
@@ -399,39 +368,39 @@
    "score": 0.872
   },
   {
-   "title": "초기 당뇨 신호 12가지",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/76984521",
-   "views": 7521,
-   "comments": 38,
+   "title": "개 야한 쿠노이치",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/76986941",
+   "views": 5903,
+   "comments": 27,
    "board": "루리웹 베스트",
    "heat": 0.8709677419354839,
    "also_on": [],
    "score": 0.871
   },
   {
-   "title": "자녀가 없는 삶은 진짜 심심하구나",
-   "url": "https://pann.nate.com/talk/375663309",
-   "views": 14977,
-   "comments": 30,
+   "title": "판이 갑자기 몰락한 계기가",
+   "url": "https://pann.nate.com/talk/375663375",
+   "views": 3218,
+   "comments": 24,
    "board": "네이트판",
    "heat": 0.86,
    "also_on": [],
    "score": 0.86
   },
   {
-   "title": "결혼하고 싶다는 여친 박살내고 옴",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038816",
-   "views": 0,
-   "comments": 24,
-   "board": "보배드림 베스트",
-   "heat": 0.8518518518518519,
+   "title": "[싱갤] 싱글벙글 과학의 승리",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469447&_dcbest=1&page=1",
+   "views": 29186,
+   "comments": 265,
+   "board": "디시 실베",
+   "heat": 0.8571428571428571,
    "also_on": [],
-   "score": 0.852
+   "score": 0.857
   },
   {
    "title": "세트병) 프리큐어 20년 즈언통의 굿즈모음",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17768&page=1",
-   "views": 49101,
+   "views": 49109,
    "comments": 403,
    "board": "디시 HIT",
    "heat": 0.851063829787234,
@@ -439,105 +408,105 @@
    "score": 0.851
   },
   {
-   "title": "결혼식 하면 돈 남는거 알고 있었어?? 결혼식 비용 다 충당되고도 돈 더 남는대...",
-   "url": "https://theqoo.net/hot/4371419354",
-   "views": 62604,
-   "comments": 499,
+   "title": "(스압) 난 진짜 3n년을 엔팁 보면서 얘네 근거없는 자존감 높은거 ㅈㄴ 신기함",
+   "url": "https://theqoo.net/hot/4371524438",
+   "views": 71051,
+   "comments": 550,
    "board": "더쿠 HOT",
    "heat": 0.85,
    "also_on": [],
    "score": 0.85
+  },
+  {
+   "title": "나 진짜 사실 남미새임 미치겠어",
+   "url": "https://pann.nate.com/talk/375663331",
+   "views": 3614,
+   "comments": 23,
+   "board": "네이트판",
+   "heat": 0.84,
+   "also_on": [],
+   "score": 0.84
+  },
+  {
+   "title": "코스트코 푸드코트에서 대화가 자꾸 엇갈린 이유",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/76986936",
+   "views": 3941,
+   "comments": 27,
+   "board": "루리웹 베스트",
+   "heat": 0.8387096774193549,
+   "also_on": [],
+   "score": 0.839
+  },
+  {
+   "title": "[대갤] 日학부모들 경악, 잔반인줄 알았다... 아동 학대 수준의 급식",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469484&_dcbest=1&page=1",
+   "views": 10508,
+   "comments": 259,
+   "board": "디시 실베",
+   "heat": 0.8367346938775511,
+   "also_on": [],
+   "score": 0.837
   }
  ],
  "news_hot": [
   {
-   "title": "민주 “남의 딸 탈탈 털던 한동훈, 딸 수사는 덮었나” 연일 공세…한 “망상”",
-   "url": "https://n.news.naver.com/article/028/0002826845",
-   "press": "한겨레",
+   "title": "국정원 “‘북 미사일’ 외에도 미국과 정보 협력 중…정보 공유량 줄지 않아”",
+   "url": "https://n.news.naver.com/article/056/0012271322",
+   "press": "KBS",
    "rank": 1
   },
   {
-   "title": "‘탱크데이’ 여파 끝? 스타벅스, 논란 5개월 만에 1위 탈환했다",
-   "url": "https://n.news.naver.com/article/025/0003556970",
-   "press": "중앙일보",
+   "title": "“‘권력형 성범죄’ 박원순 추앙 안돼…정신차리라” 李대통령 향한 한동훈의 말",
+   "url": "https://n.news.naver.com/article/021/0002824231",
+   "press": "문화일보",
    "rank": 1
   },
   {
-   "title": "\"광기의 결혼식\" vs \"애국자 부부\"…정치 구호 등장한 예식 영상",
-   "url": "https://n.news.naver.com/article/014/0005587249",
-   "press": "파이낸셜뉴스",
+   "title": "“배가 너무 고파요” 구청에 걸려온 전화…“전화 끊지 마세요” 공무원이 달려간 곳은",
+   "url": "https://n.news.naver.com/article/011/0004669884",
+   "press": "서울경제",
    "rank": 1
   },
   {
-   "title": "한동훈, 민주당 겨냥 \"헛다리 짚지 말라\"…김민석·추미애 의혹 맞불",
-   "url": "https://n.news.naver.com/article/421/0009220199",
-   "press": "뉴스1",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 연휴 마지막 날 귀경길 정체…강릉→서울 2시간 40분, 오후 5시 혼잡 절정",
-   "url": "https://n.news.naver.com/article/654/0000204617",
-   "press": "강원도민일보",
-   "rank": 1
-  },
-  {
-   "title": "\"알리·테무 살리려고 다이소를 없앤다\" 주장 일파만파…팩트체크해 보니[Why&Next]",
-   "url": "https://n.news.naver.com/article/277/0005826708",
-   "press": "아시아경제",
-   "rank": 1
-  },
-  {
-   "title": "[국민의힘 리더스] ​김태규, 거대 여당 맞서 존재감…당 최전방 공격수로 두각",
-   "url": "https://n.news.naver.com/article/119/0003141362",
-   "press": "데일리안",
-   "rank": 1
-  },
-  {
-   "title": "李 “조롱당한 盧 떠올라…품격 없다 비난하겠지만 SNS 소통 계속할 것”",
-   "url": "https://n.news.naver.com/article/020/0003754028",
-   "press": "동아일보",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 \"품격없다 비난해도 SNS 소통 계속할 것\"",
-   "url": "https://n.news.naver.com/article/422/0000914323",
-   "press": "연합뉴스TV",
-   "rank": 1
-  },
-  {
-   "title": "“남편과 성생활 어떻게?”…하리수, 결혼 기자회견서 무례 질문에 일침",
-   "url": "https://n.news.naver.com/article/009/0005746622",
+   "title": "“치킨 한 마리 팔면 대체 얼마 남길래”…배달앱 수수료 최대 15%로 묶나",
+   "url": "https://n.news.naver.com/article/009/0005746657",
    "press": "매일경제",
    "rank": 1
   },
   {
-   "title": "李 \"SNS소통 계속할 것…댓글소통 조롱당한 노무현 떠올라\"",
-   "url": "https://n.news.naver.com/article/005/0001877874",
+   "title": "이 대통령에 반박한 김용민… \"자리 탐하려고 정치한 것 아니다\"",
+   "url": "https://n.news.naver.com/article/469/0000958704",
+   "press": "한국일보",
+   "rank": 1
+  },
+  {
+   "title": "신랑·신부 ‘윤어게인’ 외쳤다…“기괴” “애국자” 반응 엇갈린 결혼식",
+   "url": "https://n.news.naver.com/article/025/0003556988",
+   "press": "중앙일보",
+   "rank": 1
+  },
+  {
+   "title": "“두 달 새 논문 5편” 딸 공격받자…한동훈, 김민석 아들로 역공",
+   "url": "https://n.news.naver.com/article/018/0006385612",
+   "press": "이데일리",
+   "rank": 1
+  },
+  {
+   "title": "\"내 월급 내가 썼다?\"...'월 50만원씩' 시부모 자동이체한 남편, 이혼 사유 될까? [헤어질 결심]",
+   "url": "https://n.news.naver.com/article/014/0005587226",
+   "press": "파이낸셜뉴스",
+   "rank": 1
+  },
+  {
+   "title": "李, 노무현·박원순 언급 “좌아하게는 언어유희…SNS소통 계속할 것”",
+   "url": "https://n.news.naver.com/article/005/0001877895",
    "press": "국민일보",
    "rank": 1
   },
   {
-   "title": "대출·금리·세제 여파에...서울 아파트 거래 '찬바람'",
-   "url": "https://n.news.naver.com/article/052/0002417141",
-   "press": "YTN",
-   "rank": 1
-  },
-  {
-   "title": "北 ‘정동영 말’ 인용에…野 “즉각 경질하라”",
-   "url": "https://n.news.naver.com/article/449/0000363633",
-   "press": "채널A",
-   "rank": 1
-  },
-  {
-   "title": "“개떼처럼 달려든 결과가 참 초라”…한동훈, 김민석·추미애에 역공",
-   "url": "https://n.news.naver.com/article/016/0002707544",
-   "press": "헤럴드경제",
-   "rank": 1
-  },
-  {
-   "title": "\"품격 없다 해도 SNS 계속할 것\"…李, 노무현 떠올린 이유",
-   "url": "https://n.news.naver.com/article/015/0005341064",
-   "press": "한국경제",
+   "title": "김용민 \"자리 탐하려고 정치한 것 아냐\"‥이 대통령 정면 반박?",
+   "url": "https://n.news.naver.com/article/214/0001528274",
+   "press": "MBC",
    "rank": 1
   },
   {
@@ -547,147 +516,177 @@
    "rank": 1
   },
   {
-   "title": "이 대통령 “품격·권위없다 비난하겠지만 현장, SNS 소통 계속…노무현 대통령 떠올라”",
-   "url": "https://n.news.naver.com/article/056/0012271313",
-   "press": "KBS",
+   "title": "나경원 ‘젤렌스키 감사 편지’에 민주 “극우적 몸부림 가여워”",
+   "url": "https://n.news.naver.com/article/028/0002826860",
+   "press": "한겨레",
    "rank": 1
   },
   {
-   "title": "'탱크데이' 논란 5개월 만에…스타벅스, 투썸 제치고 1위 탈환",
-   "url": "https://n.news.naver.com/article/001/0016368666",
-   "press": "연합뉴스",
+   "title": "\"알리·테무 살리려고 다이소를 없앤다\" 주장 일파만파…팩트체크해 보니[Why&Next]",
+   "url": "https://n.news.naver.com/article/277/0005826708",
+   "press": "아시아경제",
    "rank": 1
   },
   {
-   "title": "李대통령, SNS 행보 비판에 \"교감하는 일 계속할 것\"",
-   "url": "https://n.news.naver.com/article/079/0004197375",
-   "press": "노컷뉴스",
+   "title": "이 대통령, 추미애 겨냥했나…\"혈세로 호사 누리며 서민복지 삭감\"",
+   "url": "https://n.news.naver.com/article/082/0001401885",
+   "press": "부산일보",
    "rank": 1
   },
   {
-   "title": "수석·당·원내 대변인까지…한동훈 딸 ‘허위 스펙’ 의혹에 십자포화",
-   "url": "https://n.news.naver.com/article/011/0004669887",
-   "press": "서울경제",
+   "title": "\"공부 왜 그렇게 못해\"…교실서 9살 몰아세운 담임 결국",
+   "url": "https://n.news.naver.com/article/015/0005341077",
+   "press": "한국경제",
    "rank": 1
   },
   {
-   "title": "트럼프 '새 대통령' 발언에…우크라 측 \"젤렌스키, 국민 지지받아\"",
-   "url": "https://n.news.naver.com/article/055/0001394485",
-   "press": "SBS",
-   "rank": 1
-  },
-  {
-   "title": "\"난 8개 받아야\" 노벨상 탈락에 트럼프 폭발하자 미 정부, 제재 발표",
-   "url": "https://n.news.naver.com/article/214/0001528222",
-   "press": "MBC",
-   "rank": 1
-  },
-  {
-   "title": "'젤렌스키에 감사서한' 보낸 나경원…\"매국\" 지적에 \"조선노동당인가\"",
-   "url": "https://n.news.naver.com/article/057/0001972743",
-   "press": "MBN",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 무인텔서 10대 여친·지인 폭행한 20대 실형…무면허 음주운전까지",
-   "url": "https://n.news.naver.com/article/087/0001222798",
-   "press": "강원일보",
-   "rank": 1
-  },
-  {
-   "title": "與 “나경원, 이완용과 뭐가 다른가” 羅 “이재명 정권 비겁한 굴종”",
-   "url": "https://n.news.naver.com/article/081/0003687684",
-   "press": "서울신문",
-   "rank": 1
-  },
-  {
-   "title": "트럼프의 북한·이란식 공개처형에... 바티칸 “용납 못해”",
-   "url": "https://n.news.naver.com/article/023/0004003114",
-   "press": "조선일보",
-   "rank": 1
-  },
-  {
-   "title": "與 \"한동훈 딸 '논문 대필 사건' 즉각 재수사해야\"",
-   "url": "https://n.news.naver.com/article/003/0014244707",
-   "press": "뉴시스",
-   "rank": 1
-  },
-  {
-   "title": "\"남의 딸 사건 탈탈 털더니\"…與, 한동훈 '딸 허위 스펙 수사 개입 의혹' 맹공",
-   "url": "https://n.news.naver.com/article/586/0000139699",
-   "press": "시사저널",
-   "rank": 1
-  },
-  {
-   "title": "\"공부 못하면 되겠냐\" 학생 모욕한 초등교사…벌금형 확정",
-   "url": "https://n.news.naver.com/article/018/0006385533",
-   "press": "이데일리",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 靑 “李대통령 단순한 SNS 정치 아냐…국정과 국민 사이 벽 낮추는 소통”",
-   "url": "https://n.news.naver.com/article/022/0004165606",
-   "press": "세계일보",
-   "rank": 1
-  },
-  {
-   "title": "\"20억 싸게\" 이웃 눈치 보며 집 내놨는데...안 팔리는 강남 아파트",
-   "url": "https://n.news.naver.com/article/008/0005424381",
-   "press": "머니투데이",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 성기홍 \"李대통령 직접소통 다양해질 것…SNS는 여러통로 중 하나\"",
-   "url": "https://n.news.naver.com/article/215/0001268757",
-   "press": "한국경제TV",
-   "rank": 1
-  },
-  {
-   "title": "이진숙, 李대통령 부모 묘소 찾아 “원상회복커녕 영구화 공사 진행 중”",
-   "url": "https://n.news.naver.com/article/029/0003052261",
-   "press": "디지털타임스",
-   "rank": 1
-  },
-  {
-   "title": "홍준표 “비난 각오하고 김부겸 밀었는데, 대구시민들 내 진심 몰라줘···TK 몰락 가슴 아프다”",
-   "url": "https://n.news.naver.com/article/032/0003475451",
-   "press": "경향신문",
-   "rank": 1
-  },
-  {
-   "title": "여 \"딸 사건 덮었나\"…한동훈 \"덮을 거 없어…민주당의 망상\"",
-   "url": "https://n.news.naver.com/article/437/0000515056",
-   "press": "JTBC",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 \"품격 없다 비난해도 SNS 계속… 노무현 전 대통령 떠올라\"",
-   "url": "https://n.news.naver.com/article/656/0000189067",
-   "press": "대전일보",
-   "rank": 1
-  },
-  {
-   "title": "윤석열이 무죄라고 오세훈이 안심할 수 없는 이유",
-   "url": "https://n.news.naver.com/article/047/0002531717",
-   "press": "오마이뉴스",
-   "rank": 1
-  },
-  {
-   "title": "[인터뷰] 추경호 “電·水·人 갖춘 TK, 반도체 산업 최적지… 공정 경쟁 기회 보장해야”",
-   "url": "https://n.news.naver.com/article/366/0001197133",
+   "title": "제자에게 “공부를 그렇게 못하면 어짜노”… 초등 담임 벌금 500만원 확정",
+   "url": "https://n.news.naver.com/article/366/0001197143",
    "press": "조선비즈",
    "rank": 1
   },
   {
-   "title": "“삼성전자 들어온게 인생 최대 업적”…성과급 30억 부부 “진지하게 서민 탈출한 것 같다”",
-   "url": "https://n.news.naver.com/article/030/0003473735",
+   "title": "李대통령 \"故박원순 시장님 생각나…엄혹한 세상이지만 가끔 여유를 갖자\"",
+   "url": "https://n.news.naver.com/article/002/0002460357",
+   "press": "프레시안",
+   "rank": 1
+  },
+  {
+   "title": "李 “평생 고관대작, 서민 혈세로 호사 누려”...추미애 겨냥?",
+   "url": "https://n.news.naver.com/article/023/0004003133",
+   "press": "조선일보",
+   "rank": 1
+  },
+  {
+   "title": "[속보] 행안장관 “임은정 광주청장 감찰 지시…중수청 정치기관 착각”",
+   "url": "https://n.news.naver.com/article/016/0002707664",
+   "press": "헤럴드경제",
+   "rank": 1
+  },
+  {
+   "title": "[속보] 이 대통령, 어제 골프장서 대구 사고 보고 받아...\"정치 공방 활용 유감\"",
+   "url": "https://n.news.naver.com/article/052/0002417238",
+   "press": "YTN",
+   "rank": 1
+  },
+  {
+   "title": "윤호중 행안장관, 임은정 광주중수청장 감찰 지시",
+   "url": "https://n.news.naver.com/article/081/0003687719",
+   "press": "서울신문",
+   "rank": 1
+  },
+  {
+   "title": "李대통령 \"부모 덕 호의호식한 사람들, 고단한 소시민 삶 이해하겠나\"",
+   "url": "https://n.news.naver.com/article/008/0005424471",
+   "press": "머니투데이",
+   "rank": 1
+  },
+  {
+   "title": "이대통령 부모 묘 찾은 이진숙 \"농지에 불법조성, 옮겨라\" 주장",
+   "url": "https://n.news.naver.com/article/437/0000515086",
+   "press": "JTBC",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령 \"'품격 없다' 비난하겠지만 SNS 소통 계속할 것\"",
+   "url": "https://n.news.naver.com/article/055/0001394527",
+   "press": "SBS",
+   "rank": 1
+  },
+  {
+   "title": "李대통령 \"고관대작, 소시민 삶 이해 어려워…혈세로 호사\" 추미애 겨냥한 듯",
+   "url": "https://n.news.naver.com/article/421/0009220336",
+   "press": "뉴스1",
+   "rank": 1
+  },
+  {
+   "title": "민주 \"딸 '케냐 작가 대필' 의혹\"에… 한동훈, 김민석·추미애로 맞불",
+   "url": "https://n.news.naver.com/article/656/0000189075",
+   "press": "대전일보",
+   "rank": 1
+  },
+  {
+   "title": "“믹스커피 하루 두개 제한” “휴지도 안사줘”…3개월 만에 퇴사 고민하는 직원",
+   "url": "https://n.news.naver.com/article/030/0003473798",
    "press": "전자신문",
    "rank": 1
   },
   {
-   "title": "이재명 대통령 “조롱당하던 노무현 대통령 떠올라...SNS 소통 계속할 것”",
-   "url": "https://n.news.naver.com/article/666/0000126809",
-   "press": "경기일보",
+   "title": "주진우 “이 대통령, 대구 천장 붕괴 사고 때 골프장 방문”…청와대 “현장서 보고 받고 수습 지시”",
+   "url": "https://n.news.naver.com/article/449/0000363671",
+   "press": "채널A",
+   "rank": 1
+  },
+  {
+   "title": "[속보]윤호중 행안장관 “임은정 광주중수청장 감찰 지시…중수청을 정치 기관으로 착각해”",
+   "url": "https://n.news.naver.com/article/032/0003475486",
+   "press": "경향신문",
+   "rank": 1
+  },
+  {
+   "title": "李대통령, 故박원순 악성댓글 일화 전하며 \"방치하면 댓글창, 쓰레기장 돼\"",
+   "url": "https://n.news.naver.com/article/003/0014244856",
+   "press": "뉴시스",
+   "rank": 1
+  },
+  {
+   "title": "'탱크데이' 논란 5개월 만에…스타벅스 결제액 1위 재탈환",
+   "url": "https://n.news.naver.com/article/079/0004197389",
+   "press": "노컷뉴스",
+   "rank": 1
+  },
+  {
+   "title": "李, 추미애 겨냥했나…“혈세로 호사 누리면서 서민 복지예산 삭감”",
+   "url": "https://n.news.naver.com/article/020/0003754038",
+   "press": "동아일보",
+   "rank": 1
+  },
+  {
+   "title": "李대통령 \"욕설계정 차단 당연…좌아하게, 文시절부터 쓰던 말\"",
+   "url": "https://n.news.naver.com/article/001/0016368909",
+   "press": "연합뉴스",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령 \"혈세로 호사 누리며 서민 복지 예산 삭감\"…추미애 저격?",
+   "url": "https://n.news.naver.com/article/422/0000914436",
+   "press": "연합뉴스TV",
+   "rank": 1
+  },
+  {
+   "title": "李대통령 발언 겨냥? 김용민 \"자리 탐하려 정치 시작한 것 아냐\"",
+   "url": "https://n.news.naver.com/article/586/0000139714",
+   "press": "시사저널",
+   "rank": 1
+  },
+  {
+   "title": "李대통령 \"욕설계정 차단 당연...'좌아하게'는 文시절부터, 언어유희\"",
+   "url": "https://n.news.naver.com/article/660/0000118832",
+   "press": "kbc광주방송",
+   "rank": 1
+  },
+  {
+   "title": "추미애 경기지사 “보육예산 임의 삭감 아니다…부족한 재원 탓”",
+   "url": "https://n.news.naver.com/article/087/0001222788",
+   "press": "강원일보",
+   "rank": 1
+  },
+  {
+   "title": "[속보] 李대통령 “故박원순에 SNS 중요성 배워…소통 계속할 것”",
+   "url": "https://n.news.naver.com/article/022/0004165620",
+   "press": "세계일보",
+   "rank": 1
+  },
+  {
+   "title": "서현진이 '26억' 전세금 지킨 비결은 ○○○○",
+   "url": "https://n.news.naver.com/article/648/0000051466",
+   "press": "비즈워치",
+   "rank": 1
+  },
+  {
+   "title": "한미약품 국산 신약 '에페' 흥행 가를 가격은…수익성 분수령",
+   "url": "https://n.news.naver.com/article/293/0000091419",
+   "press": "블로터",
    "rank": 1
   }
  ]
