@@ -90,16 +90,55 @@ def _keyed(frame: Path) -> bool:
     return keyed > 0.3 * len(px)
 
 
-def _find(query: str, pixabay: str, pexels: str) -> list[dict]:
-    """Pixabay first, Pexels when Pixabay has nothing relevant for this phrase."""
+# Pixabay's CDN rate-limits the shared GitHub runner IPs now and then: on 2026-10-11 18:00 every one of
+# ~35 file downloads came back 429 while the searches worked, so the video went out with no footage.
+# Wait and retry (Retry-After when given), within one budget per render so a bad hour can't stall it.
+_WAIT_BUDGET = [240.0]
+
+
+def _download(url: str, dst: Path) -> None:
+    import time
+    import urllib.error
+    delay = 6.0
+    while True:
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "issue-shorts"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                dst.write_bytes(r.read())
+            return
+        except urllib.error.HTTPError as ex:
+            if ex.code not in (429, 500, 502, 503, 504):
+                raise
+            try:
+                wait = float(ex.headers.get("Retry-After") or delay)
+            except ValueError:
+                wait = delay
+            wait = min(max(wait, 2.0), 45.0)
+            if wait > _WAIT_BUDGET[0]:
+                raise
+            print(f"    stock: HTTP {ex.code} on download - waiting {wait:.0f}s (budget {_WAIT_BUDGET[0]:.0f}s)")
+            _WAIT_BUDGET[0] -= wait
+            time.sleep(wait)
+            delay = min(delay * 2, 45.0)
+
+
+def _sources(query: str, pixabay: str, pexels: str):
+    """Relevant hits per source, Pixabay first. Pexels is asked too when Pixabay has nothing relevant
+    or none of its files could be downloaded."""
     for key, search in ((pixabay, _search_pixabay), (pexels, _search)):
         if not key:
             continue
         try:
-            if (videos := [v for v in search(query, key) if _relevant(v, query)]):
-                return videos
+            yield [v for v in search(query, key) if _relevant(v, query)]
         except Exception as ex:
             print(f"    stock: search failed for {query!r}: {ex}")
+
+
+def _find(query: str, pixabay: str, pexels: str) -> list[dict]:
+    """Pixabay first, Pexels when Pixabay has nothing relevant for this phrase."""
+    for videos in _sources(query, pixabay, pexels):
+        if videos:
+            return videos
     return []
 
 
@@ -111,10 +150,16 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
     used = used if used is not None else set()
     query = query.strip()
     # no shortening of the query: a wrong clip is worse than the plain illustrated panel
-    videos = [v for v in _find(query, pixabay, pexels)
-              if v["id"] not in used and v.get("duration", 0) >= 3 and _relevant(v, query)]
+    for videos in _sources(query, pixabay, pexels):
+        if (clip := _first_usable(videos, query, seconds, out_dir, fps, used)):
+            return clip
+    print(f"    stock: nothing usable for {query!r}")
+    return None
+
+
+def _first_usable(videos, query, seconds, out_dir, fps, used):
     for v in videos:
-        if v["id"] in used or v.get("duration", 0) < 3:
+        if v["id"] in used or v.get("duration", 0) < 3 or not _relevant(v, query):
             continue
         f = _best_file(v)
         if not f:
@@ -123,9 +168,7 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
         src = CACHE / f"{v['id']}_{f['width']}.mp4"
         try:
             if not src.exists():
-                req = urllib.request.Request(f["link"], headers={"User-Agent": "issue-shorts"})
-                with urllib.request.urlopen(req, timeout=60) as r:
-                    src.write_bytes(r.read())
+                _download(f["link"], src)
             out_dir.mkdir(parents=True, exist_ok=True)
             w, h = PANEL
             dur = min(seconds + 0.3, max(1.0, v["duration"] - 0.6))
@@ -134,6 +177,7 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
                  "-vf", f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},fps={fps}",
                  "-q:v", "4", str(out_dir / "f_%04d.jpg")], check=True)
         except Exception as ex:
+            src.unlink(missing_ok=True)
             print(f"    stock: clip {v['id']} failed: {ex}")
             continue
         frames = sorted(out_dir.glob("f_*.jpg"))
@@ -145,7 +189,7 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
         n = len(frames)
         if n:
             used.add(v["id"])
+            print(f"    stock: clip {v['id']} for {query!r} ({n} frames)")
             return {"dir": str(out_dir), "n": n, "id": v["id"], "url": v.get("url", ""),
                     "by": (v.get("user") or {}).get("name", "")}
-    print(f"    stock: nothing usable for {query!r}")
     return None
