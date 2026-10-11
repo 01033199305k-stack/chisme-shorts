@@ -1,89 +1,59 @@
 {
- "detected_at": "2026-10-11T15:17+09:00",
+ "detected_at": "2026-10-11T18:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "이 대통령에 반박한 김용민… \"자리 탐하려고 정치한 것 아니다\"",
-   "url": "https://n.news.naver.com/article/469/0000958704",
-   "press": "한국일보",
+   "title": "주진우 \"상가 붕괴 때 李 황제 골프\"…靑 \"보고받고 수습 지시\"",
+   "url": "https://n.news.naver.com/article/079/0004197425",
+   "press": "노컷뉴스",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "국민일보",
+     "title": "주진우 “李대통령, ‘대구 붕괴’ 당일 황제골프”…靑 “골프장서 신속수습 지시”",
+     "url": "https://n.news.naver.com/article/005/0001877939"
+    },
+    {
+     "press": "조선비즈",
+     "title": "靑 “李 대통령, ‘대구 상가 붕괴’ 골프장에서 보고 받고 신속 수습 지시\"",
+     "url": "https://n.news.naver.com/article/366/0001197200"
+    },
+    {
+     "press": "강원일보",
+     "title": "靑 “李대통령 골프장서 가족들과 있다가 ‘대구 상가 천장 붕괴 사고’ 보고 받고 신속 수습 지시”",
+     "url": "https://n.news.naver.com/article/087/0001222931"
+    },
+    {
+     "press": "YTN",
+     "title": "주진우 \"대통령, 대구 상가 사고 때 '황제 골프'\"...청와대 \"정치 공방 유감\"",
+     "url": "https://n.news.naver.com/article/052/0002417272"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] “살상·고문·욕설·흡연 보여줘 아동학대”…‘암살자(들) 단체관람’ 초중고·교육감도 피고발",
+   "url": "https://n.news.naver.com/article/029/0003052383",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "청와대 \"정치적 공방 유감\"... 주진우 \"내로남불\"",
+   "url": "https://n.news.naver.com/article/047/0002531770",
+   "press": "오마이뉴스",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "MBC",
-     "title": "김용민 \"자리 탐하려고 정치한 것 아냐\"‥이 대통령 정면 반박?",
-     "url": "https://n.news.naver.com/article/214/0001528274"
+     "press": "YTN",
+     "title": "주진우 \"대통령, 대구 상가 사고 때 '황제 골프'\"...청와대 \"정치 공방 유감\"",
+     "url": "https://n.news.naver.com/article/052/0002417272"
     },
     {
-     "press": "시사저널",
-     "title": "李대통령 발언 겨냥? 김용민 \"자리 탐하려 정치 시작한 것 아냐\"",
-     "url": "https://n.news.naver.com/article/586/0000139714"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령, 추미애 겨냥했나…\"혈세로 호사 누리며 서민복지 삭감\"",
-   "url": "https://n.news.naver.com/article/082/0001401885",
-   "press": "부산일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴스1",
-     "title": "李대통령 \"고관대작, 소시민 삶 이해 어려워…혈세로 호사\" 추미애 겨냥한 듯",
-     "url": "https://n.news.naver.com/article/421/0009220336"
-    },
-    {
-     "press": "동아일보",
-     "title": "李, 추미애 겨냥했나…“혈세로 호사 누리면서 서민 복지예산 삭감”",
-     "url": "https://n.news.naver.com/article/020/0003754038"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 \"혈세로 호사 누리며 서민 복지 예산 삭감\"…추미애 저격?",
-     "url": "https://n.news.naver.com/article/422/0000914436"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "李 “평생 고관대작, 서민 혈세로 호사 누려”...추미애 겨냥?",
-   "url": "https://n.news.naver.com/article/023/0004003133",
-   "press": "조선일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴스1",
-     "title": "李대통령 \"고관대작, 소시민 삶 이해 어려워…혈세로 호사\" 추미애 겨냥한 듯",
-     "url": "https://n.news.naver.com/article/421/0009220336"
-    },
-    {
-     "press": "동아일보",
-     "title": "李, 추미애 겨냥했나…“혈세로 호사 누리면서 서민 복지예산 삭감”",
-     "url": "https://n.news.naver.com/article/020/0003754038"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 \"혈세로 호사 누리며 서민 복지 예산 삭감\"…추미애 저격?",
-     "url": "https://n.news.naver.com/article/422/0000914436"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 행안장관 “임은정 광주청장 감찰 지시…중수청 정치기관 착각”",
-   "url": "https://n.news.naver.com/article/016/0002707664",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "서울신문",
-     "title": "윤호중 행안장관, 임은정 광주중수청장 감찰 지시",
-     "url": "https://n.news.naver.com/article/081/0003687719"
-    },
-    {
-     "press": "경향신문",
-     "title": "[속보]윤호중 행안장관 “임은정 광주중수청장 감찰 지시…중수청을 정치 기관으로 착각해”",
-     "url": "https://n.news.naver.com/article/032/0003475486"
+     "press": "뉴시스",
+     "title": "주진우 \"李, 대구 붕괴 사고 때 골프\"…靑 \"정치적 공방 활용 유감\"(종합)",
+     "url": "https://n.news.naver.com/article/003/0014245358"
     }
    ]
   }
