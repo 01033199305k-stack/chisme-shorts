@@ -1920,5 +1920,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-11_1800_hungry-call-ward-office/video.mp4"
   },
   "seconds": 412
+ },
+ {
+  "key": "2026-10-12-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-12T07:00:00+09:00",
+  "started": "2026-10-12T04:22:17.825251+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-38590/",
+   "https://pixabay.com/videos/id-208442/",
+   "https://pixabay.com/videos/id-5628/"
+  ],
+  "duration": 23.58,
+  "matches": [
+   1.0,
+   0.98,
+   1.0,
+   1.0,
+   0.95,
+   1.0,
+   0.92,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "결승 날 아침 버스가 안 온 농구 대표팀의 결말 #shorts",
+  "source_post": "https://www.mt.co.kr/sports/2026/09/20/202609201301771153O",
+  "facts_used": [
+   "2026-09-20 아이치·나고야 아시안게임 남자 농구 결승 당일 오전 10시 10분께 숙소로 오기로 한 훈련 버스가 오지 않아 다른 체육관에서 하려던 슈팅 훈련 취소 — 머니투데이 https://www.mt.co.kr/sports/2026/09/20/202609201301771153O , 주간경향 https://weekly.khan.co.kr/article/202609202134001 , 데일리안 https://www.dailian.co.kr/news/view/1693412/",
+   "같은 날 결승에서 개최국 일본을 67-57로 꺾고 2014년 인천 이후 12년 만에 금메달 — 머니투데이 https://www.mt.co.kr/article/2026092021410956506 , 주간경향 https://weekly.khan.co.kr/article/202609202134001 , 일간스포츠 https://isplus.com/article/view/isp202609210125",
+   "21일 귀국길 공항 버스도 약속 시각에 오지 않음, 여준석 인스타그램 '가는 날까지 버스가 안 오는군요' — 주간경향 https://weekly.khan.co.kr/article/202609211410001 , 노컷뉴스 https://nocutnews.co.kr/news/6581027"
+  ],
+  "slug": "2026-10-12_0700_basketball-bus-no-show-gold",
+  "late": false,
+  "video_id": "Agl9faakIqk",
+  "url": "https://youtube.com/shorts/Agl9faakIqk",
+  "privacy": "private",
+  "scheduled_for": "2026-10-11T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acbe39a63ff33d8c9935183",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-11T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-12_0700_basketball-bus-no-show-gold/video.mp4"
+  },
+  "seconds": 434
  }
 ]
