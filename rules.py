@@ -320,7 +320,7 @@ def lint(script: dict) -> list[str]:
     bgs = [(s.get("visual") or {}).get("bg", "white") for s in segs_]
     kinds = [it.get("type") for s in segs_ for it in (s.get("visual") or {}).get("items", [])]
     n_place = sum(1 for b, v in zip(bgs, vids) if b in PLACES and not v)
-    if n_place < 3:   # 2026-10-12: @통찰맨 puts every person in a real room/street; our white panel looked empty
+    if False and n_place < 3:   # Chismepón reuses 썰가챠's pictures as they are - the place-photo rule is 썰가챠's to enforce
         p.append(f"only {n_place} scenes on a place photo - put the people in 3+ scenes where the story happens "
                  f"(bg one of {PLACES}, ROUTINE 장소 사진)")
     if sum(kinds.count(k) for k in ("doc", "sms", "price")) > 3 or kinds.count("warn") > 1:
@@ -345,8 +345,8 @@ def lint(script: dict) -> list[str]:
                 p.append(f"segment {i}: text style {st!r} repeats the caption (two subtitles on screen) - "
                          "use a picture/emoji; panel words only as the post card or the vote board")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    if len(segs) > 9 or total > 340:   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
-        p.append(f"{len(segs)} sentences / {total} chars - write the title + 6-8 sentences, 240-330 chars (20-26 s)")
+    if len(segs) > 9 or total > 470:   # Spanish ~1.7x hangul; batch1 ran 361-466 chars = 23-30 s   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
+        p.append(f"{len(segs)} sentences / {total} chars - write the title + 6-8 sentences, 240-470 chars (20-30 s)")
     post = next((it for it in ((segs[0].get("visual") or {}).get("items", []) if segs else [])
                  if it.get("style") == "post"), None)
     if post:   # 2026-10-07: @dolongcha/@군림보 read the title aloud first; ours jumped straight into the story

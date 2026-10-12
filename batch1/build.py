@@ -6,12 +6,13 @@ colours) and swaps every word a viewer hears or reads. A = universal emotion
 
     python batch1/build.py      # writes batch1/NN-<slug>.json
 """
-import copy
 import json
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from adapt import adapt   # noqa: E402
 AI = "\n\nNarración con voz generada por IA."
 
 STORIES = [
@@ -194,54 +195,8 @@ STORIES = [
 
 def build(st: dict) -> dict:
     src = json.loads((Path.home() / "issue-shorts" / "scripts" / f"{st['src']}.json").read_text(encoding="utf-8"))   # 썰가챠 원본
-    segs = copy.deepcopy([src["segments"][k] for k in st.get("pick", range(len(src["segments"])))])
-    for k, ch in st.get("patch", {}).items():
-        vis = segs[k].setdefault("visual", {})
-        for key, val in ch.items():
-            if key == "cap":
-                segs[k]["cap"] = val
-            else:
-                vis[key] = val
-    for seg in segs:   # いらすとや money is yen and its sake bottles carry kanji labels
-        for it in (seg.get("visual") or {}).get("items", []):
-            if it.get("type") == "illust" and isinstance(it.get("q"), list):
-                if it["q"][0] == "札束":
-                    it.update(type="emoji", text="💵", size="l", fx="drop")
-                    it.pop("q")
-                elif it["q"][0] == "日本酒 瓶":
-                    it["q"] = ["ワイン ボトル", "酒瓶"]
-    if "pick" in st:   # early scripts: panel words repeat the caption - keep only the post card and the vote rows
-        for seg in segs:
-            vis = seg.get("visual") or {}
-            its = vis.get("items", [])
-            rows = sum(1 for it in its if it.get("style") == "row") >= 2
-            vis["items"] = [it for it in its if it.get("type") != "text" or it.get("style") in ("post", "row")
-                            or (rows and it.get("style") == "label")]
-    assert len(segs) == len(st["lines"]), (st["n"], len(segs), len(st["lines"]))
-    panel = list(st.get("panel", []))
-    for i, (seg, line) in enumerate(zip(segs, st["lines"])):
-        spoken = line.replace("\n", " ")
-        seg["text"] = spoken
-        seg["say"] = st.get("say", {}).get(i, spoken)
-        seg.pop("tone", None)   # Qwen acting notes in Korean; edge-tts has none
-        for it in (seg.get("visual") or {}).get("items", []):
-            if it.get("type") != "text":
-                continue
-            if it.get("style") == "post":
-                it["text"] = line
-            else:
-                it["text"] = panel.pop(0)
-    assert not panel, (st["n"], "unused panel text", panel)
     title, desc, tags = st["yt"]
-    return {
-        "skip": False, "skip_reason": "", "slug": st["slug"], "title_lines": st["title"], "credit": "",
-        "segments": segs,
-        "youtube": {"title": title, "description": desc + AI + "\n\n#chismepon #historias #chisme #shorts",
-                    "tags": tags},
-        "source_post": src.get("source_post") or "https://example.invalid",
-        "facts_used": src.get("facts_used", []),
-        "brief": f"lane {st['lane']} - Spanish rewrite of 썰가챠 {st['src']}",
-    }
+    return adapt(src, dict(st, yt={"title": title, "description": desc, "tags": tags}))
 
 
 if __name__ == "__main__":
