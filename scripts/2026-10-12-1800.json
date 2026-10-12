@@ -1,0 +1,320 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "same-number-fifty-lottery-tickets",
+ "title_lines": [
+  "번호 하나에 몰빵",
+  "복권 50장 산 남자"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "복권 50장을 전부 같은 번호로 산 남자",
+   "say": "복권 오십 장을 전부 같은 번호로 산 남자",
+   "sfx": "punch",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "복권 50장을\n전부 같은 번호로 산 남자",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "미국 남자가 편의점에서 0500만 50장 삼.",
+   "say": "미국 남자가 편의점에서 공오공공만 오십 장 삼.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンビニ 買い物 男性",
+       "コンビニ 店員",
+       "コンビニ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎟️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "convenience store shelf",
+     "store shelves snacks",
+     "shop counter cashier"
+    ]
+   }
+  },
+  {
+   "text": "근데 같은 번호 여러 장 사도 확률은 그대로임.",
+   "say": "근데 같은 번호 여러 장 사도 확률은 그대로임.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サイコロ",
+       "サイコロ 転がる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 빗나가면 50장 전부 휴지 되는 거임.",
+   "say": "아니, 빗나가면 오십 장 전부 휴지 되는 거임.",
+   "sfx": "exclaim",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "紙くず",
+       "ゴミ 紙",
+       "落ち込む 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 추첨 결과가 나옴.",
+   "say": "자, 추첨 결과가 나옴.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "抽選 ガラガラ",
+       "抽選会",
+       "抽選"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "fade"
+     }
+    ],
+    "video": [
+     "lottery balls drawing",
+     "lottery machine balls",
+     "bingo balls spinning"
+    ]
+   }
+  },
+  {
+   "text": "당첨 번호가 진짜 0500이 나옴.",
+   "say": "당첨 번호가 진짜 공오공공이 나옴.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "cam": "pull",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガッツポーズ 男性",
+       "喜ぶ 男性",
+       "ガッツポーズ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🎉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "50장 다 당첨돼서 총 25만 달러 받음.",
+   "say": "오십 장 다 당첨돼서 총 이십오만 달러 받음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金持ち",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "💰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "cash money counting",
+     "money bills dollars",
+     "dollar bills stack"
+    ]
+   }
+  },
+  {
+   "text": "근데 본인은 이 번호 다시는 안 산다고 함.",
+   "say": "근데 본인은 이 번호 다시는 안 산다고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "断る 男性",
+       "首を振る 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 한 번호에 몰빵함?",
+   "say": "님들은 한 번호에 몰빵함?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "복권 50장을 전부 같은 번호로 산 남자의 결말 #shorts",
+  "description": "미국 사우스캐롤라이나주의 한 남성이 편의점 여러 곳을 돌며 숫자 복권 '픽4'를 0-5-0-0 한 조합으로만 50장 삼.\n8월 18일 저녁 추첨에서 실제 당첨 번호가 0-5-0-0으로 나와 50장이 모두 당첨, 장당 5천 달러씩 총 25만 달러를 받음.\n같은 번호를 여러 장 사도 확률은 그대로라 빗나갔으면 50장 모두 꽝이었음. 당첨자는 이 번호로 다시는 안 할 거라고 함.\n\n※ AI 음성으로 제작했습니다.\n#복권 #당첨 #미국 #행운 #썰 #shorts",
+  "tags": [
+   "복권",
+   "복권 당첨",
+   "같은 번호",
+   "미국 복권",
+   "픽4",
+   "행운",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202610120847410007",
+ "facts_used": [
+  "미국 사우스캐롤라이나주 로컨트리 남성이 서머빌 일대 편의점 여러 곳에서 픽4 복권을 0-5-0-0 같은 조합으로 50장 구매 — 파이낸셜뉴스 https://www.fnnews.com/news/202610120847410007 , 한국일보 https://www.hankookilbo.com/news/article/A2026101209230001428 , 아시아경제 https://view.asiae.co.kr/article/2026101114065315618",
+  "8월 18일 저녁 추첨 당첨 번호 0-5-0-0, 50장 모두 당첨, 장당 5000달러 총 25만 달러(약 3억3400만~3억5000만원) — 헤럴드경제 https://biz.heraldcorp.com/article/10899210 , 한국경제 https://www.hankyung.com/article/2026101248327 , 한국일보, 원보도 SC Education Lottery 발표(야후 뉴스 https://www.yahoo.com/news/articles/lowcountry-man-commits-same-numbers-150127059.html )",
+  "같은 번호를 여러 장 사도 당첨 확률은 오르지 않고, 빗나가면 전부 낙첨 — 한국일보·헤럴드경제",
+  "당첨자 '이 번호로는 아마 다시 안 할 것, 또 일어날 만큼 운이 좋지 않다' — 아시아경제, 야후 뉴스(SCEL 인용)"
+ ],
+ "brief": "점수표: 같은 번호 복권 50장 전부 당첨(이게됨5+궁금증5+공감3+대상4=17, 파이낸셜·한국일보·헤럴드·한경·아시아경제·한국경제TV) / 만둣집에 걸려온 '옆 카페 가방 찾아줘' 전화(4+3+5+4=16, 파이낸셜·머니투데이·뉴스1 — 다음 회차 후보) / 꿈에서 본 번호로 33억 말레이시아 복권(4+3+3+3=13, 서울신문 1곳만 확인) / 4만원 그림 3억5천만원(4+3+3+3=13, 9월 보도) / 1400원 중고 액자 순은(3+3+3+3=12) — 인박스 news_hot은 대통령 골프·한동훈 딸·지지율 등 정치라 0점, 결혼식장 윤어게인도 정치. 첫장면: 의외(같은 번호 50장을 삼). 훅 3안: ①'미국 남자가 편의점에서 0500만 50장 삼'(선택: 사람+이상한 행동+숫자) ②'복권 50장이 전부 당첨됨'(결말을 먼저 줘 버림) ③'번호 하나에 전 재산 거는 남자'(사실 아님, 금액 미확인). 글 카드 3안: '복권 50장을 전부 같은 번호로 산 남자'(선택) / '복권 50장 전부 당첨된 남자'(결말 노출) / '편의점 다 돌며 같은 복권 산 남자'(약함). 떡밥: 2~3번에서 확률은 그대로라 빗나가면 전부 꽝이라는 진짜 위험을 먼저 깔고, 4번 공개 예고 뒤 5~6번에 당첨으로 회수, 7번 당첨자 말로 한 번 더 비틂. 이해검사: 미국 남자가 같은 번호 복권을 50장 샀는데(확률은 그대로라 틀리면 다 꽝) 진짜 그 번호가 나와 50장 모두 당첨, 25만 달러를 받았고 본인은 그 번호를 다시 안 산다고 했다. 그림대조: 완료(편의점·주사위=확률·종이쓰레기=꽝·추첨기·환호 남성·돈다발·거절 남성, 일본 요소 없음, 영상은 편의점 진열대·추첨 공·달러 지폐). 주의: 당첨자 익명이라 신원 쓰지 않음, 복권 한 장 가격·구매 총액은 보도 확인 못 해 안 씀, 원화 환산은 매체마다 달라 '3억 넘게'로, 복권 구매 권유 없음. 시작 sfx punch→whoosh (최근 dudung→punch, exclaim→whoosh, absurd→whoosh 와 다름)."
+}
