@@ -23,13 +23,17 @@ STATE = ROOT / "state" / "batch1.json"
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
-    ap.add_argument("--day", type=int, required=True)
+    ap.add_argument("--day", default="auto", help="1-3, or auto = from today's KST date")
     ap.add_argument("--dir", default="videos")
     a = ap.parse_args()
     state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
-    day = START + dt.timedelta(days=a.day - 1)
+    n_day = (dt.datetime.now(KST).date() - START).days + 1 if a.day == "auto" else int(a.day)
+    if n_day not in PLAN:
+        print(f"day {n_day}: nothing planned (batch1 runs {START} + {len(PLAN)} days)")
+        return 0
+    day = START + dt.timedelta(days=n_day - 1)
     rc = 0
-    for n, hour in zip(PLAN[a.day], SLOTS_KST):
+    for n, hour in zip(PLAN[n_day], SLOTS_KST):
         if state.get(n, {}).get("video_id"):
             print(n, "already uploaded:", state[n]["url"])
             continue

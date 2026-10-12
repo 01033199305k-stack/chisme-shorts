@@ -3,12 +3,14 @@
 name: upload-batch
 
 on:
+  schedule:
+    - cron: "30 15 * * *"   # 매일 00:30 KST - 그날 몫(2·3일차)을 예약. 3일차가 끝나면 아무것도 안 한다
   workflow_dispatch:
     inputs:
       day:
         description: "몇 일차 (1·2·3)"
-        required: true
-        default: "1"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -36,7 +38,8 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           PYTHONUNBUFFERED: "1"
-        run: python uploader/api_batch.py --day "${{ inputs.day }}" --dir videos
+          DAY: ${{ inputs.day }}
+        run: python uploader/api_batch.py --day "${DAY:-auto}" --dir videos
       - name: 기록 저장
         if: always()
         run: |
@@ -44,5 +47,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add state/batch1.json 2>/dev/null || exit 0
           git diff --cached --quiet && exit 0
-          git commit -q -m "state: batch1 day ${{ inputs.day }}"
+          git commit -q -m "state: batch1 $(date -u +%FT%TZ)"
           git pull -q --rebase origin main && git push -q origin HEAD:main
