@@ -1,0 +1,278 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-baby-crying-neighbors-gift",
+ "title_lines": [
+  "Pidió perdón",
+  "porque su bebé lloraba"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Pidió perdón por su bebé y esto le dejaron",
+   "say": "Pidió perdón por su bebé y esto le dejaron",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "Pidió perdón por su bebé\ny esto le dejaron",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Su bebé lloraba todas las noches y la mamá se sentía fatal.",
+   "say": "Su bebé lloraba todas las noches y la mamá se sentía fatal.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "赤ちゃん 泣く",
+       "夜泣き",
+       "赤ちゃん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Dejó a cada vecino jabón y una carta escrita a mano.",
+   "say": "Dejó a cada vecino jabón y una carta escrita a mano.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "detergent bottle kitchen",
+     "dish soap sink",
+     "gift bag"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "手紙 書く 女性",
+       "手紙 書く",
+       "手紙"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Días después, abrió la puerta y se quedó helada.",
+   "say": "Días después, abrió la puerta y se quedó helada.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "room",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "びっくり 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Qué había en su puerta?",
+   "say": "¿Qué había en su puerta?",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "玄関 ドア",
+       "ドア 開ける",
+       "玄関"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Manzanas, galletas, algas y cartas de los vecinos.",
+   "say": "Manzanas, galletas, algas y cartas de los vecinos.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "cam": "pull",
+    "video": [
+     "apples basket",
+     "cookies plate",
+     "gift box ribbon"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "りんご",
+       "クッキー",
+       "プレゼント"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🍎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Le decían que no se preocupara, que los bebés crecen llorando.",
+   "say": "Le decían que no se preocupara, que los bebés crecen llorando.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "sky",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "赤ちゃん 笑顔",
+       "赤ちゃん 寝る",
+       "赤ちゃん 母親"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💌",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tus vecinos harían eso?",
+   "say": "¿Tus vecinos harían eso?",
+   "sfx": "none",
+   "cap": "react",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "近所付き合い",
+       "挨拶 近所",
+       "マンション"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏠",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Pidió perdón porque su bebé lloraba… y esto le dejaron los vecinos #shorts",
+  "description": "Una mamá en Corea se sentía mal porque su recién nacido lloraba día y noche. Dejó jabón y una carta a mano a sus vecinos para pedir perdón. Días después encontró en su puerta manzanas, galletas, algas y cartas: «los bebés crecen llorando, no te preocupes».\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "vecinos",
+   "bebé",
+   "historias reales",
+   "buenas noticias",
+   "corea",
+   "chisme"
+  ]
+ },
+ "source_post": "https://www.etnews.com/20261009000023",
+ "facts_used": [
+  "산후조리원에서 돌아온 지 한 달여 된 부모 A씨가 밤낮없이 우는 아기 때문에 이웃에게 미안한 마음이 들어 주방세제 등 생필품과 손편지로 양해를 구함 — 전자신문 2026-10-09 https://www.etnews.com/20261009000023 , 머니투데이 2026-10-08 https://www.mt.co.kr/society/2026/10/08/2026100810092843358 , 파이낸셜뉴스 2026-10-08 https://www.fnnews.com/news/202610080614006667 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008788067",
+  "같은 (동) 라인 주민 전체에게 전달 — 전자신문, 머니투데이(서플 재게재 https://supple.kr/news/cmuz2n8at00ici8vq2v2jhkwr)",
+  "며칠 뒤 현관 앞에 사과·김·쿠키 등 먹거리와 이웃들의 손편지가 놓임 — 전자신문, 머니투데이(서플 재게재)",
+  "이웃 편지 취지: 아기는 울면서 건강하게 크니 신경 쓰지 말라 — 전자신문, 머니투데이(서플 재게재), SBS"
+ ],
+ "brief": "lane A - Spanish rewrite of 썰가챠 2026-10-10-1800"
+}

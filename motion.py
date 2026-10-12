@@ -197,7 +197,7 @@ def _phrase_cues(words, line_chars: int, max_words: int, max_lines: int = 2):
 
 # a shouted line is cut into short one-line bursts and drawn huge (@dolongcha: "너 한 번만 더 울어" = one
 # line, 87 px glyphs, 806 px wide); the closing reaction gets short big lines too
-CUE_SHAPE = {"shout": (9, 4, 1), "react": (12, 6, 2)}   # line_chars, max_words, max_lines
+CUE_SHAPE = {"shout": (14, 3, 1), "react": (16, 4, 2)}   # Spanish: ~1.6x the hangul widths   # line_chars, max_words, max_lines
 
 
 def caption_cues(words, line_chars: int = 11, max_words: int = 6, max_lines: int = 2, styles=None) -> list[dict]:
@@ -271,8 +271,8 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 #cap { position:absolute; left:0; right:0; top:1430px; height:0; z-index:9; }
 #cap .box { position:absolute; left:50%; bottom:28px; transform:translateX(-50%); transform-origin:50% 100%;
   background:rgba(40,40,40,.8); padding:8px 24px 0; border-radius:4px; text-align:center; color:#fff;
-  font-family:CAP, BH, 'Malgun Gothic', sans-serif; font-size:90px; line-height:1.14; white-space:nowrap;
-  -webkit-text-stroke:2px currentColor; }   /* Do Hyeon is lighter than the reference's caption face */
+  font-family:CAP, BH, 'Malgun Gothic', sans-serif; font-size:74px; line-height:1.2; white-space:nowrap;
+  -webkit-text-stroke:1px currentColor; }   /* Archivo Black is wide: 74 px fits ~19 chars a line */   /* Do Hyeon is lighter than the reference's caption face */
 /* karaoke: the boxed lines start white and each word takes the line's colour as it is read -
    yellow for narration and quotes, red for the key action (restored 2026-10-09) */
 #cap .box .w.on { color:#FFE14D; }
@@ -280,7 +280,7 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 #cap .box.shout, #cap .box.sweet, #cap .box.react { background:none; padding:0 16px; -webkit-text-stroke:0; }
 #cap .ol { position:absolute; inset:0; padding:inherit; z-index:0; }
 #cap .fg { position:relative; z-index:1; }
-#cap .box.shout { font-family:BH, sans-serif; font-size:146px; line-height:1.1; }
+#cap .box.shout { font-family:BH, sans-serif; font-size:132px; line-height:1.1; }
 #cap .shout .ol { color:#4a1800; -webkit-text-stroke:32px #4a1800; text-shadow:0 12px 0 rgba(0,0,0,.35); }
 #cap .shout .fg .ln { background:linear-gradient(180deg,#FFF7A8 0%,#FFD43B 48%,#FF8F1F 100%);
   -webkit-background-clip:text; background-clip:text; color:transparent; }
@@ -567,7 +567,7 @@ def _separate(parts, data, pics, floor, pfloor=None) -> None:
 
 def title_size(lines) -> int:
     longest = max(len(l) for l in lines)
-    return max(64, min(130, int(1000 / (0.76 * max(1, longest)))))
+    return max(64, min(130, int(1000 / (0.47 * max(1, longest)))))   # Anton: condensed Latin
 
 
 def _hero(items: list, has_clip: bool, picker=None, place: bool = False) -> list:
@@ -754,14 +754,14 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
             elif it.get("style") == "post":
                 text = str(it.get("text", ""))
                 longest = max((len(x) for x in text.split("\n")), default=1)
-                fs = min(92, int(860 / (0.95 * max(1, longest))))
+                fs = min(92, int(860 / (0.55 * max(1, longest))))   # Latin glyphs ~0.55 em
                 lines = max(1, text.count("\n") + 1)
                 w, h = 1000, int(fs * 1.3 * lines + 280)
                 d.update(w=w, h=h, type="text")
                 today = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).strftime("%Y.%m.%d")
                 parts.append(f'<div class="it tx post" style="width:{w}px;height:{h}px;z-index:{Z["text"]};display:flex">'
-                             f'<div class="board">🔥 썰가챠 썰 게시판 ›</div><div class="ttl" style="font-size:{fs}px">{esc(text)}</div>'
-                             f'<div class="meta"><div class="ava"></div><b>익명</b><span>{today}</span></div></div>')
+                             f'<div class="board">◓ Chismepón ›</div><div class="ttl" style="font-size:{fs}px">{esc(text)}</div>'
+                             f'<div class="meta"><div class="ava"></div><b>Anónimo</b><span>{today}</span></div></div>')
             else:
                 style = it.get("style", "label")
                 text = str(it.get("text", ""))
@@ -795,7 +795,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         clip = clips[i] if i < len(clips) else None
         if clip:   # after the items so el.children[j] still indexes them
             base = file_url(Path(clip["dir"]) / "f_")
-            parts.append(f'<img class="bgv" src="{base}0001.jpg"><div class="tag">자료화면</div>')
+            parts.append(f'<img class="bgv" src="{base}0001.jpg"><div class="tag">Imagen de archivo</div>')
         elif place:   # after the items too (el.children[j] indexes them); z-index 0 keeps it underneath
             gray = " gray" if any(d["type"] == "warn" for d in data) else ""
             url = file_url(PLACES_DIR / (place + ".jpg"))
@@ -813,10 +813,10 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         c["st"] = segments[c["seg"]].get("cap", "narr") if c.get("seg", -1) < len(segments) else "narr"
         c["st"] = c["st"] if c["st"] in CAPS else "narr"
     t1, t2 = title
-    cap_font = Path(font_path).with_name("DoHyeon-Regular.ttf")
+    cap_font = Path(font_path).with_name("ArchivoBlack-Regular.ttf")
     css = CSS.replace("CAPFONT", file_url(cap_font if cap_font.exists() else font_path)).replace("FONT", file_url(font_path))
     payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS}
-    html = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>{css}</style></head><body>'
+    html = (f'<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{css}</style></head><body>'
             f'<div id="title" style="font-size:{title_size([t1, t2])}px"><div>{esc(t1)}</div><div class="t2">{esc(t2)}</div></div>'
             f'<div id="panel"><div id="credit">{esc(credit)}</div><div id="cam">{"".join(scenes_html)}</div><div id="flash"></div></div>'
             f'<div id="cap"></div><script>window.DATA={json.dumps(payload, ensure_ascii=False)};</script>'

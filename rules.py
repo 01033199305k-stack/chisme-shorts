@@ -1,4 +1,7 @@
-"""Script format shared by every writer (the cloud routine, editor.py) and the
+"""Chismepón (Spanish fork, 2026-10-12): length limits are scaled for Spanish -
+about 1.7 Latin letters per hangul syllable.
+
+Script format shared by every writer (the cloud routine, editor.py) and the
 renderer: allowed values, the JSON schema, and the checks a script must pass.
 
     python rules.py scripts/2026-10-04-1900.json   # prints problems, exit 1 if any
@@ -77,10 +80,10 @@ def _check_visual(i: int, v: dict) -> list[str]:
         if typ == "text" and it.get("style") == "post":
             if i != 0:
                 p.append(f"{tag}: post card only opens the video (segment 0)")
-            if len(str(it.get("text", ""))) > 24 or str(it.get("text", "")).count("\n") > 1:
-                p.append(f"{tag}: post title max 24 chars in at most 2 lines: {it.get('text')!r}")
-        elif typ == "text" and len(str(it.get("text", ""))) > 16:
-            p.append(f"{tag}: text too long for the panel (max 16): {it.get('text')!r}")
+            if len(str(it.get("text", ""))) > 48 or str(it.get("text", "")).count("\n") > 1:
+                p.append(f"{tag}: post title max 48 chars in at most 2 lines: {it.get('text')!r}")
+        elif typ == "text" and len(str(it.get("text", ""))) > 26:
+            p.append(f"{tag}: text too long for the panel (max 26): {it.get('text')!r}")
         if it.get("pos", "center") not in V_POS:
             p.append(f"{tag}: pos {it.get('pos')!r} not in {V_POS}")
         if it.get("fx", "pop") not in V_FX:
@@ -99,19 +102,19 @@ def _check_prop(tag: str, it: dict) -> list[str]:
     p, typ = [], it.get("type")
     lines = it.get("lines") or []
     if typ == "doc":
-        if not 1 <= len(str(it.get("title", ""))) <= 8:
+        if not 1 <= len(str(it.get("title", ""))) <= 12:
             p.append(f"{tag}: doc needs a title of 1-8 chars (계약서, 청구서, 영수증, 판결문): {it.get('title')!r}")
-        if not (isinstance(lines, list) and 1 <= len(lines) <= 4 and all(1 <= len(str(x)) <= 14 for x in lines)):
+        if not (isinstance(lines, list) and 1 <= len(lines) <= 4 and all(1 <= len(str(x)) <= 22 for x in lines)):
             p.append(f"{tag}: doc needs 1-4 lines of max 14 chars: {lines!r}")
         if it.get("mark") is not None and not (isinstance(it["mark"], int) and 0 <= it["mark"] < len(lines)):
             p.append(f"{tag}: mark must be the index of one of its lines")
     elif typ == "sms":
-        if not 1 <= len(str(it.get("from", ""))) <= 10:
+        if not 1 <= len(str(it.get("from", ""))) <= 16:
             p.append(f"{tag}: sms needs from (sender, max 10 chars)")
-        if not (isinstance(lines, list) and 1 <= len(lines) <= 3 and all(1 <= len(str(x)) <= 12 for x in lines)):
+        if not (isinstance(lines, list) and 1 <= len(lines) <= 3 and all(1 <= len(str(x)) <= 20 for x in lines)):
             p.append(f"{tag}: sms needs 1-3 bubbles of max 12 chars: {lines!r}")
     elif typ == "price":
-        if not 1 <= len(str(it.get("new", ""))) <= 8 or len(str(it.get("label", ""))) > 10 or len(str(it.get("old", ""))) > 10:
+        if not 1 <= len(str(it.get("new", ""))) <= 12 or len(str(it.get("label", ""))) > 16 or len(str(it.get("old", ""))) > 14:
             p.append(f"{tag}: price needs new (max 8 chars), label/old max 10: {it!r}")
     return p
 
@@ -171,16 +174,16 @@ def validate(script: dict) -> list[str]:
         p.append("title_lines must have exactly 2 lines")
     else:
         for i, line in enumerate(tl):
-            if not 2 <= len(line) <= 13:
-                p.append(f"title line {i + 1} is {len(line)} chars (max 11, hard limit 13): {line!r}")
+            if not 2 <= len(line) <= 22:
+                p.append(f"title line {i + 1} is {len(line)} chars (max 22): {line!r}")
     if len(script["credit"]) > 44:
         p.append(f"credit is {len(script['credit'])} chars (max 40)")
     segs = script["segments"]
     if not 6 <= len(segs) <= 12:   # hard limit; the 6-8 house target is in lint() so older scripts still render
         p.append(f"{len(segs)} segments (want 6-8: one picture per sentence)")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    if not 130 <= total <= 290:
-        p.append(f"narration {total} chars (want 140-190, about 18-25 s - cut sentences that repeat or explain too much)")
+    if not 200 <= total <= 480:
+        p.append(f"narration {total} chars (want 240-330, about 18-25 s - cut sentences that repeat or explain too much)")
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
     n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
@@ -204,7 +207,7 @@ def validate(script: dict) -> list[str]:
             p.append(f"segment {i}: say/text word counts diverge (same content, same order)")
         if re.search(r"[0-9A-Za-z]", s["say"]) and not re.search(r"[0-9A-Za-z]", s["text"]):
             p.append(f"segment {i}: say has digits/latin that text lacks")
-        if len(re.sub(r"[^0-9A-Za-z가-힣]", "", s["say"])) < 6:
+        if len(re.sub(r"[\W_]", "", s["say"])) < 6:
             p.append(f"segment {i}: say too short to check against the transcript - put a reaction (헐, 와) in front of a real sentence, not alone")
         if re.search(r"[ㄱ-ㅎㅏ-ㅣ]", s["say"]):
             p.append(f"segment {i}: say has bare jamo (ㅋㅋ, ㄹㅇ ...) the voice cannot read")
@@ -342,12 +345,12 @@ def lint(script: dict) -> list[str]:
                 p.append(f"segment {i}: text style {st!r} repeats the caption (two subtitles on screen) - "
                          "use a picture/emoji; panel words only as the post card or the vote board")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    if len(segs) > 9 or total > 200:   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
-        p.append(f"{len(segs)} sentences / {total} chars - write the title + 6-8 sentences, 150-200 chars (20-26 s)")
+    if len(segs) > 9 or total > 340:   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
+        p.append(f"{len(segs)} sentences / {total} chars - write the title + 6-8 sentences, 240-330 chars (20-26 s)")
     post = next((it for it in ((segs[0].get("visual") or {}).get("items", []) if segs else [])
                  if it.get("style") == "post"), None)
     if post:   # 2026-10-07: @dolongcha/@군림보 read the title aloud first; ours jumped straight into the story
-        squash = lambda t: re.sub(r"[^0-9A-Za-z가-힣]", "", str(t))
+        squash = lambda t: re.sub(r"[\W_]", "", str(t))
         if squash(segs[0].get("text", "")) != squash(post.get("text", "")):
             p.append(f"segment 0: read the post card title aloud - text must be the card words "
                      f"{post.get('text', '')!r} (line break -> space), the hook goes to segment 1")
@@ -361,8 +364,8 @@ def lint(script: dict) -> list[str]:
     if any(c == "react" for c in caps[:-2]):
         p.append("cap 'react' is the closing reaction - only in the last two sentences")
     for i, s in enumerate(segs):   # shout/react are drawn huge: a long sentence turns into a stream of bursts
-        if s.get("cap") in ("shout", "react") and len(s.get("text", "")) > 18:
-            p.append(f"segment {i}: cap {s['cap']!r} wants a short line (max 18 chars, like \"너 한 번만 더 울어!\"), "
+        if s.get("cap") in ("shout", "react") and len(s.get("text", "")) > 28:
+            p.append(f"segment {i}: cap {s['cap']!r} wants a short line (max 28 chars, like \"너 한 번만 더 울어!\"), "
                      f"got {len(s['text'])} - split the narration off into its own sentence")
     trs = [(s.get("visual") or {}).get("tr") for s in segs]
     if trs.count("whoosh") > 3 or trs.count("flash") > 1:

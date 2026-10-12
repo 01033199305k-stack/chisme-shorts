@@ -1,11 +1,11 @@
-# issue-shorts 채널 설정 - 군림보 레퍼런스, 커뮤니티 인기글, 소희 썰톤
+# Chismepón (@chismepon, UCyvXZyFPF3XP9jGb-KaWI_g) - 썰가챠 파이프라인의 스페인어 시험판, 2026-10-12
+# 목소리: 소희(Qwen3-TTS CustomVoice 한국어 프리셋)가 스페인어로 말함 = "한국 여자가 들려주는 한국 썰".
+# 2026-10-12 비교: 억양 변화(음높이 표준편차) 소희 6.2반음 vs Kokoro 도라 3.0 / 알렉스 3.2, 받아쓰기 정확도는 셋 다 0.94.
+# edge-tts(es-MX)는 2026-10-12 기준 마이크로소프트 서버가 403 으로 막음 (engine: edge 코드는 남겨 둠).
 engine: qwen            # qwen = qwen-tts 직접 실행(GitHub Actions) / voicebox = PC의 Voicebox 앱
-voice: Sohee            # Qwen3-TTS CustomVoice 한국어 프리셋 (voicebox 엔진이면 프로필 ID)
-instruct: "커뮤니티 썰 푸는 유튜버처럼, 어이없다는 듯 흥분해서 억양을 크게 오르내리며 빠르고 생동감 있게"
-# 대본 세그먼트에 tone(문장별 연기 지시)이 있으면 "<tone> 말해. 전체적으로는 <instruct_persona>." 로 읽는다.
-# 감정·속도 단어는 넣지 않는다 (tone 의 속삭임·체념과 부딪힌다). 말끝 잘림(Qwen3-TTS #55) 때문에 '말끝까지 또박또박'.
-instruct_persona: "썰 푸는 유튜버가 친구한테 얘기하듯 억양을 살려 자연스럽게, 말끝까지 또박또박"
-speed: 1.3              # 사용자 피드백(2026-10-04): 말이 너무 느림 -> 1.3배 (1.2배는 느리다고 함)
+voice: Sohee
+instruct: "Cuéntalo como un chisme a una amiga, emocionada y con entonación muy expresiva, pronunciando claro hasta el final"
+speed: 1.25
 
 # 공개 시각표 (KST). 대본 파일 이름이 scripts/<날짜>-<HHMM>.json, 예: 2026-10-04-0700.json
 # 늘리거나 줄이려면 이 목록만 고친다 (대본 담당 예약 작업·감시도 이 목록을 읽는다)
@@ -18,8 +18,8 @@ pin_top: 535
 # 자막: 2026-10-08 도롱차처럼 최대 두 줄(78px 도현체, 반투명 회색 상자를 그림 아랫부분에 얹음),
 # 문장의 cap 값으로 색이 바뀐다 (motion.py CSS #cap). 2026-10-06엔 한 줄 62px였는데 레퍼런스보다 1.5배 작았다
 fontsize: 74
-caption_words: 7
-caption_line_chars: 13
+caption_words: 6
+caption_line_chars: 19
 caption_lines: 2
 
 bgm: assets/bgm/sneaking_around.mp3   # OpenGameArt CC0

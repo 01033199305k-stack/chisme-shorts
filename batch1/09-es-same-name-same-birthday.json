@@ -1,0 +1,291 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-same-name-same-birthday",
+ "title_lines": [
+  "Mismo nombre,",
+  "mismo cumpleaños"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Él se llama Lee Do-kyung y ella también",
+   "say": "Él se llama Lee Do-kyung y ella también",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "Él se llama Lee Do-kyung\ny ella también",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En Corea, su acta de matrimonio tiene dos veces el mismo nombre y cumpleaños.",
+   "say": "En Corea, su acta de matrimonio tiene dos veces el mismo nombre y cumpleaños.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "cam": "punch",
+    "video": [
+     "wedding rings",
+     "rings wedding",
+     "ring box"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "婚姻届",
+       "結婚 指輪",
+       "指輪"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y lo que les pasa por eso es todavía más chistoso.",
+   "say": "Y lo que les pasa por eso es todavía más chistoso.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "疑問 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En la prepa descubrieron que había otro Lee Do-kyung en su escuela.",
+   "say": "En la prepa descubrieron que había otro Lee Do-kyung en su escuela.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "tr": "whoosh",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高校生 男女",
+       "学生 男女",
+       "高校生"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Al mudarse, el registro en línea no funcionó y tuvieron que ir en persona.",
+   "say": "Al mudarse, el registro en línea no funcionó y tuvieron que ir en persona.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "役所 窓口",
+       "市役所",
+       "役所"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Pero lo mejor pasó cuando se conocieron las familias.",
+   "say": "Pero lo mejor pasó cuando se conocieron las familias.",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "顔合わせ 両家",
+       "食事会 家族",
+       "家族 食事"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "La tienda pensó que era un error y grabó otro nombre en la botella.",
+   "say": "La tienda pensó que era un error y grabó otro nombre en la botella.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "red",
+    "tr": "flash",
+    "cam": "pull",
+    "video": [
+     "bottle liquor",
+     "liquor bottles",
+     "bottles shelf"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ワイン ボトル",
+       "酒瓶"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❌",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Conoces a alguien con tu mismo nombre?",
+   "say": "¿Conoces a alguien con tu mismo nombre?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "新郎新婦",
+       "結婚式 カップル",
+       "結婚式"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "text",
+      "text": "¿Y tú?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, conozco",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "② Nunca",
+      "style": "row",
+      "pos": "bottom-right",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Él se llama Lee Do-kyung… y ella también #shorts",
+  "description": "Una pareja en Corea del Sur tiene el mismo nombre, Lee Do-kyung, y la misma fecha de nacimiento. Se conocieron en la prepa, se casaron tras 10 años de novios y hasta el registro en línea les falla. Para conocer a las familias mandaron grabar su nombre en una botella, y la tienda grabó otro creyendo que era un error.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "corea",
+   "pareja",
+   "mismo nombre",
+   "amor",
+   "historias reales",
+   "chisme coreano"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/277/0005826039",
+ "facts_used": [
+  "부부 둘 다 이름 '이도경', 생년월일도 같음(혼인신고 서류) — 뉴시스 2026-10-02 https://www.newsis.com/view/NISX20261002_0003811825 , 아시아경제 2026-10-08 https://view.asiae.co.kr/article/2026100808335666718 , 머니투데이 2026-10-06 https://www.mt.co.kr/society/2026/10/06/2026100614465968691",
+  "고교 시절 같은 학교에 이름·생일 같은 학생이 있다는 걸 알게 됨(이후 교제, 10년 연애 끝 결혼) — 뉴시스 2026-10-02 https://www.newsis.com/view/NISX20261002_0003811825 , 머니투데이 2026-10-06 https://www.mt.co.kr/society/2026/10/06/2026100614465968691 , 인사이트 https://www.insight.co.kr/news/576588",
+  "전입신고가 온라인으로 처리되지 않아 주민센터 직접 방문 — 뉴시스 2026-10-02 https://www.newsis.com/view/NISX20261002_0003811825 , 아시아경제 2026-10-08 https://view.asiae.co.kr/article/2026100808335666718",
+  "상견례 선물 이름 새긴 술병을 식당이 같은 이름 두 번은 실수라 여겨 다른 이름으로 제작 — 뉴시스 2026-10-02 https://www.newsis.com/view/NISX20261002_0003811825 , 아시아경제 2026-10-08 https://view.asiae.co.kr/article/2026100808335666718"
+ ],
+ "brief": "lane K - Spanish rewrite of 썰가챠 2026-10-08-1800"
+}

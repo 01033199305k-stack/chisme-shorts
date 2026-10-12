@@ -1,0 +1,297 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-wallet-lost-51-years",
+ "title_lines": [
+  "Su cartera de 1975",
+  "apareció bajo el piso"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Abrieron una cartera perdida hace 51 años",
+   "say": "Abrieron una cartera perdida hace cincuenta y un años",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "Abrieron una cartera\nperdida hace 51 años",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Un carpintero en Canadá encontró bajo el piso una cartera de 1975.",
+   "say": "Un carpintero en Canadá encontró bajo el piso una cartera de mil novecientos setenta y cinco.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "cam": "punch",
+    "video": [
+     "floor wooden boards",
+     "wood floor renovation",
+     "hammer nails wood"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "大工",
+       "大工 男性",
+       "リフォーム"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y lo que había adentro era una cápsula del tiempo.",
+   "say": "Y lo que había adentro era una cápsula del tiempo.",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "財布",
+       "財布 革",
+       "お財布"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Credencial de la prepa, licencia de manejo y un billete de un dólar.",
+   "say": "Credencial de la prepa, licencia de manejo y un billete de un dólar.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "dollar bills",
+     "money cash counting",
+     "cash banknotes"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高校生 男子",
+       "学生 男子",
+       "高校生"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Hasta un acta de nacimiento escrita a mano.",
+   "say": "Hasta un acta de nacimiento escrita a mano.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "赤ちゃん",
+       "赤ちゃん 寝る",
+       "新生児"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "📜",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Pero el verdadero misterio era un boleto para ver Hamlet.",
+   "say": "Pero el verdadero misterio era un boleto para ver Hamlet.",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "cam": "push",
+    "video": [
+     "theater stage curtain",
+     "stage curtain red",
+     "theatre seats"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "演劇",
+       "劇場",
+       "舞台 役者"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Su dueño, de 68 años, no recuerda haber ido a esa obra.",
+   "say": "Su dueño, de sesenta y ocho años, no recuerda haber ido a esa obra.",
+   "sfx": "absurd",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える おじいさん",
+       "おじいさん 疑問",
+       "おじいさん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Qué traes tú en tu cartera?",
+   "say": "¿Qué traes tú en tu cartera?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "財布",
+       "財布 革",
+       "お財布"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Y tu cartera?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Puros tickets",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "② Solo una tarjeta",
+      "style": "row",
+      "pos": "bottom-right",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Encontró una cartera perdida hace 51 años #shorts",
+  "description": "Un carpintero en Nueva Escocia, Canadá, encontró bajo el piso de una casa una cartera perdida en 1975: credencial escolar, licencia, acta de nacimiento escrita a mano, un billete de un dólar y un boleto para Hamlet. Su dueño, de 68 años, no recuerda haber visto esa obra.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "cartera",
+   "cápsula del tiempo",
+   "canadá",
+   "misterio",
+   "historias reales",
+   "chisme"
+  ]
+ },
+ "source_post": "https://www.cbc.ca/news/canada/nova-scotia/a-trip-down-memory-lane-n-s-man-reunited-with-wallet-lost-51-years-ago-9.7364265",
+ "facts_used": [
+  "캐나다 노바스코샤 다트머스 빅토리아로드의 집을 고치던 목수(매티 골드스미스)가 바닥 밑에서 1975년 잃어버린 지갑 발견 — CBC 2026-10-01 https://www.cbc.ca/news/canada/nova-scotia/a-trip-down-memory-lane-n-s-man-reunited-with-wallet-lost-51-years-ago-9.7364265 , UPI 2026-10-06 https://www.upi.com/Odd_News/2026/10/06/canada-dartmouth-nova-scotia-lost-wallet-51-years/7671791307060",
+  "내용물: 다트머스 고교 학생증, 운전면허증, 손으로 쓴 출생증명서, 1달러 지폐, 1975년 햄릿 공연 티켓 — UPI 2026-10-06, CBC 2026-10-01, People(야후 라이프스타일) https://www.yahoo.com/lifestyle/articles/man-reunited-high-school-wallet-121546347.html",
+  "목수의 SNS 글을 본 주인 아내 도나 길로이가 알아보고 댓글, 사흘 뒤 68살 리처드 길로이에게 반환 — UPI 2026-10-06, CBC 2026-10-01",
+  "길로이는 1975년 햄릿을 본 기억이 없다고 함(티켓값 1.5달러엔 놀라움, 전부 액자에 넣어 전시할 계획) — UPI 2026-10-06, People"
+ ],
+ "brief": "lane A - Spanish rewrite of 썰가챠 2026-10-09-0700"
+}

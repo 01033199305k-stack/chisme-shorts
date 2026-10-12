@@ -1,0 +1,251 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-newbie-skips-meeting-class",
+ "title_lines": [
+  "Faltó a la junta",
+  "porque tenía clases"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Faltó a la junta porque tenía clases",
+   "say": "Faltó a la junta porque tenía clases",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "Faltó a la junta\nporque tenía clases",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En Corea, el nuevo de la oficina no quiso ir a la junta del viernes a las cinco: tenía clases.",
+   "say": "En Corea, el nuevo de la oficina no quiso ir a la junta del viernes a las cinco: tenía clases.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "新入社員",
+       "会社員 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "La junta era lejísimos y terminaría después de las ocho de la noche.",
+   "say": "La junta era lejísimos y terminaría después de las ocho de la noche.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "video": [
+     "meeting room table",
+     "conference room office",
+     "office meeting"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会議室",
+       "会議"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y su jefe, ya harto, le dijo: haz lo que quieras.",
+   "say": "Y su jefe, ya harto, le dijo: haz lo que quieras.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "上司 怒る",
+       "部長",
+       "上司"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Pero en internet, la gente se dividió.",
+   "say": "Pero en internet, la gente se dividió.",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Muchos dijeron que el error era hacer una junta tan lejos un viernes a las cinco.",
+   "say": "Muchos dijeron que el error era hacer una junta tan lejos un viernes a las cinco.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "clock wall ticking",
+     "clock time",
+     "watch time closeup"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "時計",
+       "掛け時計"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Si fueras el jefe, ¿lo dejas ir a clases?",
+   "say": "Si fueras el jefe, ¿lo dejas ir a clases?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "新入社員",
+       "会社員 男性"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Que vaya a clases",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "② A la junta",
+      "style": "row",
+      "pos": "bottom-right",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Faltó a la junta del viernes porque tenía clases #shorts",
+  "description": "En Corea del Sur, un empleado nuevo avisó que no iría a la junta de equipo del viernes a las 5 de la tarde porque tenía clases: la junta era lejos y terminaría después de las 8. Su jefe le dijo «haz lo que quieras» y en internet la gente se dividió.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "corea",
+   "trabajo",
+   "oficina",
+   "jefe",
+   "generación z",
+   "chisme coreano"
+  ]
+ },
+ "source_post": "https://www.mt.co.kr/society/2026/10/05/2026100509044976655",
+ "facts_used": [
+  "금요일 오후 5시 팀 전체 회의에 신입사원이 학원 일정을 이유로 불참하겠다고 함 — 머니투데이 2026-10-05 https://www.mt.co.kr/society/2026/10/05/2026100509044976655 , 인사이트 https://www.insight.co.kr/news/576492 , 스포탈코리아 https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553589647",
+  "회의 장소가 멀어 마치고 돌아가면 오후 8시가 넘을 것으로 예상 — 머니투데이, 인사이트",
+  "부장은 질렸는지 '네 맘대로 하라'고 함 — 머니투데이, 서플 https://supple.kr/news/cmuuio8p6003owbxkpw5xp0ee",
+  "댓글 반응: '5시 회의·장소가 별로'라는 신입 이해 쪽 vs '팀 전체 일정이니 회의 우선, 신입 땐 나가서 배워야' 쪽으로 갈림 — 머니투데이, 인사이트"
+ ],
+ "brief": "lane K - Spanish rewrite of 썰가챠 2026-10-07-2100"
+}

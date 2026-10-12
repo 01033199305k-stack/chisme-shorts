@@ -7,3 +7,4 @@ err.txt
 config.local.yaml
 cache/
 .urgent_fired
+.pixabay_key

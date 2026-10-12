@@ -1,0 +1,277 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-dog-treat-from-mouth",
+ "title_lines": [
+  "Golosina con la boca",
+  "45 mil dólares"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "La mordió un perro y le pagan 45 mil dólares",
+   "say": "La mordió un perro y le pagan cuarenta y cinco mil dólares",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "La mordió un perro\ny le pagan 45 mil dólares",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Una empleada de café le dio a un perro una golosina con la boca.",
+   "say": "Una empleada de café le dio a un perro una golosina con la boca.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 おやつ",
+       "犬 えさ",
+       "犬"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😮",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡Y el perro le mordió el labio!",
+   "say": "¡Y el perro le mordió el labio!",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 怒る",
+       "犬 吠える",
+       "犬 噛む"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Le quedó una cicatriz y el labio chueco.",
+   "say": "Le quedó una cicatriz y el labio chueco.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "hospital corridor",
+     "hospital room",
+     "clinic hallway"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "病院 女性",
+       "怪我 女性",
+       "包帯 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🩹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Ella fue la que se acercó. ¿Quién crees que pagó?",
+   "say": "Ella fue la que se acercó. ¿Quién crees que pagó?",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El juez ordenó al seguro del dueño pagarle unos 45 mil dólares.",
+   "say": "El juez ordenó al seguro del dueño pagarle unos cuarenta y cinco mil dólares.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "video": [
+     "courthouse building",
+     "court building exterior",
+     "gavel judge"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Dijo que fue raro, pero el dueño debió advertirle.",
+   "say": "Dijo que fue raro, pero el dueño debió advertirle.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "city",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬の散歩",
+       "散歩 犬 女性",
+       "犬 リード"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Y tú cómo le das premios?",
+   "say": "¿Y tú cómo le das premios?",
+   "sfx": "none",
+   "cap": "react",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 おやつ あげる",
+       "犬 なでる",
+       "犬 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Le dio una golosina al perro con la boca… y terminó en juicio #shorts",
+  "description": "Una empleada de una cafetería en Seúl le ofreció a un perro una golosina sosteniéndola con la boca y el perro le mordió el labio. Un juez ordenó al seguro del dueño pagarle unos 63 millones de wones (cerca de 45 mil dólares): fue raro acercarse así, pero el dueño debió advertir del riesgo.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "perro",
+   "mordida",
+   "juicio",
+   "mascotas",
+   "historias reales",
+   "chisme"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/005/0001877751",
+ "facts_used": [
+  "2023년 7월 서울 종로구 카페에서 직원 A씨(당시 27세)가 손님 견주가 데려온 진도 믹스견에게 처음엔 손으로, 이후 간식을 입에 물고 얼굴을 들이밀었다가 입술을 물림 — 국민일보 https://www.kmib.co.kr/article/view.asp?arcid=9000021232 , 아시아경제 2026-10-09 https://view.asiae.co.kr/article/2026100915045546463 , 한국경제 2026-10-09 https://www.hankyung.com/article/2026100929687 , 서울경제 https://m.sedaily.com/article/20099940",
+  "왼쪽 윗입술 흉터, 입술 비대칭 — 국민일보, 아시아경제, 한국경제",
+  "A씨가 1억 원 청구, 서울중앙지법 민사87단독이 견주 측 보험사에 6321만3111원 지급 판결 — 국민일보, 아시아경제, 한국경제, 서울경제, 인사이트 https://www.insight.co.kr/news/577136",
+  "재판부: 입에 간식을 물고 얼굴을 들이미는 건 일반적 행동으로 보기 어렵지만, 견주는 목줄을 짧게 잡거나 얼굴을 가까이 대는 게 위험하다고 알렸어야 함 — 국민일보, 아시아경제, 한국경제"
+ ],
+ "brief": "lane A - Spanish rewrite of 썰가챠 2026-10-10-0700"
+}

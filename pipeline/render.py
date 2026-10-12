@@ -46,7 +46,8 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         print(f"  voice {i + 1}/{len(segments)}: {seg['text'][:40]}")
         res = tts.synthesize(
             seg.get("say") or seg["text"], work_dir / f"seg_{i:02d}.wav",
-            engine=cfg["engine"], voice=cfg["voice"], instruct=voice_instruct(cfg.get("instruct", ""), seg.get("tone"), cfg.get("instruct_persona", "")),
+            engine=cfg["engine"], voice=cfg["voice"], instruct=(cfg.get("rate", "+0%") if cfg["engine"] == "edge" else   # edge: speaking rate, no acting notes
+                      voice_instruct(cfg.get("instruct", ""), seg.get("tone"), cfg.get("instruct_persona", ""))),
             speed=float(cfg.get("speed", 1.0)), display=seg["text"], seed=7 + i)
         print(f"    {res.duration:.1f}s, match {res.match:.2f}")
         wavs.append(res.audio_path)
@@ -76,7 +77,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         clips.append(clip)
     print(f"  stock clips: {sum(1 for c in clips if c)}/{sum(1 for v in visuals if (v or {}).get('video'))}")
     html, cuts = motion.build(segments, visuals, times, cues, script["title_lines"], script.get("credit", ""),
-                              picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips)
+                              picker, repo / "assets" / "fonts" / "Anton-Regular.ttf", clips)
     page = work_dir / "motion.html"
     page.write_text(html, encoding="utf-8")
     print(f"  frames: {int(total * motion.FPS)} ({len(picker.used)} illustrations)")

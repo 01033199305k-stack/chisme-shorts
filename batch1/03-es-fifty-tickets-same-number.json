@@ -1,0 +1,308 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-fifty-tickets-same-number",
+ "title_lines": [
+  "Todo a un número",
+  "50 boletos iguales"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Compró 50 boletos con el mismo número",
+   "say": "Compró cincuenta boletos con el mismo número",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "Compró 50 boletos\ncon el mismo número",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Un señor en Estados Unidos compró 50 boletos, todos con el 0500.",
+   "say": "Un señor en Estados Unidos compró cincuenta boletos, todos con el cero cinco cero cero.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンビニ 買い物 男性",
+       "コンビニ 店員",
+       "コンビニ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎟️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "convenience store shelf",
+     "store shelves snacks",
+     "shop counter cashier"
+    ]
+   }
+  },
+  {
+   "text": "Pero repetir el número no sube tus probabilidades.",
+   "say": "Pero repetir el número no sube tus probabilidades.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サイコロ",
+       "サイコロ 転がる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Si no salía, perdía los 50 boletos de golpe.",
+   "say": "Si no salía, perdía los cincuenta boletos de golpe.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "紙くず",
+       "ゴミ 紙",
+       "落ち込む 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y llegó el sorteo.",
+   "say": "Y llegó el sorteo.",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "抽選 ガラガラ",
+       "抽選会",
+       "抽選"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "fade"
+     }
+    ],
+    "video": [
+     "lottery balls drawing",
+     "lottery machine balls",
+     "bingo balls spinning"
+    ]
+   }
+  },
+  {
+   "text": "¡Y el número ganador fue el 0500!",
+   "say": "¡Y el número ganador fue el cero cinco cero cero!",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "cam": "pull",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガッツポーズ 男性",
+       "喜ぶ 男性",
+       "ガッツポーズ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🎉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Ganó con los 50: 250 mil dólares en total.",
+   "say": "Ganó con los cincuenta: doscientos cincuenta mil dólares en total.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop",
+      "text": "💵"
+     },
+     {
+      "type": "emoji",
+      "text": "💰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "cash money counting",
+     "money bills dollars",
+     "dollar bills stack"
+    ]
+   }
+  },
+  {
+   "text": "Pero dice que nunca volverá a jugar ese número.",
+   "say": "Pero dice que nunca volverá a jugar ese número.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "断る 男性",
+       "首を振る 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tú harías lo mismo?",
+   "say": "¿Tú harías lo mismo?",
+   "sfx": "none",
+   "cap": "react",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Compró 50 boletos con el mismo número y pasó esto #shorts",
+  "description": "Un hombre de Carolina del Sur compró 50 boletos de la lotería Pick 4, todos con el 0-5-0-0. En el sorteo salió justo ese número: ganó 5 mil dólares por boleto, 250 mil en total. Dice que no volverá a jugarlo.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "lotería",
+   "suerte",
+   "estados unidos",
+   "ganador",
+   "historias reales",
+   "chisme"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202610120847410007",
+ "facts_used": [
+  "미국 사우스캐롤라이나주 로컨트리 남성이 서머빌 일대 편의점 여러 곳에서 픽4 복권을 0-5-0-0 같은 조합으로 50장 구매 — 파이낸셜뉴스 https://www.fnnews.com/news/202610120847410007 , 한국일보 https://www.hankookilbo.com/news/article/A2026101209230001428 , 아시아경제 https://view.asiae.co.kr/article/2026101114065315618",
+  "8월 18일 저녁 추첨 당첨 번호 0-5-0-0, 50장 모두 당첨, 장당 5000달러 총 25만 달러(약 3억3400만~3억5000만원) — 헤럴드경제 https://biz.heraldcorp.com/article/10899210 , 한국경제 https://www.hankyung.com/article/2026101248327 , 한국일보, 원보도 SC Education Lottery 발표(야후 뉴스 https://www.yahoo.com/news/articles/lowcountry-man-commits-same-numbers-150127059.html )",
+  "같은 번호를 여러 장 사도 당첨 확률은 오르지 않고, 빗나가면 전부 낙첨 — 한국일보·헤럴드경제",
+  "당첨자 '이 번호로는 아마 다시 안 할 것, 또 일어날 만큼 운이 좋지 않다' — 아시아경제, 야후 뉴스(SCEL 인용)"
+ ],
+ "brief": "lane A - Spanish rewrite of 썰가챠 2026-10-12-1800"
+}

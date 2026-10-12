@@ -1,0 +1,282 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-hungry-call-city-hall",
+ "title_lines": [
+  "Llevaba 3 días",
+  "sin comer"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Llevaba 3 días sin comer y llamó a la alcaldía",
+   "say": "Llevaba tres días sin comer y llamó a la alcaldía",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "Llevaba 3 días sin comer\ny llamó a la alcaldía",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En Corea, un funcionario contestó y salió corriendo con su propio ramen.",
+   "say": "En Corea, un funcionario contestó y salió corriendo con su propio ramen.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カップラーメン",
+       "カップ麺",
+       "ラーメン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "run-right"
+     }
+    ],
+    "video": [
+     "noodles cup instant",
+     "noodles ramen bowl",
+     "ramen soup bowl"
+    ]
+   }
+  },
+  {
+   "text": "Pero en todo el camino nunca colgó el teléfono.",
+   "say": "Pero en todo el camino nunca colgó el teléfono.",
+   "sfx": "question",
+   "visual": {
+    "bg": "sky",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 電話 男性",
+       "電話 男性",
+       "スマートフォン 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Un señor de 50 años que vive en un cuartito llevaba tres días sin comer.",
+   "say": "Un señor de cincuenta años que vive en un cuartito llevaba tres días sin comer.",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "visual": {
+    "bg": "room",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "空腹 男性",
+       "お腹が空いた 男性",
+       "お腹 空く"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "room small dark",
+     "bedroom small apartment",
+     "window rain room"
+    ]
+   }
+  },
+  {
+   "text": "¿Por qué no colgaba?",
+   "say": "¿Por qué no colgaba?",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "役所 職員",
+       "公務員",
+       "市役所"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Tenía miedo de que se desmayara por llevar tanto sin comer.",
+   "say": "Tenía miedo de que se desmayara por llevar tanto sin comer.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "倒れる 男性",
+       "めまい 男性",
+       "倒れる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Le llevó pan, leche y hasta comida de voluntarios.",
+   "say": "Le llevó pan, leche y hasta comida de voluntarios.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "食パン 牛乳",
+       "パン 牛乳",
+       "弁当"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🍱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "bread bakery loaf",
+     "milk bottle glass",
+     "sandwich bread"
+    ]
+   }
+  },
+  {
+   "text": "¿Tú habrías ido corriendo?",
+   "say": "¿Tú habrías ido corriendo?",
+   "sfx": "none",
+   "cap": "react",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Llevaba 3 días sin comer y llamó a la alcaldía #shorts",
+  "description": "Un domingo en Gwangju, Corea del Sur, un hombre de 50 años que vive solo en un cuarto diminuto llamó a la oficina de su distrito: llevaba tres días sin comer. El funcionario de guardia tomó el pan, la leche y el ramen que tenía para él y fue a verlo sin colgar, por si se desmayaba.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "corea",
+   "buenas personas",
+   "solidaridad",
+   "ramen",
+   "historias reales",
+   "chisme coreano"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/011/0004669884",
+ "facts_used": [
+  "2026년 9월 20일(일) 오전 11시쯤 광주 북구청 당직실로 고시원에 혼자 사는 50대 남성이 '사흘을 굶어 배가 너무 고프다'며 도움 요청 — 이데일리 https://www.edaily.co.kr/News/Read?newsId=06445206645610952 , 파이낸셜뉴스 2026-10-08 https://www.fnnews.com/news/202610081752416216 , 한국경제 2026-10-08 https://www.hankyung.com/article/2026100821997 , 서울경제 https://m.sedaily.com/article/20100041",
+  "전화 받은 복지정책팀장이 당직 중 먹으려 준비해 둔 빵·우유·컵라면을 챙겨 고시원으로 감, 장시간 굶어 쓰러지거나 의식을 잃을 가능성을 우려해 이동 중에도 통화를 이어가며 상태 확인 — 이데일리, 파이낸셜뉴스, 전남일보 https://www.jnilbo.com/news/articleView.html?idxno=90000071997 , 광주데일리뉴스 https://www.gjdaily.net/news/articleView.html?idxno=100908",
+  "지역 봉사자에게 연락해 도시락 추가 전달, 무료 식사 공간 안내·행정복지센터 연계 — 이데일리, 광주데일리뉴스"
+ ],
+ "brief": "lane K - Spanish rewrite of 썰가챠 2026-10-11-1800"
+}

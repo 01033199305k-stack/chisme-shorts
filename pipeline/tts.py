@@ -29,8 +29,9 @@ MAX_TAKES = 3
 # Qwen3-TTS often stops before the last syllable has died away (음/함/임 cut off).
 # Give it a throwaway tail after a pause so the real sentence ends naturally,
 # then cut inside that pause.
-TAIL = " ... 네."
-TTS_VERSION = "sent-v3"   # part of the take cache key: bump when generation changes
+TAIL = " ... sí."   # Spanish fork: a throwaway word the voice can say
+TTS_VERSION = "es-v1"   # part of the take cache key: bump when generation changes
+LANG = "es"          # whisper / TTS language (Chismepón: Latin American Spanish)
 
 
 @dataclass
@@ -98,12 +99,12 @@ def _gen_qwen(text: str, speaker: str, instruct: str, seed: int, out: Path) -> N
     import torch
     torch.manual_seed(seed)
     wavs, sr = _qwen_model().generate_custom_voice(
-        text=text, speaker=speaker, language="Korean", instruct=instruct or None)
+        text=text, speaker=speaker, language="Spanish", instruct=instruct or None)
     sf.write(str(out), wavs[0], sr)
 
 
 def _gen_voicebox(text: str, profile_id: str, instruct: str, seed: int, out: Path) -> None:
-    body = {"profile_id": profile_id, "text": text, "language": "ko", "seed": seed,
+    body = {"profile_id": profile_id, "text": text, "language": LANG, "seed": seed,
             "engine": "qwen_custom_voice"}
     if instruct:
         body["instruct"] = instruct
@@ -119,6 +120,18 @@ def _gen_voicebox(text: str, profile_id: str, instruct: str, seed: int, out: Pat
             raise RuntimeError(f"voicebox {gid}: {h.get('status')} {h.get('error')}")
         time.sleep(1)
     out.write_bytes(urllib.request.urlopen(f"{VOICEBOX_URL}/audio/{gid}", timeout=60).read())
+
+
+def _gen_edge(text: str, voice: str, rate: str, seed: int, out: Path) -> None:
+    """Microsoft Edge neural voice (es-MX-DaliaNeural ...): free, native accent, no
+    instruct. `rate` like "+15%" speeds it up without atempo artefacts."""
+    import asyncio
+
+    import edge_tts
+    mp3 = out.with_suffix(".mp3")
+    asyncio.run(edge_tts.Communicate(text, voice, rate=rate or "+0%").save(str(mp3)))
+    run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3), "-ar", "24000", "-ac", "1", str(out)])
+    mp3.unlink(missing_ok=True)
 
 
 def _map_words(display: str, heard: list[Word]) -> list[Word]:
@@ -223,6 +236,8 @@ def _norm(s: str) -> str:
     """Compare by sound, not spelling: whisper writes what it hears, and Korean
     liaison makes "한 말이 더 가관임" sound like "한 마리 더 가과님". Split syllables
     into jamo and drop the silent initial ㅇ, and the two become identical."""
+    import unicodedata
+    s = "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")   # á -> a, ñ -> n
     out = []
     for ch in re.sub(r"[^0-9A-Za-z가-힣]", "", s).lower():
         code = ord(ch) - 0xAC00
@@ -261,7 +276,7 @@ def synthesize(
     out_wav = Path(out_wav)
     out_wav.parent.mkdir(parents=True, exist_ok=True)
     display = display or text
-    gen = _gen_qwen if engine == "qwen" else _gen_voicebox
+    gen = {"qwen": _gen_qwen, "edge": _gen_edge}.get(engine, _gen_voicebox)
 
     # Same sentence, same voice settings -> reuse the take (re-renders and retries skip TTS)
     import hashlib
@@ -286,18 +301,19 @@ def synthesize(
 def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, seed, head_pad, tail_pad) -> TTSResult:
 
     best = None
-    for take in range(MAX_TAKES):
+    edge = gen is _gen_edge   # same text -> same audio, and it never swallows the last syllable
+    for take in range(1 if edge else MAX_TAKES):
         raw = out_wav.with_suffix(f".take{take}.wav")
         full = out_wav.with_suffix(f".take{take}.full.wav")
         sped = out_wav.with_suffix(f".take{take}.sped.wav")
-        gen(text + TAIL, voice, instruct, seed + take * 101, raw)
+        gen(text if edge else text + TAIL, voice, instruct, seed + take * 101, raw)
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw),
              "-af", f"atempo={speed:.3f}", "-ar", "24000", "-ac", "1", str(full)])
         raw.unlink(missing_ok=True)
-        _trim_tail(full, sped, _cut_tail(full))
+        _trim_tail(full, sped, None if edge else _cut_tail(full))
         full.unlink(missing_ok=True)
         _squeeze_pauses(sped)
-        segs, _ = _whisper_model().transcribe(_load16k(sped), language="ko", word_timestamps=True)
+        segs, _ = _whisper_model().transcribe(_load16k(sped), language=LANG, word_timestamps=True)
         heard = [Word(w.word.strip(), w.start, w.end)
                  for s in segs for w in (s.words or []) if w.word.strip()]
         match = _similarity(" ".join(w.text for w in heard), text, display)

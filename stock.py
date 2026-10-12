@@ -143,7 +143,8 @@ def _find(query: str, pixabay: str, pexels: str) -> list[dict]:
 
 
 def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: set | None = None) -> dict | None:
-    pixabay = os.environ.get("PIXABAY_API_KEY", "").strip()
+    keyfile = Path(__file__).resolve().parent / ".pixabay_key"   # PC: the key pasted into a gitignored file
+    pixabay = os.environ.get("PIXABAY_API_KEY", "").strip() or (keyfile.read_text(encoding="utf-8-sig").strip() if keyfile.exists() else "")
     pexels = os.environ.get("PEXELS_API_KEY", "").strip()
     if not (pixabay or pexels) or not query.strip():
         return None

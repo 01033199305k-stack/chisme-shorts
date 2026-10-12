@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""비밀값 등록 (처음 한 번, 또는 키·토큰을 바꿀 때). 본인 터미널에서 실행한다.
+"""Chismepón 비밀값 등록 (처음 한 번, 또는 키·토큰을 바꿀 때). 본인 터미널에서 실행한다.
 
     python setup.py
 
@@ -18,6 +18,7 @@ import sys
 import urllib.parse
 import urllib.request
 import webbrowser
+from pathlib import Path
 
 PORT = 8765
 REDIRECT = f"http://127.0.0.1:{PORT}"
@@ -87,10 +88,6 @@ def main():
     target = repo()
     print(f"저장소: {target}  (엔터 = 건너뛰기)\n")
 
-    key = getpass.getpass("Anthropic API 키 - 구독 예약 작업으로 대본을 쓰면 필요 없음, 엔터로 건너뛰기: ").strip()
-    if key:
-        set_secret("ANTHROPIC_API_KEY", key, target)
-
     cid = getpass.getpass("유튜브 OAuth 클라이언트 ID (새 프로젝트, ...apps.googleusercontent.com): ").strip()
     if cid:
         secret = getpass.getpass("유튜브 OAuth 클라이언트 보안 비밀번호: ").strip()
@@ -98,13 +95,10 @@ def main():
         set_secret("YOUTUBE_CLIENT_ID", cid, target)
         set_secret("YOUTUBE_CLIENT_SECRET", secret, target)
         set_secret("YOUTUBE_REFRESH_TOKEN", refresh, target)
-    pb = getpass.getpass("Pixabay API 키 (장면 배경 스톡 영상, 가입 후 https://pixabay.com/api/docs/ 에 표시됨): ").strip()
-    if pb:
-        set_secret("PIXABAY_API_KEY", pb, target)
-    px = getpass.getpass("Pexels API 키 (장면 배경 스톡 영상, https://www.pexels.com/api 에서 무료 발급): ").strip()
-    if px:
-        set_secret("PEXELS_API_KEY", px, target)
-    print("\n완료. 시험 실행: gh workflow run produce -R " + target + " -f dry_run=true")
+    keyfile = Path(__file__).resolve().parent / ".pixabay_key"   # 메모장에 넣어 둔 키를 그대로 올린다
+    if keyfile.exists() and keyfile.read_text(encoding="utf-8-sig").strip():
+        set_secret("PIXABAY_API_KEY", keyfile.read_text(encoding="utf-8-sig").strip(), target)
+    print("\n완료. 이제 Claude 에게 '끝났어' 라고 말하면 됩니다.")
 
 
 if __name__ == "__main__":
