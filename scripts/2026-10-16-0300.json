@@ -1,0 +1,288 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-safety-rope-clothesline",
+ "title_lines": [
+  "Le cortaron la cuerda",
+  "para tender la ropa"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Bajó del piso 30 y su cuerda estaba cortada",
+   "say": "Bajó del piso treinta y su cuerda estaba cortada",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロープ",
+       "命綱"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✂️",
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Fue un señor de 70 años en China, y su excusa es peor.",
+   "say": "Fue un señor de setenta años en China, y su excusa es peor.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "おじいさん",
+       "老人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "De una cuerda de 120 metros, faltaban más de 10.",
+   "say": "De una cuerda de ciento veinte metros, faltaban más de diez.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ハサミ",
+       "はさみ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "climbing rope",
+     "rope close up",
+     "cut rope"
+    ]
+   }
+  },
+  {
+   "text": "Se la llevó un vecino del segundo piso.",
+   "say": "Se la llevó un vecino del segundo piso.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マンション",
+       "アパート"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👉",
+      "pos": "bottom-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Y para qué la quería?",
+   "say": "¿Y para qué la quería?",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "探偵"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.2,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "No sabía que era de seguridad: la quería para tender ropa.",
+   "say": "No sabía que era de seguridad: la quería para tender ropa.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "洗濯物 干す",
+       "物干し",
+       "洗濯物"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "clothesline laundry",
+     "laundry drying outside",
+     "clothes hanging line"
+    ]
+   }
+  },
+  {
+   "text": "Por suerte, nadie estaba colgado en ese momento.",
+   "say": "Por suerte, nadie estaba colgado en ese momento.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "安心 男性",
+       "ほっとする"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El trabajador solo pidió unos 57 dólares.",
+   "say": "El trabajador solo pidió unos cincuenta y siete dólares.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop",
+      "text": "💵"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Lo dejarías en 57 dólares?",
+   "say": "¿Lo dejarías en cincuenta y siete dólares?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロープ",
+       "命綱"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Cobro y ya",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Hasta el final",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Le cortó la cuerda de seguridad para tender la ropa #shorts",
+  "description": "En China, un trabajador que reparaba la fachada de un edificio bajó desde el piso 30 y descubrió que le habían cortado más de 10 metros de su cuerda de seguridad. El responsable, un vecino de 70 años del segundo piso, dijo que no sabía que era equipo de seguridad y que la quería para tender la ropa. Nadie salió herido y el trabajador pidió 400 yuanes (unos 57 dólares).\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "china",
+   "vecinos",
+   "trabajo",
+   "insólito",
+   "historias reales",
+   "chisme"
+  ]
+ },
+ "source_post": "https://www.seoul.co.kr/news/international/2026/09/28/20260928500087",
+ "facts_used": [
+  "2026년 9월 17일 광둥성 포산 고층 건물, 외벽 보수 작업자가 30층에서 2층까지 내려와 안전로프 절단 발견 [머니투데이 2026.9.30, 한국경제 2026.9.30]",
+  "약 120m 로프 중 10m 넘게 잘림, 1층까지 작업 마무리 못 함 [머니투데이, 이데일리]",
+  "자른 사람은 2층 거주 70대 주민, 안전장비인 줄 몰랐고 빨랫줄로 쓰려 했다고 주장 [서울신문 2026.9.28, 아시아경제 2026.9.28]",
+  "당시 로프 사용자 없어 인명 피해 없음 [아시아경제, 한국경제]",
+  "보상금 400위안(약 8만 원) 요구 [머니투데이, 서울경제]"
+ ],
+ "brief": "lane A - Spanish rewrite of 썰가챠 2026-10-06-0700"
+}

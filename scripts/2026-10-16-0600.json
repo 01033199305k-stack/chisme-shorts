@@ -1,0 +1,299 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-delivery-coins-note",
+ "title_lines": [
+  "Le pagaron con monedas",
+  "y le dejaron una nota"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Le pagaron la comida con una bolsa de monedas",
+   "say": "Le pagaron la comida con una bolsa de monedas",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "硬貨 たくさん",
+       "小銭",
+       "硬貨"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En Corea, un repartidor recibió eso… pero lo fuerte fue la nota.",
+   "say": "En Corea, un repartidor recibió eso… pero lo fuerte fue la nota.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El cliente dejó el efectivo en la puerta.",
+   "say": "El cliente dejó el efectivo en la puerta.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "玄関 ドア",
+       "ドア"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Unos billetes y muchas monedas: unos 21 dólares.",
+   "say": "Unos billetes y muchas monedas: unos veintiún dólares.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "硬貨",
+      "count": 12,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.45
+     }
+    ],
+    "video": [
+     "coins pile",
+     "coins on table",
+     "small change coins"
+    ]
+   }
+  },
+  {
+   "text": "Y la nota decía esto:",
+   "say": "Y la nota decía esto:",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "メモ 書く",
+       "メモ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "«Está completo, lo conté más de diez veces.»",
+   "say": "«Está completo, lo conté más de diez veces.»",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お金 数える",
+       "数える 女性",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El repartidor dejó la comida… y también el dinero.",
+   "say": "El repartidor dejó la comida… y también el dinero.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "置き配",
+       "玄関 荷物",
+       "宅配便"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "food delivery door",
+     "delivery bag doorstep",
+     "food delivery rider"
+    ]
+   }
+  },
+  {
+   "text": "«Si rompiste tu alcancía, guárdalo. Tómalo como regalo.»",
+   "say": "«Si rompiste tu alcancía, guárdalo. Tómalo como regalo.»",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "豚の貯金箱",
+       "貯金箱"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "通帳",
+       "預金通帳"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.45,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💗",
+      "pos": "top",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tú habrías aceptado el dinero?",
+   "say": "¿Tú habrías aceptado el dinero?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "配達員 バイク",
+       "バイク 配達",
+       "配達員"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Lo acepto",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "② Lo dejo ahí",
+      "style": "row",
+      "pos": "bottom-right",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Le pagaron la comida con monedas… y la nota lo cambió todo #shorts",
+  "description": "En Seúl, un repartidor llevó un pedido y encontró el pago en la puerta: una bolsita con unos billetes y muchas monedas, unos 30 mil wones (cerca de 21 dólares), con una nota que decía «está completo, lo conté más de diez veces». Él dejó la comida y también el dinero, y escribió que lo tomaran como un regalo.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "corea",
+   "chisme coreano",
+   "repartidor",
+   "delivery",
+   "historias reales",
+   "buenas noticias"
+  ]
+ },
+ "source_post": "https://www.etnews.com/20261005000119",
+ "facts_used": [
+  "서울 관악구 판자촌 인근 배달 사연, 배달기사가 온라인 커뮤니티에 올림 — 머니투데이 2026-10-03 https://www.mt.co.kr/society/2026/10/03/2026100316560647906 , 서울신문 2026-10-03 https://www.seoul.co.kr/news/society/2026/10/03/20261003500009",
+  "주문자가 현금을 문 앞에 두겠다고 요청, 작은 지퍼백에 1000원 지폐 몇 장과 100원 동전 가득 — 헤럴드경제 https://biz.heraldcorp.com/article/10893047 , 매일신문 https://www.imaeil.com/page/view/2026100413292096458",
+  "메모 '3만원 맞아요. 열 번 넘게 셌어요' — 한국경제 https://www.hankyung.com/article/2026100318567 , 전자신문 https://www.etnews.com/20261005000119",
+  "돈과 음식을 그대로 두고 옴, '돼지저금통 깼으면 통장 직행해야지', '선물이라 생각하고' — 파이낸셜뉴스 https://fnnews.com/news/202610041101314934 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008782898"
+ ],
+ "brief": "lane K - Spanish rewrite of 썰가챠 2026-10-06-2100"
+}

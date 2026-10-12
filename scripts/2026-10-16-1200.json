@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-trash-bag-cash-finder",
+ "title_lines": [
+  "Abrió la basura",
+  "y había 18 mil dólares"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Abrió la basura y había 18 mil dólares",
+   "say": "Abrió la basura y había dieciocho mil dólares",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ゴミ袋",
+       "ゴミ袋 ゴミ",
+       "ゴミ"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "pos": "right",
+      "size": "l",
+      "at": 0.5,
+      "fx": "drop",
+      "text": "💵"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En Corea, un señor de 60 años que juntaba ropa vieja abrió una bolsa.",
+   "say": "En Corea, un señor de sesenta años que juntaba ropa vieja abrió una bolsa.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高齢者 男性",
+       "おじいさん",
+       "男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "古着",
+       "服"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.45,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "garbage bag street",
+     "trash bags sidewalk",
+     "garbage bags"
+    ]
+   }
+  },
+  {
+   "text": "Debajo de la ropa había fajos de billetes.",
+   "say": "Debajo de la ropa había fajos de billetes.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "古着",
+       "服"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "pos": "right",
+      "size": "l",
+      "at": 0.5,
+      "fx": "drop",
+      "text": "💵"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Lo entregó a la policía, que revisó cámaras y huellas.",
+   "say": "Lo entregó a la policía, que revisó cámaras y huellas.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "指紋",
+       "指紋 認証"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Avisos, puertas tocadas… y el dueño nunca apareció.",
+   "say": "Avisos, puertas tocadas… y el dueño nunca apareció.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": "警察官",
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "新聞",
+       "新聞 読む"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "police officer walking",
+     "police patrol street",
+     "police officers"
+    ]
+   }
+  },
+  {
+   "text": "Y así pasaron seis meses.",
+   "say": "Y así pasaron seis meses.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "日めくり カレンダー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Por ley, el dinero pasó a ser de quien lo encontró.",
+   "say": "Por ley, el dinero pasó a ser de quien lo encontró.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高齢者 男性",
+       "おじいさん",
+       "男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Le llegaron unos 13,700 dólares: le cobraron impuestos y el aviso.",
+   "say": "Le llegaron unos trece mil setecientos dólares: le cobraron impuestos y el aviso.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "通帳",
+       "銀行 通帳"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Suerte o te daría cosa?",
+   "say": "¿Suerte o te daría cosa?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Encontró 18 mil dólares en la basura y esto pasó #shorts",
+  "description": "En Incheon, Corea, un señor de 60 años que recogía ropa vieja abrió una bolsa de basura y encontró 25 millones de wones (unos 18 mil dólares) en fajos de billetes. Lo entregó a la policía, pero el dueño nunca apareció. Seis meses después el dinero pasó a ser suyo por ley: recibió unos 13,700 dólares tras descontar impuestos y el costo del aviso.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "corea",
+   "chisme coreano",
+   "dinero",
+   "honestidad",
+   "historias reales",
+   "chisme"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467449&_dcbest=1&page=1",
+ "facts_used": [
+  "2월 10일 인천 금곡동 빌라 옆 20L 종량제 봉투, 헌 옷 수거하던 60대가 현금 2500만원 발견·신고 [뉴시스·경기일보·서울신문 2026.10.2]",
+  "5만원권 100장씩 한국은행 띠지로 묶여 옷가지에 덮여 있었음 [경기일보·검색요약 다수]",
+  "CCTV·지문 감식·주변 수십 가구 탐문·유실물 공고에도 주인 미확인 [경기일보·뉴시스]",
+  "공고 6개월 후 소유권 발견자에게, 8월 세금·지역신문 공고 수수료 빼고 1923만원 입금 [경기일보·파이낸셜뉴스·뉴시스]"
+ ],
+ "brief": "lane K - Spanish rewrite of 썰가챠 2026-10-03-evening"
+}
