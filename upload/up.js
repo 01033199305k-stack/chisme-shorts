@@ -3,7 +3,7 @@
 // only presses Schedule when they all read back right - otherwise the upload stays a private draft.
 const M = __META__;
 const log = (...a) => console.log(...a);
-const r = await fetch('http://127.0.0.1:8765/' + M.file); const b = await r.arrayBuffer();
+const r = await fetch('http://127.0.0.1:8766/' + M.file); const b = await r.arrayBuffer();
 await fs.writeFile('v.mp4', new Uint8Array(b));
 const page = await openTab('https://studio.youtube.com/channel/UCyvXZyFPF3XP9jGb-KaWI_g/videos/upload?d=ud');
 await page.waitForSelector('input[type=file]', {state: 'attached', timeout: 20000});

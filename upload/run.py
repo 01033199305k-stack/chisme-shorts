@@ -45,7 +45,7 @@ def main() -> int:
     a = ap.parse_args()
     state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
     day = START + dt.timedelta(days=a.day - 1)
-    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 8765), functools.partial(
+    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 8766), functools.partial(
         http.server.SimpleHTTPRequestHandler, directory=str(VIDEOS)))
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     tpl = (ROOT / "upload" / "up.js").read_text(encoding="utf-8")
