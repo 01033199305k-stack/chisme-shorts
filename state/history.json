@@ -2012,5 +2012,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-12_1200_freezer-unplugged-phone-charge/video.mp4"
   },
   "seconds": 452
+ },
+ {
+  "key": "2026-10-12-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-12T18:00:00+09:00",
+  "started": "2026-10-12T15:22:55.893235+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-130651/",
+   "https://pixabay.com/videos/id-50622/"
+  ],
+  "duration": 22.27,
+  "matches": [
+   0.92,
+   0.8,
+   1.0,
+   0.97,
+   1.0,
+   0.91,
+   1.0,
+   0.96,
+   0.96
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "복권 50장을 전부 같은 번호로 산 남자의 결말 #shorts",
+  "source_post": "https://www.fnnews.com/news/202610120847410007",
+  "facts_used": [
+   "미국 사우스캐롤라이나주 로컨트리 남성이 서머빌 일대 편의점 여러 곳에서 픽4 복권을 0-5-0-0 같은 조합으로 50장 구매 — 파이낸셜뉴스 https://www.fnnews.com/news/202610120847410007 , 한국일보 https://www.hankookilbo.com/news/article/A2026101209230001428 , 아시아경제 https://view.asiae.co.kr/article/2026101114065315618",
+   "8월 18일 저녁 추첨 당첨 번호 0-5-0-0, 50장 모두 당첨, 장당 5000달러 총 25만 달러(약 3억3400만~3억5000만원) — 헤럴드경제 https://biz.heraldcorp.com/article/10899210 , 한국경제 https://www.hankyung.com/article/2026101248327 , 한국일보, 원보도 SC Education Lottery 발표(야후 뉴스 https://www.yahoo.com/news/articles/lowcountry-man-commits-same-numbers-150127059.html )",
+   "같은 번호를 여러 장 사도 당첨 확률은 오르지 않고, 빗나가면 전부 낙첨 — 한국일보·헤럴드경제",
+   "당첨자 '이 번호로는 아마 다시 안 할 것, 또 일어날 만큼 운이 좋지 않다' — 아시아경제, 야후 뉴스(SCEL 인용)"
+  ],
+  "slug": "2026-10-12_1800_same-number-fifty-lottery-tickets",
+  "late": false,
+  "video_id": "9OTdKJFnPpg",
+  "url": "https://youtube.com/shorts/9OTdKJFnPpg",
+  "privacy": "private",
+  "scheduled_for": "2026-10-12T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acc7e4aa9411fbcc571bae4",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-12T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-12_1800_same-number-fifty-lottery-tickets/video.mp4"
+  },
+  "seconds": 397
  }
 ]
