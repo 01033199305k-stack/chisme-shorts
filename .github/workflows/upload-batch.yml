@@ -1,0 +1,48 @@
+# 1차 시험 10편 (PC 에서 렌더·검수한 mp4) 을 하루 4편씩 유튜브 API 로 예약 공개.
+# mp4 는 릴리스 batch1 에 붙어 있다. 일정은 uploader/run.py 의 PLAN (멕시코시티 12·15·18·21시 = 한국 03·06·09·12시).
+name: upload-batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: "몇 일차 (1·2·3)"
+        required: true
+        default: "1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: upload-batch
+  cancel-in-progress: false
+
+jobs:
+  upload:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: mp4 받기 (릴리스 batch1)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download batch1 -D videos -p "*.mp4"
+      - name: 예약 업로드
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: python uploader/api_batch.py --day "${{ inputs.day }}" --dir videos
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "chisme-shorts-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state/batch1.json 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git commit -q -m "state: batch1 day ${{ inputs.day }}"
+          git pull -q --rebase origin main && git push -q origin HEAD:main

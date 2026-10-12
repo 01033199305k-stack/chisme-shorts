@@ -69,6 +69,9 @@ STORIES = [
           "Dice que no volverá a jugarlo.",
           ["lotería", "suerte", "estados unidos", "ganador", "historias reales", "chisme"])),
  dict(src="2026-10-09-0700", n="04", lane="A", slug="es-wallet-lost-51-years",
+      # Pixabay gave a basketball court for "floor wooden boards" and 500-euro notes for "dollar bills"
+      patch={1: {"video": ["carpenter working wood", "woodworking hands", "carpenter hammer"]},
+             3: {"video": ["american dollar bill", "us dollar banknote", "one dollar bill"]}},
       title=["Su cartera de 1975", "apareció bajo el piso"],
       lines=["Abrieron una cartera\nperdida hace 51 años",
              "Un carpintero en Canadá encontró bajo el piso una cartera de 1975.",

@@ -67,8 +67,12 @@ def oauth(client_id: str, client_secret: str) -> str:
     data = urllib.parse.urlencode({"code": code_box["code"], "client_id": client_id,
                                    "client_secret": client_secret, "redirect_uri": REDIRECT,
                                    "grant_type": "authorization_code"}).encode()
-    with urllib.request.urlopen("https://oauth2.googleapis.com/token", data=data, timeout=30) as r:
-        tok = json.loads(r.read())
+    try:
+        with urllib.request.urlopen("https://oauth2.googleapis.com/token", data=data, timeout=30) as r:
+            tok = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        sys.exit(f"토큰 교환 실패 ({e.code}): {e.read().decode(errors='replace')[:200]}\n"
+                 "invalid_client 면 클라이언트 ID·비밀번호가 안 맞는 것 - 클라이언트 JSON 을 다시 받아 실행하세요.")
     if "refresh_token" not in tok:
         sys.exit("refresh_token 이 오지 않았습니다. 구글 계정 → 보안 → 서드파티 액세스에서 앱을 지우고 다시 실행하세요.")
     req = urllib.request.Request("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true",
@@ -76,7 +80,10 @@ def oauth(client_id: str, client_secret: str) -> str:
     with urllib.request.urlopen(req, timeout=30) as r:
         items = json.loads(r.read()).get("items", [])
     name = items[0]["snippet"]["title"] if items else "(채널 없음)"
-    if input(f"\n로그인된 채널: 「{name}」 - 이 채널에 올리면 됩니까? (y/n) ").strip().lower() != "y":
+    print(f"\n로그인된 채널: 「{name}」")
+    if name == "Chismepón":   # 2026-10-13: 터미널 패널이 안 보여 y 를 못 누름 - 이 채널이면 묻지 않는다
+        return tok["refresh_token"]
+    if input("이 채널에 올리면 됩니까? (y/n) ").strip().lower() != "y":
         sys.exit("취소했습니다. 다시 실행해서 올바른 채널을 고르세요.")
     return tok["refresh_token"]
 
@@ -88,13 +95,23 @@ def main():
     target = repo()
     print(f"저장소: {target}  (엔터 = 건너뛰기)\n")
 
-    cid = getpass.getpass("유튜브 OAuth 클라이언트 ID (새 프로젝트, ...apps.googleusercontent.com): ").strip()
+    # 2026-10-13: 비밀번호 칸 붙여넣기가 Windows 에서 자꾸 빠져(401) 다운로드한 클라이언트 JSON 을 먼저 찾는다
+    found = sorted((Path.home() / "Downloads").glob("client_secret_*.json"), key=lambda p: p.stat().st_mtime)
+    if found:
+        c = json.loads(found[-1].read_text(encoding="utf-8"))
+        c = c.get("installed") or c.get("web") or {}
+        cid, secret = c.get("client_id", ""), c.get("client_secret", "")
+        print(f"다운로드 폴더의 {found[-1].name} 을 씁니다.")
+    else:
+        cid = input("유튜브 OAuth 클라이언트 ID (...apps.googleusercontent.com, 붙여넣기는 마우스 오른쪽 클릭): ").strip()
+        secret = getpass.getpass("보안 비밀번호 (마우스 오른쪽 클릭으로 붙여넣기 - 화면엔 안 보임): ").strip() if cid else ""
     if cid:
-        secret = getpass.getpass("유튜브 OAuth 클라이언트 보안 비밀번호: ").strip()
         refresh = oauth(cid, secret)
         set_secret("YOUTUBE_CLIENT_ID", cid, target)
         set_secret("YOUTUBE_CLIENT_SECRET", secret, target)
         set_secret("YOUTUBE_REFRESH_TOKEN", refresh, target)
+        for f in found:   # 비밀번호가 든 파일은 남기지 않는다
+            f.unlink(missing_ok=True)
     keyfile = Path(__file__).resolve().parent / ".pixabay_key"   # 메모장에 넣어 둔 키를 그대로 올린다
     if keyfile.exists() and keyfile.read_text(encoding="utf-8-sig").strip():
         set_secret("PIXABAY_API_KEY", keyfile.read_text(encoding="utf-8-sig").strip(), target)

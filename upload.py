@@ -52,7 +52,7 @@ def upload(video_path: str, title: str, description: str, tags: list[str],
     meta = {
         "snippet": {"title": title[:100], "description": description[:4900],
                     "tags": tags[:15], "categoryId": "24",          # 엔터테인먼트
-                    "defaultLanguage": "ko", "defaultAudioLanguage": "ko"},
+                    "defaultLanguage": "es", "defaultAudioLanguage": "es"},   # Chismepón: Spanish
         "status": status,
     }
     with open(video_path, "rb") as fp:

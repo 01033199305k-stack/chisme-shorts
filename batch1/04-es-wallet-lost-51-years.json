@@ -34,9 +34,9 @@
     "bg": "white",
     "cam": "punch",
     "video": [
-     "floor wooden boards",
-     "wood floor renovation",
-     "hammer nails wood"
+     "carpenter working wood",
+     "woodworking hands",
+     "carpenter hammer"
     ],
     "items": [
      {
@@ -100,9 +100,9 @@
     "bg": "white",
     "tr": "whoosh",
     "video": [
-     "dollar bills",
-     "money cash counting",
-     "cash banknotes"
+     "american dollar bill",
+     "us dollar banknote",
+     "one dollar bill"
     ],
     "items": [
      {

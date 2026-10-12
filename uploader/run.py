@@ -1,8 +1,8 @@
 """Schedule one day's Chismepón uploads in YouTube Studio through the Aside browser.
 
-    python upload/run.py --day 1            # uploads day 1's videos, scheduled
-    python upload/run.py --day 1 --only 03  # just one
-    python upload/run.py --day 1 --draft    # stop before Schedule (private draft)
+    python uploader/run.py --day 1            # uploads day 1's videos, scheduled
+    python uploader/run.py --day 1 --only 03  # just one
+    python uploader/run.py --day 1 --draft    # stop before Schedule (private draft)
 
 4 a day at 12/15/18/21 h Mexico City = 03/06/09/12 h KST. Universal (A) and Korea (K)
 stories alternate so the two lanes get the same slots. State: upload/state.json.
@@ -21,8 +21,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 VIDEOS = Path.home() / "Desktop" / "Chismepón 1차"
-ASIDE = Path(os.environ["LOCALAPPDATA"]) / "Aside" / "CLI" / "current" / "aside.exe"
-STATE = ROOT / "upload" / "state.json"
+ASIDE = Path(os.environ.get("LOCALAPPDATA", ".")) / "Aside" / "CLI" / "current" / "aside.exe"
+STATE = ROOT / "uploader" / "state.json"
 SLOTS_KST = [3, 6, 9, 12]
 PLAN = {   # day -> batch1 numbers, A/K alternating
     1: ["03", "06", "02", "07"],
@@ -48,7 +48,7 @@ def main() -> int:
     srv = http.server.ThreadingHTTPServer(("127.0.0.1", 8766), functools.partial(
         http.server.SimpleHTTPRequestHandler, directory=str(VIDEOS)))
     threading.Thread(target=srv.serve_forever, daemon=True).start()
-    tpl = (ROOT / "upload" / "up.js").read_text(encoding="utf-8")
+    tpl = (ROOT / "uploader" / "up.js").read_text(encoding="utf-8")
     for n, hour in zip(PLAN[a.day], SLOTS_KST):
         if a.only and n != a.only:
             continue
