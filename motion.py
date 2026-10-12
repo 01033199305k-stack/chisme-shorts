@@ -18,6 +18,13 @@ Segment visual spec (script v2):
         {"type": "crowd", "q": "男の子", "count": 12, "pos": "center", "at": 0.2},
         {"type": "emoji", "text": "💥", "pos": "right", "size": "m", "at": 0.6, "fx": "shake"}]}
 Old v1 "card" specs are converted by card_to_visual().
+
+2026-10-12 @통찰맨 look: "bg" may name a place photo (assets/places/<bg>.jpg - office, hospital,
+street...) and the scene's people then stand in it, big and cut off by the panel's bottom edge.
+Story props are drawn here, not searched for: {"type": "doc", "title": "계약서", "lines": [...],
+"mark": 1} (paper with a red circle drawn round line `mark`), {"type": "sms", "from": "회사",
+"lines": [...]} (phone with text bubbles), {"type": "price", "label": "냉장고", "old": "135만 원",
+"new": "108만 원"} and {"type": "warn"} (big yellow warning sign over a greyed-out scene).
 """
 import datetime as dt
 import html as _html
@@ -49,6 +56,9 @@ BG = {
     "night": "linear-gradient(180deg,#1b2440 0%,#0b1020 100%)",
     "red": "radial-gradient(circle at 50% 45%,#ff6b6b 0%,#c81e1e 100%)",
 }
+PLACES_DIR = Path(__file__).resolve().parent / "assets" / "places"   # CC0 photos, blurred (CREDITS.md)
+PLACES = sorted(x.stem for x in PLACES_DIR.glob("*.jpg"))
+PROPS = {"doc", "sms", "price", "warn"}
 SHAKE_SFX = {"punch", "stamp", "exclaim"}
 CAPTION_LIKE = {"label", "small", "bubble", "red", "big", "stamp"}   # dropped: they repeat the caption
 
@@ -280,6 +290,36 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 #cap .box.react { font-family:BH, sans-serif; font-size:108px; }
 #cap .react .ol { color:#111; -webkit-text-stroke:24px #111; }
 #cap .react .fg { color:#fff; }
+/* @통찰맨 (2026-10-12): a place photo behind the scene - inside .sc so it zooms and slides with it */
+.pbg { position:absolute; left:-30px; top:-30px; width:1140px; height:1020px; background-size:cover;
+  background-position:center; z-index:0; }
+.pbg.gray { filter:grayscale(1) brightness(.72); }
+.on-place img { filter:drop-shadow(0 10px 18px rgba(0,0,0,.35)); }
+/* story props: a paper document, a phone with text bubbles, a price tag, a warning sign */
+.doc { background:#fff; color:#111; border-radius:6px; padding:46px 54px 0; box-shadow:0 18px 40px rgba(0,0,0,.35);
+  font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif; font-weight:700; display:flex; flex-direction:column;
+  align-items:center; clip-path:polygon(0 0,100% 0,100% calc(100% - 70px),calc(100% - 70px) 100%,0 100%); }
+.doc .dt { font-family:BH, sans-serif; font-weight:400; font-size:120px; letter-spacing:4px; margin-bottom:26px; }
+.doc .dl { font-size:56px; line-height:1.55; position:relative; white-space:nowrap; }
+.doc .mk { position:absolute; left:-30px; top:-14px; width:calc(100% + 60px); height:calc(100% + 28px); overflow:visible; }
+.doc .mk ellipse { fill:none; stroke:#e01e1e; stroke-width:9; stroke-linecap:round; }
+.doc .fold { position:absolute; right:0; bottom:0; width:70px; height:70px;
+  background:linear-gradient(135deg,#d9d9d9 0%,#f4f4f4 50%,transparent 50%); }
+.sms { background:#111; border-radius:64px; padding:26px; box-shadow:0 18px 40px rgba(0,0,0,.4); }
+.sms .scr { width:100%; height:100%; background:#1c1c1e; border-radius:44px; padding:38px 30px; display:flex; flex-direction:column;
+  font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif; color:#fff; }
+.sms .hd { text-align:center; font-size:36px; color:#aaa; margin-bottom:8px; }
+.sms .who { text-align:center; font-size:54px; font-weight:700; margin-bottom:34px; }
+.sms .bb { align-self:flex-start; background:#3a3a3c; border-radius:30px; padding:22px 32px; font-size:62px; line-height:1.35;
+  margin-bottom:18px; max-width:100%; white-space:nowrap; }
+.price { background:#fff; border-radius:22px; border:8px solid #111; box-shadow:0 16px 36px rgba(0,0,0,.35); color:#111;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; font-family:BH, sans-serif; font-weight:400; }
+.price .pl { font-size:76px; margin-bottom:10px; }
+.price .po { font-size:70px; color:#888; text-decoration:line-through; text-decoration-color:#e01e1e; text-decoration-thickness:8px; }
+.price .pn { font-size:130px; color:#e01e1e; line-height:1.1; }
+.warn .tri { position:absolute; inset:0; background:#111; clip-path:polygon(50% 0,100% 92%,0 92%); }
+.warn .tri2 { position:absolute; inset:0; background:#FFD400; clip-path:polygon(50% 9%,93.5% 88%,6.5% 88%); }
+.warn .ex { position:absolute; left:0; right:0; top:30%; text-align:center; font-family:BH, sans-serif; color:#111; }
 /* white flash for a reveal cut, and the sparkle stars of fx 'sparkle' */
 #flash { position:absolute; inset:0; background:#fff; opacity:0; z-index:8; pointer-events:none; }
 .spk { position:absolute; width:96px; height:96px; margin:-48px 0 0 -48px; background:#FFF6B0; opacity:0;
@@ -331,6 +371,8 @@ function item(el, d, t, s) {
       st.style.opacity = (C(life * 4) * fade * (.25 + .75 * a)).toFixed(3);
       st.style.transform = `scale(${(.35 + .85 * a).toFixed(3)}) rotate(${(life * 60 + m * 40) % 360}deg)`; });
   }
+  const mk = d.type === 'doc' ? el.querySelector('.mk ellipse') : null;
+  if (mk) mk.style.strokeDashoffset = (1 - eo((life - .55) / .45)).toFixed(3);   // red circle drawn after the paper lands
   // idle life: illustrations breathe so nothing on screen is ever frozen
   if (d.type === 'illust' || d.type === 'emoji') { y += Math.sin(life * 2.4 + d.seed) * 6; sc *= 1 + Math.sin(life * 1.7 + d.seed) * .012; }
   el.style.opacity = op;
@@ -375,7 +417,7 @@ window.render = function (t) {
     el.style.opacity = op;
     el.style.zIndex = out ? 0 : 1;
     if (out) { s.items.forEach((d, j) => item(el.children[j], d, t, s)); return; }
-    panel.style.background = s.bg;
+    panel.style.background = s.place ? '#000' : s.bg;
     credit.className = s.dark ? 'dark' : '';
     if (s.clip) {   // stock clip: next frame (loops if the sentence outlasts the clip)
       const k = Math.floor(Math.max(0, t - (s.start - D.lead)) * D.fps) % s.clip.n + 1;
@@ -528,7 +570,7 @@ def title_size(lines) -> int:
     return max(64, min(130, int(1000 / (0.76 * max(1, longest)))))
 
 
-def _hero(items: list, has_clip: bool, picker=None) -> list:
+def _hero(items: list, has_clip: bool, picker=None, place: bool = False) -> list:
     """Reference look: one big picture owns the panel. A scene's lone illustration grows to
     l/xl and moves to the centre; a picture-less scene blows its first emoji up instead of
     leaving a small icon in an empty white box. Two pictures go side by side at m or larger.
@@ -546,6 +588,17 @@ def _hero(items: list, has_clip: bool, picker=None) -> list:
     if post:   # the post card is the whole scene: centred, nothing else competes with it
         post["pos"], post["dx"], post["dy"] = "center", 0, 0
         return [post] + [it for it in items if it.get("type") == "emoji"][:1]
+    props = [it for it in items if it.get("type") in PROPS]
+    if props and not has_clip:   # @통찰맨: the paper/phone/tag is the scene - one person may peek in from the side
+        prop = props[0]
+        if prop.get("type") == "warn":
+            return [dict(prop, pos="center", dx=0, dy=0)]
+        prop["pos"], prop["dx"], prop["dy"] = "center", 0, 0
+        pics = [it for it in items if it.get("type") == "illust"][:1]
+        for it in pics:
+            it["size"], it["pos"], it["dx"], it["dy"] = "m", "bottom-right", 0, 0
+            prop["dx"] = -110
+        return [prop] + pics
     if has_clip:   # the footage is the scene's picture: one small sticker in a corner, never an xl picture over it
         pics = [it for it in items if it.get("type") in ("illust", "crowd")]
         for it in pics[:1]:
@@ -564,6 +617,13 @@ def _hero(items: list, has_clip: bool, picker=None) -> list:
             it["pos"], it["dx"], it["dy"] = "center", 0, (k - (len(rows) - 1) / 2) * 170
     if len(pics) == 1 and rows:
         pics[0]["size"], pics[0]["pos"], pics[0]["dx"], pics[0]["dy"] = "s", "bottom-right", 0, 0
+    elif place and pics and all(it.get("type") == "illust" for it in pics):
+        # @통찰맨: people stand in the photo, big, feet cut off by the panel's bottom edge
+        for it, side in zip(pics, ("center",) if len(pics) == 1 else ("left", "right")):
+            it["size"], it["pos"], it["dx"], it["dy"], it["stand"] = ("xl" if len(pics) == 1 else "l"), side, 0, 0, True
+        for it in others:
+            if it.get("type") == "emoji" and it.get("pos", "center") in ("center", "left", "right", "bottom"):
+                it["pos"] = "top-right"
     elif len(pics) == 1 and pics[0].get("type") == "illust":
         hero = pics[0]
         hero["size"] = "xl" if len(others) <= 1 else "l"
@@ -595,15 +655,55 @@ def _stars(w: int, h: int, d: dict) -> str:
     return "".join(out)
 
 
+def _prop(it: dict, d: dict) -> tuple[int, int, str]:
+    """HTML for a story prop (@통찰맨): returns (width, height, inner html)."""
+    typ = it.get("type")
+    lines = [str(x) for x in (it.get("lines") or [])][:4]
+    if typ == "doc":
+        longest = max([len(x) for x in lines] + [1])
+        fs = min(76, int(640 / (0.95 * longest)))
+        mark = it.get("mark")
+        rows = []
+        for n, x in enumerate(lines):
+            ring = ('<svg class="mk" viewBox="0 0 100 100" preserveAspectRatio="none"><ellipse cx="50" cy="50" rx="48" ry="44" '
+                    'pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" vector-effect="non-scaling-stroke"/></svg>') if mark == n else ""
+            rows.append(f'<div class="dl" style="font-size:{fs}px">{esc(x)}{ring}</div>')
+        h = int(46 + 120 * 1.25 + 26 + fs * 1.55 * max(1, len(lines)) + 100)
+        d["rot"] = -3
+        return 760, h, f'<div class="dt">{esc(it.get("title", "계약서"))}</div>{"".join(rows)}<div class="fold"></div>'
+    if typ == "sms":
+        bubbles = "".join(f'<div class="bb" style="font-size:{min(62, int(500 / (0.98 * max(1, len(x)))))}px">{esc(x)}</div>'
+                          for x in lines[:3])
+        return 640, 720, (f'<div class="scr"><div class="hd">{esc(it.get("head", "문자 메시지"))}</div>'
+                          f'<div class="who">{esc(it.get("from", ""))}</div>{bubbles}</div>')
+    if typ == "price":
+        old = f'<div class="po">{esc(it["old"])}</div>' if it.get("old") else ""
+        new = str(it.get("new", ""))
+        fs = min(130, int(640 / (0.8 * max(1, len(new)))))
+        return 720, (520 if old else 420), (f'<div class="pl">{esc(it.get("label", ""))}</div>{old}'
+                                            f'<div class="pn" style="font-size:{fs}px">{esc(new)}</div>')
+    # warn
+    return 700, 640, '<div class="tri"></div><div class="tri2"></div><div class="ex" style="font-size:330px">!</div>'
+
+
 def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None) -> tuple[str, list]:
     """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)],
     clips: per scene None or {dir, n} from stock.clip_frames (background footage)."""
     scenes_html, scenes_data = [], []
     clips = clips or [None] * len(segments)
+    last_place = None
     for i, (seg, vis, (st, en)) in enumerate(zip(segments, visuals, times)):
         items = vis.get("items") or [{"type": "emoji", "text": "🤔", "pos": "center", "size": "l", "fx": "pop"}]
-        items = _hero(items, bool(clips[i] if i < len(clips) else None), picker) or             [{"type": "emoji", "text": "🤔", "pos": "center", "size": "xl", "fx": "pop"}]
         bg_key = vis.get("bg", "white")
+        has_clip = bool(clips[i] if i < len(clips) else None)
+        kinds = {it.get("type") for it in items}
+        if bg_key not in PLACES and not has_clip and kinds & PROPS:
+            # a warning sign greys out the place we were just in; papers and phones lie on a desk
+            bg_key = last_place if "warn" in kinds and last_place else "desk" if "desk" in PLACES else bg_key
+        place = bg_key if bg_key in PLACES and not has_clip else None
+        last_place = place or last_place
+        items = _hero(items, has_clip, picker, bool(place)) or \
+            [{"type": "emoji", "text": "🤔", "pos": "center", "size": "xl", "fx": "pop"}]
         parts, data = [], []
         pics = {}
         floor = _item_floor(cues, st, en)                    # words stay above the caption box
@@ -629,7 +729,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 if h > room:   # taller than the space above the caption: shrink, keep the shape
                     w, h = _fit(path, int(side * room / h))
                 d.update(w=w, h=h)
-                parts.append(f'<div class="it" style="width:{w}px;height:{h}px;z-index:{Z[typ]}">'
+                parts.append(f'<div class="it{" on-place" if place else ""}" style="width:{w}px;height:{h}px;z-index:{Z[typ]}">'
                              f'<img src="{file_url(path)}">{_stars(w, h, d)}</div>')
             elif typ == "crowd":
                 n = max(2, min(40, int(it.get("count", 10))))
@@ -640,6 +740,12 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 kids = "".join(f'<img src="{file_url(path)}" style="width:{cell}px;height:{cell}px;object-fit:contain;'
                                f'position:absolute;left:{(k % cols) * cell}px;top:{(k // cols) * cell}px">' for k in range(n))
                 parts.append(f'<div class="it" style="width:{d["w"]}px;height:{d["h"]}px;z-index:{Z["crowd"]}">{kids}</div>')
+            elif typ in PROPS:
+                w, h, inner = _prop(it, d)
+                d.update(w=w, h=h, type=typ)
+                if typ != "warn":
+                    d["fx"] = it.get("fx") or ("slide-left" if typ in ("doc", "sms") else "pop")
+                parts.append(f'<div class="it {typ}" style="width:{w}px;height:{h}px;z-index:2">{inner}</div>')
             elif typ == "emoji":
                 side = min(int(SIZE.get(it.get("size", "m"), 400) * 0.8), int(room))
                 d.update(w=side, h=side)
@@ -674,21 +780,32 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
             # (drop starts 420 px above its resting place, so clamping the rest position is enough)
             fl = pfloor if d["type"] != "text" and d["h"] >= 420 else floor   # small stickers stay in view
             d["y"] = min(max(d["y"], d["h"] / 2 + 24), max(fl - d["h"] / 2, d["h"] / 2 + 24))
+            if it.get("stand") and d["type"] == "illust":
+                d["y"] = PANEL_H - d["h"] / 2 + 70   # standing in the photo: the panel edge cuts the feet
+            elif d["type"] == "warn":
+                d["y"] = 430
+            elif d["type"] in PROPS:   # papers sit high: the caption box covers the panel's bottom
+                d["y"] = max(d["h"] / 2 + 20, min(PANEL_H / 2 - 40, floor - d["h"] / 2))
             margin = 60 if d["fx"] == "stamp" else 10   # a stamp lands rotated ~9 deg - its corners swing out
             d["x"] = min(max(d["x"], d["w"] / 2 + margin), W - d["w"] / 2 - margin) if d["w"] < W - 2 * margin else W / 2
             data.append(d)
         _unstack(data, floor)
-        _separate(parts, data, pics, floor, pfloor)
+        if not place:   # standing people are anchored to the bottom edge on purpose
+            _separate(parts, data, pics, floor, pfloor)
         clip = clips[i] if i < len(clips) else None
         if clip:   # after the items so el.children[j] still indexes them
             base = file_url(Path(clip["dir"]) / "f_")
             parts.append(f'<img class="bgv" src="{base}0001.jpg"><div class="tag">자료화면</div>')
+        elif place:   # after the items too (el.children[j] indexes them); z-index 0 keeps it underneath
+            gray = " gray" if any(d["type"] == "warn" for d in data) else ""
+            url = file_url(PLACES_DIR / (place + ".jpg"))
+            parts.append(f'<div class="pbg{gray}" style="background-image:url(&quot;{url}&quot;)"></div>')
         scenes_html.append(f'<div class="sc">{"".join(parts)}</div>')
         # camera: a shouted line punches in on the main picture unless the script says otherwise
         cam_mode = vis.get("cam") or ("punch" if seg.get("cap") == "shout" else "")
         hero = next((d for d in data if d["type"] in ("illust", "crowd", "emoji")), None)
         scenes_data.append({"start": st, "end": en, "items": data, "bg": BG.get(bg_key, BG["white"]),
-                            "dark": bg_key in ("night", "red"), "shake": seg.get("sfx") in SHAKE_SFX,
+                            "dark": bg_key in ("night", "red") or bool(place), "place": place, "shake": seg.get("sfx") in SHAKE_SFX,
                             "cam": cam_mode if cam_mode in CAMS else "", "tr": vis.get("tr") if vis.get("tr") in TRS else "",
                             "focus": [round(hero["x"]), round(min(hero["y"], 600))] if hero else [540, 430],
                             "clip": {"base": base, "n": clip["n"]} if clip else None})

@@ -7,6 +7,7 @@ No third-party imports, so the cloud routine can run it as-is.
 """
 import json
 import re
+from pathlib import Path
 import sys
 
 SFX = ["none", "whoosh", "dudung", "punch", "exclaim", "stamp", "question", "absurd"]
@@ -16,7 +17,13 @@ CARD_FIELDS = ["kind", "theme", "emoji", "label", "sub", "value", "lines", "who"
 NEEDS = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"], "stamp": ["word"], "list": ["head", "items"]}
 
 # v2 visual (motion.py): いらすとや scenes built up item by item
-V_TYPES = ["illust", "text", "emoji", "crowd"]
+V_TYPES = ["illust", "text", "emoji", "crowd", "doc", "sms", "price", "warn"]
+# 2026-10-12 @통찰맨 look: story props drawn by the renderer (motion._prop) and place photos behind the people
+PROPS = ["doc", "sms", "price", "warn"]
+PLACES = sorted(x.stem for x in (Path(__file__).resolve().parent / "assets" / "places").glob("*.jpg"))
+# photos that look Korean (Seoul crosswalk, apartment blocks, a covered market) - wrong behind a story abroad
+KOREAN_PLACES = ["street", "apartment", "market"]
+ABROAD = re.compile(r"미국|일본|중국|영국|호주|캐나다|독일|프랑스|이탈리아|스페인|러시아|인도|태국|베트남|대만|필리핀|브라질|멕시코|뉴질랜드")
 # いらすとや draws these as Japan-specific pictures - fine for a story set in Japan,
 # wrong for a Korean story (2026-10-12: a Seoul->Jeonju story showed a map of Japan)
 JP_ONLY_WORDS = ["日本", "地図", "日の丸", "国旗", "都道府県", "東京", "富士山", "神社", "鳥居", "着物", "和服", "新幹線", "円"]
@@ -27,7 +34,7 @@ V_FX = ["pop", "drop", "slide-left", "slide-right", "zoom", "fade", "shake", "st
 CAPS = ["narr", "hit", "quote", "shout", "sweet", "react"]
 V_CAM = ["punch", "push", "pull"]
 V_TR = ["whoosh", "flash"]
-V_BG = ["white", "sky", "beach", "room", "city", "paper", "night", "red"]
+V_BG = ["white", "sky", "beach", "room", "city", "paper", "night", "red"] + [x for x in PLACES if x != "beach"]
 V_SIZE = ["s", "m", "l", "xl"]
 
 
@@ -60,6 +67,9 @@ def _check_visual(i: int, v: dict) -> list[str]:
         bad = [w for w in JP_ONLY_WORDS for x in qs if w in str(x)]
         if typ in ("illust", "crowd") and bad:
             p.append(f"{tag}: q has {sorted(set(bad))} - いらすとや draws these as Japan; this story is not set in Japan, so show the place with text/emoji instead")
+        if typ in PROPS:
+            p += _check_prop(tag, it)
+            continue
         if typ in ("text", "emoji") and not str(it.get("text", "")).strip():
             p.append(f"{tag}: {typ} needs text")
         if typ == "text" and it.get("style", "label") not in V_STYLES:
@@ -83,6 +93,28 @@ def _check_visual(i: int, v: dict) -> list[str]:
         except (TypeError, ValueError):
             p.append(f"{tag}: at must be a number")
     return p
+
+def _check_prop(tag: str, it: dict) -> list[str]:
+    """Words on a prop are read off the screen: few and short, like the reference's 계약서 / 문자."""
+    p, typ = [], it.get("type")
+    lines = it.get("lines") or []
+    if typ == "doc":
+        if not 1 <= len(str(it.get("title", ""))) <= 8:
+            p.append(f"{tag}: doc needs a title of 1-8 chars (계약서, 청구서, 영수증, 판결문): {it.get('title')!r}")
+        if not (isinstance(lines, list) and 1 <= len(lines) <= 4 and all(1 <= len(str(x)) <= 14 for x in lines)):
+            p.append(f"{tag}: doc needs 1-4 lines of max 14 chars: {lines!r}")
+        if it.get("mark") is not None and not (isinstance(it["mark"], int) and 0 <= it["mark"] < len(lines)):
+            p.append(f"{tag}: mark must be the index of one of its lines")
+    elif typ == "sms":
+        if not 1 <= len(str(it.get("from", ""))) <= 10:
+            p.append(f"{tag}: sms needs from (sender, max 10 chars)")
+        if not (isinstance(lines, list) and 1 <= len(lines) <= 3 and all(1 <= len(str(x)) <= 12 for x in lines)):
+            p.append(f"{tag}: sms needs 1-3 bubbles of max 12 chars: {lines!r}")
+    elif typ == "price":
+        if not 1 <= len(str(it.get("new", ""))) <= 8 or len(str(it.get("label", ""))) > 10 or len(str(it.get("old", ""))) > 10:
+            p.append(f"{tag}: price needs new (max 8 chars), label/old max 10: {it!r}")
+    return p
+
 
 CARD_SCHEMA = {
     "type": "object", "additionalProperties": False,
@@ -221,6 +253,9 @@ def _shown_strings(script: dict):
         for it in (s.get("visual") or {}).get("items", []):
             if it.get("type") in ("text", "emoji"):
                 yield f"segment {i} panel text", str(it.get("text", ""))
+            if it.get("type") in PROPS:
+                yield f"segment {i} {it['type']}", " ".join(str(it.get(k, "")) for k in ("title", "from", "label", "old", "new")) \
+                    + " " + " ".join(str(x) for x in it.get("lines") or [])
         for k, v in (s.get("card") or {}).items():
             if isinstance(v, str):
                 yield f"segment {i} card.{k}", v
@@ -264,7 +299,7 @@ def lint(script: dict) -> list[str]:
             p.append(f"segment {i}: {len(its)} items - max 4 (one big picture + a word or two reads better than a busy slide)")
         is_list = sum(1 for it in its if it.get("style") == "row") >= 2   # ①②③ list / final vote board
         is_post = any(it.get("style") == "post" for it in its)          # opening community-post card
-        if its and not is_list and not is_post and not any(it.get("type") in ("illust", "crowd", "emoji") for it in its):
+        if its and not is_list and not is_post and not any(it.get("type") in ["illust", "crowd", "emoji"] + PROPS for it in its):
             p.append(f"segment {i}: words only - add the picture that shows the sentence (stock video often finds nothing; the renderer makes a lone picture big)")
         if sum(1 for it in its if it.get("type") in ("illust", "crowd")) > 2:
             p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
@@ -278,6 +313,20 @@ def lint(script: dict) -> list[str]:
         p.append("segment 0: the opening post card takes no stock video")
     if any(a and b for a, b in zip(vids, vids[1:])):
         p.append("two stock-video scenes in a row - put a picture scene between the clips")
+    segs_ = script.get("segments", [])
+    bgs = [(s.get("visual") or {}).get("bg", "white") for s in segs_]
+    kinds = [it.get("type") for s in segs_ for it in (s.get("visual") or {}).get("items", [])]
+    n_place = sum(1 for b, v in zip(bgs, vids) if b in PLACES and not v)
+    if n_place < 3:   # 2026-10-12: @통찰맨 puts every person in a real room/street; our white panel looked empty
+        p.append(f"only {n_place} scenes on a place photo - put the people in 3+ scenes where the story happens "
+                 f"(bg one of {PLACES}, ROUTINE 장소 사진)")
+    if sum(kinds.count(k) for k in ("doc", "sms", "price")) > 3 or kinds.count("warn") > 1:
+        p.append("max 3 props (doc/sms/price) and 1 warn per video - they are the key evidence, not decoration")
+    story = " ".join(s.get("text", "") for s in segs_)
+    if ABROAD.search(story) and not re.search(r"한국|국내|서울", story):
+        bad = sorted({b for b in bgs if b in KOREAN_PLACES})
+        if bad:
+            p.append(f"bg {bad} are Korean-looking photos but this story is set abroad - use office/store/road/... instead")
     titles = " ".join(script.get("title_lines", [])) + " " + (script.get("youtube") or {}).get("title", "")
     if (m := NEWSY.search(titles)):
         p.append(f"title uses news word {m.group(0)!r} - write a curiosity title (\"~하는 ○○\", \"○○가 ~한 이유\"), not a headline")
