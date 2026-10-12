@@ -1,1 +1,161 @@
-[]
+[
+ {
+  "key": "2026-10-16-0300",
+  "slot": "0300",
+  "publish_at": "2026-10-16T03:00:00+09:00",
+  "started": "2026-10-13T00:50:49.724161+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-270340/",
+   "https://pixabay.com/videos/id-27178/"
+  ],
+  "duration": 24.83,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   0.97,
+   1.0,
+   0.95
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 9,
+  "title": "Le cortó la cuerda de seguridad para tender la ropa #shorts",
+  "source_post": "https://www.seoul.co.kr/news/international/2026/09/28/20260928500087",
+  "facts_used": [
+   "2026년 9월 17일 광둥성 포산 고층 건물, 외벽 보수 작업자가 30층에서 2층까지 내려와 안전로프 절단 발견 [머니투데이 2026.9.30, 한국경제 2026.9.30]",
+   "약 120m 로프 중 10m 넘게 잘림, 1층까지 작업 마무리 못 함 [머니투데이, 이데일리]",
+   "자른 사람은 2층 거주 70대 주민, 안전장비인 줄 몰랐고 빨랫줄로 쓰려 했다고 주장 [서울신문 2026.9.28, 아시아경제 2026.9.28]",
+   "당시 로프 사용자 없어 인명 피해 없음 [아시아경제, 한국경제]",
+   "보상금 400위안(약 8만 원) 요구 [머니투데이, 서울경제]"
+  ],
+  "slug": "2026-10-16_0300_es-safety-rope-clothesline",
+  "late": false,
+  "video_id": "ECWkjkvCVIA",
+  "url": "https://youtube.com/shorts/ECWkjkvCVIA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-15T18:00:00Z",
+  "seconds": 353
+ },
+ {
+  "key": "2026-10-16-0600",
+  "slot": "0600",
+  "publish_at": "2026-10-16T06:00:00+09:00",
+  "started": "2026-10-13T00:56:43.815752+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-144490/",
+   "https://pixabay.com/videos/id-11323/"
+  ],
+  "duration": 25.92,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   0.91,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 9,
+  "cuts": 9,
+  "title": "Le pagaron la comida con monedas… y la nota lo cambió todo #shorts",
+  "source_post": "https://www.etnews.com/20261005000119",
+  "facts_used": [
+   "서울 관악구 판자촌 인근 배달 사연, 배달기사가 온라인 커뮤니티에 올림 — 머니투데이 2026-10-03 https://www.mt.co.kr/society/2026/10/03/2026100316560647906 , 서울신문 2026-10-03 https://www.seoul.co.kr/news/society/2026/10/03/20261003500009",
+   "주문자가 현금을 문 앞에 두겠다고 요청, 작은 지퍼백에 1000원 지폐 몇 장과 100원 동전 가득 — 헤럴드경제 https://biz.heraldcorp.com/article/10893047 , 매일신문 https://www.imaeil.com/page/view/2026100413292096458",
+   "메모 '3만원 맞아요. 열 번 넘게 셌어요' — 한국경제 https://www.hankyung.com/article/2026100318567 , 전자신문 https://www.etnews.com/20261005000119",
+   "돈과 음식을 그대로 두고 옴, '돼지저금통 깼으면 통장 직행해야지', '선물이라 생각하고' — 파이낸셜뉴스 https://fnnews.com/news/202610041101314934 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008782898"
+  ],
+  "slug": "2026-10-16_0600_es-delivery-coins-note",
+  "late": false,
+  "video_id": "8mMu0rzzWPI",
+  "url": "https://youtube.com/shorts/8mMu0rzzWPI",
+  "privacy": "private",
+  "scheduled_for": "2026-10-15T21:00:00Z",
+  "seconds": 392
+ },
+ {
+  "key": "2026-10-16-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-16T09:00:00+09:00",
+  "started": "2026-10-13T01:03:16.527918+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-91/",
+   "https://pixabay.com/videos/id-172686/"
+  ],
+  "duration": 25.39,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 5,
+  "cuts": 7,
+  "title": "Pagan mil dólares por hora por fotos con un novio falso #shorts",
+  "source_post": "https://www.seoul.co.kr/news/international/topic-global/2026/10/01/20261001500272",
+  "facts_used": [
+   "중국 젊은 여성들 사이에서 남성 모델과 커플 콘셉트 사진 유료 서비스 확산, 손잡기·포옹·입맞춤 연출 — 서울신문 2026-10-01 https://www.seoul.co.kr/news/international/topic-global/2026/10/01/20261001500272 , 파이낸셜뉴스 2026-10-03 https://www.fnnews.com/news/202610030001412800",
+   "1시간 최대 8000위안(약 160만원) — 서울신문 2026-10-01, 파이낸셜뉴스 2026-10-03",
+   "하루 종일 촬영 패키지 2만8000위안(약 567~568만원), 사진 최대 120장 — 아시아경제 2026-10-02 https://view.asiae.co.kr/article/2026100210455819647 , SCMP https://www.scmp.com/news/people-culture/trending-china/article/3369378/chinese-women-spend-top-dollar-male-model-shoots-turning-staged-romance-viral-trend",
+   "창업자 설명: 멋진 사진, 잘생긴 남성과 연애하는 기분, 가족의 결혼 압박을 덜기 위해 찾음 — 서울신문, 아시아경제, SCMP"
+  ],
+  "slug": "2026-10-16_0900_es-fake-boyfriend-photos",
+  "late": false,
+  "video_id": "S6foT6rjy6k",
+  "url": "https://youtube.com/shorts/S6foT6rjy6k",
+  "privacy": "private",
+  "scheduled_for": "2026-10-16T00:00:00Z",
+  "seconds": 348
+ },
+ {
+  "key": "2026-10-16-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-16T12:00:00+09:00",
+  "started": "2026-10-13T01:09:05.175944+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-41869/",
+   "https://pixabay.com/videos/id-6095/"
+  ],
+  "duration": 31.49,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 9,
+  "cuts": 9,
+  "title": "Encontró 18 mil dólares en la basura y esto pasó #shorts",
+  "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467449&_dcbest=1&page=1",
+  "facts_used": [
+   "2월 10일 인천 금곡동 빌라 옆 20L 종량제 봉투, 헌 옷 수거하던 60대가 현금 2500만원 발견·신고 [뉴시스·경기일보·서울신문 2026.10.2]",
+   "5만원권 100장씩 한국은행 띠지로 묶여 옷가지에 덮여 있었음 [경기일보·검색요약 다수]",
+   "CCTV·지문 감식·주변 수십 가구 탐문·유실물 공고에도 주인 미확인 [경기일보·뉴시스]",
+   "공고 6개월 후 소유권 발견자에게, 8월 세금·지역신문 공고 수수료 빼고 1923만원 입금 [경기일보·파이낸셜뉴스·뉴시스]"
+  ],
+  "slug": "2026-10-16_1200_es-trash-bag-cash-finder",
+  "late": false,
+  "video_id": "SJpG49X87S8",
+  "url": "https://youtube.com/shorts/SJpG49X87S8",
+  "privacy": "private",
+  "scheduled_for": "2026-10-16T03:00:00Z",
+  "seconds": 450
+ }
+]
