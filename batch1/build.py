@@ -159,6 +159,9 @@ STORIES = [
           "la leche y el ramen que tenía para él y fue a verlo sin colgar, por si se desmayaba.",
           ["corea", "buenas personas", "solidaridad", "ramen", "historias reales", "chisme coreano"])),
  dict(src="2026-10-08-1800", n="09", lane="K", slug="es-same-name-same-birthday",
+      # 役所 窓口 carries Japanese signboard text -> the OCR check drops it and the scene went blank
+      patch={4: {"items": [{"type": "illust", "q": ["パソコン 困る 男性", "パソコン 困る", "困る 男性"], "pos": "center", "size": "l", "at": 0.0, "fx": "pop"},
+                           {"type": "emoji", "text": "💦", "pos": "top-left", "size": "s", "at": 0.4, "fx": "pop"}]}},
       title=["Mismo nombre,", "mismo cumpleaños"],
       lines=["Él se llama Lee Do-kyung\ny ella también",
              "En Corea, su acta de matrimonio tiene dos veces el mismo nombre y cumpleaños.",
