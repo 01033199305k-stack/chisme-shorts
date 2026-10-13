@@ -40,6 +40,7 @@ def voice_instruct(base: str, tone: str | None, persona: str = "") -> str:
 def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) -> dict:
     work_dir.mkdir(parents=True, exist_ok=True)
     segments = script["segments"]
+    motion.THEME = cfg.get("theme", "")   # Chismepón frame (motion.THEME_CSS)
 
     wavs, results = [], []
     for i, seg in enumerate(segments):

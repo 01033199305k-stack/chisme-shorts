@@ -1,0 +1,252 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-fried-chicken-weight",
+ "title_lines": [
+  "Pidió pollo de 1 kilo",
+  "y pesó 695 gramos"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Pidió pollo de 1 kilo y pesó solo 695 gramos",
+   "say": "Pidió pollo de un kilo y pesó solo seiscientos noventa y cinco gramos",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "Pidió pollo de 1 kilo\ny pesó solo 695 gramos",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En Corea, una asociación de consumidores pesó pollo frito de 5 marcas.",
+   "say": "En Corea, una asociación de consumidores pesó pollo frito de cinco marcas.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "フライドチキン",
+       "からあげ"
+      ],
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "fried chicken",
+     "chicken wings",
+     "chicken fried"
+    ]
+   }
+  },
+  {
+   "text": "Uno llegó más de 30% más ligero de lo que dice el menú.",
+   "say": "Uno llegó más de treinta por ciento más ligero de lo que dice el menú.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キッチンスケール",
+       "はかり デジタル",
+       "はかり"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Y saben por qué no es trampa?",
+   "say": "¿Y saben por qué no es trampa?",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "探偵",
+       "虫眼鏡 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕵️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El peso del menú es del pollo crudo, antes de freírlo.",
+   "say": "El peso del menú es del pollo crudo, antes de freírlo.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鶏肉",
+       "生肉"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Al freírlo pierde agua, así que te llega más ligero.",
+   "say": "Al freírlo pierde agua, así que te llega más ligero.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "揚げ物",
+       "天ぷら"
+      ],
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "frying oil pan",
+     "chicken frying",
+     "oil frying"
+    ]
+   }
+  },
+  {
+   "text": "¡Pero otro pollo con salsa pesó 17% más de lo anunciado!",
+   "say": "¡Pero otro pollo con salsa pesó diecisiete por ciento más de lo anunciado!",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "びっくり 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📈",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¿Tú pesas tu pedido?",
+   "say": "¿Tú pesas tu pedido?",
+   "sfx": "none",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "出前 受け取る",
+       "宅配 受け取る",
+       "出前"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "react"
+  }
+ ],
+ "youtube": {
+  "title": "Pidió pollo de 1 kilo y pesó solo 695 gramos #shorts",
+  "description": "En Corea del Sur, una asociación de consumidores pesó el pollo frito a domicilio de 5 marcas. Uno pesó en promedio 695 gramos, más de 30% menos de lo que dice el menú. No es trampa: el peso anunciado es del pollo crudo, y al freírlo pierde agua. Otro, con salsa, pesó 17% más.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "pollo frito",
+   "corea",
+   "comida",
+   "delivery",
+   "historias reales",
+   "chisme coreano"
+  ]
+ },
+ "source_post": "https://bbs.ruliweb.com/best/board/300143/read/76927859",
+ "facts_used": [
+  "한국소비자단체협의회 물가감시센터, 8월 BBQ·BHC·교촌·처갓집·굽네 5개 브랜드 표시 중량과 실제 중량 비교, 10월 6일 발표 (경기일보 2026-10-06, 아시아타임즈 2026-10-06, 강원도민일보, 월요신문)",
+  "교촌 후라이드 한마리: 표시 951~1050g, 평균 실중량 695.3g, 중앙값 대비 30.5% 적음 (경기일보, THE NEWS, 비즈중앙)",
+  "굽네 고추바사삭 순살: 표시 700g보다 141.3g(20.1%) 적음 (경기일보, 아시아타임즈 검색 요약)",
+  "BBQ 황금올리브치킨 양념순살 17.6% 더 무거움 (경기일보, 월요신문)",
+  "현행 중량표시제는 조리 전 중량 기준, 조리 중 수분 빠져 실제 무게 줄 수 있음 (강원도민일보, 이투데이)"
+ ],
+ "brief": "lane K - Spanish rewrite of 썰가챠 2026-10-06-1800"
+}

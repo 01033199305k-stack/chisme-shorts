@@ -38,7 +38,7 @@ def main() -> int:
             print(n, "already uploaded:", state[n]["url"])
             continue
         mp4 = next(Path(a.dir).glob(f"{n}-*.mp4"))
-        script = json.loads(next((ROOT / "batch1").glob(f"{n}-*.json")).read_text(encoding="utf-8"))
+        script = json.loads(next(p for d in ("batch1", "test1") for p in (ROOT / d).glob(f"{n}-*.json")).read_text(encoding="utf-8"))
         meta = script["youtube"]
         at = dt.datetime(day.year, day.month, day.day, hour, tzinfo=KST)
         print(f"=== {n} -> {at:%Y-%m-%d %H:%M} KST: {meta['title']}")

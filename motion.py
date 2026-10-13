@@ -216,6 +216,27 @@ def caption_cues(words, line_chars: int = 11, max_words: int = 6, max_lines: int
     return cues
 
 
+# Chismepón look (2026-10-13): 썰가챠's frames were copied 1:1 and the first four videos got 0% Shorts-feed
+# impressions - probably matched as re-uploads. THEME = "chisme" draws a different frame: purple gacha
+# background, pink accents, a capsule border round the picture, outlined captions, a brand strip.
+THEME = ""
+THEME_CSS = {"chisme": """
+html, body { background:linear-gradient(180deg,#3a0b5e 0%,#22063b 45%,#12001f 100%); }
+#title { top:120px; }
+#title .t2 { color:#FF5DB1; }
+#panel { border-radius:44px; }
+#panel::after { content:""; position:absolute; inset:0; border:14px solid #FF5DB1; border-radius:44px;
+  box-shadow:inset 0 0 0 6px #fff; z-index:20; pointer-events:none; }
+#cap .box { background:none; color:#fff; -webkit-text-stroke:0;
+  text-shadow:-5px -5px 0 #111, 5px -5px 0 #111, -5px 5px 0 #111, 5px 5px 0 #111, 0 7px 0 #111, 0 -7px 0 #111, 7px 0 0 #111, -7px 0 0 #111, 0 10px 14px rgba(0,0,0,.6); }
+#cap .box .w.on { color:#FF8AC8; }
+#cap .box.hit .w.on { color:#FFE14D; }
+.post .board { color:#C2185B; }
+body::after { content:"◓  CHISMEPÓN"; position:absolute; left:0; right:0; top:1730px; text-align:center;
+  font-family:BH, sans-serif; font-size:64px; letter-spacing:6px; color:rgba(255,255,255,.85); }
+"""}
+
+
 # ─────────────────────────────────────────── HTML
 CSS = """
 @font-face { font-family: BH; src: url('FONT'); }
@@ -814,7 +835,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         c["st"] = c["st"] if c["st"] in CAPS else "narr"
     t1, t2 = title
     cap_font = Path(font_path).with_name("ArchivoBlack-Regular.ttf")
-    css = CSS.replace("CAPFONT", file_url(cap_font if cap_font.exists() else font_path)).replace("FONT", file_url(font_path))
+    css = (CSS + THEME_CSS.get(THEME, "")).replace("CAPFONT", file_url(cap_font if cap_font.exists() else font_path)).replace("FONT", file_url(font_path))
     payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS}
     html = (f'<!doctype html><html lang="es"><head><meta charset="utf-8"><style>{css}</style></head><body>'
             f'<div id="title" style="font-size:{title_size([t1, t2])}px"><div>{esc(t1)}</div><div class="t2">{esc(t2)}</div></div>'

@@ -1,0 +1,246 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "es-baby-climbs-mountain",
+ "title_lines": [
+  "Tiene 9 meses",
+  "y ya sube montañas"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Un bebé de 9 meses subió una montaña gateando",
+   "say": "Un bebé de nueve meses subió una montaña gateando",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "Un bebé de 9 meses\nsubió una montaña gateando",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y la razón de su papá es todavía más rara.",
+   "say": "Y la razón de su papá es todavía más rara.",
+   "sfx": "question",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お父さん 赤ちゃん 抱っこ",
+       "父親 赤ちゃん",
+       "お父さん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En China, subió escalón por escalón con rodilleras.",
+   "say": "En China, subió escalón por escalón con rodilleras.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "mountain",
+    "video": [
+     "mountain stone stairs",
+     "stone steps trail",
+     "mountain stairs hiking"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "登山 赤ちゃん",
+       "ハイハイ"
+      ],
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Empezó a gatear a los 6 meses y a los 8 ya subía escaleras.",
+   "say": "Empezó a gatear a los seis meses y a los ocho ya subía escaleras.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ハイハイ",
+       "赤ちゃん ハイハイ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Y por qué lo llevó su papá?",
+   "say": "¿Y por qué lo llevó su papá?",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "父親"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "No era entrenamiento: era para que gastara energía.",
+   "say": "No era entrenamiento: era para que gastara energía.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "走る 子供",
+       "元気な子供"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El video tuvo 200 mil likes, y la gente se dividió.",
+   "say": "El video tuvo doscientos mil likes, y la gente se dividió.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "people watching phone",
+     "scrolling phone feed",
+     "smartphone hand scrolling"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👍",
+      "pos": "right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tú llevarías a tu bebé?",
+   "say": "¿Tú llevarías a tu bebé?",
+   "sfx": "none",
+   "visual": {
+    "bg": "mountain",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "山登り",
+       "ハイキング"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏔️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "react"
+  }
+ ],
+ "youtube": {
+  "title": "Tiene 9 meses y ya sube montañas gateando #shorts",
+  "description": "En una zona turística de montaña en Hubei, China, un bebé de 9 meses subió los escalones gateando, con rodilleras. Empezó a gatear a los 6 meses y a los 8 ya subía escaleras. Su papá dijo que no era entrenamiento, sino para que gastara energía. El video tuvo unos 200 mil likes y opiniones divididas.\n\nNarración con voz generada por IA.\n\n#chismepon #historias #chisme #shorts",
+  "tags": [
+   "bebé",
+   "montaña",
+   "china",
+   "viral",
+   "historias reales",
+   "chisme"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/422/0000913182",
+ "facts_used": [
+  "중국 후베이성 산악 관광지에서 생후 9개월 아기가 무릎 보호대를 찬 채 산길 계단을 손과 무릎으로 오르는 영상 — 아시아경제 2026-10-07 https://view.asiae.co.kr/article/2026100709233908705 , 한국경제 2026-10-05 https://www.hankyung.com/article/2026100530707 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008783850",
+  "생후 6개월부터 기기 시작, 8개월 무렵 계단을 오르내림 — 아시아경제, 한국경제",
+  "아버지 '훈련이 아니라 에너지를 발산하게 해주기 위해서' — 아시아경제, 한국경제, 뉴스1 https://www.news1.kr/world/general-world/6310193",
+  "좋아요 약 20만 개, 댓글 1만7000개, 위험하다는 우려와 긍정 반응 갈림 — 아시아경제, 한국경제, 서울신문 https://www.seoul.co.kr/news/international/2026/10/04/20261004500080"
+ ],
+ "brief": "lane A - Spanish rewrite of 썰가챠 2026-10-07-1800"
+}
