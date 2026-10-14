@@ -157,5 +157,87 @@
   "privacy": "private",
   "scheduled_for": "2026-10-16T03:00:00Z",
   "seconds": 450
+ },
+ {
+  "key": "2026-10-17-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-17T09:00:00+09:00",
+  "started": "2026-10-14T23:01:07.262869+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-197198/",
+   "https://pixabay.com/videos/id-5631/"
+  ],
+  "duration": 26.53,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "El invitado que no dejaba que nadie le pegara a la piñata #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/13/perrito-se-convierte-en-el-complice-de-la-pinata-y-hace-de-todo-para-que-no-la-rompan-video-causa-furor/",
+  "facts_used": [
+   "Video viral: un perrito sobre el techo de una vivienda jala la cuerda de una piñata mientras los invitados intentan golpearla [Infobae 2026-10-13, Golpe Político 2026-10-13]",
+   "El perro tira repetidamente de la cuerda para mantener la piñata fuera del alcance de quienes juegan [Conacento 2026-10, Golpe Político 2026-10-13]",
+   "Infobae lo tituló 'cómplice de la piñata'; Conacento 'guardián de una piñata' [Infobae 2026-10-13, Conacento 2026-10]",
+   "Se viralizó por lo surreal; titular 'México de nuevo le gana a la IA' [TV Azteca 2026-10, Golpe Político 2026-10-13]",
+   "No se sabe dónde ni cuándo se grabó ni quién es el dueño [TV Azteca 2026-10, Infobae 2026-10-13]"
+  ],
+  "slug": "2026-10-17_0900_mx-dog-roof-pinata-rope",
+  "late": false,
+  "video_id": "5txwjOxB8yA",
+  "url": "https://youtube.com/shorts/5txwjOxB8yA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-17T00:00:00Z",
+  "seconds": 394
+ },
+ {
+  "key": "2026-10-17-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-17T12:00:00+09:00",
+  "started": "2026-10-14T23:07:42.348831+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-123623/",
+   "https://pixabay.com/videos/id-35575/"
+  ],
+  "duration": 28.73,
+  "matches": [
+   0.92,
+   1.0,
+   1.0,
+   1.0,
+   0.93,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 9,
+  "title": "El niño del “¡Ya, güey!” volvió a caer 20 años después #shorts",
+  "source_post": "https://www.elimparcial.com/locurioso/2026/10/11/del-ya-guey-ya-al-si-acepto-edgar-protagonista-de-uno-de-los-primeros-videos-virales-de-mexico-se-caso-con-valeria-bermea-a-los-32-anos-dos-decadas-despues-de-su-famosa-caida-en-youtube/",
+  "facts_used": [
+   "'La caída de Edgar' se subió a YouTube en mayo de 2006 (8 de mayo según El Mañana) [El Mañana 2026-10-08, La Lista]",
+   "Edgar tenía 11 años; movieron el tronco a propósito y cayó al agua mientras le gritaban '¡Ya, güey!' [El Mañana 2026-10-08, La Lista, Ovaciones 2026-10]",
+   "Se enteró del video por Messenger cuando tenía alrededor de 20 mil reproducciones [Ovaciones 2026-10]",
+   "Se casó el sábado 10 de octubre de 2026 con una arquitecta en Cuatro Ciénegas, Coahuila, a los 32 años [El Imparcial 2026-10-11, RPP 2026-10, La Razón 2026-10-10]",
+   "Medios lo titularon 'volvió a caer… pero en el amor' [Ovaciones 2026-10, Infobae 2026-10-08]"
+  ],
+  "slug": "2026-10-17_1200_mx-ya-guey-edgar-falls-again",
+  "late": false,
+  "video_id": "zbGUVc8Q2ic",
+  "url": "https://youtube.com/shorts/zbGUVc8Q2ic",
+  "privacy": "private",
+  "scheduled_for": "2026-10-17T03:00:00Z",
+  "seconds": 413
  }
 ]
