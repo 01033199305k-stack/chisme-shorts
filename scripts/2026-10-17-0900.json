@@ -1,0 +1,333 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-dog-roof-pinata-rope",
+ "title_lines": [
+  "Nadie le atinaba",
+  "a la piñata"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Nadie podía pegarle a la piñata… y el culpable estaba arriba.",
+   "say": "Nadie podía pegarle a la piñata… y el culpable estaba arriba.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ピニャータ",
+       "くす玉"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "Era una fiesta y los invitados intentaban romperla.",
+   "say": "Era una fiesta y los invitados intentaban romperla.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パーティー",
+       "誕生日パーティー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "pinata party",
+     "party decorations",
+     "birthday party balloons"
+    ]
+   }
+  },
+  {
+   "text": "Pero cada vez que iban a darle, la piñata se escapaba.",
+   "say": "Pero cada vez que iban a darle, la piñata se escapaba.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "空振り",
+       "バット 空振り"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Quién estaba jalando la cuerda?",
+   "say": "¿Quién estaba jalando la cuerda?",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "探偵"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.2,
+      "fx": "fade"
+     }
+    ]
+   },
+   "tone": "en voz baja, con suspenso"
+  },
+  {
+   "text": "¡Un perrito, desde el techo de la casa!",
+   "say": "¡Un perrito, desde el techo de la casa!",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "sky",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 屋根",
+       "犬"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "dog rooftop",
+     "house roof",
+     "dog looking down"
+    ],
+    "tr": "flash",
+    "cam": "pull"
+   },
+   "cap": "hit",
+   "tone": "soltando la sorpresa, fuerte"
+  },
+  {
+   "text": "¡No manches! Jalaba la cuerda una y otra vez.",
+   "say": "¡No manches! Jalaba la cuerda una y otra vez.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロープ 引っ張る",
+       "綱引き",
+       "ロープ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "aguantando la risa"
+  },
+  {
+   "text": "Los medios lo llamaron el cómplice de la piñata.",
+   "say": "Los medios lo llamaron el cómplice de la piñata.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン ニュース",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Y como era tan surreal, dijeron que México le volvió a ganar a la IA.",
+   "say": "Y como era tan surreal, dijeron que México le volvió a ganar a la IA.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "人工知能",
+       "AI ロボット",
+       "ロボット"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤖",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tú lo dejarías ganar?",
+   "say": "¿Tú lo dejarías ganar?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Que siga jalando",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Lo bajo del techo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "El invitado que no dejaba que nadie le pegara a la piñata #shorts",
+  "description": "Un video se hizo viral en México: mientras los invitados de una fiesta intentaban romper una piñata, un perrito desde el techo de la casa jalaba la cuerda una y otra vez para que no la alcanzaran. Los medios lo llamaron el cómplice de la piñata; no se sabe dónde ni cuándo se grabó.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "perrito",
+   "piñata",
+   "lomito"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/13/perrito-se-convierte-en-el-complice-de-la-pinata-y-hace-de-todo-para-que-no-la-rompan-video-causa-furor/",
+ "facts_used": [
+  "Video viral: un perrito sobre el techo de una vivienda jala la cuerda de una piñata mientras los invitados intentan golpearla [Infobae 2026-10-13, Golpe Político 2026-10-13]",
+  "El perro tira repetidamente de la cuerda para mantener la piñata fuera del alcance de quienes juegan [Conacento 2026-10, Golpe Político 2026-10-13]",
+  "Infobae lo tituló 'cómplice de la piñata'; Conacento 'guardián de una piñata' [Infobae 2026-10-13, Conacento 2026-10]",
+  "Se viralizó por lo surreal; titular 'México de nuevo le gana a la IA' [TV Azteca 2026-10, Golpe Político 2026-10-13]",
+  "No se sabe dónde ni cuándo se grabó ni quién es el dueño [TV Azteca 2026-10, Infobae 2026-10-13]"
+ ],
+ "brief": "lane MX - Infobae / Golpe Político / Conacento / TV Azteca. 유형: 동물. 이해검사: 파티에서 피냐타가 계속 안 맞았는데 지붕 위 강아지가 줄을 당기고 있었음. 그림대조: 완료"
+}

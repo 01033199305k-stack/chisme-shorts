@@ -1,0 +1,325 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-ya-guey-edgar-falls-again",
+ "title_lines": [
+  "Volvió a caer",
+  "20 años después"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "El niño del “¡Ya, güey!” volvió a caer, 20 años después.",
+   "say": "El niño del “¡Ya, güey!” volvió a caer, veinte años después.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "川 落ちる",
+       "落ちる 男の子"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "En 2006 subieron a YouTube “La caída de Edgar”.",
+   "say": "En dos mil seis subieron a YouTube “La caída de Edgar”.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 動画",
+       "動画 パソコン",
+       "パソコン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📼",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Tenía 11 años y cruzaba un río sobre un tronco.",
+   "say": "Tenía once años y cruzaba un río sobre un tronco.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "field",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "丸太 橋",
+       "丸太"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "river log",
+     "river forest",
+     "creek water"
+    ]
+   }
+  },
+  {
+   "text": "Movieron el tronco a propósito y cayó al agua.",
+   "say": "Movieron el tronco a propósito y cayó al agua.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "field",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "水 落ちる",
+       "川 落ちる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "como recordando el golpe, divertido"
+  },
+  {
+   "text": "¿Neta? Se enteró por Messenger, con como 20 mil vistas.",
+   "say": "¿Neta? Se enteró por Messenger, con como veinte mil vistas.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン 驚く"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Hoy tiene 32 años, y su nueva caída fue otra.",
+   "say": "Hoy tiene treinta y dos años, y su nueva caída fue otra.",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "探偵"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.2,
+      "fx": "fade"
+     }
+    ]
+   },
+   "tone": "en voz baja, con suspenso"
+  },
+  {
+   "text": "El 10 de octubre se casó en Cuatro Ciénegas, Coahuila.",
+   "say": "El diez de octubre se casó en Cuatro Ciénegas, Coahuila.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "hotel",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "結婚式",
+       "新郎 新婦"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "sparkle"
+     }
+    ],
+    "video": [
+     "wedding rings",
+     "wedding decoration flowers",
+     "desert lagoon"
+    ],
+    "tr": "flash",
+    "cam": "pull"
+   },
+   "tone": "soltando la noticia, feliz y fuerte"
+  },
+  {
+   "text": "Ahora cayó, pero en el amor.",
+   "say": "Ahora cayó, pero en el amor.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ハート",
+       "恋愛"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❤️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "riéndose, con cariño"
+  },
+  {
+   "text": "¿Qué le gritarías en su boda?",
+   "say": "¿Qué le gritarías en su boda?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "川 落ちる",
+       "落ちる 男の子"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué le gritas?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① ¡Ya, güey, ya!",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② ¡Que viva el amor!",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "El niño del “¡Ya, güey!” volvió a caer 20 años después #shorts",
+  "description": "Edgar, el niño de 11 años que cayó a un río en “La caída de Edgar”, video subido a YouTube en mayo de 2006, se casó el 10 de octubre de 2026 en Cuatro Ciénegas, Coahuila, a los 32 años. Los medios lo resumieron así: volvió a caer, pero en el amor.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "ya güey",
+   "la caída de edgar",
+   "boda"
+  ]
+ },
+ "source_post": "https://www.elimparcial.com/locurioso/2026/10/11/del-ya-guey-ya-al-si-acepto-edgar-protagonista-de-uno-de-los-primeros-videos-virales-de-mexico-se-caso-con-valeria-bermea-a-los-32-anos-dos-decadas-despues-de-su-famosa-caida-en-youtube/",
+ "facts_used": [
+  "'La caída de Edgar' se subió a YouTube en mayo de 2006 (8 de mayo según El Mañana) [El Mañana 2026-10-08, La Lista]",
+  "Edgar tenía 11 años; movieron el tronco a propósito y cayó al agua mientras le gritaban '¡Ya, güey!' [El Mañana 2026-10-08, La Lista, Ovaciones 2026-10]",
+  "Se enteró del video por Messenger cuando tenía alrededor de 20 mil reproducciones [Ovaciones 2026-10]",
+  "Se casó el sábado 10 de octubre de 2026 con una arquitecta en Cuatro Ciénegas, Coahuila, a los 32 años [El Imparcial 2026-10-11, RPP 2026-10, La Razón 2026-10-10]",
+  "Medios lo titularon 'volvió a caer… pero en el amor' [Ovaciones 2026-10, Infobae 2026-10-08]"
+ ],
+ "brief": "lane MX - El Imparcial / La Razón / Ovaciones / El Mañana / Infobae. 유형: 결혼식·바이럴 그 후. 이해검사: 2006년 강에 빠진 영상의 에드가가 20년 뒤 결혼함. 신부 실명은 안 씀. 그림대조: 완료"
+}
