@@ -52,7 +52,7 @@ def upload(video_path: str, title: str, description: str, tags: list[str],
     meta = {
         "snippet": {"title": title[:100], "description": description[:4900],
                     "tags": tags[:15], "categoryId": "24",          # 엔터테인먼트
-                    "defaultLanguage": "es", "defaultAudioLanguage": "es"},   # Chismepón: Spanish
+                    "defaultLanguage": "es-MX", "defaultAudioLanguage": "es-MX"},   # Chismepón: 스페인어(멕시코) - API 업로드엔 Studio 기본값이 안 붙는다
         "status": status,
     }
     with open(video_path, "rb") as fp:
