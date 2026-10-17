@@ -1,0 +1,299 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-horse-furniture-store-apaxco",
+ "title_lines": [
+  "Entró a la mueblería",
+  "un cliente muy raro"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Entró a una mueblería un cliente muy raro: un caballo.",
+   "say": "Entró a una mueblería un cliente muy raro: un caballo.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "馬",
+       "暴れる 馬"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐴",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "Se le soltó a un grupo de jinetes.",
+   "say": "Se le soltó a un grupo de jinetes.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "乗馬",
+       "馬に乗る人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "horses riders road",
+     "horse riding town"
+    ]
+   }
+  },
+  {
+   "text": "Y se metió a una tienda de electrodomésticos.",
+   "say": "Y se metió a una tienda de electrodomésticos.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "家電量販店",
+       "家具屋"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛋️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Cómo cabe en esos pasillos?",
+   "say": "¿Cómo cabe en esos pasillos?",
+   "sfx": "question",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "狭い 通路",
+       "通路"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "incrédulo, medio riendo"
+  },
+  {
+   "text": "¡No cabía! Con la cola tiró productos y dañó aparatos.",
+   "say": "¡No cabía! Con la cola tiró productos y dañó aparatos.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "冷蔵庫",
+       "家電"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "soltando la sorpresa, fuerte"
+  },
+  {
+   "text": "Un jinete lo calmó y lo sacó. Nadie salió herido.",
+   "say": "Un jinete lo calmó y lo sacó. Nadie salió herido.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "馬 手綱",
+       "乗馬"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😮‍💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Pasó en Apaxco, Edomex, y se hizo viral.",
+   "say": "Pasó en Apaxco, Edomex, y se hizo viral.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 動画",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "smartphone scrolling social media",
+     "phone video"
+    ]
+   }
+  },
+  {
+   "text": "¿Quién paga los daños?",
+   "say": "¿Quién paga los daños?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "馬"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① El dueño del caballo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Nadie, fue accidente",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "El cliente más raro que ha entrado a una mueblería #shorts",
+  "description": "En Apaxco, Estado de México, un caballo se soltó de un grupo de jinetes y se metió a El Bodegón, una tienda de muebles y electrodomésticos, donde tiró productos con la cola. Un jinete logró sacarlo; no hubo heridos y la policía acudió a revisar los daños.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "caballo",
+   "edomex",
+   "tienda"
+  ]
+ },
+ "source_post": "https://www.nmas.com.mx/estado-de-mexico/sociedad/caballo-causa-destrozos-en-tienda-de-electrodomesticos-en-edomex-video-vertical/",
+ "facts_used": [
+  "Un caballo se escapó de un grupo de jinetes y entró a El Bodegón, tienda de muebles y electrodomésticos en avenida Juárez, Apaxco, Estado de México [N+ 2026-10-11, Quadratín Edomex 2026-10-12]",
+  "El animal tiró productos con su cola y dañó algunos electrodomésticos [N+ 2026-10-11, Milenio 2026-10-11]",
+  "Un jinete logró calmar al caballo y sacarlo de la tienda [Milenio 2026-10-11, N+ 2026-10-11]",
+  "No se reportaron personas lesionadas; los daños no habían sido cuantificados [Quadratín Edomex 2026-10-12]",
+  "La policía acudió al lugar para constatar los daños [Milenio 2026-10-11]",
+  "No se sabía si el dueño del caballo respondería por las pérdidas [Quadratín Edomex 2026-10-12]"
+ ],
+ "brief": "lane MX - N+ / Milenio / Quadratín Edomex. 유형: 동물. 이해검사: 기수 무리에서 풀린 말이 가구·가전 매장에 들어가 꼬리로 물건을 쓰러뜨림, 기수가 데리고 나감, 부상자 없음."
+}

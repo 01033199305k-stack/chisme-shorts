@@ -1,0 +1,335 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-lady-costco-tire-zone",
+ "title_lines": [
+  "Se estacionó donde",
+  "no debía en Costco"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Una pareja se estacionó en la zona para inflar llantas de un Costco…",
+   "say": "Una pareja se estacionó en la zona para inflar llantas de un Costco…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "駐車場 車",
+       "車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "parking lot cars",
+     "car parking supermarket"
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "Y ahí se quedaron, como si fuera su lugar.",
+   "say": "Y ahí se quedaron, como si fuera su lugar.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カップル",
+       "夫婦"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Enfrente había un letrero que explicaba para qué era ese espacio.",
+   "say": "Enfrente había un letrero que explicaba para qué era ese espacio.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "看板",
+       "標識"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🪧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "tire air pump",
+     "car tire inflate"
+    ]
+   }
+  },
+  {
+   "text": "Hasta un guardia de seguridad se acercó a decirles que ahí no.",
+   "say": "Hasta un guardia de seguridad se acercó a decirles que ahí no.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警備員",
+       "ガードマン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👮",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Entonces alguien les reclamó… y ella le contestó así:",
+   "say": "Entonces alguien les reclamó… y ella le contestó así:",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "口論",
+       "怒る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.2,
+      "fx": "fade"
+     }
+    ]
+   },
+   "tone": "en voz baja, con suspenso"
+  },
+  {
+   "text": "“¿Te da envidia o qué?”",
+   "say": "“¿Te da envidia o qué?”",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性",
+       "女性 怒り"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "quote",
+   "tone": "imitando a la señora, altanera"
+  },
+  {
+   "text": "¡No manches! Pasó en Puebla y el video se hizo viral.",
+   "say": "¡No manches! Pasó en Puebla y el video se hizo viral.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 動画",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "smartphone scrolling social media",
+     "phone video"
+    ]
+   },
+   "tone": "aguantando la risa"
+  },
+  {
+   "text": "Y en redes ya le dicen Lady Costco.",
+   "say": "Y en redes ya le dicen Lady Costco.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "SNS 炎上",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¿Tú les habrías reclamado?",
+   "say": "¿Tú les habrías reclamado?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "駐車場 車",
+       "車"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, de frente",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Mejor me voy",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Le reclamaron por estacionarse ahí y contestó esto 😳 #shorts",
+  "description": "En Puebla se hizo viral el video de una pareja que se quedó estacionada en la zona para inflar llantas de un Costco, pese al letrero y a que un guardia se acercó. Cuando alguien les reclamó, la mujer respondió \"¿Te da envidia o qué?\" y en redes la apodaron Lady Costco.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "lady costco",
+   "puebla",
+   "estacionamiento"
+  ]
+ },
+ "source_post": "https://www.unotv.com/estados/puebla/ladycostco-en-puebla-pareja-desata-polemica-por-ocupar-zona-para-inflar-llantas/",
+ "facts_used": [
+  "Video viral: una pareja ocupa con su auto el área para inflar llantas de una sucursal de Costco en Puebla [UnoTV 2026-10-16, El Universal Puebla 2026-10-16]",
+  "Frente al lugar hay un letrero con las indicaciones de uso, pero la pareja permaneció estacionada [UnoTV 2026-10-16]",
+  "Un guardia de seguridad se acerca para indicarles que el área tiene un uso específico [UnoTV 2026-10-16, Diario Cambio 2026-10-16]",
+  "Cuando un usuario le reclamó, la mujer respondió '¿Te da envidia o qué?' [El Universal Puebla 2026-10-16]",
+  "El video comenzó a circular la tarde-noche del jueves 15 de octubre y en redes la apodaron 'Lady Costco' [El Universal Puebla 2026-10-16, UnoTV 2026-10-16]",
+  "No hay postura pública de Costco ni de la pareja [UnoTV 2026-10-16]"
+ ],
+ "brief": "lane MX - UnoTV / El Universal Puebla / Diario Cambio. 유형: lady 민폐. 이해검사: 코스트코 타이어 공기 넣는 자리에 주차해 놓고 항의받자 '부럽냐?'라고 받아침."
+}
