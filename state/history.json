@@ -239,5 +239,89 @@
   "privacy": "private",
   "scheduled_for": "2026-10-17T03:00:00Z",
   "seconds": 413
+ },
+ {
+  "key": "2026-10-18-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-18T09:00:00+09:00",
+  "started": "2026-10-17T22:10:32.097899+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1137/",
+   "https://pixabay.com/videos/id-2165/",
+   "https://pixabay.com/videos/id-38084/"
+  ],
+  "duration": 30.07,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.96,
+   0.91,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 6,
+  "cuts": 9,
+  "title": "Le reclamaron por estacionarse ahí y contestó esto 😳 #shorts",
+  "source_post": "https://www.unotv.com/estados/puebla/ladycostco-en-puebla-pareja-desata-polemica-por-ocupar-zona-para-inflar-llantas/",
+  "facts_used": [
+   "Video viral: una pareja ocupa con su auto el área para inflar llantas de una sucursal de Costco en Puebla [UnoTV 2026-10-16, El Universal Puebla 2026-10-16]",
+   "Frente al lugar hay un letrero con las indicaciones de uso, pero la pareja permaneció estacionada [UnoTV 2026-10-16]",
+   "Un guardia de seguridad se acerca para indicarles que el área tiene un uso específico [UnoTV 2026-10-16, Diario Cambio 2026-10-16]",
+   "Cuando un usuario le reclamó, la mujer respondió '¿Te da envidia o qué?' [El Universal Puebla 2026-10-16]",
+   "El video comenzó a circular la tarde-noche del jueves 15 de octubre y en redes la apodaron 'Lady Costco' [El Universal Puebla 2026-10-16, UnoTV 2026-10-16]",
+   "No hay postura pública de Costco ni de la pareja [UnoTV 2026-10-16]"
+  ],
+  "slug": "2026-10-18_0900_mx-lady-costco-tire-zone",
+  "late": false,
+  "video_id": "4vm3tVdnrSE",
+  "url": "https://youtube.com/shorts/4vm3tVdnrSE",
+  "privacy": "private",
+  "scheduled_for": "2026-10-18T00:00:00Z",
+  "seconds": 478
+ },
+ {
+  "key": "2026-10-18-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-18T12:00:00+09:00",
+  "started": "2026-10-17T22:18:30.896846+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-7357/",
+   "https://pixabay.com/videos/id-38084/"
+  ],
+  "duration": 25.1,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   1.0,
+   0.97,
+   0.85,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "El cliente más raro que ha entrado a una mueblería #shorts",
+  "source_post": "https://www.nmas.com.mx/estado-de-mexico/sociedad/caballo-causa-destrozos-en-tienda-de-electrodomesticos-en-edomex-video-vertical/",
+  "facts_used": [
+   "Un caballo se escapó de un grupo de jinetes y entró a El Bodegón, tienda de muebles y electrodomésticos en avenida Juárez, Apaxco, Estado de México [N+ 2026-10-11, Quadratín Edomex 2026-10-12]",
+   "El animal tiró productos con su cola y dañó algunos electrodomésticos [N+ 2026-10-11, Milenio 2026-10-11]",
+   "Un jinete logró calmar al caballo y sacarlo de la tienda [Milenio 2026-10-11, N+ 2026-10-11]",
+   "No se reportaron personas lesionadas; los daños no habían sido cuantificados [Quadratín Edomex 2026-10-12]",
+   "La policía acudió al lugar para constatar los daños [Milenio 2026-10-11]",
+   "No se sabía si el dueño del caballo respondería por las pérdidas [Quadratín Edomex 2026-10-12]"
+  ],
+  "slug": "2026-10-18_1200_mx-horse-furniture-store-apaxco",
+  "late": false,
+  "video_id": "juvUx6MtjkI",
+  "url": "https://youtube.com/shorts/juvUx6MtjkI",
+  "privacy": "private",
+  "scheduled_for": "2026-10-18T03:00:00Z",
+  "seconds": 384
  }
 ]
