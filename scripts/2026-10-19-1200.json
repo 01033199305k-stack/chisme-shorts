@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-arjona-taxi-driver-gift",
+ "title_lines": [
+  "Un taxista lo llevó",
+  "y 30 años después…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Hace más de 30 años, un cantante se subió a un taxi en la CDMX…",
+   "say": "Hace más de treinta años, un cantante se subió a un taxi en la CDMX…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タクシー",
+       "タクシー 乗る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚕",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "taxi night city",
+     "mexico city traffic night"
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "Era Ricardo Arjona, y el taxista, un señor llamado Pocho.",
+   "say": "Era Ricardo Arjona, y el taxista, un señor llamado Pocho.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌手 男性",
+       "ギター 弾く"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Según cuentan, ese viaje terminó inspirando “Historia de taxi”.",
+   "say": "Según cuentan, ese viaje terminó inspirando “Historia de taxi”.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "作曲",
+       "音符"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "fade"
+     }
+    ]
+   },
+   "cap": "sweet",
+   "tone": "con nostalgia, suave"
+  },
+  {
+   "text": "Después, Pocho dejó el volante y se volvió escenógrafo de sus giras.",
+   "say": "Después, Pocho dejó el volante y se volvió escenógrafo de sus giras.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "舞台",
+       "コンサート ステージ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "concert stage lights",
+     "stage crew"
+    ]
+   }
+  },
+  {
+   "text": "Trabajó con él en 12 giras.",
+   "say": "Trabajó con él en doce giras.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "握手 男性",
+       "友達 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Y ahora Arjona le regaló un Volkswagen con un enorme moño rojo.",
+   "say": "Y ahora Arjona le regaló un Volkswagen con un enorme moño rojo.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "プレゼント リボン",
+       "車 プレゼント"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "tone": "emocionado, sorprendido"
+  },
+  {
+   "text": "¡No manches! Y hasta confesó que se acordaba del taxi verde… y era amarillo.",
+   "say": "¡No manches! Y hasta confesó que se acordaba del taxi verde… y era amarillo.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 男性",
+       "照れる 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "aguantando la risa"
+  },
+  {
+   "text": "¿Te gustaría ese regalo?",
+   "say": "¿Te gustaría ese regalo?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "車 プレゼント",
+       "プレゼント"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, qué bonito detalle",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Esperaba más",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Un taxista lo llevó hace 30 años… y así se lo pagó 😭 #shorts",
+  "description": "Ricardo Arjona le regaló un Volkswagen con un gran moño rojo a Pocho, el taxista que conoció hace más de tres décadas en la Ciudad de México y que, según se cuenta, inspiró \"Historia de taxi\". Pocho después trabajó como escenógrafo en 12 giras del cantante, y el video del regalo se hizo viral.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "ricardo arjona",
+   "historia de taxi",
+   "taxista"
+  ]
+ },
+ "source_post": "https://www.milenio.com/espectaculos/famosos/ricardo-arjona-regala-auto-taxista-mexicano-historia-de-taxi",
+ "facts_used": [
+  "Ricardo Arjona regaló un auto a Pocho, un taxista que conoció en la Ciudad de México hace más de tres décadas [Milenio 2026-10-13, Infobae 2026-10-13]",
+  "Pocho dejó el taxi y trabajó como escenógrafo con Arjona en 12 giras [Milenio 2026-10-13, El Financiero 2026-10-13]",
+  "Según los reportes, Pocho inspiró la canción 'Historia de taxi' [Infobae 2026-10-13, El Financiero 2026-10-13]",
+  "El auto fue un Volkswagen adornado con un gran moño rojo [El Financiero 2026-10-13, Periódico Correo 2026-10-13]",
+  "Arjona recordó que creía que el taxi era verde, cuando en realidad era amarillo [Infobae 2026-10-13]",
+  "El video se publicó el lunes 12 de octubre y se volvió tendencia; algunos en redes criticaron el regalo como poco [Informador 2026-10-14, Quinta Fuerza 2026-10]"
+ ],
+ "brief": "lane MX - Milenio / Infobae / El Financiero. 유형: 반전 있는 선행(연예인). 이해검사: 30년 전 아르호나를 태운 택시기사가 '택시 이야기'의 영감이 되고, 무대미술가로 12번 투어 함께하다 차를 선물받음."
+}

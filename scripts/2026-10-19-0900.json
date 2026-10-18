@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-lady-ahorita-bajo-ride",
+ "title_lines": [
+  "Le dijo “ahorita bajo”",
+  "al chofer y… nada"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Pidió un DiDi, llegó a su casa y le dijo al chofer: “ahorita bajo”…",
+   "say": "Pidió un DiDi, llegó a su casa y le dijo al chofer: “ahorita bajo”…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タクシー",
+       "車 運転"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚕",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "car driving city night",
+     "taxi ride"
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "El viaje fue en Puebla: poco más de 15 kilómetros por 117 pesos.",
+   "say": "El viaje fue en Puebla: poco más de quince kilómetros por ciento diecisiete pesos.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お金 払う",
+       "財布"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Habían quedado en que pagaría en efectivo al llegar.",
+   "say": "Habían quedado en que pagaría en efectivo al llegar.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "運転手",
+       "タクシー 運転手"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El chofer se quedó esperando afuera… casi 25 minutos.",
+   "say": "El chofer se quedó esperando afuera… casi veinticinco minutos.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "待つ 人",
+       "時計 待つ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "waiting in car",
+     "clock ticking"
+    ]
+   },
+   "tone": "en voz baja, con suspenso"
+  },
+  {
+   "text": "Y ella nunca volvió a bajar.",
+   "say": "Y ella nunca volvió a bajar.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "がっかり 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Lo peor: según vigilantes del lugar, no era la primera vez.",
+   "say": "Lo peor: según vigilantes del lugar, no era la primera vez.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警備員",
+       "ガードマン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "indignado, subiendo el tono"
+  },
+  {
+   "text": "¡No manches! En redes ya le dicen “Lady Ahorita Bajo”.",
+   "say": "¡No manches! En redes ya le dicen “Lady Ahorita Bajo”.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン SNS",
+       "SNS 炎上"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "aguantando la risa"
+  },
+  {
+   "text": "¿Tú cómo le cobrarías?",
+   "say": "¿Tú cómo le cobrarías?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タクシー 運転手",
+       "運転手"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Esperarla en la puerta",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Exhibirla en redes",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Le dijo “ahorita bajo” al chofer… y nunca bajó 😳 #shorts",
+  "description": "En Lomas de Angelópolis, Puebla, un conductor de DiDi exhibió a una pasajera que, según él, no le pagó un viaje de 117 pesos: al llegar le pidió esperar mientras subía por el dinero y él aguardó cerca de 25 minutos sin que regresara. Vigilantes del lugar comentaron que no sería la primera vez, y en redes la apodaron \"Lady Ahorita Bajo\".\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "lady ahorita bajo",
+   "puebla",
+   "didi"
+  ]
+ },
+ "source_post": "https://tribunanoticias.mx/lady-ahorita-bajo-no-paga-a-conductor-de-aplicacion-en-angelopolis/",
+ "facts_used": [
+  "Un conductor de DiDi exhibió en redes a una pasajera que, según él, no pagó un viaje en Lomas de Angelópolis, Puebla [Tribuna Noticias 2026-10-15, Alcance Diario 2026-10, Almanaque 2026-10]",
+  "El viaje fue el miércoles 14 de octubre y habían acordado pago en efectivo [Tribuna Noticias 2026-10-15]",
+  "Al llegar, ella pidió esperar mientras subía por el dinero; el conductor esperó cerca de 25 minutos y no regresó [Tribuna Noticias 2026-10-15, Alcance Diario 2026-10]",
+  "La tarifa era de 117 pesos por poco más de 15 kilómetros [Tribuna Noticias 2026-10-15, Almanaque 2026-10]",
+  "Personal de vigilancia comentó que la mujer lo habría hecho en al menos 4 ocasiones (versión no confirmada oficialmente) [Tribuna Noticias 2026-10-15]",
+  "En redes la apodaron 'Lady Ahorita Bajo'; no hay denuncia formal ni respuesta pública de la mujer [El Universal Puebla 2026-10, Los Conjurados 2026-10]"
+ ],
+ "brief": "lane MX - Tribuna Noticias / El Universal Puebla / Alcance Diario. 유형: lady 민폐(손님 vs 기사). 이해검사: 디디 택시 타고 와서 '금방 내려올게' 하고 25분간 안 나타나 117페소 떼먹음."
+}
