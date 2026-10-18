@@ -323,5 +323,87 @@
   "privacy": "private",
   "scheduled_for": "2026-10-18T03:00:00Z",
   "seconds": 384
+ },
+ {
+  "key": "2026-10-19-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-19T09:00:00+09:00",
+  "started": "2026-10-18T22:08:55.355931+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1042/",
+   "https://pixabay.com/videos/id-1383/"
+  ],
+  "duration": 27.39,
+  "matches": [
+   0.97,
+   1.0,
+   0.99,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 8,
+  "title": "Le dijo “ahorita bajo” al chofer… y nunca bajó 😳 #shorts",
+  "source_post": "https://tribunanoticias.mx/lady-ahorita-bajo-no-paga-a-conductor-de-aplicacion-en-angelopolis/",
+  "facts_used": [
+   "Un conductor de DiDi exhibió en redes a una pasajera que, según él, no pagó un viaje en Lomas de Angelópolis, Puebla [Tribuna Noticias 2026-10-15, Alcance Diario 2026-10, Almanaque 2026-10]",
+   "El viaje fue el miércoles 14 de octubre y habían acordado pago en efectivo [Tribuna Noticias 2026-10-15]",
+   "Al llegar, ella pidió esperar mientras subía por el dinero; el conductor esperó cerca de 25 minutos y no regresó [Tribuna Noticias 2026-10-15, Alcance Diario 2026-10]",
+   "La tarifa era de 117 pesos por poco más de 15 kilómetros [Tribuna Noticias 2026-10-15, Almanaque 2026-10]",
+   "Personal de vigilancia comentó que la mujer lo habría hecho en al menos 4 ocasiones (versión no confirmada oficialmente) [Tribuna Noticias 2026-10-15]",
+   "En redes la apodaron 'Lady Ahorita Bajo'; no hay denuncia formal ni respuesta pública de la mujer [El Universal Puebla 2026-10, Los Conjurados 2026-10]"
+  ],
+  "slug": "2026-10-19_0900_mx-lady-ahorita-bajo-ride",
+  "late": false,
+  "video_id": "AF3c6gLocXo",
+  "url": "https://youtube.com/shorts/AF3c6gLocXo",
+  "privacy": "private",
+  "scheduled_for": "2026-10-19T00:00:00Z",
+  "seconds": 384
+ },
+ {
+  "key": "2026-10-19-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-19T12:00:00+09:00",
+  "started": "2026-10-18T22:15:20.258144+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-99704/",
+   "https://pixabay.com/videos/id-1275/"
+  ],
+  "duration": 29.6,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 8,
+  "title": "Un taxista lo llevó hace 30 años… y así se lo pagó 😭 #shorts",
+  "source_post": "https://www.milenio.com/espectaculos/famosos/ricardo-arjona-regala-auto-taxista-mexicano-historia-de-taxi",
+  "facts_used": [
+   "Ricardo Arjona regaló un auto a Pocho, un taxista que conoció en la Ciudad de México hace más de tres décadas [Milenio 2026-10-13, Infobae 2026-10-13]",
+   "Pocho dejó el taxi y trabajó como escenógrafo con Arjona en 12 giras [Milenio 2026-10-13, El Financiero 2026-10-13]",
+   "Según los reportes, Pocho inspiró la canción 'Historia de taxi' [Infobae 2026-10-13, El Financiero 2026-10-13]",
+   "El auto fue un Volkswagen adornado con un gran moño rojo [El Financiero 2026-10-13, Periódico Correo 2026-10-13]",
+   "Arjona recordó que creía que el taxi era verde, cuando en realidad era amarillo [Infobae 2026-10-13]",
+   "El video se publicó el lunes 12 de octubre y se volvió tendencia; algunos en redes criticaron el regalo como poco [Informador 2026-10-14, Quinta Fuerza 2026-10]"
+  ],
+  "slug": "2026-10-19_1200_mx-arjona-taxi-driver-gift",
+  "late": false,
+  "video_id": "Aj_Y-b4-9b4",
+  "url": "https://youtube.com/shorts/Aj_Y-b4-9b4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-19T03:00:00Z",
+  "seconds": 383
  }
 ]
