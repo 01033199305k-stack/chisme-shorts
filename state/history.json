@@ -405,5 +405,87 @@
   "privacy": "private",
   "scheduled_for": "2026-10-19T03:00:00Z",
   "seconds": 383
+ },
+ {
+  "key": "2026-10-20-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-20T09:00:00+09:00",
+  "started": "2026-10-19T22:09:56.520262+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-103957/",
+   "https://pixabay.com/videos/id-94170/",
+   "https://pixabay.com/videos/id-94446/"
+  ],
+  "duration": 25.13,
+  "matches": [
+   1.0,
+   1.0,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Le ofreció una rama a la jirafa… y ella prefirió su michelada 🦒 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/17/jirafa-sorprende-al-probar-la-michelada-de-un-visitante-en-cancun-y-terminar-con-chamoy-en-el-hocico/",
+  "facts_used": [
+   "Una jirafa probó la michelada de un visitante en Cancún; el lugar exacto no está confirmado [Infobae 2026-10-17, El Heraldo de San Luis Potosí 2026-10-18]",
+   "El visitante le ofrecía una rama, pero la jirafa dejó la rama, estiró el cuello hasta el vaso y probó la bebida [Infobae 2026-10-17]",
+   "La jirafa terminó con chamoy en el hocico [Infobae 2026-10-17, El Heraldo de San Luis Potosí 2026-10-18]",
+   "Tras probarla, sacó la lengua en repetidas ocasiones [Infobae 2026-10-17]",
+   "El clip se compartió en TikTok y superó los tres millones de reproducciones [El Heraldo de San Luis Potosí 2026-10-18]",
+   "El Heraldo de México difundió el video como viral en X y Threads [El Heraldo de México 2026-10]"
+  ],
+  "slug": "2026-10-20_0900_mx-jirafa-michelada-cancun",
+  "late": false,
+  "video_id": "QMcqvkd3Ukk",
+  "url": "https://youtube.com/shorts/QMcqvkd3Ukk",
+  "privacy": "private",
+  "scheduled_for": "2026-10-20T00:00:00Z",
+  "seconds": 463
+ },
+ {
+  "key": "2026-10-20-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-20T12:00:00+09:00",
+  "started": "2026-10-19T22:17:41.397374+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-52101/",
+   "https://pixabay.com/videos/id-49809/"
+  ],
+  "duration": 26.56,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   0.95
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Le ofrecieron duplicar su dinero si ganaba una pelea en la calle… 🥊 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/16/enfermera-acepta-reto-de-box-en-calles-de-cdmx-y-gana-mil-500-pesos-para-sus-gastos-de-la-semana/",
+  "facts_used": [
+   "Un influencer que organiza retos en la vía pública ofreció a una joven duplicar el dinero que traía si vencía a otra mujer en un reto de box en calles de la CDMX [Infobae 2026-10-16, Récord 2026-10-16]",
+   "La joven es estudiante de enfermería [Infobae 2026-10-16, Récord 2026-10-16, Grupo Marmor 2026-10-18]",
+   "Se puso los guantes, conectó varios golpes y se impuso a su contrincante; ya practicaba box [Récord 2026-10-16, Grupo Marmor 2026-10-18]",
+   "Ganó mil 500 pesos [Infobae 2026-10-16, Récord 2026-10-16, Grupo Marmor 2026-10-18]",
+   "Dijo que el dinero era para sus gastos de la semana, incluidos pasajes: “Va a ser para lo de mi semana” [Infobae 2026-10-16, Grupo Marmor 2026-10-18]"
+  ],
+  "slug": "2026-10-20_1200_mx-enfermera-reto-box-cdmx",
+  "late": false,
+  "video_id": "KA4lIeKh2FA",
+  "url": "https://youtube.com/shorts/KA4lIeKh2FA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-20T03:00:00Z",
+  "seconds": 451
  }
 ]
