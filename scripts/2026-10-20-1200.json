@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-enfermera-reto-box-cdmx",
+ "title_lines": [
+  "Le ofrecieron doblar",
+  "su lana… si peleaba"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Un influencer le ofreció a una joven duplicar su dinero… si ganaba una pelea.",
+   "say": "Un influencer le ofreció a una joven duplicar su dinero… si ganaba una pelea.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ボクシング グローブ",
+       "ボクシング"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "boxing gloves street",
+     "city street crowd"
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "Fue en plena calle de la CDMX, y la rival era otra mujer.",
+   "say": "Fue en plena calle de la CDMX, y la rival era otra mujer.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喧嘩 女性",
+       "にらみ合う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Ella es estudiante de enfermería y le entró al reto.",
+   "say": "Ella es estudiante de enfermería y le entró al reto.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "看護師",
+       "看護学生"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🩺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "nursing student",
+     "nurse uniform"
+    ]
+   }
+  },
+  {
+   "text": "Se puso los guantes y arrancó el round…",
+   "say": "Se puso los guantes y arrancó el round…",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ボクシング 女性",
+       "ボクサー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏱️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "en voz baja, con suspenso"
+  },
+  {
+   "text": "¡Y conectó golpe tras golpe, sin darle chance!",
+   "say": "¡Y conectó golpe tras golpe, sin darle chance!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パンチ",
+       "ボクシング パンチ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "emocionado, subiendo el tono"
+  },
+  {
+   "text": "¡No manches! Resulta que ya practicaba box.",
+   "say": "¡No manches! Resulta que ya practicaba box.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 人",
+       "びっくり"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Ganó mil 500 pesos y dijo: “Va a ser para lo de mi semana”.",
+   "say": "Ganó mil quinientos pesos y dijo: “Va a ser para lo de mi semana”.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お金 もらう",
+       "財布"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "con cariño, medio riéndose"
+  },
+  {
+   "text": "¿Tú le entrarías al reto?",
+   "say": "¿Tú le entrarías al reto?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ボクシング グローブ",
+       "ボクシング"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, por la lana",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ni de broma",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Le ofrecieron duplicar su dinero si ganaba una pelea en la calle… 🥊 #shorts",
+  "description": "En las calles de la CDMX, un creador de contenido ofreció a una estudiante de enfermería duplicar el dinero que traía si le ganaba a otra mujer en un reto de box improvisado. Ella, que ya practicaba box, se impuso y se llevó mil 500 pesos, que según dijo eran para sus gastos de la semana.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "reto de box",
+   "enfermera",
+   "cdmx"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/16/enfermera-acepta-reto-de-box-en-calles-de-cdmx-y-gana-mil-500-pesos-para-sus-gastos-de-la-semana/",
+ "facts_used": [
+  "Un influencer que organiza retos en la vía pública ofreció a una joven duplicar el dinero que traía si vencía a otra mujer en un reto de box en calles de la CDMX [Infobae 2026-10-16, Récord 2026-10-16]",
+  "La joven es estudiante de enfermería [Infobae 2026-10-16, Récord 2026-10-16, Grupo Marmor 2026-10-18]",
+  "Se puso los guantes, conectó varios golpes y se impuso a su contrincante; ya practicaba box [Récord 2026-10-16, Grupo Marmor 2026-10-18]",
+  "Ganó mil 500 pesos [Infobae 2026-10-16, Récord 2026-10-16, Grupo Marmor 2026-10-18]",
+  "Dijo que el dinero era para sus gastos de la semana, incluidos pasajes: “Va a ser para lo de mi semana” [Infobae 2026-10-16, Grupo Marmor 2026-10-18]"
+ ],
+ "brief": "lane MX - Infobae / Récord / Grupo Marmor. 유형: 챌린지·인플루언서 반전. 이해검사: 길거리 복싱 챌린지에 간호학과 여학생이 나가 이겨서 1,500페소, '이번 주 생활비'."
+}

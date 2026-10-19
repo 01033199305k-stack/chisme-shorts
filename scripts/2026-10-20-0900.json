@@ -1,0 +1,307 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-jirafa-michelada-cancun",
+ "title_lines": [
+  "Le ofreció una rama…",
+  "y la jirafa quiso otra"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Le estaba dando una rama a una jirafa… y ella se fijó en otra cosa.",
+   "say": "Le estaba dando una rama a una jirafa… y ella se fijó en otra cosa.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キリン",
+       "キリン 動物園"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "giraffe zoo",
+     "giraffe eating leaves"
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "Pasó en Cancún: el visitante traía en la mano una michelada.",
+   "say": "Pasó en Cancún: el visitante traía en la mano una michelada.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ビール ジョッキ",
+       "ビール 飲む 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "La jirafa ignoró la rama y estiró el cuello hasta el vaso…",
+   "say": "La jirafa ignoró la rama y estiró el cuello hasta el vaso…",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キリン 首",
+       "首が長い"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "giraffe neck close up",
+     "giraffe licking"
+    ]
+   },
+   "tone": "en voz baja, con suspenso"
+  },
+  {
+   "text": "¡Y le dio un trago a la michelada!",
+   "say": "¡Y le dio un trago a la michelada!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "動物 飲む",
+       "飲み物 こぼす"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Terminó con el hocico todo pintado de chamoy.",
+   "say": "Terminó con el hocico todo pintado de chamoy.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "口 汚れ",
+       "よだれ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌶️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "indignado, sin poder creerlo"
+  },
+  {
+   "text": "Y después sacaba la lengua una y otra vez.",
+   "say": "Y después sacaba la lengua una y otra vez.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "舌を出す",
+       "あっかんべー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "giraffe tongue",
+     "giraffe zoo visitors"
+    ]
+   },
+   "tone": "aguantando la risa"
+  },
+  {
+   "text": "¡No manches! El video ya pasa de 3 millones de vistas en TikTok.",
+   "say": "¡No manches! El video ya pasa de tres millones de vistas en TikTok.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン SNS",
+       "SNS 炎上"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¿Le compartirías tu chela?",
+   "say": "¿Le compartirías tu chela?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キリン",
+       "動物園 飼育員"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, que se la acabe",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ni loco, es mía",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Le ofreció una rama a la jirafa… y ella prefirió su michelada 🦒 #shorts",
+  "description": "Un video que circula en TikTok muestra a una jirafa en Cancún que, en lugar de comerse la rama que le ofrecía un visitante, estiró el cuello y probó la michelada que él traía en la mano. El animal terminó con chamoy en el hocico y sacando la lengua varias veces; el clip superó los tres millones de reproducciones.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "jirafa",
+   "michelada",
+   "cancún"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/17/jirafa-sorprende-al-probar-la-michelada-de-un-visitante-en-cancun-y-terminar-con-chamoy-en-el-hocico/",
+ "facts_used": [
+  "Una jirafa probó la michelada de un visitante en Cancún; el lugar exacto no está confirmado [Infobae 2026-10-17, El Heraldo de San Luis Potosí 2026-10-18]",
+  "El visitante le ofrecía una rama, pero la jirafa dejó la rama, estiró el cuello hasta el vaso y probó la bebida [Infobae 2026-10-17]",
+  "La jirafa terminó con chamoy en el hocico [Infobae 2026-10-17, El Heraldo de San Luis Potosí 2026-10-18]",
+  "Tras probarla, sacó la lengua en repetidas ocasiones [Infobae 2026-10-17]",
+  "El clip se compartió en TikTok y superó los tres millones de reproducciones [El Heraldo de San Luis Potosí 2026-10-18]",
+  "El Heraldo de México difundió el video como viral en X y Threads [El Heraldo de México 2026-10]"
+ ],
+ "brief": "lane MX - Infobae / El Heraldo de San Luis Potosí / El Heraldo de México. 유형: 동물. 이해검사: 칸쿤에서 기린에게 나뭇가지 주는데 기린이 손에 든 미첼라다를 마셔 입에 차모이 묻힘."
+}
