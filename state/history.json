@@ -487,5 +487,85 @@
   "privacy": "private",
   "scheduled_for": "2026-10-20T03:00:00Z",
   "seconds": 451
+ },
+ {
+  "key": "2026-10-21-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-21T09:00:00+09:00",
+  "started": "2026-10-20T22:11:08.030604+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-215610/",
+   "https://pixabay.com/videos/id-229069/"
+  ],
+  "duration": 25.63,
+  "matches": [
+   0.99,
+   1.0,
+   1.0,
+   1.0,
+   0.94,
+   0.98,
+   0.99,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Bajaron por su coche… y su cajón estaba lleno de ropa tendida 👕 #shorts",
+  "source_post": "https://abcnoticias.mx/tendencia/2026/10/19/surge-lady-tendedero-en-morelia-mujer-invade-cajones-de-estacionamiento-para-secar-la-ropa-292891.html",
+  "facts_used": [
+   "Una vecina del fraccionamiento Villas del Oriente, en Morelia, tendió su ropa sobre los cajones del estacionamiento comunitario [ABC Noticias 2026-10-19, Grupo Marmor 2026-10-19]",
+   "Amarró lazos a través de los espacios destinados a vehículos particulares y colgó sus prendas [Grupo Marmor 2026-10-19, ABC Noticias 2026-10-19]",
+   "Su ropa llegó a ocupar parte de la rampa para personas con discapacidad [ABC Noticias 2026-10-19]",
+   "Los colonos la denunciaron en redes y la apodaron “Lady Tendedero” [Grupo Marmor 2026-10-19, ABC Noticias 2026-10-19]",
+   "Los vecinos se quejan de que el tendedero estorba a los vehículos y da mal aspecto a la zona [MiMorelia 2026-10-19, Grupo Marmor 2026-10-19]"
+  ],
+  "slug": "2026-10-21_0900_mx-lady-tendedero-morelia",
+  "late": false,
+  "video_id": "VbvMCqQxPIw",
+  "url": "https://youtube.com/shorts/VbvMCqQxPIw",
+  "privacy": "private",
+  "scheduled_for": "2026-10-21T00:00:00Z",
+  "seconds": 470
+ },
+ {
+  "key": "2026-10-21-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-21T12:00:00+09:00",
+  "started": "2026-10-20T22:18:59.621435+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-37079/",
+   "https://pixabay.com/videos/id-152085/"
+  ],
+  "duration": 28.6,
+  "matches": [
+   0.96,
+   0.95,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.91,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Subió hasta el cráter del Popocatépetl y grabó lo que se oye ahí adentro 🌋 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/20/el-hombre-del-volcan-llega-al-crater-del-popocatepetl-graba-estruendos-y-reza-el-padre-nuestro/",
+  "facts_used": [
+   "Un creador de contenido de Santiago Xalitzintla, Puebla, conocido como “El Hombre del Volcán”, llegó al cráter del Popocatépetl y lo grabó [Infobae 2026-10-20, Quinta Fuerza 2026-10-20, Teleurban 2026-10-20]",
+   "Llevaba una cruz al cuello y rezó el Padre Nuestro frente a la abertura antes de mostrar el interior [Infobae 2026-10-20]",
+   "Mientras grababa se escuchó un fuerte estruendo del volcán [Infobae 2026-10-20, Chihuahua en Red 2026-10-20]",
+   "El acceso al cráter está prohibido por seguridad; las autoridades advierten que no es seguro subir por la actividad intermitente [Quinta Fuerza 2026-10-20, Teleurban 2026-10-20]",
+   "Cenapred mantiene una zona de exclusión de unos 12 kilómetros alrededor del volcán [Chihuahua en Red 2026-10-20, Teleurban 2026-10-20]"
+  ],
+  "slug": "2026-10-21_1200_mx-hombre-del-volcan-popocatepetl",
+  "late": false,
+  "video_id": "cYf3Fqp4mCs",
+  "url": "https://youtube.com/shorts/cYf3Fqp4mCs",
+  "privacy": "private",
+  "scheduled_for": "2026-10-21T03:00:00Z",
+  "seconds": 499
  }
 ]
