@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-hombre-del-volcan-popocatepetl",
+ "title_lines": [
+  "Subió a donde nadie",
+  "debe llegar… y grabó"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Un compa subió hasta la boca del Popocatépetl… con la cámara prendida.",
+   "say": "Un compa subió hasta la boca del Popocatépetl… con la cámara prendida.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "mountain",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "火山",
+       "噴火"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "volcano crater smoke",
+     "mountain climbing"
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "Le dicen “El Hombre del Volcán” y es de Santiago Xalitzintla, Puebla.",
+   "say": "Le dicen “El Hombre del Volcán” y es de Santiago Xalitzintla, Puebla.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "field",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "登山 男性",
+       "登山家"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Llegó al cráter con una cruz al cuello.",
+   "say": "Llegó al cráter con una cruz al cuello.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "mountain",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "十字架 ネックレス",
+       "ネックレス"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✝️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "en voz baja, con suspenso"
+  },
+  {
+   "text": "Antes de grabar el interior, rezó el Padre Nuestro frente al hueco…",
+   "say": "Antes de grabar el interior, rezó el Padre Nuestro frente al hueco…",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "祈る 男性",
+       "お祈り"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   },
+   "tone": "muy bajito, con suspenso"
+  },
+  {
+   "text": "¡Y en eso el volcán soltó un estruendo!",
+   "say": "¡Y en eso el volcán soltó un estruendo!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "火山 噴火",
+       "噴火"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "volcano eruption rumble",
+     "volcanic smoke"
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sobresaltado, subiendo el tono"
+  },
+  {
+   "text": "¡No manches! El acceso al cráter está prohibido.",
+   "say": "¡No manches! El acceso al cráter está prohibido.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "立入禁止",
+       "通行止め"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Cenapred mantiene una zona de exclusión de unos doce kilómetros.",
+   "say": "Cenapred mantiene una zona de exclusión de unos doce kilómetros.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "危険 看板",
+       "警告"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚠️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tú subirías hasta ahí?",
+   "say": "¿Tú subirías hasta ahí?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "登山 男性",
+       "登山家"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, por la vista",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ni loco",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Subió hasta el cráter del Popocatépetl y grabó lo que se oye ahí adentro 🌋 #shorts",
+  "description": "Un creador de contenido de Santiago Xalitzintla, Puebla, conocido como “El Hombre del Volcán”, llegó al cráter del Popocatépetl, rezó el Padre Nuestro y grabó los estruendos del volcán. El acceso al cráter está prohibido y Cenapred mantiene una zona de exclusión de unos 12 kilómetros.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "popocatépetl",
+   "volcán",
+   "puebla"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/20/el-hombre-del-volcan-llega-al-crater-del-popocatepetl-graba-estruendos-y-reza-el-padre-nuestro/",
+ "facts_used": [
+  "Un creador de contenido de Santiago Xalitzintla, Puebla, conocido como “El Hombre del Volcán”, llegó al cráter del Popocatépetl y lo grabó [Infobae 2026-10-20, Quinta Fuerza 2026-10-20, Teleurban 2026-10-20]",
+  "Llevaba una cruz al cuello y rezó el Padre Nuestro frente a la abertura antes de mostrar el interior [Infobae 2026-10-20]",
+  "Mientras grababa se escuchó un fuerte estruendo del volcán [Infobae 2026-10-20, Chihuahua en Red 2026-10-20]",
+  "El acceso al cráter está prohibido por seguridad; las autoridades advierten que no es seguro subir por la actividad intermitente [Quinta Fuerza 2026-10-20, Teleurban 2026-10-20]",
+  "Cenapred mantiene una zona de exclusión de unos 12 kilómetros alrededor del volcán [Chihuahua en Red 2026-10-20, Teleurban 2026-10-20]"
+ ],
+ "brief": "lane MX - Infobae / Quinta Fuerza / Teleurban / Chihuahua en Red. 유형: 인플루언서 무모한 도전. 이해검사: 푸에블라 유튜버가 출입금지인 포포카테페틀 분화구까지 올라가 주기도문 외우고 화산 굉음을 찍음."
+}

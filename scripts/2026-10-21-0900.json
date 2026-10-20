@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-lady-tendedero-morelia",
+ "title_lines": [
+  "Fueron por su coche…",
+  "y su cajón no estaba"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Bajaron por su coche… y su cajón estaba lleno de ropa tendida.",
+   "say": "Bajaron por su coche… y su cajón estaba lleno de ropa tendida.",
+   "sfx": "question",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "洗濯物 干す",
+       "洗濯物"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "parking lot apartment",
+     "clothes drying line"
+    ]
+   },
+   "tone": "intrigado, como contando un chisme"
+  },
+  {
+   "text": "Pasó en un fraccionamiento de Morelia, en Villas del Oriente.",
+   "say": "Pasó en un fraccionamiento de Morelia, en Villas del Oriente.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "団地",
+       "マンション"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Una vecina amarró lazos de lado a lado del estacionamiento común.",
+   "say": "Una vecina amarró lazos de lado a lado del estacionamiento común.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロープ",
+       "紐"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "en voz baja, con suspenso"
+  },
+  {
+   "text": "¡Y colgó ahí toda su ropa a secar, justo donde van los carros!",
+   "say": "¡Y colgó ahí toda su ropa a secar, justo donde van los carros!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "洗濯物 たくさん",
+       "洗濯 干す 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👕",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "indignado, subiendo el tono"
+  },
+  {
+   "text": "¡No manches! Hasta tapaba parte de la rampa para discapacitados.",
+   "say": "¡No manches! Hasta tapaba parte de la rampa para discapacitados.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "車椅子",
+       "車椅子 スロープ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "♿",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "wheelchair ramp",
+     "parking space"
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Los vecinos la exhibieron en redes y la apodaron “Lady Tendedero”.",
+   "say": "Los vecinos la exhibieron en redes y la apodaron “Lady Tendedero”.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 撮影",
+       "スマートフォン 怒る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "medio riéndose, con chisme"
+  },
+  {
+   "text": "Se quejan de que estorba a los coches y afea la zona.",
+   "say": "Se quejan de que estorba a los coches y afea la zona.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "困る 人",
+       "苦情"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Qué le dirías a tu vecina?",
+   "say": "¿Qué le dirías a tu vecina?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "洗濯物 干す",
+       "洗濯物"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Que lo quite ya",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Déjenla, hay que secar",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Bajaron por su coche… y su cajón estaba lleno de ropa tendida 👕 #shorts",
+  "description": "En el fraccionamiento Villas del Oriente, en Morelia, una vecina amarró lazos entre los cajones del estacionamiento común para tender su ropa, ocupando incluso parte de la rampa para personas con discapacidad. Los colonos la exhibieron en redes y la apodaron “Lady Tendedero”.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "lady tendedero",
+   "vecinos",
+   "morelia"
+  ]
+ },
+ "source_post": "https://abcnoticias.mx/tendencia/2026/10/19/surge-lady-tendedero-en-morelia-mujer-invade-cajones-de-estacionamiento-para-secar-la-ropa-292891.html",
+ "facts_used": [
+  "Una vecina del fraccionamiento Villas del Oriente, en Morelia, tendió su ropa sobre los cajones del estacionamiento comunitario [ABC Noticias 2026-10-19, Grupo Marmor 2026-10-19]",
+  "Amarró lazos a través de los espacios destinados a vehículos particulares y colgó sus prendas [Grupo Marmor 2026-10-19, ABC Noticias 2026-10-19]",
+  "Su ropa llegó a ocupar parte de la rampa para personas con discapacidad [ABC Noticias 2026-10-19]",
+  "Los colonos la denunciaron en redes y la apodaron “Lady Tendedero” [Grupo Marmor 2026-10-19, ABC Noticias 2026-10-19]",
+  "Los vecinos se quejan de que el tendedero estorba a los vehículos y da mal aspecto a la zona [MiMorelia 2026-10-19, Grupo Marmor 2026-10-19]"
+ ],
+ "brief": "lane MX - ABC Noticias / Grupo Marmor / MiMorelia. 유형: lady·이웃 민폐. 이해검사: 모렐리아 단지 공용 주차칸에 빨랫줄 매고 빨래 널어 장애인 경사로까지 막은 이웃, 'Lady Tendedero'."
+}
