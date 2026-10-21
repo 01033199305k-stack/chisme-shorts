@@ -1,0 +1,295 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-tesla-roadster-reserva-mexico",
+ "title_lines": [
+  "Casi 1 millón de pesos",
+  "solo para apartarlo"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Casi un millón de pesos… y eso solo para apartar un coche.",
+   "say": "Casi un millón de pesos… y eso solo para apartar un coche.",
+   "sfx": "question",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スポーツカー",
+       "車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "incrédulo, como contando un chisme"
+  },
+  {
+   "text": "Tesla ya abrió en México las reservas de su nuevo Roadster.",
+   "say": "Tesla ya abrió en México las reservas de su nuevo Roadster.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電気自動車",
+       "自動車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "tesla sports car",
+     "electric sports car driving"
+    ]
+   }
+  },
+  {
+   "text": "La versión Performance, de dos asientos, pide 100 mil pesos de anticipo.",
+   "say": "La versión Performance, de dos asientos, pide cien mil pesos de anticipo.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "price",
+      "label": "Anticipo",
+      "new": "$100 mil"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "お金を払う",
+       "お金 渡す"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡Y otros 864 mil en los siguientes diez días!",
+   "say": "¡Y otros ochocientos sesenta y cuatro mil en los siguientes diez días!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "price",
+      "label": "En 10 días",
+      "new": "$864 mil"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "subiendo el tono, sorprendido"
+  },
+  {
+   "text": "¿Y la versión que vuela? Esa, la Rocket, solo es por invitación.",
+   "say": "¿Y la versión que vuela? Esa, la Rocket, solo es por invitación.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "sky",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "空飛ぶ車",
+       "空を飛ぶ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "medio riéndose"
+  },
+  {
+   "text": "Y en las letras chiquitas, Tesla no garantiza cuándo ni si lo entrega.",
+   "say": "Y en las letras chiquitas, Tesla no garantiza cuándo ni si lo entrega.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "doc",
+      "title": "Términos",
+      "lines": [
+       "Fecha de entrega:",
+       "no garantizada"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "契約書 読む",
+       "書類"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Y la producción está planeada para 2028.",
+   "say": "Y la producción está planeada para dos mil veintiocho.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "construction",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "工場",
+       "自動車工場"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "car factory assembly line",
+     "automobile factory"
+    ]
+   }
+  },
+  {
+   "text": "¿Tú lo apartarías?",
+   "say": "¿Tú lo apartarías?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "悩む 男性",
+       "考える人"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① ¡Ya, con todo!",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ni de broma",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Casi un millón de pesos… y eso solo para apartar un coche 💵 #shorts",
+  "description": "Tesla abrió en México las reservas de su nuevo Roadster: la versión Performance, de dos asientos, pide 100 mil pesos de anticipo y otros 864 mil en los siguientes diez días. La versión voladora Rocket solo se vende por invitación, y en sus términos Tesla no garantiza cuándo ni si entregará el auto; la producción está prevista para 2028.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "tesla roadster",
+   "auto volador",
+   "elon musk"
+  ]
+ },
+ "source_post": "https://www.publimetro.com.mx/noticias/2026/10/16/ya-puedes-reservar-el-tesla-roadster-volador-en-mexico-cuanto-cuesta-y-cuando-llegara/",
+ "facts_used": [
+  "Tesla abrió en México las reservaciones de su nuevo Roadster tras presentarlo [Publimetro 2026-10-16, Infobae 2026-10-16]",
+  "La versión Performance, de carretera y dos asientos, pide 100 mil pesos de anticipo más 864 mil pesos en los siguientes 10 días (964 mil en total) [Publimetro 2026-10-16, El Heraldo de México 2026-10-16, Milenio 2026-10-16]",
+  "La variante voladora Rocket, de un asiento, solo puede adquirirse por invitación [Publimetro 2026-10-16, Milenio 2026-10-16]",
+  "Los términos y condiciones dicen que Tesla no garantiza cuándo se entregará el vehículo ni si se entregará [Motorpasión México 2026-10-16]",
+  "La producción está prevista para 2028 y no hay precio final confirmado para México [Xataka México 2026-10-16, Autocosmos 2026-10-16]"
+ ],
+ "brief": "lane MX - Publimetro / El Heraldo de México / Milenio / Motorpasión. 유형: 돈·화제(소비). 이해검사: 테슬라 신형 로드스터 멕시코 예약이 열렸는데 2인승 Performance가 선금 10만+10일 내 86.4만 페소(거의 100만), 나는 버전 Rocket은 초대 전용, 약관상 인도 보장 없음, 생산은 2028년."
+}
