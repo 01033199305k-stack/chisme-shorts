@@ -567,5 +567,85 @@
   "privacy": "private",
   "scheduled_for": "2026-10-21T03:00:00Z",
   "seconds": 499
+ },
+ {
+  "key": "2026-10-22-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-22T09:00:00+09:00",
+  "started": "2026-10-21T22:11:01.719165+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-3608/",
+   "https://pixabay.com/videos/id-109/"
+  ],
+  "duration": 27.71,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 8,
+  "title": "Dos mujeres terminaron en el piso del vagón… y nadie se metió 😳 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/16/metro-cdmx-captan-a-dos-mujeres-peleando-por-un-asiento-en-vagon-de-la-linea-8/",
+  "facts_used": [
+   "Un video viral muestra a dos mujeres peleando en un vagón exclusivo para mujeres del Metro de la CDMX, presuntamente en la Línea 8 [Infobae 2026-10-16, El Heraldo de México 2026-10-15]",
+   "La discusión pasó de los insultos a los golpes y jalones de cabello, y ambas terminaron en el piso [Infobae 2026-10-16, El Heraldo de México 2026-10-15]",
+   "Los reportes señalan que el pleito habría sido por un asiento, pero el motivo no está confirmado por autoridades [Infobae 2026-10-16, La Jornada Estado de México 2026-10-16]",
+   "Ninguna de las pasajeras intervino; varias prefirieron grabar y fotografiar la escena [Infobae 2026-10-16, ABC Noticias 2026-10-16]",
+   "El STC Metro dijo que no recibió reportes de una riña en vagones de la Línea 8 y que reforzará la seguridad [Infobae 2026-10-16, ADN40 2026-10-16]"
+  ],
+  "slug": "2026-10-22_0900_mx-pelea-asiento-metro-linea-8",
+  "late": false,
+  "video_id": "-DnsoH7GpJw",
+  "url": "https://youtube.com/shorts/-DnsoH7GpJw",
+  "privacy": "private",
+  "scheduled_for": "2026-10-22T00:00:00Z",
+  "seconds": 352
+ },
+ {
+  "key": "2026-10-22-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-22T12:00:00+09:00",
+  "started": "2026-10-21T22:16:54.603654+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-40058/",
+   "https://pixabay.com/videos/id-166808/"
+  ],
+  "duration": 27.91,
+  "matches": [
+   1.0,
+   1.0,
+   0.95,
+   0.91,
+   1.0,
+   0.99,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Casi un millón de pesos… y eso solo para apartar un coche 💵 #shorts",
+  "source_post": "https://www.publimetro.com.mx/noticias/2026/10/16/ya-puedes-reservar-el-tesla-roadster-volador-en-mexico-cuanto-cuesta-y-cuando-llegara/",
+  "facts_used": [
+   "Tesla abrió en México las reservaciones de su nuevo Roadster tras presentarlo [Publimetro 2026-10-16, Infobae 2026-10-16]",
+   "La versión Performance, de carretera y dos asientos, pide 100 mil pesos de anticipo más 864 mil pesos en los siguientes 10 días (964 mil en total) [Publimetro 2026-10-16, El Heraldo de México 2026-10-16, Milenio 2026-10-16]",
+   "La variante voladora Rocket, de un asiento, solo puede adquirirse por invitación [Publimetro 2026-10-16, Milenio 2026-10-16]",
+   "Los términos y condiciones dicen que Tesla no garantiza cuándo se entregará el vehículo ni si se entregará [Motorpasión México 2026-10-16]",
+   "La producción está prevista para 2028 y no hay precio final confirmado para México [Xataka México 2026-10-16, Autocosmos 2026-10-16]"
+  ],
+  "slug": "2026-10-22_1200_mx-tesla-roadster-reserva-mexico",
+  "late": false,
+  "video_id": "I-4RHWljKIw",
+  "url": "https://youtube.com/shorts/I-4RHWljKIw",
+  "privacy": "private",
+  "scheduled_for": "2026-10-22T03:00:00Z",
+  "seconds": 340
  }
 ]
