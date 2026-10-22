@@ -1,0 +1,299 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-perrita-alfombra-roja-ficm-charo",
+ "title_lines": [
+  "Se coló a la alfombra",
+  "roja y terminó lejos"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Una perrita se coló a la alfombra roja…",
+   "say": "Una perrita se coló a la alfombra roja…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 歩く",
+       "犬"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "sorprendido, como contando un chisme"
+  },
+  {
+   "text": "Fue en el Festival de Cine de Morelia, el domingo 18.",
+   "say": "Fue en el Festival de Cine de Morelia, el domingo dieciocho.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "映画祭",
+       "映画 カメラ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "film festival red carpet",
+     "red carpet photographers"
+    ]
+   }
+  },
+  {
+   "text": "Se metió a la foto de los invitados.",
+   "say": "Se metió a la foto de los invitados.",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "記念撮影",
+       "集合写真"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "sweet",
+   "tone": "tierno, sonriendo"
+  },
+  {
+   "text": "Nadie la reclamó… y se fue detrás de una cabalgata.",
+   "say": "Nadie la reclamó… y se fue detrás de una cabalgata.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "乗馬",
+       "馬に乗る人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "horseback riders parade",
+     "horses riding on road"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Llegó caminando hasta Charo.",
+   "say": "¡No manches! Llegó caminando hasta Charo.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 走る",
+       "走る犬"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "La encontraron en la plaza de toros.",
+   "say": "La encontraron en la plaza de toros.",
+   "sfx": "none",
+   "visual": {
+    "bg": "field",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬を抱く 女性",
+       "ペット 保護"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙌",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Ahora necesita una cirugía de 3 mil 500 pesos.",
+   "say": "Ahora necesita una cirugía de tres mil quinientos pesos.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "動物病院",
+       "獣医"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tú la adoptarías?",
+   "say": "¿Tú la adoptarías?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 かわいい",
+       "子犬"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① ¡Sí, ya!",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Mejor la apoyo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Llegó sola a la alfombra roja… y terminó en otro municipio 🐶 #shorts",
+  "description": "Una perrita se coló la noche del domingo 18 de octubre a la alfombra roja del Festival Internacional de Cine de Morelia y se metió en la foto de los asistentes. Nadie la reclamó y después siguió a una cabalgata hasta Charo, donde una rescatista la encontró en la plaza de toros; ahora necesita una cirugía en la oreja.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "ficm",
+   "perrita viral",
+   "morelia"
+  ]
+ },
+ "source_post": "https://mimorelia.com/morelia/final-feliz-perrita-paso-la-alfombra-roja-del-ficm-seguir-cabalgata-charo-ya-esta-salvo-n5595165",
+ "facts_used": [
+  "Una perrita grande se coló a la alfombra roja del Festival Internacional de Cine de Morelia la noche del domingo 18 de octubre y se metió en la foto de un grupo de asistentes [El Heraldo de México 2026-10-19, MiMorelia 2026-10-20]",
+  "Llevaba un collar rojizo, pero nadie la reclamó [El Heraldo de México 2026-10-19, Diario de Morelos 2026-10-19]",
+  "Después siguió a los participantes de la Cabalgata Ruta de la Independencia hasta el municipio de Charo [MiMorelia 2026-10-20, Changoonga 2026-10-20]",
+  "Una rescatista la encontró en la plaza de toros de Charo [MiMorelia 2026-10-20, Changoonga 2026-10-20]",
+  "Pesa alrededor de 30 kilos, tiene un otohematoma y la cirugía costaría 3 mil 500 pesos [MiMorelia 2026-10-20, Changoonga 2026-10-20]"
+ ],
+ "brief": "lane MX - El Heraldo de México / MiMorelia / Changoonga / Diario de Morelos. 유형: 동물 반전. 이해검사: 모렐리아 국제영화제 레드카펫에 목줄 찬 큰 개가 끼어들어 단체사진에 찍히고 화제, 주인은 안 나타나고 이후 말 행렬을 따라 옆 지자체 Charo 까지 가버림, 구조자가 투우장에서 찾았고 귀 수술(3,500페소) 필요."
+}

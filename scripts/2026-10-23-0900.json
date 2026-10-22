@@ -1,0 +1,301 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-invitada-centro-de-mesa-bolsa",
+ "title_lines": [
+  "¿Qué guardó en",
+  "su bolsa en la fiesta?"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Una invitada empezó a guardar cosas de la mesa en su bolsa… en plena fiesta.",
+   "say": "Una invitada empezó a guardar cosas de la mesa en su bolsa… en plena fiesta.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バッグ 入れる",
+       "かばん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "party table decorations",
+     "wedding reception table"
+    ]
+   },
+   "tone": "sorprendido, como contando un chisme"
+  },
+  {
+   "text": "Primero, el adorno del centro de mesa.",
+   "say": "Primero, el adorno del centro de mesa.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "花瓶 花",
+       "フラワーアレンジメント"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💐",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Luego el servilletero… y hasta las servilletas.",
+   "say": "Luego el servilletero… y hasta las servilletas.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ナプキン",
+       "紙ナプキン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧻",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "cam": "push"
+   },
+   "cap": "hit",
+   "tone": "medio riéndose, incrédulo"
+  },
+  {
+   "text": "¡No manches! Los demás le ofrecieron también la silla… y una Coca.",
+   "say": "¡No manches! Los demás le ofrecieron también la silla… y una Coca.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "椅子",
+       "パイプ椅子"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "El video se hizo viral y las redes se dividieron.",
+   "say": "El video se hizo viral y las redes se dividieron.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 見る 人",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "scrolling social media on phone",
+     "person watching phone"
+    ]
+   }
+  },
+  {
+   "text": "Unos se rieron; otros: no se vale burlarse de una señora.",
+   "say": "Unos se rieron; otros: no se vale burlarse de una señora.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "おばあさん",
+       "お年寄り 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y ni se sabe si se podían llevar.",
+   "say": "Y ni se sabe si se podían llevar.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "疑問 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "pensativo, dejando la duda"
+  },
+  {
+   "text": "¿Y tú, qué harías ahí?",
+   "say": "¿Y tú, qué harías ahí?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パーティー 乾杯",
+       "パーティー"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Le digo algo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② La dejo ser",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Empezó a guardar cosas de la mesa en su bolsa… en plena fiesta 😳 #shorts",
+  "description": "Un video viral muestra a una invitada guardando en su bolsa el adorno del centro de mesa, el servilletero y las servilletas durante una fiesta. Otros invitados reaccionaron con ironía y le ofrecieron también una silla y un refresco; en redes unos se rieron y otros criticaron que se burlaran de una mujer mayor, sin saber si los adornos se podían llevar.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "centro de mesa",
+   "fiesta viral",
+   "invitados"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/21/mujer-se-vuelve-viral-por-llevarse-el-centro-de-mesa-de-una-fiesta-y-desata-burlas-hasta-la-coca-le-ofrecieron/",
+ "facts_used": [
+  "Un video viral muestra a una invitada guardando en su bolsa el adorno del centro de mesa durante una fiesta [Infobae 2026-10-21, La Lista 2026-10-21]",
+  "También guardó el servilletero y las servilletas [Infobae 2026-10-21, Tiempo 2026-10-21, Azteca Guerrero 2026-10-21]",
+  "Los demás invitados no la confrontaron de frente y, con ironía, le ofrecieron también una silla y una Coca-Cola [Infobae 2026-10-21, La Lista 2026-10-21]",
+  "En redes las opiniones se dividieron: a unos les pareció cómico y otros criticaron que se burlaran de una mujer mayor [Infobae 2026-10-21, Azteca Guerrero 2026-10-21]",
+  "Usuarios señalaron que no se sabe si los objetos se podían llevar o si tenía permiso; no se conoce dónde ocurrió [La Lista 2026-10-21, El Congresista 2026-10-21]"
+ ],
+ "brief": "lane MX - Infobae / La Lista / Tiempo / Azteca Guerrero. 유형: 파티 하객 황당. 이해검사: 파티에서 한 여성 하객이 센터피스 장식·냅킨꽂이·냅킨까지 가방에 넣자 다른 하객들이 비꼬듯 의자와 콜라까지 권함, 영상이 퍼지며 웃음과 '어르신 조롱 말라'로 갈림, 가져가도 되는 건지는 불명."
+}
