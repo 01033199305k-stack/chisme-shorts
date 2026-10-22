@@ -647,5 +647,84 @@
   "privacy": "private",
   "scheduled_for": "2026-10-22T03:00:00Z",
   "seconds": 340
+ },
+ {
+  "key": "2026-10-23-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-23T09:00:00+09:00",
+  "started": "2026-10-22T23:01:31.971028+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-29337/",
+   "https://pixabay.com/videos/id-88686/"
+  ],
+  "duration": 25.06,
+  "matches": [
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   1.0,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Empezó a guardar cosas de la mesa en su bolsa… en plena fiesta 😳 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/21/mujer-se-vuelve-viral-por-llevarse-el-centro-de-mesa-de-una-fiesta-y-desata-burlas-hasta-la-coca-le-ofrecieron/",
+  "facts_used": [
+   "Un video viral muestra a una invitada guardando en su bolsa el adorno del centro de mesa durante una fiesta [Infobae 2026-10-21, La Lista 2026-10-21]",
+   "También guardó el servilletero y las servilletas [Infobae 2026-10-21, Tiempo 2026-10-21, Azteca Guerrero 2026-10-21]",
+   "Los demás invitados no la confrontaron de frente y, con ironía, le ofrecieron también una silla y una Coca-Cola [Infobae 2026-10-21, La Lista 2026-10-21]",
+   "En redes las opiniones se dividieron: a unos les pareció cómico y otros criticaron que se burlaran de una mujer mayor [Infobae 2026-10-21, Azteca Guerrero 2026-10-21]",
+   "Usuarios señalaron que no se sabe si los objetos se podían llevar o si tenía permiso; no se conoce dónde ocurrió [La Lista 2026-10-21, El Congresista 2026-10-21]"
+  ],
+  "slug": "2026-10-23_0900_mx-invitada-centro-de-mesa-bolsa",
+  "late": false,
+  "video_id": "o3rjrTD44n4",
+  "url": "https://youtube.com/shorts/o3rjrTD44n4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-23T00:00:00Z",
+  "seconds": 404
+ },
+ {
+  "key": "2026-10-23-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-23T12:00:00+09:00",
+  "started": "2026-10-22T23:08:17.731252+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-5129/"
+  ],
+  "duration": 25.7,
+  "matches": [
+   1.0,
+   1.0,
+   0.98,
+   1.0,
+   0.94,
+   1.0,
+   0.96,
+   0.81
+  ],
+  "sfx": 5,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Llegó sola a la alfombra roja… y terminó en otro municipio 🐶 #shorts",
+  "source_post": "https://mimorelia.com/morelia/final-feliz-perrita-paso-la-alfombra-roja-del-ficm-seguir-cabalgata-charo-ya-esta-salvo-n5595165",
+  "facts_used": [
+   "Una perrita grande se coló a la alfombra roja del Festival Internacional de Cine de Morelia la noche del domingo 18 de octubre y se metió en la foto de un grupo de asistentes [El Heraldo de México 2026-10-19, MiMorelia 2026-10-20]",
+   "Llevaba un collar rojizo, pero nadie la reclamó [El Heraldo de México 2026-10-19, Diario de Morelos 2026-10-19]",
+   "Después siguió a los participantes de la Cabalgata Ruta de la Independencia hasta el municipio de Charo [MiMorelia 2026-10-20, Changoonga 2026-10-20]",
+   "Una rescatista la encontró en la plaza de toros de Charo [MiMorelia 2026-10-20, Changoonga 2026-10-20]",
+   "Pesa alrededor de 30 kilos, tiene un otohematoma y la cirugía costaría 3 mil 500 pesos [MiMorelia 2026-10-20, Changoonga 2026-10-20]"
+  ],
+  "slug": "2026-10-23_1200_mx-perrita-alfombra-roja-ficm-charo",
+  "late": false,
+  "video_id": "zkAUmNWELsg",
+  "url": "https://youtube.com/shorts/zkAUmNWELsg",
+  "privacy": "private",
+  "scheduled_for": "2026-10-23T03:00:00Z",
+  "seconds": 380
  }
 ]
