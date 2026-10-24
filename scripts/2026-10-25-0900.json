@@ -1,0 +1,274 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-extranjera-taqueria-condesa-tacos",
+ "title_lines": [
+  "¿Qué pasó en esa",
+  "taquería de Condesa?"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Una extranjera entró a una taquería de la Condesa… gritándole a todos.",
+   "say": "Una extranjera entró a una taquería de la Condesa… gritándole a todos.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性",
+       "怒鳴る 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "taco shop night",
+     "mexican taqueria"
+    ]
+   },
+   "tone": "sorprendido, como contando un chisme"
+  },
+  {
+   "text": "Exigía que la atendieran en inglés.",
+   "say": "Exigía que la atendieran en inglés.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "英語 話す 人",
+       "外国人 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🗣️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "cam": "push"
+   },
+   "tone": "medio indignado, incrédulo"
+  },
+  {
+   "text": "Y a los taqueros: “¿Cuánto ganan al año?”",
+   "say": "Y a los taqueros: “¿Cuánto ganan al año?”",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "料理人 男性",
+       "コック"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¡No manches! Un joven dice que le pegó… y le aventó sus tacos.",
+   "say": "¡No manches! Un joven dice que le pegó… y le aventó sus tacos.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タコス",
+       "メキシコ料理"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌮",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "indignado pero contando el chisme"
+  },
+  {
+   "text": "Los trabajadores dicen que parecía alcoholizada.",
+   "say": "Los trabajadores dicen que parecía alcoholizada.",
+   "sfx": "none",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "酔っ払い 女性",
+       "お酒 酔う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En redes ya la apodaron “Lady Gringa”.",
+   "say": "En redes ya la apodaron “Lady Gringa”.",
+   "sfx": "question",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 見る 人",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "scrolling social media on phone",
+     "person watching phone"
+    ]
+   },
+   "tone": "pensativo, dejando la duda"
+  },
+  {
+   "text": "¿Y tú, qué harías ahí?",
+   "say": "¿Y tú, qué harías ahí?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "店員 男性",
+       "レストラン 店員"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Le pido que se vaya",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Mejor la grabo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Entró a la taquería gritando… y los tacos de un cliente salieron volando 🌮 #shorts",
+  "description": "Un video viral muestra a una mujer extranjera insultando a trabajadores y clientes de una taquería en la colonia Condesa, CDMX, mientras les preguntaba cuánto ganan al año. Según un testigo, antes discutió con un chofer de Uber y un vendedor de atole, y adentro le pegó a un joven y le aventó sus tacos; no se ha confirmado oficialmente si enfrenta consecuencias.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "lady gringa",
+   "taquería condesa",
+   "cdmx"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/22/bautizan-como-lady-gringa-a-estadounidense-que-humillo-e-insulto-a-trabajadores-de-taqueria-en-cdmx-cuanto-ganan-al-ano/",
+ "facts_used": [
+  "Una mujer extranjera (identificada en redes como estadounidense, sin confirmación oficial) protagonizó un altercado con trabajadores y clientes en la taquería Orinoco de la colonia Condesa, CDMX; los videos circularon el 21 de octubre [Infobae 2026-10-22, Récord 2026-10-23, El Gráfico 2026-10-22]",
+  "Según un testigo, antes discutió afuera con un conductor de Uber y con un vendedor de atole [Infobae 2026-10-22, Ejecentral 2026-10-22]",
+  "Dentro exigió que los empleados le pidieran un vehículo por aplicación y que la atendieran en inglés [Ejecentral 2026-10-22, Quinto Poder 2026-10-22]",
+  "En el video insiste en preguntar a los trabajadores \"¿Cuánto ganan al año?\" [Infobae 2026-10-22, Ejecentral 2026-10-22]",
+  "Un joven denunció que lo golpeó en el estómago y le aventó sus tacos [Heraldo de México 2026-10-22, La Lista 2026-10-22, Récord 2026-10-23]",
+  "Trabajadores señalaron que aparentemente estaba alcoholizada; usuarios la apodaron \"Lady Gringa\" y no se ha confirmado oficialmente si fue detenida o enfrenta proceso [Quinto Poder 2026-10-22, El Gráfico 2026-10-22, Récord 2026-10-23]"
+ ],
+ "brief": "lane MX - Infobae / Heraldo de México / Récord / Ejecentral / La Lista. 유형: lady 민폐. 이해검사: 콘데사 타코집에서 외국인 여성이 직원·손님에게 소리치며 '1년에 얼마 버냐'고 묻고, 증언에 따르면 청년을 때리고 타코를 던짐, 'Lady Gringa' 별명, 처벌 여부 미확인."
+}

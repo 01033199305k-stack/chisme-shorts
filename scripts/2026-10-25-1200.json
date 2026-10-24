@@ -1,0 +1,273 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-metro-chabacano-celular-vias-humo",
+ "title_lines": [
+  "Se le cayó algo",
+  "en el Metro…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Se le cayó el celular a las vías del Metro… y empezó a salir humo.",
+   "say": "Se le cayó el celular a las vías del Metro… y empezó a salir humo.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 落とす",
+       "スマートフォン 落下"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "subway station platform",
+     "metro train arriving"
+    ]
+   },
+   "tone": "sorprendido, como contando un chisme"
+  },
+  {
+   "text": "Pasó en Chabacano, Línea 2, y una cámara lo grabó.",
+   "say": "Pasó en Chabacano, Línea 2, y una cámara lo grabó.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Hubo chispas, humo… y la gente salió corriendo.",
+   "say": "Hubo chispas, humo… y la gente salió corriendo.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "逃げる 人々",
+       "走って逃げる 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "acelerado, con tensión"
+  },
+  {
+   "text": "¿Neta? Y según el Metro, no avisó de inmediato.",
+   "say": "¿Neta? Y según el Metro, no avisó de inmediato.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "知らんぷり 男性",
+       "口笛 ごまかす"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, medio riéndose"
+  },
+  {
+   "text": "Cortaron la luz, sacaron el tren y hubo retrasos.",
+   "say": "Cortaron la luz, sacaron el tren y hubo retrasos.",
+   "sfx": "none",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電車 遅延",
+       "駅員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏱️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "crowded subway platform waiting",
+     "train delay station"
+    ]
+   }
+  },
+  {
+   "text": "El director pidió: “Cuiden sus pertenencias”.",
+   "say": "El director pidió: “Cuiden sus pertenencias”.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お願い する 男性",
+       "頭を下げる 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "serio pero amable"
+  },
+  {
+   "text": "¿Se te ha caído algo ahí?",
+   "say": "¿Se te ha caído algo ahí?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 持つ 人",
+       "スマートフォン"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, qué oso",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Nunca, lo cuido",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Se le cayó el celular a las vías del Metro… y salió humo 😱 #shorts",
+  "description": "El 22 de octubre, en la estación Chabacano de la Línea 2 del Metro de la CDMX, un usuario dejó caer su celular a las vías y una cámara captó el cortocircuito, con chispas y humo que hicieron correr a los usuarios. Según el director del Metro, el usuario no avisó de inmediato; se cortó la energía, se retiró el tren para revisarlo y hubo retrasos.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "metro cdmx",
+   "chabacano",
+   "línea 2"
+  ]
+ },
+ "source_post": "https://heraldodemexico.com.mx/nacional/2026/10/22/usuario-tira-su-celular-en-vias-del-metro-cdmx-provoca-flamazo-se-retrasa-el-servicio-de-la-linea-video-914306.html",
+ "facts_used": [
+  "El jueves 22 de octubre, alrededor de las 18:21, un usuario dejó caer un celular a las vías en la estación Chabacano de la Línea 2 del Metro CDMX [Heraldo de México 2026-10-22, Infobae 2026-10-23]",
+  "Una cámara de seguridad captó el momento en que el celular cae a las vías y provoca un cortocircuito [N+ Foro 2026-10-22]",
+  "Hubo chispazo y humo, y usuarios salieron corriendo de la estación [N+ Foro 2026-10-22, Infobae 2026-10-23]",
+  "El director del Metro, Adrián Rubalcava, dijo que el usuario no reportó de inmediato lo sucedido [Heraldo de México 2026-10-22, Infobae 2026-10-23]",
+  "Se cortó la energía para retirar el objeto, el tren fue retirado para revisión y hubo retrasos en la línea [Heraldo de México 2026-10-22, Publimetro 2026-10-23]",
+  "Rubalcava: \"Les pido de corazón que cuiden sus pertenencias, especialmente los objetos metálicos\" [Teleurban 2026-10-22, Infobae 2026-10-23]"
+ ],
+ "brief": "lane MX - Heraldo de México / N+ / Infobae / Publimetro. 유형: Metro 황당. 이해검사: 지하철 2호선 차바카노역에서 승객이 휴대폰을 선로에 떨어뜨려 합선·불꽃·연기, 승객들이 뛰쳐나감, 본인은 바로 신고 안 함, 전원 차단·열차 회수·지연, 국장이 '소지품 꼭 챙겨달라'."
+}
