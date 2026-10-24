@@ -726,5 +726,85 @@
   "privacy": "private",
   "scheduled_for": "2026-10-23T03:00:00Z",
   "seconds": 380
+ },
+ {
+  "key": "2026-10-25-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-25T09:00:00+09:00",
+  "started": "2026-10-24T22:10:03.140681+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-219498/",
+   "https://pixabay.com/videos/id-88686/"
+  ],
+  "duration": 22.37,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   0.92,
+   1.0,
+   1.0
+  ],
+  "sfx": 5,
+  "illustrations": 7,
+  "cuts": 7,
+  "title": "Entró a la taquería gritando… y los tacos de un cliente salieron volando 🌮 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/22/bautizan-como-lady-gringa-a-estadounidense-que-humillo-e-insulto-a-trabajadores-de-taqueria-en-cdmx-cuanto-ganan-al-ano/",
+  "facts_used": [
+   "Una mujer extranjera (identificada en redes como estadounidense, sin confirmación oficial) protagonizó un altercado con trabajadores y clientes en la taquería Orinoco de la colonia Condesa, CDMX; los videos circularon el 21 de octubre [Infobae 2026-10-22, Récord 2026-10-23, El Gráfico 2026-10-22]",
+   "Según un testigo, antes discutió afuera con un conductor de Uber y con un vendedor de atole [Infobae 2026-10-22, Ejecentral 2026-10-22]",
+   "Dentro exigió que los empleados le pidieran un vehículo por aplicación y que la atendieran en inglés [Ejecentral 2026-10-22, Quinto Poder 2026-10-22]",
+   "En el video insiste en preguntar a los trabajadores \"¿Cuánto ganan al año?\" [Infobae 2026-10-22, Ejecentral 2026-10-22]",
+   "Un joven denunció que lo golpeó en el estómago y le aventó sus tacos [Heraldo de México 2026-10-22, La Lista 2026-10-22, Récord 2026-10-23]",
+   "Trabajadores señalaron que aparentemente estaba alcoholizada; usuarios la apodaron \"Lady Gringa\" y no se ha confirmado oficialmente si fue detenida o enfrenta proceso [Quinto Poder 2026-10-22, El Gráfico 2026-10-22, Récord 2026-10-23]"
+  ],
+  "slug": "2026-10-25_0900_mx-extranjera-taqueria-condesa-tacos",
+  "late": false,
+  "video_id": "nqQEi8FOQr4",
+  "url": "https://youtube.com/shorts/nqQEi8FOQr4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-25T00:00:00Z",
+  "seconds": 377
+ },
+ {
+  "key": "2026-10-25-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-25T12:00:00+09:00",
+  "started": "2026-10-24T22:16:21.562497+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1003/",
+   "https://pixabay.com/videos/id-3630/"
+  ],
+  "duration": 21.56,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.94,
+   1.0
+  ],
+  "sfx": 5,
+  "illustrations": 5,
+  "cuts": 7,
+  "title": "Se le cayó el celular a las vías del Metro… y salió humo 😱 #shorts",
+  "source_post": "https://heraldodemexico.com.mx/nacional/2026/10/22/usuario-tira-su-celular-en-vias-del-metro-cdmx-provoca-flamazo-se-retrasa-el-servicio-de-la-linea-video-914306.html",
+  "facts_used": [
+   "El jueves 22 de octubre, alrededor de las 18:21, un usuario dejó caer un celular a las vías en la estación Chabacano de la Línea 2 del Metro CDMX [Heraldo de México 2026-10-22, Infobae 2026-10-23]",
+   "Una cámara de seguridad captó el momento en que el celular cae a las vías y provoca un cortocircuito [N+ Foro 2026-10-22]",
+   "Hubo chispazo y humo, y usuarios salieron corriendo de la estación [N+ Foro 2026-10-22, Infobae 2026-10-23]",
+   "El director del Metro, Adrián Rubalcava, dijo que el usuario no reportó de inmediato lo sucedido [Heraldo de México 2026-10-22, Infobae 2026-10-23]",
+   "Se cortó la energía para retirar el objeto, el tren fue retirado para revisión y hubo retrasos en la línea [Heraldo de México 2026-10-22, Publimetro 2026-10-23]",
+   "Rubalcava: \"Les pido de corazón que cuiden sus pertenencias, especialmente los objetos metálicos\" [Teleurban 2026-10-22, Infobae 2026-10-23]"
+  ],
+  "slug": "2026-10-25_1200_mx-metro-chabacano-celular-vias-humo",
+  "late": false,
+  "video_id": "t8Btn8GDqfg",
+  "url": "https://youtube.com/shorts/t8Btn8GDqfg",
+  "privacy": "private",
+  "scheduled_for": "2026-10-25T03:00:00Z",
+  "seconds": 360
  }
 ]
