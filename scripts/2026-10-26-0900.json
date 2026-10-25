@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-dj-roma-norte-callar-mexicanas",
+ "title_lines": [
+  "Se reían en un café…",
+  "y alguien se enojó"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Dos amigas se reían en un café de la Roma… y un extranjero les reclamó.",
+   "say": "Dos amigas se reían en un café de la Roma… y un extranjero les reclamó.",
+   "sfx": "question",
+   "visual": {
+    "bg": "cafe",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 女性 二人",
+       "おしゃべり 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "“¿Se pueden callar?”, les dijo desde su mesa.",
+   "say": "“¿Se pueden callar?”, les dijo desde su mesa.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "cafe",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 外国人 男性",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "imitando el reclamo, molesto"
+  },
+  {
+   "text": "Y remató: “Este no es un espacio público”.",
+   "say": "Y remató: “Este no es un espacio público”.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "腕を組む 男性",
+       "偉そうな 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "incrédulo, medio riéndose"
+  },
+  {
+   "text": "¿Neta? Las mesas estaban sobre la banqueta de la calle Acapulco.",
+   "say": "¿Neta? Las mesas estaban sobre la banqueta de la calle Acapulco.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カフェ テラス席",
+       "オープンカフェ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "sidewalk cafe tables city",
+     "outdoor cafe street"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "Una de ellas lo grabó, lo subió a TikTok y se hizo viral.",
+   "say": "Una de ellas lo grabó, lo subió a TikTok y se hizo viral.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 撮影 女性",
+       "動画 撮影"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Luego lo identificaron como DJ… y tenía fiesta ese sábado.",
+   "say": "Luego lo identificaron como DJ… y tenía fiesta ese sábado.",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "DJ",
+       "クラブ DJ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "bajando la voz, con suspenso"
+  },
+  {
+   "text": "El lugar canceló el evento: “No volveremos a trabajar con esta persona”.",
+   "say": "El lugar canceló el evento: “No volveremos a trabajar con esta persona”.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キャンセル",
+       "中止 お知らせ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ],
+    "video": [
+     "dj party crowd lights",
+     "nightclub dj booth"
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¿Te reirías más bajito?",
+   "say": "¿Te reirías más bajito?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 女性",
+       "ガッツポーズ 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, por respeto",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ni loca, es la calle",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Se reían en un café de la Roma… y un extranjero les pidió silencio 🤫 #shorts",
+  "description": "El 21 de octubre, en las mesas sobre la banqueta de un café de la calle Acapulco, en la Roma Norte (CDMX), un extranjero les reclamó a dos mexicanas por reírse: “¿Se pueden callar?” y “Este no es un espacio público”. Una de ellas lo grabó y el video se hizo viral en TikTok. Después, en redes lo identificaron como DJ y el lugar FABA canceló su evento del sábado 24 de octubre, asegurando que no volverá a trabajar con él.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "roma norte",
+   "cdmx",
+   "dj extranjero"
+  ]
+ },
+ "source_post": "https://www.publimetro.com.mx/noticias/2026/10/22/faba-cancela-evento-dj-extranjero-mexicanas-roma/",
+ "facts_used": [
+  "Un extranjero reclamó a dos mexicanas por reírse y conversar en las mesas exteriores de un café en la calle Acapulco, casi esquina con Sinaloa, Roma Norte [Publimetro 2026-10-21, Proceso 2026-10-22]",
+  "En el video dice \"¿Se pueden callar?\" y \"Este no es un espacio público\" [Publimetro 2026-10-21, Proceso 2026-10-22]",
+  "Las mesas estaban instaladas sobre la vía pública (la banqueta), y las mujeres se lo señalaron [Publimetro 2026-10-21, Proceso 2026-10-22]",
+  "Una de las mujeres grabó parte de la discusión y la publicó en TikTok, donde se hizo viral [Publimetro 2026-10-21]",
+  "En redes lo identificaron como DJ; iba a tocar en el evento del sábado 24 de octubre en FABA [Publimetro 2026-10-22, La Razón 2026-10-24]",
+  "FABA: \"Hemos cancelado el evento del sábado y no volveremos a trabajar con esta persona\" [SinEmbargo 2026-10, Publimetro 2026-10-22, La Razón 2026-10-24]"
+ ],
+ "brief": "lane MX - Publimetro / Proceso / La Razón / SinEmbargo. 유형: 가게·손님 분쟁(외국인 민폐 → 사이다). 이해검사: 로마 노르테 카페 인도 테이블에서 웃던 멕시코 여성 둘에게 외국인이 '조용히 해, 여긴 공공장소 아냐' → 실은 인도 위 → 틱톡 바이럴 → DJ로 밝혀져 토요일 공연 취소."
+}

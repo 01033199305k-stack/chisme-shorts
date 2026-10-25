@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-cholula-gps-escalinatas-camioneta",
+ "title_lines": [
+  "Siguió al GPS…",
+  "y mira dónde acabó"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Un señor iba manejando en Cholula… y siguió al GPS sin pensarlo.",
+   "say": "Un señor iba manejando en Cholula… y siguió al GPS sin pensarlo.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "運転 おじいさん",
+       "車 運転 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚙",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "slide-right"
+     }
+    ]
+   },
+   "tone": "rápido y divertido, chismoso"
+  },
+  {
+   "text": "Terminó subiendo su camioneta por las escalinatas de un santuario.",
+   "say": "Terminó subiendo su camioneta por las escalinatas de un santuario.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "階段",
+       "石段"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "tr": "flash",
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "¡No manches! Era el Santuario de Guadalupe, una zona solo para peatones.",
+   "say": "¡No manches! Era el Santuario de Guadalupe, una zona solo para peatones.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歩行者",
+       "歩く 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "incrédulo, medio riéndose"
+  },
+  {
+   "text": "La camioneta quedó atorada en los escalones y la gente lo grabó.",
+   "say": "La camioneta quedó atorada en los escalones y la gente lo grabó.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 撮影 人々",
+       "野次馬"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "stone stairs church",
+     "car stuck on stairs"
+    ]
+   }
+  },
+  {
+   "text": "¿Su explicación? Que solo seguía la ruta de Google Maps.",
+   "say": "¿Su explicación? Que solo seguía la ruta de Google Maps.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カーナビ",
+       "ナビ 運転"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤷",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "aguantándose la risa"
+  },
+  {
+   "text": "Llegaron Tránsito y una grúa para sacar la camioneta.",
+   "say": "Llegaron Tránsito y una grúa para sacar la camioneta.",
+   "sfx": "none",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レッカー車",
+       "交通 警察官"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "tow truck pulling car",
+     "tow truck street"
+    ]
+   }
+  },
+  {
+   "text": "Y a él lo presentaron ante las autoridades por faltas administrativas.",
+   "say": "Y a él lo presentaron ante las autoridades por faltas administrativas.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官 連行",
+       "警察 取り調べ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👮",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "serio, como cerrando el chisme"
+  },
+  {
+   "text": "¿Tú confías en el GPS?",
+   "say": "¿Tú confías en el GPS?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 持つ 人",
+       "スマートフォン"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Siempre, a ciegas",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ya no, qué oso",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Siguió al GPS en Cholula… y su camioneta terminó en las escaleras 😱 #shorts",
+  "description": "El domingo 18 de octubre, en San Pedro Cholula, Puebla, un conductor subió su camioneta por las escalinatas del Santuario de la Virgen de Guadalupe, en el Cerrito de Guadalupe, una zona peatonal, y quedó atorado. Aseguró que solo seguía la ruta de Google Maps. Llegaron Tránsito y una grúa para retirar la camioneta, y el conductor fue presentado ante las autoridades por faltas administrativas.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "cholula",
+   "google maps",
+   "puebla"
+  ]
+ },
+ "source_post": "https://www.eluniversalpuebla.com.mx/viral/conductor-sigue-google-maps-y-termina-en-las-escalinatas-de-iglesia-en-puebla/",
+ "facts_used": [
+  "El domingo 18 de octubre, poco antes de las 18:00, una camioneta quedó atrapada en las escalinatas del Santuario de la Virgen de Guadalupe, en el Cerrito de Guadalupe, San Pedro Cholula [El Universal Puebla 2026-10, El Incorrecto 2026-10]",
+  "Es una zona exclusivamente peatonal; el conductor entró desde la calle 15 Norte sin notar que eran escalinatas [El Universal Puebla 2026-10]",
+  "El conductor, un hombre de más de 60 años, aseguró que seguía las indicaciones de Google Maps [Milenio 2026-10, El Universal Puebla 2026-10]",
+  "Personas que estaban en el lugar grabaron el momento y el video se viralizó [Milenio 2026-10, Meganoticias 2026-10]",
+  "Acudieron Seguridad Pública y Tránsito Municipal; una grúa retiró la camioneta [Milenio 2026-10, El Incorrecto 2026-10]",
+  "El conductor fue presentado ante las autoridades por faltas administrativas [El Incorrecto 2026-10, Milenio 2026-10]"
+ ],
+ "brief": "lane MX - El Universal Puebla / Milenio / El Incorrecto / Meganoticias. 유형: 운전·GPS 황당. 이해검사: 촐룰라에서 60대 운전자가 구글 지도만 따라가다 과달루페 성당 언덕 계단(보행자 전용)으로 차를 올려 끼임, 교통경찰·견인차 출동, 행정위반으로 넘겨짐. 음주설은 미확인이라 안 씀."
+}
