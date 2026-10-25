@@ -806,5 +806,86 @@
   "privacy": "private",
   "scheduled_for": "2026-10-25T03:00:00Z",
   "seconds": 360
+ },
+ {
+  "key": "2026-10-26-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-26T09:00:00+09:00",
+  "started": "2026-10-25T22:09:36.954912+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-168811/",
+   "https://pixabay.com/videos/id-16046/"
+  ],
+  "duration": 24.58,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Se reían en un café de la Roma… y un extranjero les pidió silencio 🤫 #shorts",
+  "source_post": "https://www.publimetro.com.mx/noticias/2026/10/22/faba-cancela-evento-dj-extranjero-mexicanas-roma/",
+  "facts_used": [
+   "Un extranjero reclamó a dos mexicanas por reírse y conversar en las mesas exteriores de un café en la calle Acapulco, casi esquina con Sinaloa, Roma Norte [Publimetro 2026-10-21, Proceso 2026-10-22]",
+   "En el video dice \"¿Se pueden callar?\" y \"Este no es un espacio público\" [Publimetro 2026-10-21, Proceso 2026-10-22]",
+   "Las mesas estaban instaladas sobre la vía pública (la banqueta), y las mujeres se lo señalaron [Publimetro 2026-10-21, Proceso 2026-10-22]",
+   "Una de las mujeres grabó parte de la discusión y la publicó en TikTok, donde se hizo viral [Publimetro 2026-10-21]",
+   "En redes lo identificaron como DJ; iba a tocar en el evento del sábado 24 de octubre en FABA [Publimetro 2026-10-22, La Razón 2026-10-24]",
+   "FABA: \"Hemos cancelado el evento del sábado y no volveremos a trabajar con esta persona\" [SinEmbargo 2026-10, Publimetro 2026-10-22, La Razón 2026-10-24]"
+  ],
+  "slug": "2026-10-26_0900_mx-dj-roma-norte-callar-mexicanas",
+  "late": false,
+  "video_id": "ypUP1Vmzf8A",
+  "url": "https://youtube.com/shorts/ypUP1Vmzf8A",
+  "privacy": "private",
+  "scheduled_for": "2026-10-26T00:00:00Z",
+  "seconds": 364
+ },
+ {
+  "key": "2026-10-26-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-26T12:00:00+09:00",
+  "started": "2026-10-25T22:15:42.248541+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-144355/"
+  ],
+  "duration": 28.85,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 8,
+  "cuts": 8,
+  "title": "Siguió al GPS en Cholula… y su camioneta terminó en las escaleras 😱 #shorts",
+  "source_post": "https://www.eluniversalpuebla.com.mx/viral/conductor-sigue-google-maps-y-termina-en-las-escalinatas-de-iglesia-en-puebla/",
+  "facts_used": [
+   "El domingo 18 de octubre, poco antes de las 18:00, una camioneta quedó atrapada en las escalinatas del Santuario de la Virgen de Guadalupe, en el Cerrito de Guadalupe, San Pedro Cholula [El Universal Puebla 2026-10, El Incorrecto 2026-10]",
+   "Es una zona exclusivamente peatonal; el conductor entró desde la calle 15 Norte sin notar que eran escalinatas [El Universal Puebla 2026-10]",
+   "El conductor, un hombre de más de 60 años, aseguró que seguía las indicaciones de Google Maps [Milenio 2026-10, El Universal Puebla 2026-10]",
+   "Personas que estaban en el lugar grabaron el momento y el video se viralizó [Milenio 2026-10, Meganoticias 2026-10]",
+   "Acudieron Seguridad Pública y Tránsito Municipal; una grúa retiró la camioneta [Milenio 2026-10, El Incorrecto 2026-10]",
+   "El conductor fue presentado ante las autoridades por faltas administrativas [El Incorrecto 2026-10, Milenio 2026-10]"
+  ],
+  "slug": "2026-10-26_1200_mx-cholula-gps-escalinatas-camioneta",
+  "late": false,
+  "video_id": "K1XnX9_f5qA",
+  "url": "https://youtube.com/shorts/K1XnX9_f5qA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-26T03:00:00Z",
+  "seconds": 376
  }
 ]
