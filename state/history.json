@@ -887,5 +887,86 @@
   "privacy": "private",
   "scheduled_for": "2026-10-26T03:00:00Z",
   "seconds": 376
+ },
+ {
+  "key": "2026-10-27-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-27T09:00:00+09:00",
+  "started": "2026-10-26T22:22:04.849119+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-13719/",
+   "https://pixabay.com/videos/id-38084/"
+  ],
+  "duration": 26.8,
+  "matches": [
+   1.0,
+   0.99,
+   0.99,
+   1.0,
+   0.95,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 5,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Su hijo le pidió unos quesitos para la escuela… y ella los probó primero 🧀 #shorts",
+  "source_post": "https://www.milenio.com/virales/influencer-se-come-cera-roja-de-queso-la-critican-en-redes-sociales",
+  "facts_used": [
+   "Una influencer mexicana probó quesos Babybel antes de dárselos a su hijo, quien se los pidió después de verlos en los almuerzos de sus compañeros [Milenio 2026-10, Uno TV 2026-10]",
+   "Tras retirar el plástico exterior, confundió la capa roja con parte del queso y se la comió [Milenio 2026-10, Uno TV 2026-10]",
+   "Se quejó de que \"está chicloso\" [Realidad Oaxaca 2026-10]",
+   "Dijo que la textura le pareció extraña y que no entendía la popularidad del producto [Milenio 2026-10]",
+   "En redes hubo burlas, aunque algunos usuarios admitieron haber tenido la misma confusión la primera vez [Milenio 2026-10]",
+   "La capa roja es cera (parafina, cera microcristalina y colorante), no está pensada para comerse [Infobae 2025-04, Milenio 2026-10]"
+  ],
+  "slug": "2026-10-27_0900_mx-influencer-babybel-red-wax",
+  "late": false,
+  "video_id": "vkEnMAO1V2s",
+  "url": "https://youtube.com/shorts/vkEnMAO1V2s",
+  "privacy": "private",
+  "scheduled_for": "2026-10-27T00:00:00Z",
+  "seconds": 414
+ },
+ {
+  "key": "2026-10-27-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-27T12:00:00+09:00",
+  "started": "2026-10-26T22:29:00.305315+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-136531/",
+   "https://pixabay.com/videos/id-1360/"
+  ],
+  "duration": 27.47,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 5,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Cristian Castro le pasó el micrófono a un futbolista… y así sonó “Volcán” 🎤 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/24/chicharito-hernandez-canta-junto-a-cristian-castro-volcan-de-jose-jose-y-redes-le-recomiendan-no-dejar-el-futbol/",
+  "facts_used": [
+   "Javier \"Chicharito\" Hernández cantó con Cristian Castro \"Volcán\", de José José, antes del show de Castro en Dallas, Texas, el sábado 24 de octubre [Infobae 2026-10-24, El Heraldo de México 2026-10-25]",
+   "Castro cantó primero y luego invitó al futbolista a sumarse; Hernández trató de seguir la melodía [Infobae 2026-10-24, La Razón 2026-10-24]",
+   "Castro publicó el video: \"Calentando para el show en Dallas con un orgullo mexicano, nuestro querido @ch14_. Gracias por acompañarnos\" [Infobae 2026-10-24, El Heraldo de México 2026-10-25]",
+   "El video superó poco más de 56 mil reacciones en cinco horas [Excélsior 2026-10-24]",
+   "Usuarios bromearon sobre su voz; un mensaje repetido fue \"Chicharito eligió la carrera correcta\" [Infobae 2026-10-24, La Razón 2026-10-24]"
+  ],
+  "slug": "2026-10-27_1200_mx-chicharito-sings-volcan-cristian-castro",
+  "late": false,
+  "video_id": "nd40U3l0lUM",
+  "url": "https://youtube.com/shorts/nd40U3l0lUM",
+  "privacy": "private",
+  "scheduled_for": "2026-10-27T03:00:00Z",
+  "seconds": 409
  }
 ]
