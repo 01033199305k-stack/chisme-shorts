@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-chicharito-sings-volcan-cristian-castro",
+ "title_lines": [
+  "Llegó al camerino…",
+  "y le dieron el micro"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Cristian Castro calentaba antes de su show… y llegó un invitado inesperado.",
+   "say": "Cristian Castro calentaba antes de su show… y llegó un invitado inesperado.",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌手 男性",
+       "楽屋"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Era el Chicharito Hernández, antes del show en Dallas.",
+   "say": "Era el Chicharito Hernández, antes del show en Dallas.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー選手",
+       "サッカーボール"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "soccer stadium crowd",
+     "soccer ball field"
+    ]
+   },
+   "cap": "hit",
+   "tone": "emocionado, revelando"
+  },
+  {
+   "text": "Cristian cantó “Volcán”, de José José… y lo invitó a seguirle.",
+   "say": "Cristian cantó “Volcán”, de José José… y lo invitó a seguirle.",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌う 男性",
+       "マイク 歌う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El Chicharito le entró sin pena y trató de seguirle la melodía.",
+   "say": "El Chicharito le entró sin pena y trató de seguirle la melodía.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "下手 歌 男性",
+       "カラオケ 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch"
+   },
+   "tone": "aguantando la risa"
+  },
+  {
+   "text": "Cristian lo subió a redes: “un orgullo mexicano”.",
+   "say": "Cristian lo subió a redes: “un orgullo mexicano”.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 投稿",
+       "SNS"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📲",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "En cinco horas ya pasaba de 56 mil reacciones.",
+   "say": "En cinco horas ya pasaba de cincuenta y seis mil reacciones.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "拍手 人々",
+       "いいね"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "stamp"
+     }
+    ],
+    "video": [
+     "social media likes phone screen",
+     "phone notifications scrolling"
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¿Neta? Las burlas no tardaron: “Chicharito eligió la carrera correcta”.",
+   "say": "¿Neta? Las burlas no tardaron: “Chicharito eligió la carrera correcta”.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 人々",
+       "スマホ 笑う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "riéndose, como leyendo comentarios"
+  },
+  {
+   "text": "¿Le darías chance de cantar?",
+   "say": "¿Le darías chance de cantar?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌う サッカー選手",
+       "マイク"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, que saque disco",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Mejor que siga en el fut",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Cristian Castro le pasó el micrófono a un futbolista… y así sonó “Volcán” 🎤 #shorts",
+  "description": "Antes de su concierto en Dallas el 24 de octubre, Cristian Castro cantó “Volcán”, de José José, junto a Javier “Chicharito” Hernández, y subió el video a sus redes llamándolo “un orgullo mexicano”. El clip pasó de 56 mil reacciones en cinco horas y desató bromas: muchos dijeron que el Chicharito eligió la carrera correcta.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "chicharito",
+   "cristian castro",
+   "volcán"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/24/chicharito-hernandez-canta-junto-a-cristian-castro-volcan-de-jose-jose-y-redes-le-recomiendan-no-dejar-el-futbol/",
+ "facts_used": [
+  "Javier \"Chicharito\" Hernández cantó con Cristian Castro \"Volcán\", de José José, antes del show de Castro en Dallas, Texas, el sábado 24 de octubre [Infobae 2026-10-24, El Heraldo de México 2026-10-25]",
+  "Castro cantó primero y luego invitó al futbolista a sumarse; Hernández trató de seguir la melodía [Infobae 2026-10-24, La Razón 2026-10-24]",
+  "Castro publicó el video: \"Calentando para el show en Dallas con un orgullo mexicano, nuestro querido @ch14_. Gracias por acompañarnos\" [Infobae 2026-10-24, El Heraldo de México 2026-10-25]",
+  "El video superó poco más de 56 mil reacciones en cinco horas [Excélsior 2026-10-24]",
+  "Usuarios bromearon sobre su voz; un mensaje repetido fue \"Chicharito eligió la carrera correcta\" [Infobae 2026-10-24, La Razón 2026-10-24]"
+ ],
+ "brief": "lane MX - Infobae / El Heraldo de México / La Razón / Excélsior. 유형: 연예·스포츠 스타 해프닝. 이해검사: 크리스티안 카스트로가 댈러스 공연 전 '볼칸'을 부르다 치차리토에게 마이크 → 5시간 만에 5.6만 반응, '직업 잘 골랐네' 놀림."
+}

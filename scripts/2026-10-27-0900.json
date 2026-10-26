@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-influencer-babybel-red-wax",
+ "title_lines": [
+  "Probó los quesitos…",
+  "y algo salió muy mal"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Su hijo le pidió unos quesitos para el lunch… y ella quiso probarlos primero.",
+   "say": "Su hijo le pidió unos quesitos para el lunch… y ella quiso probarlos primero.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "チーズ",
+       "お弁当 子供"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Eran los famosos Babybel, los que llevaban sus compañeros.",
+   "say": "Eran los famosos Babybel, los que llevaban sus compañeros.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "チーズ 丸い",
+       "ランチボックス"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "red wax cheese babybel",
+     "small round cheese snack"
+    ]
+   }
+  },
+  {
+   "text": "Les quitó el plástico de afuera… y se comió también la capa roja.",
+   "say": "Les quitó el plástico de afuera… y se comió también la capa roja.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "チーズを食べる 女性",
+       "食べる 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "incrédulo, aguantando la risa"
+  },
+  {
+   "text": "¡No manches! Esa capa es cera, y ella creyó que era parte del queso.",
+   "say": "¡No manches! Esa capa es cera, y ella creyó que era parte del queso.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ろうそく",
+       "驚く 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕯️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "“Está chicloso”, se quejó en su video.",
+   "say": "“Está chicloso”, se quejó en su video.",
+   "sfx": "question",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "まずい 顔 女性",
+       "変な味"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "imitando la queja, divertido"
+  },
+  {
+   "text": "Y dijo que no entendía por qué esos quesitos son tan populares.",
+   "say": "Y dijo que no entendía por qué esos quesitos son tan populares.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "首をかしげる 女性",
+       "疑問"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤷‍♀️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En redes se burlaron… pero varios confesaron que les pasó lo mismo.",
+   "say": "En redes se burlaron… pero varios confesaron que les pasó lo mismo.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 笑う 人々",
+       "SNS 炎上"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "people laughing at phone",
+     "scrolling social media phone"
+    ]
+   },
+   "tone": "riéndose, cómplice"
+  },
+  {
+   "text": "¿A ti también te pasó?",
+   "say": "¿A ti también te pasó?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "恥ずかしい 女性",
+       "照れる 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, qué oso",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Nunca, ¿cómo crees?",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Su hijo le pidió unos quesitos para la escuela… y ella los probó primero 🧀 #shorts",
+  "description": "Una influencer mexicana quiso probar los quesos Babybel que su hijo le pidió para el lunch, porque sus compañeros los llevaban. Les quitó el plástico y se comió también la capa roja de cera creyendo que era parte del queso; se quejó de que estaba chicloso. En redes hubo burlas, aunque varios admitieron haber tenido la misma confusión.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "queso babybel",
+   "influencer",
+   "cera roja"
+  ]
+ },
+ "source_post": "https://www.milenio.com/virales/influencer-se-come-cera-roja-de-queso-la-critican-en-redes-sociales",
+ "facts_used": [
+  "Una influencer mexicana probó quesos Babybel antes de dárselos a su hijo, quien se los pidió después de verlos en los almuerzos de sus compañeros [Milenio 2026-10, Uno TV 2026-10]",
+  "Tras retirar el plástico exterior, confundió la capa roja con parte del queso y se la comió [Milenio 2026-10, Uno TV 2026-10]",
+  "Se quejó de que \"está chicloso\" [Realidad Oaxaca 2026-10]",
+  "Dijo que la textura le pareció extraña y que no entendía la popularidad del producto [Milenio 2026-10]",
+  "En redes hubo burlas, aunque algunos usuarios admitieron haber tenido la misma confusión la primera vez [Milenio 2026-10]",
+  "La capa roja es cera (parafina, cera microcristalina y colorante), no está pensada para comerse [Infobae 2025-04, Milenio 2026-10]"
+ ],
+ "brief": "lane MX - Milenio / Uno TV / Realidad Oaxaca. 유형: 인플루언서·음식 황당. 이해검사: 아들 도시락용 바비벨 치즈를 먼저 먹어본 엄마 인플루언서가 빨간 왁스까지 먹고 '쫀득하다' 불평 → 조롱, 하지만 '나도 그랬다'는 고백도."
+}
