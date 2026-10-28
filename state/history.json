@@ -968,5 +968,87 @@
   "privacy": "private",
   "scheduled_for": "2026-10-27T03:00:00Z",
   "seconds": 409
+ },
+ {
+  "key": "2026-10-29-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-29T09:00:00+09:00",
+  "started": "2026-10-28T22:14:34.569416+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-26531/",
+   "https://pixabay.com/videos/id-38084/",
+   "https://pixabay.com/videos/id-1360/"
+  ],
+  "duration": 31.41,
+  "matches": [
+   0.98,
+   0.94,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   1.0
+  ],
+  "sfx": 5,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Se enojó en vivo y pateó un dron… pero no cayó donde creía 🚁 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/27/ernesto-chavana-patea-molesto-un-dron-y-lastima-a-una-colaboradora-en-vivo-el-momento-viral-en-la-tv-de-monterrey/",
+  "facts_used": [
+   "Ernesto Chavana, conductor de Es Show (Multimedios, Monterrey), pateó un dron durante la transmisión en vivo del lunes 26 de octubre [Infobae 2026-10-27, Diario Puntual 2026-10-27]",
+   "Según las notas, se molestó con la producción y pateó el dron que estaba en el foro a poca distancia del suelo [La Razón 2026-10-27, Infobae 2026-10-27]",
+   "El dron salió proyectado y golpeó en la cara a la modelo Isabella Rojas [El Heraldo de México 2026-10-27, El Imparcial 2026-10-27, Publimetro 2026-10-27]",
+   "La modelo regresó a la transmisión, mostró una lesión en el labio y dijo que solo tuvo heridas leves [Infobae 2026-10-27, La Razón 2026-10-27]",
+   "Chavana se disculpó y dijo sentirse \"muy apenado\" [El Imparcial 2026-10-27, Canal 44 2026-10-27]",
+   "En redes lo criticaron porque permaneció en su lugar tras la patada sin acercarse a auxiliarla [Infobae 2026-10-27, Nación321 2026-10-27]"
+  ],
+  "slug": "2026-10-29_0900_mx-tv-host-kicks-drone-model",
+  "late": false,
+  "video_id": "WSkKjKXEejA",
+  "url": "https://youtube.com/shorts/WSkKjKXEejA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-29T00:00:00Z",
+  "seconds": 472
+ },
+ {
+  "key": "2026-10-29-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-29T12:00:00+09:00",
+  "started": "2026-10-28T22:22:27.927201+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-127713/",
+   "https://pixabay.com/videos/id-175183/"
+  ],
+  "duration": 29.26,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   0.89,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 4,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "La esperó afuera de su trabajo con una rosa… y un famoso lo vio 🌹 #shorts",
+  "source_post": "https://heraldodemexico.com.mx/espectaculos/2026/10/27/eduin-caz-regala-un-viaje-un-joven-payasito-su-novia-por-tener-un-amor-de-antes-asi-fue-el-momento-viral-917232.html",
+  "facts_used": [
+   "Un joven de León, Guanajuato, vestido de payasito, esperó a su novia a la salida de su trabajo y le regaló una rosa [El Heraldo de México 2026-10-27, ABC Noticias 2026-10-27]",
+   "El video se viralizó con la canción \"Amor de antes\" de Grupo Firme [El Heraldo de México 2026-10-27, Turquesa News 2026-10]",
+   "Eduin Caz comentó \"Eso sí es amor de antes\" y que su asistente los contactaría para mandarles un regalo [El Heraldo de México 2026-10-27, MX Comunica 2026-10]",
+   "La pareja recibió un viaje todo pagado a Puerto Vallarta [Vox Populi Noticias 2026-10, ABC Noticias 2026-10-27]",
+   "En un video, ambos agradecieron al cantante por el regalo [ABC Noticias 2026-10-27, Global Media 2026-10]"
+  ],
+  "slug": "2026-10-29_1200_mx-clown-rose-eduin-caz-trip",
+  "late": false,
+  "video_id": "mC72uWJ0OXc",
+  "url": "https://youtube.com/shorts/mC72uWJ0OXc",
+  "privacy": "private",
+  "scheduled_for": "2026-10-29T03:00:00Z",
+  "seconds": 442
  }
 ]
