@@ -1,0 +1,300 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-clown-rose-eduin-caz-trip",
+ "title_lines": [
+  "Le llevó una rosa…",
+  "y un famoso lo vio"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Salió del trabajo… y afuera la esperaba un payasito con una rosa.",
+   "say": "Salió del trabajo… y afuera la esperaba un payasito con una rosa.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ピエロ",
+       "バラ 一輪"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, con ternura"
+  },
+  {
+   "text": "Era su novio, un chavo de León, Guanajuato, vestido de payasito.",
+   "say": "Era su novio, un chavo de León, Guanajuato, vestido de payasito.",
+   "sfx": "none",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ピエロ 男性",
+       "カップル 待ち合わせ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "clown waiting on the street",
+     "man holding a red rose"
+    ]
+   }
+  },
+  {
+   "text": "Alguien lo grabó, le pusieron “Amor de antes” de Grupo Firme y se hizo viral.",
+   "say": "Alguien lo grabó, le pusieron “Amor de antes” de Grupo Firme y se hizo viral.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 撮影",
+       "動画 再生"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Y quién lo vio? Nada menos que Eduin Caz.",
+   "say": "¿Y quién lo vio? Nada menos que Eduin Caz.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌手 男性",
+       "マイク 歌う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "emocionado, subiendo la intriga"
+  },
+  {
+   "text": "“Eso sí es amor de antes”, comentó, y prometió mandarles un regalo.",
+   "say": "“Eso sí es amor de antes”, comentó, y prometió mandarles un regalo.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "プレゼント",
+       "コメント 吹き出し"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "leyendo el comentario, emocionado"
+  },
+  {
+   "text": "¡No manches! Les cumplió: un viaje todo pagado a Puerto Vallarta.",
+   "say": "¡No manches! Les cumplió: un viaje todo pagado a Puerto Vallarta.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "旅行 カップル",
+       "ビーチ カップル"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "sparkle"
+     }
+    ],
+    "video": [
+     "puerto vallarta beach",
+     "tropical beach couple"
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "feliz, sorprendido"
+  },
+  {
+   "text": "Y los dos salieron en video dándole las gracias.",
+   "say": "Y los dos salieron en video dándole las gracias.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お礼 カップル",
+       "喜ぶ カップル"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Con una rosa basta?",
+   "say": "¿Con una rosa basta?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バラ 花束",
+       "考える 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, es lo que cuenta",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Yo quiero el viaje 😂",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "La esperó afuera de su trabajo con una rosa… y un famoso lo vio 🌹 #shorts",
+  "description": "Un joven de León, Guanajuato, vestido de payasito, esperó a su novia a la salida de su trabajo y le regaló una rosa; el video se hizo viral con la canción “Amor de antes” de Grupo Firme. Eduin Caz lo comentó y prometió un regalo, y la pareja recibió un viaje todo pagado a Puerto Vallarta, que agradeció en un video.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "eduin caz",
+   "amor de antes",
+   "payasito"
+  ]
+ },
+ "source_post": "https://heraldodemexico.com.mx/espectaculos/2026/10/27/eduin-caz-regala-un-viaje-un-joven-payasito-su-novia-por-tener-un-amor-de-antes-asi-fue-el-momento-viral-917232.html",
+ "facts_used": [
+  "Un joven de León, Guanajuato, vestido de payasito, esperó a su novia a la salida de su trabajo y le regaló una rosa [El Heraldo de México 2026-10-27, ABC Noticias 2026-10-27]",
+  "El video se viralizó con la canción \"Amor de antes\" de Grupo Firme [El Heraldo de México 2026-10-27, Turquesa News 2026-10]",
+  "Eduin Caz comentó \"Eso sí es amor de antes\" y que su asistente los contactaría para mandarles un regalo [El Heraldo de México 2026-10-27, MX Comunica 2026-10]",
+  "La pareja recibió un viaje todo pagado a Puerto Vallarta [Vox Populi Noticias 2026-10, ABC Noticias 2026-10-27]",
+  "En un video, ambos agradecieron al cantante por el regalo [ABC Noticias 2026-10-27, Global Media 2026-10]"
+ ],
+ "brief": "lane MX - El Heraldo de México / ABC Noticias / Vox Populi. 유형: 반전 있는 선행·연애. 이해검사: 레온의 삐에로 차림 청년이 퇴근하는 여친에게 장미 한 송이 → 영상이 퍼지자 그루포 피르메 에두인 카스가 '이게 옛날 사랑' 댓글 + 선물 약속 → 푸에르토 바야르타 여행 선물."
+}
