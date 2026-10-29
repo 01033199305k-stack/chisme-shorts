@@ -1,0 +1,301 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-squirrel-eats-tamal-imss",
+ "title_lines": [
+  "Alguien comía tamal",
+  "afuera del IMSS…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Afuera de una clínica del IMSS, alguien se estaba echando un tamal…",
+   "say": "Afuera de una clínica del IMSS, alguien se estaba echando un tamal…",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タマレス",
+       "食べる 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🫔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Fue en Aguascalientes, junto a un puesto, frente a la Clínica 8.",
+   "say": "Fue en Aguascalientes, junto a un puesto, frente a la Clínica ocho.",
+   "sfx": "none",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "屋台",
+       "病院 建物"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "street food stall tamales",
+     "mexican tamales street vendor"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Era una ardilla… con un tamal de dulce.",
+   "say": "¡No manches! Era una ardilla… con un tamal de dulce.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "リス",
+       "リス 食べる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐿️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Una usuaria la grabó y lo subió a TikTok.",
+   "say": "Una usuaria la grabó y lo subió a TikTok.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 撮影 女性",
+       "動画 撮影"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El video ya pasa de los dos millones de reproducciones.",
+   "say": "El video ya pasa de los dos millones de reproducciones.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バズる SNS",
+       "いいね 増える"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "phone views counter going up",
+     "social media video viral"
+    ]
+   },
+   "cap": "sweet"
+  },
+  {
+   "text": "Ella escribió: “Otra vez México superando a la IA”.",
+   "say": "Ella escribió: “Otra vez México superando a la IA”.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "人工知能 ロボット",
+       "ドヤ顔 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤖",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "imitando el comentario, divertido"
+  },
+  {
+   "text": "Y en redes solo le reclamaron una cosa: le faltaba su atole.",
+   "say": "Y en redes solo le reclamaron una cosa: le faltaba su atole.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ホットドリンク マグカップ",
+       "ツッコミ 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☕",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "burlón, como chismeando"
+  },
+  {
+   "text": "¿Tamal sin atole se vale?",
+   "say": "¿Tamal sin atole se vale?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 人"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, así está rico",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② ¡No, sin atole no!",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Se estaba echando un tamal afuera del IMSS… y no era una persona 🐿️ #shorts",
+  "description": "Una usuaria de TikTok grabó a una ardilla comiendo un tamal de dulce junto a un puesto ambulante frente a la Clínica 8 del IMSS en Aguascalientes. El video superó los dos millones de reproducciones y en redes bromearon con que al tamal le faltaba atole, champurrado o bolillo.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "ardilla",
+   "tamal",
+   "aguascalientes"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/28/ardilla-se-vuelve-viral-por-comerse-tamal-de-dulce-afuera-de-una-clinica-del-imss-mexico-otra-vez-superando-a-la-ia/",
+ "facts_used": [
+  "Una ardilla fue grabada comiendo un tamal de dulce junto a un puesto ambulante frente a la Clínica 8 del IMSS en Aguascalientes [Infobae 2026-10-28, El Buen Tono 2026-10-28]",
+  "El video lo publicó una usuaria en TikTok [El Heraldo de México 2026-10-28, Escapadah 2026-10-27]",
+  "El video superó los dos millones de reproducciones [Infobae 2026-10-28, Periódico Realidades 2026-10-28]",
+  "El texto del video dice \"Otra vez México superando a la IA\" [El Heraldo de México 2026-10-28, Infobae 2026-10-28]",
+  "En redes bromearon con que al tamal le faltaba atole, champurrado o bolillo [Escapadah 2026-10-27, El Buen Tono 2026-10-28]"
+ ],
+ "brief": "lane MX - Infobae / El Heraldo de México / Escapadah / El Buen Tono. 유형: 동물. 이해검사: 아과스칼리엔테스 IMSS 8번 클리닉 앞 노점 옆에서 다람쥐가 단 타말을 먹는 영상이 틱톡 200만 회 돌파, 'México superando a la IA' 문구, 댓글은 '아톨레가 없다' 농담."
+}

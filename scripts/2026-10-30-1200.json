@@ -1,0 +1,300 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-fan-falls-tree-checo-show-run",
+ "title_lines": [
+  "Se subió a un árbol",
+  "para ver a Checo…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Se subió a un árbol en Reforma para ver mejor… y pasó esto.",
+   "say": "Se subió a un árbol en Reforma para ver mejor… y pasó esto.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "木登り 男性",
+       "木"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Era el Show Run de Checo Pérez, entre la Diana y el Ángel.",
+   "say": "Era el Show Run de Checo Pérez, entre la Diana y el Ángel.",
+   "sfx": "none",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レーシングカー",
+       "F1 レース"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏎️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Según los organizadores, llegaron más de 100 mil aficionados.",
+   "say": "Según los organizadores, llegaron más de cien mil aficionados.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "大勢の人",
+       "観客 応援"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙌",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "huge crowd cheering street",
+     "fans crowd city avenue"
+    ]
+   }
+  },
+  {
+   "text": "Un joven se trepó a un árbol para no perderse el recorrido.",
+   "say": "Un joven se trepó a un árbol para no perderse el recorrido.",
+   "sfx": "question",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "木に登る 男の子",
+       "双眼鏡 見る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Perdió el equilibrio… y cayó entre la gente.",
+   "say": "¡No manches! Perdió el equilibrio… y cayó entre la gente.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ちる 男性",
+       "転ぶ 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Varias personas lo ayudaron y se levantó por su cuenta.",
+   "say": "Varias personas lo ayudaron y se levantó por su cuenta.",
+   "sfx": "none",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "助ける 人々",
+       "立ち上がる 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "sweet",
+   "tone": "aliviado"
+  },
+  {
+   "text": "El video se hizo viral, y el evento siguió como si nada.",
+   "say": "El video se hizo viral, y el evento siguió como si nada.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 見る 人々",
+       "SNS 拡散"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "people laughing at phone video",
+     "social media video phone"
+    ]
+   }
+  },
+  {
+   "text": "¿Tú te subirías al árbol?",
+   "say": "¿Tú te subirías al árbol?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 人"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, por Checo todo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② No, mejor en la tele",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Se subió a un árbol para ver a Checo Pérez en Reforma… y pasó esto 🏎️ #shorts",
+  "description": "Durante el Show Run de Checo Pérez en Paseo de la Reforma, un aficionado se subió a un árbol para ver mejor el recorrido, perdió el equilibrio y cayó entre los asistentes. Varias personas lo ayudaron y se levantó por su cuenta; el video se hizo viral y el evento siguió sin interrupciones.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "checo pérez",
+   "show run",
+   "reforma"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/deportes/2026/10/28/joven-se-cae-de-un-arbol-durante-el-show-run-de-checo-perez-en-reforma-asi-fue-el-momento-viral/",
+ "facts_used": [
+  "El Show Run de Checo Pérez con Cadillac se realizó en Paseo de la Reforma, entre la Diana Cazadora y el Ángel de la Independencia [Infobae 2026-10-28, Publimetro 2026-10-28]",
+  "Los organizadores hablaron de más de 100 mil aficionados [Publimetro 2026-10-28, CNN en Español 2026-10-28]",
+  "Un joven se subió a un árbol para ver mejor el recorrido [Publimetro 2026-10-28, Azteca Bajío 2026-10-28]",
+  "Perdió el equilibrio y cayó entre los espectadores [Infobae 2026-10-28, Publimetro 2026-10-28]",
+  "Varias personas lo ayudaron y se incorporó por su cuenta [Infobae 2026-10-28]",
+  "El video se viralizó y el evento siguió sin interrupciones importantes [Infobae 2026-10-28, Azteca Bajío 2026-10-28]"
+ ],
+ "brief": "lane MX - Infobae / Publimetro / Azteca Bajío / CNN en Español. 유형: 스포츠 이벤트 팬 해프닝. 이해검사: 레포르마 대로 체코 페레스 쇼런(주최측 10만 명 이상)에서 한 청년이 잘 보려고 나무에 올랐다가 균형을 잃고 군중 사이로 떨어짐 → 사람들이 도와줬고 스스로 일어남, 영상 바이럴."
+}
