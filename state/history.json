@@ -1050,5 +1050,85 @@
   "privacy": "private",
   "scheduled_for": "2026-10-29T03:00:00Z",
   "seconds": 442
+ },
+ {
+  "key": "2026-10-30-0900",
+  "slot": "0900",
+  "publish_at": "2026-10-30T09:00:00+09:00",
+  "started": "2026-10-29T22:21:44.858943+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-24602/",
+   "https://pixabay.com/videos/id-202987/"
+  ],
+  "duration": 27.58,
+  "matches": [
+   0.96,
+   1.0,
+   0.97,
+   0.95,
+   0.95,
+   1.0,
+   1.0,
+   0.92
+  ],
+  "sfx": 5,
+  "illustrations": 5,
+  "cuts": 8,
+  "title": "Se estaba echando un tamal afuera del IMSS… y no era una persona 🐿️ #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/28/ardilla-se-vuelve-viral-por-comerse-tamal-de-dulce-afuera-de-una-clinica-del-imss-mexico-otra-vez-superando-a-la-ia/",
+  "facts_used": [
+   "Una ardilla fue grabada comiendo un tamal de dulce junto a un puesto ambulante frente a la Clínica 8 del IMSS en Aguascalientes [Infobae 2026-10-28, El Buen Tono 2026-10-28]",
+   "El video lo publicó una usuaria en TikTok [El Heraldo de México 2026-10-28, Escapadah 2026-10-27]",
+   "El video superó los dos millones de reproducciones [Infobae 2026-10-28, Periódico Realidades 2026-10-28]",
+   "El texto del video dice \"Otra vez México superando a la IA\" [El Heraldo de México 2026-10-28, Infobae 2026-10-28]",
+   "En redes bromearon con que al tamal le faltaba atole, champurrado o bolillo [Escapadah 2026-10-27, El Buen Tono 2026-10-28]"
+  ],
+  "slug": "2026-10-30_0900_mx-squirrel-eats-tamal-imss",
+  "late": false,
+  "video_id": "gGTSV6wDubg",
+  "url": "https://youtube.com/shorts/gGTSV6wDubg",
+  "privacy": "private",
+  "scheduled_for": "2026-10-30T00:00:00Z",
+  "seconds": 543
+ },
+ {
+  "key": "2026-10-30-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-30T12:00:00+09:00",
+  "started": "2026-10-29T22:30:49.534099+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-38084/"
+  ],
+  "duration": 25.3,
+  "matches": [
+   0.98,
+   1.0,
+   0.94,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 5,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Se subió a un árbol para ver a Checo Pérez en Reforma… y pasó esto 🏎️ #shorts",
+  "source_post": "https://www.infobae.com/mexico/deportes/2026/10/28/joven-se-cae-de-un-arbol-durante-el-show-run-de-checo-perez-en-reforma-asi-fue-el-momento-viral/",
+  "facts_used": [
+   "El Show Run de Checo Pérez con Cadillac se realizó en Paseo de la Reforma, entre la Diana Cazadora y el Ángel de la Independencia [Infobae 2026-10-28, Publimetro 2026-10-28]",
+   "Los organizadores hablaron de más de 100 mil aficionados [Publimetro 2026-10-28, CNN en Español 2026-10-28]",
+   "Un joven se subió a un árbol para ver mejor el recorrido [Publimetro 2026-10-28, Azteca Bajío 2026-10-28]",
+   "Perdió el equilibrio y cayó entre los espectadores [Infobae 2026-10-28, Publimetro 2026-10-28]",
+   "Varias personas lo ayudaron y se incorporó por su cuenta [Infobae 2026-10-28]",
+   "El video se viralizó y el evento siguió sin interrupciones importantes [Infobae 2026-10-28, Azteca Bajío 2026-10-28]"
+  ],
+  "slug": "2026-10-30_1200_mx-fan-falls-tree-checo-show-run",
+  "late": false,
+  "video_id": "wvT7X6ySQp0",
+  "url": "https://youtube.com/shorts/wvT7X6ySQp0",
+  "privacy": "private",
+  "scheduled_for": "2026-10-30T03:00:00Z",
+  "seconds": 477
  }
 ]
