@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-tesla-crashes-through-house-cuajimalpa",
+ "title_lines": [
+  "Un Tesla se metió",
+  "a una casa…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Un Tesla se metió a una casa en Cuajimalpa… y no se quedó ahí.",
+   "say": "Un Tesla se metió a una casa en Cuajimalpa… y no se quedó ahí.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電気自動車",
+       "車 運転"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Fue en Lomas del Chamizal: bajaba rápido por una calle en curva.",
+   "say": "Fue en Lomas del Chamizal: bajaba rápido por una calle en curva.",
+   "sfx": "none",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "坂道",
+       "スピード 車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚠️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "car driving down steep curvy road",
+     "hillside residential road"
+    ]
+   }
+  },
+  {
+   "text": "Según los reportes, quiso esquivar un camión de volteo que subía.",
+   "say": "Según los reportes, quiso esquivar un camión de volteo que subía.",
+   "sfx": "question",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ダンプカー",
+       "トラック"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚚",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Siguió de frente, tumbó el portón y cruzó todo el terreno.",
+   "say": "Siguió de frente, tumbó el portón y cruzó todo el terreno.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "交通事故",
+       "車 ぶつかる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "¡No manches! Terminó cayendo en otra casa, en un nivel más abajo.",
+   "say": "¡No manches! Terminó cayendo en otra casa, en un nivel más abajo.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ちる 車",
+       "びっくり 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "tr": "flash"
+   },
+   "cap": "hit",
+   "tone": "incrédulo"
+  },
+  {
+   "text": "Según los primeros reportes, el conductor salió ileso.",
+   "say": "Según los primeros reportes, el conductor salió ileso.",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ほっとする 男性",
+       "無事 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "sweet",
+   "tone": "aliviado"
+  },
+  {
+   "text": "Una cámara grabó todo, y en redes ya le dicen “el Tesla volador”.",
+   "say": "Una cámara grabó todo, y en redes ya le dicen “el Tesla volador”.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "スマホ 見る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "security camera on house",
+     "people watching phone video"
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¿Quién paga los daños?",
+   "say": "¿Quién paga los daños?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 人"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① El del Tesla, obvio",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Que pague el seguro",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Un Tesla se metió a una casa en Cuajimalpa… y no se quedó ahí 😱 #shorts",
+  "description": "En Lomas del Chamizal, Cuajimalpa, un Tesla Model Y que bajaba a alta velocidad por una calle en curva derribó el portón de una casa, cruzó el terreno, tiró parte de la barda trasera y cayó en otra vivienda en un nivel más bajo. Se presume que intentó esquivar un camión de volteo; según los primeros reportes, el conductor salió ileso.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "tesla volador",
+   "cuajimalpa",
+   "choque viral"
+  ]
+ },
+ "source_post": "https://www.nacion321.com/centro/2026/10/27/tesla-atraviesa-una-casa-y-cae-en-otra-propiedad-tras-aparatoso-accidente-en-cuajimalpa/",
+ "facts_used": [
+  "Un Tesla Model Y derribó el portón de una vivienda en Lomas del Chamizal, Cuajimalpa, CDMX [Nación321 2026-10-27, Diario de Tabasco 2026-10-27]",
+  "El auto descendía a alta velocidad por una pendiente con curva [Diario de Tabasco 2026-10-27, Ovaciones 2026-10-27]",
+  "Se presume que intentó esquivar un camión de volteo que subía por la misma vialidad; no confirmado oficialmente [Nación321 2026-10-27, Ovaciones 2026-10-27]",
+  "Atravesó el predio, se llevó parte de la barda trasera y cayó en otra casa en un nivel inferior [Nación321 2026-10-27, La Lista 2026-10-27]",
+  "Primeros informes señalan que el conductor resultó ileso [Nación321 2026-10-27, La Lista 2026-10-27]",
+  "Cámaras de seguridad grabaron el recorrido; en redes lo apodaron “el Tesla volador” [UnoTV 2026-10-27, Zource 2026-10-27]"
+ ],
+ "brief": "lane MX - Nación321 / La Lista / Diario de Tabasco / Ovaciones / UnoTV. 유형: 차량 황당 사고(인명피해 없음). 이해검사: 쿠아히말파 언덕길에서 테슬라가 덤프트럭을 피하려다(추정) 집 대문을 부수고 마당·뒷담을 뚫고 아래쪽 다른 집에 떨어짐 → 운전자 무사(초기 보도), '날아다니는 테슬라' 별명."
+}

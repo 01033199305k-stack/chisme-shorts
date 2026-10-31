@@ -1,0 +1,305 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-dog-invades-mexico-gp-track",
+ "title_lines": [
+  "Se metió a la pista",
+  "del Gran Premio…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Se metió a la pista del Gran Premio de México… y no era piloto.",
+   "say": "Se metió a la pista del Gran Premio de México… y no era piloto.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レーシングカー",
+       "サーキット"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏎️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Fue este viernes, en el Autódromo Hermanos Rodríguez de CDMX.",
+   "say": "Fue este viernes, en el Autódromo Hermanos Rodríguez de CDMX.",
+   "sfx": "none",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レース場",
+       "カーレース"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "formula one race track",
+     "race circuit grandstand"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Entre una práctica y otra, apareció un perrito en la pista.",
+   "say": "¡No manches! Entre una práctica y otra, apareció un perrito en la pista.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 走る",
+       "子犬"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Los comisarios querían agarrarlo… y él los esquivaba a todos.",
+   "say": "Los comisarios querían agarrarlo… y él los esquivaba a todos.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬を追いかける 人",
+       "追いかける 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "dog running on asphalt",
+     "dog running fast"
+    ]
+   }
+  },
+  {
+   "text": "Por suerte no había autos, y lo sacaron por una zona de escape.",
+   "say": "Por suerte no había autos, y lo sacaron por una zona de escape.",
+   "sfx": "none",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 抱っこ",
+       "ほっとする 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😮‍💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "sweet",
+   "tone": "aliviado"
+  },
+  {
+   "text": "La F1 subió el video y le puso nombre: “Furstappen”.",
+   "say": "La F1 subió el video y le puso nombre: “Furstappen”.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 見る 人々",
+       "SNS 拡散"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "people laughing at phone video",
+     "social media phone scrolling"
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Y ese día, Verstappen ni salió a la primera práctica.",
+   "say": "Y ese día, Verstappen ni salió a la primera práctica.",
+   "sfx": "question",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レーサー",
+       "ヘルメット"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Le das su superlicencia?",
+   "say": "¿Le das su superlicencia?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 人"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, ya es piloto",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② No, a la tribuna",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Apareció en la pista del Gran Premio de México… y no era un piloto 🐶 #shorts",
+  "description": "El viernes 30 de octubre, entre la primera y la segunda práctica del Gran Premio de la Ciudad de México, un perrito se metió a la pista del Autódromo Hermanos Rodríguez. No había autos en pista; esquivó a los comisarios hasta que lo llevaron a una zona de escape, y la cuenta oficial de la F1 lo bautizó como “Furstappen”.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "gran premio de méxico",
+   "perrito",
+   "furstappen"
+  ]
+ },
+ "source_post": "https://www.excelsior.com.mx/deportes/furstappen-perro-que-invadio-pista-gp-ciudad-mexico-2026",
+ "facts_used": [
+  "El viernes 30 de octubre un perro se metió a la pista del Autódromo Hermanos Rodríguez durante el GP de la Ciudad de México [La Razón 2026-10-30, Excélsior 2026-10-30]",
+  "Entró entre la FP1 y la FP2, con la actividad en pista detenida y sin autos cerca [La Razón 2026-10-30, Excélsior 2026-10-30]",
+  "Esquivó a comisarios y otras personas que intentaban detenerlo [El Siglo de Torreón 2026-10-30, Excélsior 2026-10-30]",
+  "Oficiales de pista lo llevaron a una zona de escape y lo sacaron del trazado [La Razón 2026-10-30, Excélsior 2026-10-30]",
+  "La cuenta oficial de la F1 difundió el video y lo bautizó “Furstappen”, juego de palabras con Verstappen [Excélsior 2026-10-30, El Siglo de Torreón 2026-10-30]",
+  "Verstappen no participó en la FP1 (lo sustituyó Ayumu Iwasa); más de 102 mil personas asistieron el viernes [La Razón 2026-10-30, Excélsior 2026-10-31]"
+ ],
+ "brief": "lane MX - Excélsior / La Razón / El Siglo de Torreón. 유형: 동물 해프닝. 이해검사: 멕시코 F1 그랑프리 금요일 연습 주행 사이(차 없음)에 강아지가 서킷에 들어와 요원들을 피해 다니다 탈출 구역으로 인도됨 → F1 공식 계정이 'Furstappen'이라 이름 붙임. 같은 날 베르스타펜은 FP1 불참."
+}
