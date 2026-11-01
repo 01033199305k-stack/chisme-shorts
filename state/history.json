@@ -1213,5 +1213,86 @@
   "privacy": "private",
   "scheduled_for": "2026-11-01T03:00:00Z",
   "seconds": 476
+ },
+ {
+  "key": "2026-11-02-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-02T09:00:00+09:00",
+  "started": "2026-11-01T22:10:42.239177+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-30897/"
+  ],
+  "duration": 27.22,
+  "matches": [
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   1.0
+  ],
+  "sfx": 5,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Fueron a pedir calaverita a una tortillería… y pidieron otra cosa 🌮 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/31/ninos-piden-su-calaverita-y-reciben-tortillas-con-sal-de-negocio-en-aguascalientes/",
+  "facts_used": [
+   "Ocurrió en una tortillería de Calvillo, Aguascalientes, durante un recorrido escolar por Halloween y Día de Muertos [Infobae 2026-10-31, Eje Central 2026-10-31]",
+   "Los pequeños (preescolar/kínder) pasaron con adultos y en vez de calaverita gritaron “¡Queremos tortillas!” [Azteca Veracruz 2026-10-31, Netnoticias 2026-10-31]",
+   "Los trabajadores dieron a cada uno un taco de sal [Eje Central 2026-10-31, Diario del Yaqui 2026-10-31]",
+   "Las tortillas estaban recién hechas, todavía calientitas al salir de la máquina [Eje Central 2026-10-31, Denleaks 2026-10]",
+   "El video circuló en TikTok e Instagram y muchos recordaron comer tortillas con sal de niños [Eje Central 2026-10-31]",
+   "Después siguieron su recorrido para recibir dulces [Azteca Veracruz 2026-10-31]"
+  ],
+  "slug": "2026-11-02_0900_mx-tortilleria-salt-tacos-calaverita",
+  "late": false,
+  "video_id": "AC2PwI2FTg0",
+  "url": "https://youtube.com/shorts/AC2PwI2FTg0",
+  "privacy": "private",
+  "scheduled_for": "2026-11-02T00:00:00Z",
+  "seconds": 406
+ },
+ {
+  "key": "2026-11-02-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-02T12:00:00+09:00",
+  "started": "2026-11-01T22:17:30.103302+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-30897/",
+   "https://pixabay.com/videos/id-54708/"
+  ],
+  "duration": 33.94,
+  "matches": [
+   1.0,
+   1.0,
+   0.96,
+   1.0,
+   0.9,
+   1.0,
+   1.0,
+   0.97
+  ],
+  "sfx": 5,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Llegó un juez de Guinness al Zócalo… y midió a una Catrina 💀 #shorts",
+  "source_post": "https://www.elimparcial.com/mexico/2026/10/30/la-catrina-del-zocalo-alcanza-33411-metros-y-obtiene-el-record-guinness-como-la-mas-alta-del-mundo-durante-la-inauguracion-de-la-ofrenda-monumental-de-dia-de-muertos/",
+  "facts_used": [
+   "Un juez de Guinness midió la Catrina del Zócalo en 33.411 metros durante la inauguración de la Ofrenda Monumental [El Imparcial 2026-10-30, Vanguardia 2026-10-30]",
+   "Superó el récord previo de una Catrina de Puerto Vallarta de 28.15 metros (2023) [Xataka México 2026-10-30, Diario Puntual 2026-10-30]",
+   "La hizo el Taller de Arte Xibalbá, dirigido por Carlos Camilo Báez [La Jornada 2026-10-29, Xataka México 2026-10-30]",
+   "Participaron unos 140 artesanos, herreros, carpinteros y escultores [Diario Puntual 2026-10-30, Red Uno 2026-10-30]",
+   "Nueve meses de planeación; el armado final tomó de ocho a nueve días [Diario Puntual 2026-10-30]",
+   "Es de cartonería y homenajea a la Catrina Garbancera de José Guadalupe Posada [La Jornada 2026-10-29]"
+  ],
+  "slug": "2026-11-02_1200_mx-zocalo-catrina-guinness-record",
+  "late": false,
+  "video_id": "6wHZ8vKOhiw",
+  "url": "https://youtube.com/shorts/6wHZ8vKOhiw",
+  "privacy": "private",
+  "scheduled_for": "2026-11-02T03:00:00Z",
+  "seconds": 470
  }
 ]
