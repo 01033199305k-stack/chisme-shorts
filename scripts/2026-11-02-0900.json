@@ -1,0 +1,301 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-tortilleria-salt-tacos-calaverita",
+ "title_lines": [
+  "Pidieron calaverita",
+  "y les dieron…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Llegaron a pedir calaverita a un negocio… y no querían dulces.",
+   "say": "Llegaron a pedir calaverita a un negocio… y no querían dulces.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お菓子 ハロウィン",
+       "仮装 子供たち"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Fue en Calvillo, Aguascalientes, en un recorrido de Día de Muertos.",
+   "say": "Fue en Calvillo, Aguascalientes, en un recorrido de Día de Muertos.",
+   "sfx": "none",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お祭り パレード",
+       "行列"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican small town street",
+     "day of the dead parade"
+    ]
+   }
+  },
+  {
+   "text": "Los peques pasaron frente a una tortillería y empezaron a gritar.",
+   "say": "Los peques pasaron frente a una tortillería y empezaron a gritar.",
+   "sfx": "question",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お店 店員",
+       "歩く 子供たち"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📣",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Su grito fue: “¡Queremos tortillas!”",
+   "say": "¡No manches! Su grito fue: “¡Queremos tortillas!”",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "叫ぶ 子供",
+       "大声"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌮",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Y los de la tortillería les dieron un taco de sal a cada uno.",
+   "say": "Y los de la tortillería les dieron un taco de sal a cada uno.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タコス",
+       "手渡し"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "sweet",
+   "tone": "encantado"
+  },
+  {
+   "text": "Con tortillas recién salidas de la máquina, todavía calientitas.",
+   "say": "Con tortillas recién salidas de la máquina, todavía calientitas.",
+   "sfx": "none",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "湯気 料理",
+       "トルティーヤ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "fresh tortillas coming out of machine",
+     "tortilla factory"
+    ]
+   }
+  },
+  {
+   "text": "El video explotó en TikTok y muchos recordaron su infancia.",
+   "say": "El video explotó en TikTok y muchos recordaron su infancia.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 見る 人々",
+       "懐かしい 思い出"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¿Dulces o taco de sal?",
+   "say": "¿Dulces o taco de sal?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 人"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Dulces, obvio",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Taco de sal calientito",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Fueron a pedir calaverita a una tortillería… y pidieron otra cosa 🌮 #shorts",
+  "description": "En Calvillo, Aguascalientes, un grupo de pequeños en un recorrido escolar por Halloween y Día de Muertos pasó frente a una tortillería y, en lugar de dulces, gritó “¡Queremos tortillas!”. Los trabajadores les regalaron tacos de sal con tortillas recién hechas y el video se volvió viral en redes.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "tortillería",
+   "calaverita",
+   "aguascalientes"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/31/ninos-piden-su-calaverita-y-reciben-tortillas-con-sal-de-negocio-en-aguascalientes/",
+ "facts_used": [
+  "Ocurrió en una tortillería de Calvillo, Aguascalientes, durante un recorrido escolar por Halloween y Día de Muertos [Infobae 2026-10-31, Eje Central 2026-10-31]",
+  "Los pequeños (preescolar/kínder) pasaron con adultos y en vez de calaverita gritaron “¡Queremos tortillas!” [Azteca Veracruz 2026-10-31, Netnoticias 2026-10-31]",
+  "Los trabajadores dieron a cada uno un taco de sal [Eje Central 2026-10-31, Diario del Yaqui 2026-10-31]",
+  "Las tortillas estaban recién hechas, todavía calientitas al salir de la máquina [Eje Central 2026-10-31, Denleaks 2026-10]",
+  "El video circuló en TikTok e Instagram y muchos recordaron comer tortillas con sal de niños [Eje Central 2026-10-31]",
+  "Después siguieron su recorrido para recibir dulces [Azteca Veracruz 2026-10-31]"
+ ],
+ "brief": "lane MX - Infobae / Eje Central / Azteca Veracruz / Netnoticias. 유형: 가게 훈훈·황당(칼라베리타 대신 토르티야). 이해검사: 아과스칼리엔테스 칼비요 유치원생 행렬이 토르티야 가게 앞에서 '토르티야 줘요!' 외침 → 직원들이 갓 나온 토르티야로 소금 타코 하나씩 → 틱톡 화제."
+}
