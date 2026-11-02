@@ -1294,5 +1294,86 @@
   "privacy": "private",
   "scheduled_for": "2026-11-02T03:00:00Z",
   "seconds": 470
+ },
+ {
+  "key": "2026-11-03-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-03T09:00:00+09:00",
+  "started": "2026-11-02T22:42:33.529610+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-219498/",
+   "https://pixabay.com/videos/id-76390/",
+   "https://pixabay.com/videos/id-38084/"
+  ],
+  "duration": 17.17,
+  "matches": [
+   1.0,
+   0.97,
+   0.98,
+   1.0,
+   1.0,
+   0.89,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 7,
+  "title": "Pusieron un letrero por un gato callejero… y las redes no lo perdonaron 🐈 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/30/un-gato-y-un-cruel-letrero-desatan-criticas-contra-farmacia-usuarios-llaman-a-boicotear-la-cadena/",
+  "facts_used": [
+   "Un letrero con el logo de Farmacias Guadalajara decía \"Favor de no alimentar al GATO, gracias\" [Infobae 2026-10-30, Merca2.0 2026-10]",
+   "Según usuarios, la sucursal está en Tampico, Tamaulipas; la cadena no lo confirmó [Infobae 2026-10-30, Merca2.0 2026-10]",
+   "El gato es un felino callejero que aparece sentado en la acera junto a un poste [Infobae 2026-10-30]",
+   "Una usuaria escribió \"La farmacia no nos manda, podemos darle lo que querramos al gatito\", con cerca de 1,700 reacciones [Infobae 2026-10-30]",
+   "Usuarios llamaron a boicot y a comprar en Farmacias Similares, que tiene clínicas veterinarias [Infobae 2026-10-30, Merca2.0 2026-10, Sinaloahoy 2026-10]",
+   "Hasta el 29 de octubre la cadena no había emitido postura pública [Infobae 2026-10-30]"
+  ],
+  "slug": "2026-11-03_0900_mx-pharmacy-sign-stray-cat-boycott",
+  "late": false,
+  "video_id": "fhqv3XfH-1o",
+  "url": "https://youtube.com/shorts/fhqv3XfH-1o",
+  "privacy": "private",
+  "scheduled_for": "2026-11-03T00:00:00Z",
+  "seconds": 97
+ },
+ {
+  "key": "2026-11-03-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-03T12:00:00+09:00",
+  "started": "2026-11-02T22:44:10.710094+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-40/",
+   "https://pixabay.com/videos/id-86332/",
+   "https://pixabay.com/videos/id-224206/"
+  ],
+  "duration": 19.4,
+  "matches": [
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 4,
+  "illustrations": 5,
+  "cuts": 7,
+  "title": "Se quedaron colgados en una montaña rusa… y una mujer hizo esto 🎢 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/10/30/montana-rusa-de-six-flags-mexico-presenta-otra-detencion-inesperada-pasajeros-quedan-suspendidos-a-varios-metros-del-suelo/",
+  "facts_used": [
+   "La montaña rusa Superman: El Último Escape de Six Flags México, en Tlalpan, se detuvo con pasajeros suspendidos a varios metros del suelo [Infobae 2026-10-30, El Diario de Sonora 2026-10-30]",
+   "En el video una mujer se pone a cantar a bordo y los pasajeros se mantienen calmados [Infobae 2026-10-30, Sinaloahoy 2026-10-30]",
+   "Algunos pasajeros bromeaban para pasar el tiempo; no se ven gritos ni pánico generalizado [Infobae 2026-10-30]",
+   "No se conocen las causas de la detención ni se confirma si hubo afectados [Infobae 2026-10-30, Sinaloahoy 2026-10-30]",
+   "El 30 de abril de 2023 el mismo juego se detuvo y el personal evacuó a los visitantes por escaleras de emergencia [Infobae 2026-10-30]"
+  ],
+  "slug": "2026-11-03_1200_mx-six-flags-coaster-stuck-woman-sings",
+  "late": false,
+  "video_id": "OoNDWMd_46c",
+  "url": "https://youtube.com/shorts/OoNDWMd_46c",
+  "privacy": "private",
+  "scheduled_for": "2026-11-03T03:00:00Z",
+  "seconds": 86
  }
 ]
