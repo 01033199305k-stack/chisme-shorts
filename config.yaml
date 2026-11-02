@@ -1,12 +1,16 @@
 # Chismepón (@chismepon, UCyvXZyFPF3XP9jGb-KaWI_g) - 썰가챠 파이프라인의 스페인어 시험판, 2026-10-12
-# 목소리: 소희(Qwen3-TTS CustomVoice 한국어 프리셋)가 스페인어로 말함 = "한국 여자가 들려주는 한국 썰".
+# (옛) 목소리: 소희(Qwen3-TTS CustomVoice 한국어 프리셋)가 스페인어로 말함 = "한국 여자가 들려주는 한국 썰" - 2026-11-02 교체.
 # 2026-10-12 비교: 억양 변화(음높이 표준편차) 소희 6.2반음 vs Kokoro 도라 3.0 / 알렉스 3.2, 받아쓰기 정확도는 셋 다 0.94.
 # edge-tts(es-MX)는 2026-10-12 기준 마이크로소프트 서버가 403 으로 막음 (engine: edge 코드는 남겨 둠).
-engine: edge            # 시험 중 (2026-11-02): edge = es-MX-DaliaNeural / kokoro = ef_dora / qwen = Sohee(옛 한국어 프리셋)
+# 2026-11-02~: 멕시코 원어민 목소리 (Edge 신경망 es-MX-DaliaNeural). 한국어 프리셋 소희의 외국인 억양이 첫 1~2초 이탈 원인으로 의심됨.
+#   시험 렌더(Actions dry-run): 받아쓰기 일치 0.97~1.00, 같은 대본 27.2초 -> 19.9초.
+#   edge 가 막히면(2026-10-12 처럼 403) 그 영상 전체를 fallback 목소리로 다시 만든다 (pipeline/render.py).
+engine: edge            # edge = Microsoft Edge 신경망 / qwen = qwen-tts(Actions) / voicebox = PC의 Voicebox 앱 / kokoro = Kokoro-82M
 voice: es-MX-DaliaNeural
-rate: "+12%"
+rate: "+20%"            # edge 말 빠르기
+fallback: {engine: qwen, voice: Sohee, speed: 1.25}
 instruct: "Cuéntalo como un chisme a una amiga, emocionada y con entonación muy expresiva, pronunciando claro hasta el final"
-speed: 1.25
+speed: 1.0             # atempo 배속 (모든 엔진). edge 는 rate 로 빠르기를 정한다 - 시험 렌더는 rate +12% × speed 1.25 라 너무 빨랐다
 
 # 공개 시각표 (KST). 대본 파일 이름이 scripts/<날짜>-<HHMM>.json, 예: 2026-10-04-0700.json
 # 늘리거나 줄이려면 이 목록만 고친다 (대본 담당 예약 작업·감시도 이 목록을 읽는다)

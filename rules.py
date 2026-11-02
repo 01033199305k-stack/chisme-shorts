@@ -307,11 +307,11 @@ def lint(script: dict) -> list[str]:
         if sum(1 for it in its if it.get("type") in ("illust", "crowd")) > 2:
             p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
-    if sum(vids) < 2:   # 2026-10-06~07: six videos in a row went out with no footage at all
-        p.append(f"only {sum(vids)} scenes with stock video - give 2-3 sentences a real clip of the place/thing they name "
+    if sum(vids) < 3:   # 2026-11-02: Mexican viewers swiped past slides of Japanese clipart - more real footage
+        p.append(f"only {sum(vids)} scenes with stock video - give 3-4 sentences a real clip of the place/thing they name "
                  "(ROUTINE video: a list of 2-3 English candidates per scene)")
-    if sum(vids) > 3:
-        p.append(f"{sum(vids)} scenes with stock video (max 3 - the illustrations are still the channel's look)")
+    if sum(vids) > 4:
+        p.append(f"{sum(vids)} scenes with stock video (max 4, never two in a row)")
     if vids and vids[0] and any(it.get("style") == "post" for it in (script["segments"][0].get("visual") or {}).get("items", [])):
         p.append("segment 0: the opening post card takes no stock video")
     if any(a and b for a, b in zip(vids, vids[1:])):
@@ -345,8 +345,10 @@ def lint(script: dict) -> list[str]:
                 p.append(f"segment {i}: text style {st!r} repeats the caption (two subtitles on screen) - "
                          "use a picture/emoji; panel words only as the post card or the vote board")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    if len(segs) > 9 or total > 470:   # Spanish ~1.7x hangul; batch1 ran 361-466 chars = 23-30 s   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
-        p.append(f"{len(segs)} sentences / {total} chars - write the title + 6-8 sentences, 240-470 chars (20-30 s)")
+    if len(segs) > 8 or total > 380:   # 2026-11-02: 25-34 s videos lost viewers mid-way; native voice ~15 chars/s -> 18-24 s
+        p.append(f"{len(segs)} sentences / {total} chars - write 6-8 sentences, 220-380 chars (18-24 s)")
+    if segs and len(segs[0].get("text", "")) > 60:   # the hook has ~1.5 s before the swipe
+        p.append(f"segment 0: hook is {len(segs[0]['text'])} chars - max 60, the shocking picture first")
     post = next((it for it in ((segs[0].get("visual") or {}).get("items", []) if segs else [])
                  if it.get("style") == "post"), None)
     if post:   # 2026-10-07: @dolongcha/@군림보 read the title aloud first; ours jumped straight into the story

@@ -42,17 +42,28 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     segments = script["segments"]
     motion.THEME = cfg.get("theme", "")   # Chismepón frame (motion.THEME_CSS)
 
-    wavs, results = [], []
-    for i, seg in enumerate(segments):
-        print(f"  voice {i + 1}/{len(segments)}: {seg['text'][:40]}")
-        res = tts.synthesize(
-            seg.get("say") or seg["text"], work_dir / f"seg_{i:02d}.wav",
-            engine=cfg["engine"], voice=cfg["voice"], instruct=(cfg.get("rate", "+0%") if cfg["engine"] == "edge" else   # edge: speaking rate, no acting notes
-                      voice_instruct(cfg.get("instruct", ""), seg.get("tone"), cfg.get("instruct_persona", ""))),
-            speed=float(cfg.get("speed", 1.0)), display=seg["text"], seed=7 + i)
-        print(f"    {res.duration:.1f}s, match {res.match:.2f}")
-        wavs.append(res.audio_path)
-        results.append(res)
+    def voice_all(engine: str, voice: str, speed: float):
+        wavs, results = [], []
+        for i, seg in enumerate(segments):
+            print(f"  voice {i + 1}/{len(segments)}: {seg['text'][:40]}")
+            res = tts.synthesize(
+                seg.get("say") or seg["text"], work_dir / f"seg_{i:02d}.wav",
+                engine=engine, voice=voice, instruct=(cfg.get("rate", "+0%") if engine == "edge" else   # edge: speaking rate, no acting notes
+                          voice_instruct(cfg.get("instruct", ""), seg.get("tone"), cfg.get("instruct_persona", ""))),
+                speed=speed, display=seg["text"], seed=7 + i)
+            print(f"    {res.duration:.1f}s, match {res.match:.2f}")
+            wavs.append(res.audio_path)
+            results.append(res)
+        return wavs, results
+
+    try:
+        wavs, results = voice_all(cfg["engine"], cfg["voice"], float(cfg.get("speed", 1.0)))
+    except Exception as e:   # edge-tts is an unofficial endpoint (403 on 2026-10-12): redo the whole video in the fallback voice
+        fb = cfg.get("fallback") or {}
+        if not fb:
+            raise
+        print(f"  ::warning::{cfg['engine']} voice failed ({e!r:.200}) - whole video in fallback {fb['engine']}/{fb['voice']}")
+        wavs, results = voice_all(fb["engine"], fb["voice"], float(fb.get("speed", 1.0)))
     tts.release_models()
 
     times, words, cursor = [], [], 0.0
