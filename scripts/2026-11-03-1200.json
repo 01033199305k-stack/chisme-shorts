@@ -39,8 +39,8 @@
    "tone": "intrigado, como soltando un chisme"
   },
   {
-   "text": "Fue en el Superman: El Último Escape de Six Flags México, en Tlalpan.",
-   "say": "Fue en el Superman: El Último Escape de Six Flags México, en Tlalpan.",
+   "text": "Fue en el Superman de Six Flags México, en Tlalpan.",
+   "say": "Fue en el Superman de Six Flags México, en Tlalpan.",
    "sfx": "none",
    "visual": {
     "bg": "park",
@@ -72,8 +72,8 @@
    }
   },
   {
-   "text": "El juego se paró con todos arriba, a varios metros del suelo.",
-   "say": "El juego se paró con todos arriba, a varios metros del suelo.",
+   "text": "Se paró con todos arriba, a varios metros del suelo.",
+   "say": "Se paró con todos arriba, a varios metros del suelo.",
    "sfx": "dudung",
    "visual": {
     "bg": "sky",
@@ -130,7 +130,11 @@
      }
     ],
     "cam": "punch",
-    "tr": "flash"
+    "tr": "flash",
+    "video": [
+     "woman singing",
+     "people singing together"
+    ]
    },
    "cap": "hit",
    "tone": "sorprendido, divertido"
@@ -167,37 +171,8 @@
    "tone": "riendo"
   },
   {
-   "text": "No se sabe por qué se detuvo ni si alguien salió lastimado.",
-   "say": "No se sabe por qué se detuvo ni si alguien salió lastimado.",
-   "sfx": "question",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "はてな 考える",
-       "調査 作業員"
-      ],
-      "pos": "center",
-      "size": "l",
-      "at": 0.0,
-      "fx": "pop"
-     },
-     {
-      "type": "emoji",
-      "text": "❓",
-      "pos": "top-right",
-      "size": "s",
-      "at": 0.4,
-      "fx": "pop"
-     }
-    ]
-   }
-  },
-  {
-   "text": "En 2023 ya se había parado, y los bajaron por escaleras de emergencia.",
-   "say": "En dos mil veintitrés ya se había parado, y los bajaron por escaleras de emergencia.",
+   "text": "Y no es la primera vez: en 2023 los bajaron por escaleras de emergencia.",
+   "say": "Y no es la primera vez: en dos mil veintitrés los bajaron por escaleras de emergencia.",
    "sfx": "none",
    "visual": {
     "bg": "city",

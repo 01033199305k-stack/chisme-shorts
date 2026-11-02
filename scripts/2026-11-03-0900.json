@@ -9,8 +9,8 @@
  "credit": "",
  "segments": [
   {
-   "text": "Una farmacia puso un letrero por un gato… y se le armó en redes.",
-   "say": "Una farmacia puso un letrero por un gato… y se le armó en redes.",
+   "text": "Una farmacia puso un letrero por un gato… y se le armó.",
+   "say": "Una farmacia puso un letrero por un gato… y se le armó.",
    "sfx": "whoosh",
    "visual": {
     "bg": "store",
@@ -34,42 +34,13 @@
       "at": 0.4,
       "fx": "pop"
      }
+    ],
+    "video": [
+     "mexican pharmacy storefront",
+     "pharmacy store"
     ]
    },
    "tone": "intrigado, como soltando un chisme"
-  },
-  {
-   "text": "Fue en Farmacias Guadalajara, según usuarios en Tampico.",
-   "say": "Fue en Farmacias Guadalajara, según usuarios en Tampico.",
-   "sfx": "none",
-   "visual": {
-    "bg": "store",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "薬局",
-       "薬剤師"
-      ],
-      "pos": "center",
-      "size": "l",
-      "at": 0.0,
-      "fx": "pop"
-     },
-     {
-      "type": "emoji",
-      "text": "💊",
-      "pos": "top-right",
-      "size": "s",
-      "at": 0.4,
-      "fx": "pop"
-     }
-    ],
-    "video": [
-     "pharmacy storefront",
-     "stray cat sidewalk"
-    ]
-   }
   },
   {
    "text": "El letrero decía: «Favor de no alimentar al GATO, gracias».",
@@ -170,8 +141,8 @@
    "tone": "sorprendido, subiendo la voz"
   },
   {
-   "text": "«La farmacia no nos manda», escribió una usuaria, con unas 1,700 reacciones.",
-   "say": "«La farmacia no nos manda», escribió una usuaria, con unas mil setecientas reacciones.",
+   "text": "«La farmacia no nos manda», escribió una usuaria.",
+   "say": "«La farmacia no nos manda», escribió una usuaria.",
    "sfx": "absurd",
    "visual": {
     "bg": "white",
@@ -195,13 +166,17 @@
       "at": 0.4,
       "fx": "pop"
      }
+    ],
+    "video": [
+     "person scrolling phone",
+     "woman typing on phone"
     ]
    },
    "cap": "quote"
   },
   {
-   "text": "Otros pidieron boicot y comprar con el Dr. Simi, que tiene veterinarias.",
-   "say": "Otros pidieron boicot y comprar con el Dr. Simi, que tiene veterinarias.",
+   "text": "Otros pidieron boicot y comprar en el Dr. Simi.",
+   "say": "Otros pidieron boicot y comprar en el Dr. Simi.",
    "sfx": "dudung",
    "visual": {
     "bg": "store",
