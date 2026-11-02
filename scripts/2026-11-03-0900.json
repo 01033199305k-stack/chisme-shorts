@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-pharmacy-sign-stray-cat-boycott",
+ "title_lines": [
+  "Pusieron un letrero",
+  "por un gato…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Una farmacia puso un letrero por un gato… y se le armó en redes.",
+   "say": "Una farmacia puso un letrero por un gato… y se le armó en redes.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "張り紙",
+       "猫 座る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐈",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Fue en Farmacias Guadalajara, según usuarios en Tampico.",
+   "say": "Fue en Farmacias Guadalajara, según usuarios en Tampico.",
+   "sfx": "none",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "薬局",
+       "薬剤師"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "pharmacy storefront",
+     "stray cat sidewalk"
+    ]
+   }
+  },
+  {
+   "text": "El letrero decía: «Favor de no alimentar al GATO, gracias».",
+   "say": "El letrero decía: «Favor de no alimentar al GATO, gracias».",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "貼り紙 注意",
+       "禁止 マーク"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "cam": "push"
+   },
+   "cap": "quote",
+   "tone": "leyendo, medio indignado"
+  },
+  {
+   "text": "¿Y el gato? Un michi callejero que se sienta en la banqueta.",
+   "say": "¿Y el gato? Un michi callejero que se sienta en la banqueta.",
+   "sfx": "question",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "野良猫",
+       "電柱"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐾",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "stray cat sitting street",
+     "cat on sidewalk"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Las redes explotaron.",
+   "say": "¡No manches! Las redes explotaron.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "炎上 スマホ",
+       "怒る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch",
+    "tr": "flash"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "«La farmacia no nos manda», escribió una usuaria, con unas 1,700 reacciones.",
+   "say": "«La farmacia no nos manda», escribió una usuaria, con unas mil setecientas reacciones.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 打つ 女性",
+       "いいね"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Otros pidieron boicot y comprar con el Dr. Simi, que tiene veterinarias.",
+   "say": "Otros pidieron boicot y comprar con el Dr. Simi, que tiene veterinarias.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "動物病院",
+       "猫 獣医"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🩺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tú le darías de comer?",
+   "say": "¿Tú le darías de comer?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "猫 餌やり",
+       "考える 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, pobre michi",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Respeto el letrero",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Pusieron un letrero por un gato callejero… y las redes no lo perdonaron 🐈 #shorts",
+  "description": "Un letrero con el logo de Farmacias Guadalajara, en una sucursal que usuarios ubican en Tampico, Tamaulipas, pedía no alimentar a un gato callejero. En redes llovieron críticas y llamados a boicot, y varios usuarios recomendaron comprar en Farmacias Similares, que tiene clínicas veterinarias.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "gato callejero",
+   "farmacias guadalajara",
+   "boicot"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/30/un-gato-y-un-cruel-letrero-desatan-criticas-contra-farmacia-usuarios-llaman-a-boicotear-la-cadena/",
+ "facts_used": [
+  "Un letrero con el logo de Farmacias Guadalajara decía \"Favor de no alimentar al GATO, gracias\" [Infobae 2026-10-30, Merca2.0 2026-10]",
+  "Según usuarios, la sucursal está en Tampico, Tamaulipas; la cadena no lo confirmó [Infobae 2026-10-30, Merca2.0 2026-10]",
+  "El gato es un felino callejero que aparece sentado en la acera junto a un poste [Infobae 2026-10-30]",
+  "Una usuaria escribió \"La farmacia no nos manda, podemos darle lo que querramos al gatito\", con cerca de 1,700 reacciones [Infobae 2026-10-30]",
+  "Usuarios llamaron a boicot y a comprar en Farmacias Similares, que tiene clínicas veterinarias [Infobae 2026-10-30, Merca2.0 2026-10, Sinaloahoy 2026-10]",
+  "Hasta el 29 de octubre la cadena no había emitido postura pública [Infobae 2026-10-30]"
+ ],
+ "brief": "lane MX - Infobae / Merca2.0 / Sinaloahoy. 유형: 가게 vs 손님(동물). 이해검사: 약국 체인이 길고양이 밥 주지 말라는 안내문 → SNS 분노·불매 → 경쟁사 Dr. Simi 는 동물병원까지 있다며 비교."
+}

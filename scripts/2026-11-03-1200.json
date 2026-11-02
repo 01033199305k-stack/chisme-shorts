@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-six-flags-coaster-stuck-woman-sings",
+ "title_lines": [
+  "Se quedaron colgados",
+  "en la montaña rusa…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Se quedaron colgados en una montaña rusa… y nadie gritó.",
+   "say": "Se quedaron colgados en una montaña rusa… y nadie gritó.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ジェットコースター",
+       "驚く 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Fue en el Superman: El Último Escape de Six Flags México, en Tlalpan.",
+   "say": "Fue en el Superman: El Último Escape de Six Flags México, en Tlalpan.",
+   "sfx": "none",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "遊園地",
+       "観覧車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "roller coaster",
+     "amusement park ride"
+    ]
+   }
+  },
+  {
+   "text": "El juego se paró con todos arriba, a varios metros del suelo.",
+   "say": "El juego se paró con todos arriba, a varios metros del suelo.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "sky",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ジェットコースター 止まる",
+       "高い所 怖い"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "cam": "push"
+   },
+   "tone": "tenso, bajando la voz"
+  },
+  {
+   "text": "Pero en vez de gritos… una mujer se puso a cantar.",
+   "say": "Pero en vez de gritos… una mujer se puso a cantar.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "sky",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌う 女性",
+       "音符"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch",
+    "tr": "flash"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, divertido"
+  },
+  {
+   "text": "¡Neta! Otros pasajeros hasta echaban chistes para pasar el rato.",
+   "say": "¡Neta! Otros pasajeros hasta echaban chistes para pasar el rato.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "sky",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 人々",
+       "冗談 話す"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "riendo"
+  },
+  {
+   "text": "No se sabe por qué se detuvo ni si alguien salió lastimado.",
+   "say": "No se sabe por qué se detuvo ni si alguien salió lastimado.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "はてな 考える",
+       "調査 作業員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En 2023 ya se había parado, y los bajaron por escaleras de emergencia.",
+   "say": "En dos mil veintitrés ya se había parado, y los bajaron por escaleras de emergencia.",
+   "sfx": "none",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "非常階段",
+       "避難 誘導"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🪜",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "emergency stairs",
+     "roller coaster track"
+    ]
+   }
+  },
+  {
+   "text": "¿Tú te subirías?",
+   "say": "¿Tú te subirías?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "悩む 人",
+       "ジェットコースター 乗る"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, y cantando",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ni loco",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Se quedaron colgados en una montaña rusa… y una mujer hizo esto 🎢 #shorts",
+  "description": "La montaña rusa Superman: El Último Escape de Six Flags México, en Tlalpan, se detuvo con pasajeros a varios metros del suelo. En el video, una mujer se pone a cantar y otros pasajeros bromean; no se han informado las causas. En 2023 el mismo juego ya se había detenido y los visitantes bajaron por escaleras de emergencia.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "six flags méxico",
+   "montaña rusa",
+   "superman"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/10/30/montana-rusa-de-six-flags-mexico-presenta-otra-detencion-inesperada-pasajeros-quedan-suspendidos-a-varios-metros-del-suelo/",
+ "facts_used": [
+  "La montaña rusa Superman: El Último Escape de Six Flags México, en Tlalpan, se detuvo con pasajeros suspendidos a varios metros del suelo [Infobae 2026-10-30, El Diario de Sonora 2026-10-30]",
+  "En el video una mujer se pone a cantar a bordo y los pasajeros se mantienen calmados [Infobae 2026-10-30, Sinaloahoy 2026-10-30]",
+  "Algunos pasajeros bromeaban para pasar el tiempo; no se ven gritos ni pánico generalizado [Infobae 2026-10-30]",
+  "No se conocen las causas de la detención ni se confirma si hubo afectados [Infobae 2026-10-30, Sinaloahoy 2026-10-30]",
+  "El 30 de abril de 2023 el mismo juego se detuvo y el personal evacuó a los visitantes por escaleras de emergencia [Infobae 2026-10-30]"
+ ],
+ "brief": "lane MX - Infobae / El Diario de Sonora / Sinaloahoy / La-Lista. 유형: 놀이공원 황당 사건. 이해검사: 식스플래그 멕시코 슈퍼맨 롤러코스터가 공중에서 멈춤 → 비명 대신 한 여성이 노래, 다른 승객은 농담 → 원인 미상 → 2023년에도 멈춰 비상계단으로 대피."
+}
