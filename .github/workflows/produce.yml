@@ -85,7 +85,7 @@ jobs:
         if: steps.find.outputs.files != ''
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg sox fonts-noto-color-emoji fonts-noto-cjk >/dev/null
+          sudo apt-get install -y -qq ffmpeg sox espeak-ng fonts-noto-color-emoji fonts-noto-cjk >/dev/null
 
       - uses: actions/setup-python@v5
         if: steps.find.outputs.files != ''

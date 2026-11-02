@@ -1,4 +1,6 @@
-"""Narration: Qwen3-TTS CustomVoice preset 'Sohee' with a delivery instruction.
+"""Narration. Chismepón 2026-11-02~: a native Spanish voice ("edge" es-MX neural or
+"kokoro" ef_dora); before that Qwen3-TTS CustomVoice preset 'Sohee' (a Korean voice
+reading Spanish), which Mexican viewers swiped past.
 
 Two backends render the same voice:
 - "qwen": qwen-tts in-process. This is what GitHub Actions runs (CPU, ~5x
@@ -69,8 +71,8 @@ def _qwen_model():
 
 def release_models() -> None:
     """Free the 7 GB of TTS weights before the memory-hungry render steps."""
-    global _qwen
-    _qwen = None
+    global _qwen, _kokoro
+    _qwen = _kokoro = None
     import gc
     gc.collect()
 
@@ -132,6 +134,23 @@ def _gen_edge(text: str, voice: str, rate: str, seed: int, out: Path) -> None:
     asyncio.run(edge_tts.Communicate(text, voice, rate=rate or "+0%").save(str(mp3)))
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp3), "-ar", "24000", "-ac", "1", str(out)])
     mp3.unlink(missing_ok=True)
+
+
+_kokoro = None
+
+
+def _gen_kokoro(text: str, voice: str, instruct: str, seed: int, out: Path) -> None:
+    """Kokoro-82M Spanish voice (ef_dora / em_alex / em_santa): native Spanish
+    phonemes via espeak-ng, Apache-2.0, ~1 s per sentence on CPU, no instruct.
+    Deterministic, so one take is enough."""
+    global _kokoro
+    import numpy as np
+    import soundfile as sf
+    if _kokoro is None:
+        from kokoro import KPipeline
+        _kokoro = KPipeline(lang_code="e", repo_id="hexgrad/Kokoro-82M")
+    chunks = [np.asarray(a, dtype=np.float32) for _, _, a in _kokoro(text, voice=voice, speed=1.0)]
+    sf.write(str(out), np.concatenate(chunks), 24000)
 
 
 def _map_words(display: str, heard: list[Word]) -> list[Word]:
@@ -276,7 +295,7 @@ def synthesize(
     out_wav = Path(out_wav)
     out_wav.parent.mkdir(parents=True, exist_ok=True)
     display = display or text
-    gen = {"qwen": _gen_qwen, "edge": _gen_edge}.get(engine, _gen_voicebox)
+    gen = {"qwen": _gen_qwen, "edge": _gen_edge, "kokoro": _gen_kokoro}.get(engine, _gen_voicebox)
 
     # Same sentence, same voice settings -> reuse the take (re-renders and retries skip TTS)
     import hashlib
@@ -301,7 +320,7 @@ def synthesize(
 def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, seed, head_pad, tail_pad) -> TTSResult:
 
     best = None
-    edge = gen is _gen_edge   # same text -> same audio, and it never swallows the last syllable
+    edge = gen in (_gen_edge, _gen_kokoro)   # same text -> same audio, and it never swallows the last syllable
     for take in range(1 if edge else MAX_TAKES):
         raw = out_wav.with_suffix(f".take{take}.wav")
         full = out_wav.with_suffix(f".take{take}.full.wav")
