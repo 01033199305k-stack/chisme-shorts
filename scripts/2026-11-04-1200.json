@@ -1,0 +1,275 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-angela-aguilar-nodal-ofrenda-photo",
+ "title_lines": [
+  "Una foto romántica…",
+  "frente a la ofrenda"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Románticos… frente al altar de los abuelos de ella.",
+   "say": "Románticos… frente al altar de los abuelos de ella.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "祭壇 花",
+       "カップル 見つめ合う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕯️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "dia de muertos altar",
+     "mexican ofrenda candles marigold"
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Ángela Aguilar subió la foto con Christian Nodal.",
+   "say": "Ángela Aguilar subió la foto con Christian Nodal.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 写真 投稿",
+       "カップル 写真"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Llovieron críticas: «Es una falta de respeto».",
+   "say": "¡No manches! Llovieron críticas: «Es una falta de respeto».",
+   "sfx": "punch",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "炎上 スマホ",
+       "怒る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch",
+    "tr": "flash"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Una grafóloga: «El altar de muertos no es el árbol de Navidad».",
+   "say": "Una grafóloga: «El altar de muertos no es el árbol de Navidad».",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "クリスマスツリー",
+       "怒る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "christmas tree lights",
+     "decorated christmas tree"
+    ]
+   },
+   "cap": "quote",
+   "tone": "leyendo, medio indignado"
+  },
+  {
+   "text": "Otros dicen: es su casa, es su ofrenda.",
+   "say": "Otros dicen: es su casa, es su ofrenda.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "かばう 人",
+       "スマホ 見る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛡️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Y ellos? Subieron un video tallando calabazas.",
+   "say": "¿Y ellos? Subieron un video tallando calabazas.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "かぼちゃ ランタン",
+       "ハロウィン カップル"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "carving halloween pumpkins",
+     "pumpkin carving couple"
+    ]
+   }
+  },
+  {
+   "text": "¿Les faltó respeto?",
+   "say": "¿Les faltó respeto?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "祭壇"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, les faltó",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② No, exageran",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Se pusieron románticos frente a la ofrenda de sus abuelos… y las redes explotaron 🕯️ #shorts",
+  "description": "Ángela Aguilar compartió una foto romántica con Christian Nodal frente al altar de Día de Muertos dedicado a Antonio Aguilar y Flor Silvestre. Algunos usuarios la llamaron falta de respeto y otros los defendieron; la pareja no respondió y publicó un video de Halloween.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "ángela aguilar",
+   "christian nodal",
+   "día de muertos"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/01/christian-nodal-y-angela-aguilar-celebran-halloween-y-dejan-atras-criticas-por-su-ofrenda-de-dia-de-muertos/",
+ "facts_used": [
+  "Ángela Aguilar publicó en sus historias de Instagram una foto romántica con Christian Nodal frente a su altar de Día de Muertos [Informador 2026-10-30, Correo 2026-10-31, Infobae 2026-11-01]",
+  "El altar, instalado en su casa, recordaba a familiares como Antonio Aguilar y Flor Silvestre [Infobae 2026-11-01, Correo 2026-10-31]",
+  "Usuarios lo criticaron: \"Es una falta de respeto\"; otros defendieron su derecho a retratarse con su ofrenda [Infobae 2026-11-01, Milenio 2026-10-31]",
+  "La grafóloga Maryfer Centeno dijo en TikTok: \"El altar de muertos no es el árbol de Navidad\" [Infobae 2026-11-01]",
+  "La pareja no respondió directamente y publicó videos decorando calabazas de Halloween [Infobae 2026-11-01]"
+ ],
+ "brief": "lane MX - Infobae / Informador / Correo / Milenio. 유형: 연예인 매너 논란(편가르기). 점수 재미3+이해5+반전2+편가르기5=15. 이해검사: 앙헬라 아길라르가 조부모 제단 앞에서 노달과 로맨틱한 사진 → '무례하다' 비난 vs 자기 집인데 무슨 상관 → 본인들은 무응답, 할로윈 호박 영상."
+}

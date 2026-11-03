@@ -1,0 +1,277 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-chivas-player-pokemon-cards-wife-look",
+ "title_lines": [
+  "Abría cartas Pokémon…",
+  "y su esposa lo miró…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Él abriendo cartas Pokémon… y su esposa con esta cara.",
+   "say": "Él abriendo cartas Pokémon… y su esposa con esta cara.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "トレーディングカード",
+       "カード 開ける 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🃏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "trading card convention",
+     "pokemon cards opening"
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Es Luis Romo, de Chivas, en un evento Pokémon.",
+   "say": "Es Luis Romo, de Chivas, en un evento Pokémon.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー選手",
+       "カードゲーム"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Él quería más sobres, y ella, con ganas de irse.",
+   "say": "Él quería más sobres, y ella, con ganas de irse.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "退屈 女性",
+       "帰りたい 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "collectibles vendor booth",
+     "card shop counter"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Hasta el vendedor preguntó si seguían.",
+   "say": "¡No manches! Hasta el vendedor preguntó si seguían.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "店員 質問",
+       "レジ 店員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch",
+    "tr": "flash"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "«Sus ojos de “ya vámonos”», escribió un usuario.",
+   "say": "«Sus ojos de “ya vámonos”», escribió un usuario.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 打つ 男性",
+       "いいね"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "person scrolling phone",
+     "man typing on phone"
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Quien lo subió: «Al menos no está en un bar de mala muerte».",
+   "say": "Quien lo subió: «Al menos no está en un bar de mala muerte».",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バー お酒",
+       "夜 飲み屋"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍻",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "leyendo, medio divertido"
+  },
+  {
+   "text": "¿Quién tiene la razón?",
+   "say": "¿Quién tiene la razón?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "夫婦 喧嘩",
+       "考える 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Él, es su hobby",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ella, ya era mucho",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Un jugador de Chivas abría cartas Pokémon… y su esposa lo miró así 🃏 #shorts",
+  "description": "Un video compartido en X muestra a Luis Romo, mediocampista de Chivas, en una convención de cartas Pokémon con su esposa. Ella parecía querer irse mientras él seguía en un puesto, y las redes se dividieron entre burlas y defensas a su pasatiempo.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "luis romo",
+   "chivas",
+   "cartas pokémon"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/02/quien-es-la-esposa-de-luis-romo-la-historia-detras-del-video-viral-del-futbolista-de-chivas-y-las-cartas-pokemon/",
+ "facts_used": [
+  "Un video compartido en X muestra a Luis Romo, mediocampista de Chivas, en una convención de cartas Pokémon con su esposa María Fernanda Guadarrama [Infobae 2026-11-02, Récord 2026-11-02, Soy Referee 2026-11-02]",
+  "En el clip ella parecía con ganas de irse mientras él quería abrir sobres en el puesto de un vendedor [Infobae 2026-11-02, Soy Referee 2026-11-02]",
+  "El vendedor preguntó si seguían o terminaba la venta, y Romo respondió con calma que continuaran [Infobae 2026-11-02]",
+  "Un usuario comentó \"Sus ojos de 'ya vámonos'\" [Infobae 2026-11-02, Récord 2026-11-02]",
+  "Quien compartió el clip defendió el pasatiempo: \"al menos no está en un bar de mala muerte a las 3 de la mañana\" [Infobae 2026-11-02, Récord 2026-11-02]",
+  "La esposa no ha hecho declaraciones públicas; la supuesta incomodidad sale de lecturas de usuarios [Infobae 2026-11-02]"
+ ],
+ "brief": "lane MX - Infobae / Récord / Soy Referee. 유형: 부부(취미 vs 배우자). 점수 재미4+이해4+반전3+편가르기4=15. 이해검사: 치바스 선수가 포켓몬 카드 행사에서 카드 까는데 아내 표정이 '이제 가자' → 판매자도 계속할지 물음 → 선수는 태연히 계속 → 댓글 갈림."
+}
