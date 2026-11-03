@@ -1375,5 +1375,85 @@
   "privacy": "private",
   "scheduled_for": "2026-11-03T03:00:00Z",
   "seconds": 86
+ },
+ {
+  "key": "2026-11-04-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-04T09:00:00+09:00",
+  "started": "2026-11-03T22:11:33.215046+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-166285/",
+   "https://pixabay.com/videos/id-83865/",
+   "https://pixabay.com/videos/id-38084/"
+  ],
+  "duration": 17.11,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 5,
+  "cuts": 7,
+  "title": "Un jugador de Chivas abría cartas Pokémon… y su esposa lo miró así 🃏 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/02/quien-es-la-esposa-de-luis-romo-la-historia-detras-del-video-viral-del-futbolista-de-chivas-y-las-cartas-pokemon/",
+  "facts_used": [
+   "Un video compartido en X muestra a Luis Romo, mediocampista de Chivas, en una convención de cartas Pokémon con su esposa María Fernanda Guadarrama [Infobae 2026-11-02, Récord 2026-11-02, Soy Referee 2026-11-02]",
+   "En el clip ella parecía con ganas de irse mientras él quería abrir sobres en el puesto de un vendedor [Infobae 2026-11-02, Soy Referee 2026-11-02]",
+   "El vendedor preguntó si seguían o terminaba la venta, y Romo respondió con calma que continuaran [Infobae 2026-11-02]",
+   "Un usuario comentó \"Sus ojos de 'ya vámonos'\" [Infobae 2026-11-02, Récord 2026-11-02]",
+   "Quien compartió el clip defendió el pasatiempo: \"al menos no está en un bar de mala muerte a las 3 de la mañana\" [Infobae 2026-11-02, Récord 2026-11-02]",
+   "La esposa no ha hecho declaraciones públicas; la supuesta incomodidad sale de lecturas de usuarios [Infobae 2026-11-02]"
+  ],
+  "slug": "2026-11-04_0900_mx-chivas-player-pokemon-cards-wife-look",
+  "late": false,
+  "video_id": "7JbALHfbaQk",
+  "url": "https://youtube.com/shorts/7JbALHfbaQk",
+  "privacy": "private",
+  "scheduled_for": "2026-11-04T00:00:00Z",
+  "seconds": 77
+ },
+ {
+  "key": "2026-11-04-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-04T12:00:00+09:00",
+  "started": "2026-11-03T22:12:50.631736+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-3565/",
+   "https://pixabay.com/videos/id-375772/"
+  ],
+  "duration": 17.56,
+  "matches": [
+   1.0,
+   0.82,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 7,
+  "title": "Se pusieron románticos frente a la ofrenda de sus abuelos… y las redes explotaron 🕯️ #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/01/christian-nodal-y-angela-aguilar-celebran-halloween-y-dejan-atras-criticas-por-su-ofrenda-de-dia-de-muertos/",
+  "facts_used": [
+   "Ángela Aguilar publicó en sus historias de Instagram una foto romántica con Christian Nodal frente a su altar de Día de Muertos [Informador 2026-10-30, Correo 2026-10-31, Infobae 2026-11-01]",
+   "El altar, instalado en su casa, recordaba a familiares como Antonio Aguilar y Flor Silvestre [Infobae 2026-11-01, Correo 2026-10-31]",
+   "Usuarios lo criticaron: \"Es una falta de respeto\"; otros defendieron su derecho a retratarse con su ofrenda [Infobae 2026-11-01, Milenio 2026-10-31]",
+   "La grafóloga Maryfer Centeno dijo en TikTok: \"El altar de muertos no es el árbol de Navidad\" [Infobae 2026-11-01]",
+   "La pareja no respondió directamente y publicó videos decorando calabazas de Halloween [Infobae 2026-11-01]"
+  ],
+  "slug": "2026-11-04_1200_mx-angela-aguilar-nodal-ofrenda-photo",
+  "late": false,
+  "video_id": "DGk3XJCfxpk",
+  "url": "https://youtube.com/shorts/DGk3XJCfxpk",
+  "privacy": "private",
+  "scheduled_for": "2026-11-04T03:00:00Z",
+  "seconds": 78
  }
 ]
