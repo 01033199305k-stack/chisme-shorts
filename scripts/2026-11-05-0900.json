@@ -1,0 +1,276 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-insurgente-train-backpack-fight",
+ "title_lines": [
+  "Ella sentada, la otra…",
+  "y una mochila en medio"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Una iba sentada, la otra de pie con mochila… y explotó.",
+   "say": "Una iba sentada, la otra de pie con mochila… y explotó.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "満員電車",
+       "リュック 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "crowded commuter train",
+     "mexico train passengers"
+    ]
+   },
+   "tone": "intrigado, como soltando un chisme"
+  },
+  {
+   "text": "Pasó en el tren El Insurgente, de Toluca a Santa Fe.",
+   "say": "Pasó en el tren El Insurgente, de Toluca a Santa Fe.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電車",
+       "通勤 電車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚆",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "La sentada le reclamó que la invadía con su mochila.",
+   "say": "La sentada le reclamó que la invadía con su mochila.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性",
+       "文句 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "woman with backpack on train",
+     "standing passengers train"
+    ]
+   }
+  },
+  {
+   "text": "La otra contestó: «En el tren es así, todos viajamos apretados».",
+   "say": "La otra contestó: «En el tren es así, todos viajamos apretados».",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "言い返す 女性",
+       "満員電車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "imitando, con actitud"
+  },
+  {
+   "text": "¡No manches! De ahí pasaron a jalarse el cabello.",
+   "say": "¡No manches! De ahí pasaron a jalarse el cabello.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喧嘩 女性",
+       "髪 引っ張る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch",
+    "tr": "flash"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Los pasajeros las separaban y hablaban de llamar a seguridad.",
+   "say": "Los pasajeros las separaban y hablaban de llamar a seguridad.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "止める 人",
+       "警備員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "train security guard",
+     "passengers inside train car"
+    ]
+   }
+  },
+  {
+   "text": "¿Quién tiene la razón?",
+   "say": "¿Quién tiene la razón?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喧嘩 女性",
+       "考える 人"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① La sentada, la invadían",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② La de pie, va lleno",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Una iba sentada y la otra de pie con mochila… y en El Insurgente pasó esto 🎒 #shorts",
+  "description": "El viernes 30 de octubre, en el tren El Insurgente de Toluca a Santa Fe, una pasajera sentada reclamó a otra que iba de pie con una mochila. La discusión terminó en jalones de cabello mientras otros pasajeros intentaban separarlas, y en redes se debatió sobre lo lleno que va el transporte.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "tren el insurgente",
+   "pelea en el tren",
+   "transporte público"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/03/mujeres-protagonizan-brutal-enfrentamiento-en-el-tren-el-insurgente-y-pasajeros-captan-todo-en-video/",
+ "facts_used": [
+  "El viernes 30 de octubre de 2026 dos mujeres pelearon a bordo del Tren Interurbano El Insurgente, en un trayecto de Toluca a Santa Fe [Infobae 2026-11-03, Unitel 2026-11]",
+  "Una pasajera sentada se molestó por otra usuaria que iba de pie y llevaba una mochila; le reclamó que invadía su espacio [Infobae 2026-11-03, Unitel 2026-11]",
+  "La mujer de pie respondió: \"En el tren es así, todos viajamos apretados\", y la discusión escaló [Infobae 2026-11-03]",
+  "Las dos llegaron a jalarse del cabello [Infobae 2026-11-03, Unitel 2026-11]",
+  "Otros pasajeros intentaron separarlas y algunos advirtieron que pedirían a seguridad bajarlas en la siguiente estación [Infobae 2026-11-03, Unitel 2026-11]",
+  "No se ha confirmado si las bajaron del tren ni si seguridad intervino; en redes se debatió la saturación del transporte [Infobae 2026-11-03]"
+ ],
+ "brief": "lane MX - Infobae / Unitel. 유형: 대중교통 승객 갈등. 점수 재미4+이해5+반전3+편가르기5=17. 이해검사: 앉은 승객이 백팩 멘 서 있는 승객에게 자리 침범 항의 → '기차는 원래 다 끼어 타' → 머리채 싸움 → 승객들이 말리고 보안요원 부르자고 함."
+}
