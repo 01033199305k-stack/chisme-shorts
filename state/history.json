@@ -1455,5 +1455,87 @@
   "privacy": "private",
   "scheduled_for": "2026-11-04T03:00:00Z",
   "seconds": 78
+ },
+ {
+  "key": "2026-11-05-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-05T09:00:00+09:00",
+  "started": "2026-11-04T22:11:47.053982+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-3630/",
+   "https://pixabay.com/videos/id-29172/",
+   "https://pixabay.com/videos/id-367164/"
+  ],
+  "duration": 18.46,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 7,
+  "title": "Una iba sentada y la otra de pie con mochila… y en El Insurgente pasó esto 🎒 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/03/mujeres-protagonizan-brutal-enfrentamiento-en-el-tren-el-insurgente-y-pasajeros-captan-todo-en-video/",
+  "facts_used": [
+   "El viernes 30 de octubre de 2026 dos mujeres pelearon a bordo del Tren Interurbano El Insurgente, en un trayecto de Toluca a Santa Fe [Infobae 2026-11-03, Unitel 2026-11]",
+   "Una pasajera sentada se molestó por otra usuaria que iba de pie y llevaba una mochila; le reclamó que invadía su espacio [Infobae 2026-11-03, Unitel 2026-11]",
+   "La mujer de pie respondió: \"En el tren es así, todos viajamos apretados\", y la discusión escaló [Infobae 2026-11-03]",
+   "Las dos llegaron a jalarse del cabello [Infobae 2026-11-03, Unitel 2026-11]",
+   "Otros pasajeros intentaron separarlas y algunos advirtieron que pedirían a seguridad bajarlas en la siguiente estación [Infobae 2026-11-03, Unitel 2026-11]",
+   "No se ha confirmado si las bajaron del tren ni si seguridad intervino; en redes se debatió la saturación del transporte [Infobae 2026-11-03]"
+  ],
+  "slug": "2026-11-05_0900_mx-insurgente-train-backpack-fight",
+  "late": false,
+  "video_id": "F9E0Ei2V9vE",
+  "url": "https://youtube.com/shorts/F9E0Ei2V9vE",
+  "privacy": "private",
+  "scheduled_for": "2026-11-05T00:00:00Z",
+  "seconds": 113
+ },
+ {
+  "key": "2026-11-05-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-05T12:00:00+09:00",
+  "started": "2026-11-04T22:13:40.858401+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-28976/",
+   "https://pixabay.com/videos/id-45150/"
+  ],
+  "duration": 19.24,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 5,
+  "cuts": 8,
+  "title": "Contrataron a un payaso para animar un show… y el show era para él 🤡 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/04/de-un-show-a-un-anexo-el-caso-viral-de-un-payaso-en-oaxaca-reabre-el-debate-sobre-los-tazos-dorados/",
+  "facts_used": [
+   "Un video viral de Oaxaca muestra a un payaso bailando y animando a los asistentes de un espectáculo [Infobae 2026-11-04, Azteca Veracruz 2026-11]",
+   "La presentación cambia cuando una persona toma la palabra y anuncia: \"Vamos a tener un nuevo integrante\" [Infobae 2026-11-04, Azteca Veracruz 2026-11]",
+   "Varios hombres lo sujetan y lo retiran del escenario [Infobae 2026-11-04, Azteca Veracruz 2026-11]",
+   "Según versiones en redes y medios locales, aceptó la contratación sin saber que el objetivo real era internarlo en un anexo [Infobae 2026-11-04, Grupo Marmor 2026-11-03]",
+   "No se ha confirmado si todo fue parte del espectáculo o un internamiento real; no hay declaraciones de autoridades ni del artista [Infobae 2026-11-04, Azteca Veracruz 2026-11]",
+   "Las reacciones se dividieron: unos lo tomaron con humor y otros cuestionaron el engaño y el uso de la fuerza [Infobae 2026-11-04]"
+  ],
+  "slug": "2026-11-05_1200_mx-oaxaca-clown-show-rehab-surprise",
+  "late": false,
+  "video_id": "k1wxEjhanTY",
+  "url": "https://youtube.com/shorts/k1wxEjhanTY",
+  "privacy": "private",
+  "scheduled_for": "2026-11-05T03:00:00Z",
+  "seconds": 91
  }
 ]
