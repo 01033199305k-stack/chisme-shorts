@@ -1,0 +1,306 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-lady-costco-coapa-parking-spot",
+ "title_lines": [
+  "Se paró en el cajón…",
+  "y no traía ni coche"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Se paró en un cajón del estacionamiento… sin coche.",
+   "say": "Se paró en un cajón del estacionamiento… sin coche.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "立つ 女性",
+       "スマートフォン 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🅿️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "indignado, como soltando un chisme"
+  },
+  {
+   "text": "En el Costco de Coapa, apartaba el lugar a pie.",
+   "say": "En el Costco de Coapa, apartaba el lugar a pie.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "駐車場",
+       "車 駐車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "parking lot cars",
+     "mexico supermarket parking"
+    ]
+   }
+  },
+  {
+   "text": "Dijo que esperaba a un familiar con el carro.",
+   "say": "Dijo que esperaba a un familiar con el carro.",
+   "sfx": "question",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "待つ 女性",
+       "スマートフォン 見る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Otras clientas le reclamaron que no se puede apartar.",
+   "say": "Otras clientas le reclamaron que no se puede apartar.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性",
+       "文句 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "car parking maneuver",
+     "car waiting parking lot"
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¡No manches! Hasta un empleado le pidió moverse.",
+   "say": "¡No manches! Hasta un empleado le pidió moverse.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警備員",
+       "駐車場 係員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Ella ni lo peló y siguió viendo su celular.",
+   "say": "Ella ni lo peló y siguió viendo su celular.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 無視",
+       "スマートフォン 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "Luego llegó otra mujer a defenderla y se puso peor.",
+   "say": "Luego llegó otra mujer a defenderla y se puso peor.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "口論 女性",
+       "喧嘩 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "busy parking lot",
+     "shopping center parking"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "¿Se vale apartar a pie?",
+   "say": "¿Se vale apartar a pie?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "駐車場",
+       "考える 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, ya estaba ahí",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② No, que se estacione",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Se paró en un cajón del Costco a apartar lugar… y no traía coche 🅿️ #shorts",
+  "description": "En el estacionamiento del Costco de Coapa, en la CDMX, una mujer se quedó de pie en un cajón para que nadie lo ocupara mientras, según dijo, esperaba a un familiar. Otras clientas y un empleado le pidieron moverse, pero ella siguió en su celular y otra mujer llegó a respaldarla. En redes la apodaron \"Lady Costco\".\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "lady costco",
+   "estacionamiento",
+   "cdmx"
+  ]
+ },
+ "source_post": "https://www.eluniversal.com.mx/tendencias/mujer-aparta-cajon-de-estacionamiento-con-su-cuerpo-en-costco-de-cdmx-y-se-vuelve-viral-la-llaman-lady-costco/",
+ "facts_used": [
+  "Una mujer se paró en un cajón del estacionamiento del Costco de Coapa (CDMX) para impedir que otro auto lo ocupara [El Universal 2026-11-04, ABC Noticias 2026-11-03]",
+  "Ella dijo que estaba esperando a un familiar [El Universal 2026-11-04]",
+  "Otras mujeres le pidieron que se moviera y le dijeron que no se puede apartar así (\"¡quítate porque no puedes apartar!\") [El Universal 2026-11-04, La Lista 2026-11]",
+  "Un empleado del estacionamiento le pidió hacerse a un lado; ella lo ignoró y siguió viendo su celular [El Universal 2026-11-04, ABC Noticias 2026-11-03]",
+  "Llegó otra mujer a respaldarla y la tensión aumentó [El Universal 2026-11-04, ABC Noticias 2026-11-03]",
+  "En redes la apodaron \"Lady Costco\"; la cadena no se ha pronunciado [El Universal 2026-11-04, ABC Noticias 2026-11-03]"
+ ],
+ "brief": "lane MX - El Universal / ABC Noticias / La Lista. 유형: lady 민폐(주차 자리 맡기). 점수 재미5+이해5+반전3+편가르기5=18. 이해검사: 코스트코 주차장에서 여자가 차 없이 몸으로 자리 맡음 → 가족 기다린다고 함 → 다른 손님·직원이 비키라 해도 폰만 봄 → 다른 여자가 편들러 와서 더 커짐. 증거없음: 보도에 금액·문서 없음."
+}

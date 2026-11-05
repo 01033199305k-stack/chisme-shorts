@@ -1,0 +1,306 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-brazilian-tlaxcala-not-exist-memes",
+ "title_lines": [
+  "Presumió Tlaxcala…",
+  "y México le contestó"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Subió fotos de Tlaxcala… y le dijeron que no existe.",
+   "say": "Subió fotos de Tlaxcala… y le dijeron que no existe.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "写真 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "divertido, como soltando un chisme"
+  },
+  {
+   "text": "Una brasileña presumió la plaza de Día de Muertos.",
+   "say": "Una brasileña presumió la plaza de Día de Muertos.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "旅行 女性",
+       "観光 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌼",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico colonial plaza",
+     "marigold flowers decoration"
+    ]
+   }
+  },
+  {
+   "text": "Cientos de mexicanos le dijeron que la engañaron.",
+   "say": "Cientos de mexicanos le dijeron que la engañaron.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "笑う 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Mandó otra foto con flores… ¡y llovieron más memes!",
+   "say": "Mandó otra foto con flores… ¡y llovieron más memes!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "困る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "marigold flowers",
+     "cempasuchil flowers"
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "«No estoy entendiendo esta broma, explícamela», escribió.",
+   "say": "«No estoy entendiendo esta broma, explícamela», escribió.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "はてな 女性",
+       "考える 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "imitando, confundido"
+  },
+  {
+   "text": "Un usuario le explicó que es como Acre, en Brasil.",
+   "say": "Un usuario le explicó que es como Acre, en Brasil.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "説明 男性",
+       "教える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "brazil amazon river",
+     "rainforest river aerial"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "Allá dicen lo mismo… y ella terminó riéndose.",
+   "say": "Allá dicen lo mismo… y ella terminó riéndose.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 女性",
+       "喜ぶ 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤣",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "riéndose, ligero"
+  },
+  {
+   "text": "¿Chiste sano o se pasaron?",
+   "say": "¿Chiste sano o se pasaron?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "考える 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Chiste sano, es cultura",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Se pasaron con ella",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Una brasileña subió fotos de Tlaxcala… y México le respondió así 😂 #shorts",
+  "description": "Una brasileña publicó en X fotos de la plaza de Tlaxcala decorada por Día de Muertos y cientos de cuentas mexicanas le respondieron, en broma, que el estado no existe. Confundida, pidió que le explicaran el chiste; un usuario lo comparó con Acre, el estado brasileño del que se dice lo mismo, y ella terminó riéndose.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "tlaxcala no existe",
+   "memes",
+   "brasil"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/04/brasilena-presume-fotos-de-tlaxcala-y-desata-ola-de-memes-al-no-entender-las-respuestas-en-redes-sociales/",
+ "facts_used": [
+  "Una mujer brasileña publicó en X fotos de la plaza principal de Tlaxcala decorada por Día de Muertos, del viaje de su hermana por México [Infobae 2026-11-04]",
+  "Cientos de cuentas mexicanas le respondieron con sarcasmo que Tlaxcala no existe y que la habían engañado [Infobae 2026-11-04]",
+  "Publicó otra foto de las letras gigantes con el nombre de la capital cubiertas de flores amarillas, que sumó miles de vistas y más memes [Infobae 2026-11-04]",
+  "Ella respondió: \"No estoy entendiendo esta broma, explícamela\" [Infobae 2026-11-04]",
+  "Un usuario se lo explicó comparándolo con Acre, estado brasileño del que se bromea que no existe; ella disfrutó el humor y se dijo aliviada [Infobae 2026-11-04]",
+  "El chiste de que Tlaxcala no existe circula en internet desde hace más de una década [Infobae 2026-11-04, Memedroid 2019]"
+ ],
+ "brief": "lane MX - Infobae (1곳: 다른 매체 보도 못 찾음, Infobae 가 X 게시물을 직접 인용한 사실만 사용). 유형: 인터넷 밈·외국인 반응. 점수 재미4+이해5+반전4+편가르기3=16. 이해검사: 브라질 여자가 틀락스칼라 사진 올림 → 멕시코 사람들이 '그런 주는 없다'고 장난 → 꽃 글자 사진 또 올리자 밈 폭발 → '농담 설명해 줘' → 브라질 Acre 같은 거라는 설명에 웃음. 증거없음: 보도에 금액·문서 없음."
+}
