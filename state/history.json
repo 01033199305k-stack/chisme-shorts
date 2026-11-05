@@ -1537,5 +1537,89 @@
   "privacy": "private",
   "scheduled_for": "2026-11-05T03:00:00Z",
   "seconds": 91
+ },
+ {
+  "key": "2026-11-06-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-06T09:00:00+09:00",
+  "started": "2026-11-05T23:12:44.879037+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1137/",
+   "https://pixabay.com/videos/id-2165/",
+   "https://pixabay.com/videos/id-6387/"
+  ],
+  "duration": 18.32,
+  "matches": [
+   1.0,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Se paró en un cajón del Costco a apartar lugar… y no traía coche 🅿️ #shorts",
+  "source_post": "https://www.eluniversal.com.mx/tendencias/mujer-aparta-cajon-de-estacionamiento-con-su-cuerpo-en-costco-de-cdmx-y-se-vuelve-viral-la-llaman-lady-costco/",
+  "facts_used": [
+   "Una mujer se paró en un cajón del estacionamiento del Costco de Coapa (CDMX) para impedir que otro auto lo ocupara [El Universal 2026-11-04, ABC Noticias 2026-11-03]",
+   "Ella dijo que estaba esperando a un familiar [El Universal 2026-11-04]",
+   "Otras mujeres le pidieron que se moviera y le dijeron que no se puede apartar así (\"¡quítate porque no puedes apartar!\") [El Universal 2026-11-04, La Lista 2026-11]",
+   "Un empleado del estacionamiento le pidió hacerse a un lado; ella lo ignoró y siguió viendo su celular [El Universal 2026-11-04, ABC Noticias 2026-11-03]",
+   "Llegó otra mujer a respaldarla y la tensión aumentó [El Universal 2026-11-04, ABC Noticias 2026-11-03]",
+   "En redes la apodaron \"Lady Costco\"; la cadena no se ha pronunciado [El Universal 2026-11-04, ABC Noticias 2026-11-03]"
+  ],
+  "slug": "2026-11-06_0900_mx-lady-costco-coapa-parking-spot",
+  "late": false,
+  "video_id": "-Lj8dbYPyls",
+  "url": "https://youtube.com/shorts/-Lj8dbYPyls",
+  "privacy": "private",
+  "scheduled_for": "2026-11-06T00:00:00Z",
+  "seconds": 101
+ },
+ {
+  "key": "2026-11-06-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-06T12:00:00+09:00",
+  "started": "2026-11-05T23:14:25.735363+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-31822/",
+   "https://pixabay.com/videos/id-111393/",
+   "https://pixabay.com/videos/id-87525/"
+  ],
+  "duration": 20.15,
+  "matches": [
+   0.98,
+   1.0,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Una brasileña subió fotos de Tlaxcala… y México le respondió así 😂 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/04/brasilena-presume-fotos-de-tlaxcala-y-desata-ola-de-memes-al-no-entender-las-respuestas-en-redes-sociales/",
+  "facts_used": [
+   "Una mujer brasileña publicó en X fotos de la plaza principal de Tlaxcala decorada por Día de Muertos, del viaje de su hermana por México [Infobae 2026-11-04]",
+   "Cientos de cuentas mexicanas le respondieron con sarcasmo que Tlaxcala no existe y que la habían engañado [Infobae 2026-11-04]",
+   "Publicó otra foto de las letras gigantes con el nombre de la capital cubiertas de flores amarillas, que sumó miles de vistas y más memes [Infobae 2026-11-04]",
+   "Ella respondió: \"No estoy entendiendo esta broma, explícamela\" [Infobae 2026-11-04]",
+   "Un usuario se lo explicó comparándolo con Acre, estado brasileño del que se bromea que no existe; ella disfrutó el humor y se dijo aliviada [Infobae 2026-11-04]",
+   "El chiste de que Tlaxcala no existe circula en internet desde hace más de una década [Infobae 2026-11-04, Memedroid 2019]"
+  ],
+  "slug": "2026-11-06_1200_mx-brazilian-tlaxcala-not-exist-memes",
+  "late": false,
+  "video_id": "43NnOEIagi4",
+  "url": "https://youtube.com/shorts/43NnOEIagi4",
+  "privacy": "private",
+  "scheduled_for": "2026-11-06T03:00:00Z",
+  "seconds": 98
  }
 ]
