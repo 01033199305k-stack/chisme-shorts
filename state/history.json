@@ -1621,5 +1621,89 @@
   "privacy": "private",
   "scheduled_for": "2026-11-06T03:00:00Z",
   "seconds": 98
+ },
+ {
+  "key": "2026-11-07-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-07T09:00:00+09:00",
+  "started": "2026-11-06T22:13:04.698875+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-3186/",
+   "https://pixabay.com/videos/id-243119/",
+   "https://pixabay.com/videos/id-6387/"
+  ],
+  "duration": 19.44,
+  "matches": [
+   0.97,
+   1.0,
+   0.98,
+   1.0,
+   1.0,
+   0.92,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Unos alumnos dijeron «wey» en la prepa… y una empleada les soltó esto 😳 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/05/trabajadora-de-preparatoria-en-texas-arremete-contra-alumnos-por-usar-expresiones-mexicanas-siempre-dicen-guey/",
+  "facts_used": [
+   "Una exalumna de Coronado High School (El Paso, Texas) acusó en TikTok a una empleada de la escuela de criticar a un grupo de alumnos por decir \"wey\" [Infobae 2026-11-05, NetNoticias 2026-11]",
+   "Según la exalumna, la empleada le dijo \"seguramente eres de Juárez\" y que la gente de El Paso nunca hablaría así [Infobae 2026-11-05, NetNoticias 2026-11]",
+   "La exalumna dice que ocurrió hace 3 o 4 años y que lo publicó tras recibir mensajes de personas ligadas a la escuela [Infobae 2026-11-05]",
+   "Según ella, alumnos actuales le contaron que la empleada sigue trabajando ahí [Infobae 2026-11-05, NetNoticias 2026-11]",
+   "El video superó las 100 mil vistas y dividió opiniones: unos lo ven inapropiado, otros incómodo pero no necesariamente racista [Infobae 2026-11-05]",
+   "Ni el distrito EPISD ni la escuela han emitido una postura pública [Infobae 2026-11-05, NetNoticias 2026-11]"
+  ],
+  "slug": "2026-11-07_0900_mx-el-paso-school-worker-wey-juarez",
+  "late": false,
+  "video_id": "XmKEv0t9X3c",
+  "url": "https://youtube.com/shorts/XmKEv0t9X3c",
+  "privacy": "private",
+  "scheduled_for": "2026-11-07T00:00:00Z",
+  "seconds": 113
+ },
+ {
+  "key": "2026-11-07-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-07T12:00:00+09:00",
+  "started": "2026-11-06T22:14:58.085012+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-148208/",
+   "https://pixabay.com/videos/id-293079/",
+   "https://pixabay.com/videos/id-29947/"
+  ],
+  "duration": 19.78,
+  "matches": [
+   1.0,
+   1.0,
+   0.94,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Le dio una cachetada al instructor del gym… y luego pasó esto en el estacionamiento 😱 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/04/captan-a-mujer-golpeando-a-instructor-de-gimnasio-y-lanzando-patadas-a-un-automovilista-en-tijuana/",
+  "facts_used": [
+   "En un gimnasio de Plaza Monarca, en Tijuana, una mujer discutió con un instructor y le dio una cachetada; él no respondió y mantuvo distancia [Infobae 2026-11-04, Heraldo de México 2026-11-04, Latinus 2026-11-03]",
+   "Ella señalaba un celular en el piso que parecía ligado a su reclamo; otra empleada intervino para calmarla [Infobae 2026-11-04, Heraldo de México 2026-11-04]",
+   "En otro video, en el estacionamiento de la plaza, lanzó golpes y patadas a un automovilista, presuntamente por un cajón; él solo se cubrió [Infobae 2026-11-04, Latinus 2026-11-03, Hoy Tamaulipas 2026-11]",
+   "Después se fue gritando, se subió a su vehículo y se retiró [Infobae 2026-11-04]",
+   "Usuarios ligaron ambos videos por su parecido y ropa; vecinos piden frenar sus agresiones [Infobae 2026-11-04, Heraldo de México 2026-11-04]",
+   "No se ha confirmado su identidad ni denuncias formales [Infobae 2026-11-04, Latinus 2026-11-03]"
+  ],
+  "slug": "2026-11-07_1200_mx-tijuana-gym-instructor-parking-fight",
+  "late": false,
+  "video_id": "URDVcweUjik",
+  "url": "https://youtube.com/shorts/URDVcweUjik",
+  "privacy": "private",
+  "scheduled_for": "2026-11-07T03:00:00Z",
+  "seconds": 101
  }
 ]
