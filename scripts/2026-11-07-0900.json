@@ -1,0 +1,305 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-el-paso-school-worker-wey-juarez",
+ "title_lines": [
+  "Dijo «wey» en clase…",
+  "y le soltaron esto"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Por decir «wey», le dijeron: «Seguramente eres de Juárez».",
+   "say": "Por decir «wey», le dijeron: «Seguramente eres de Juárez».",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性 先生",
+       "注意する 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "indignado, como soltando un chisme"
+  },
+  {
+   "text": "Fue una empleada de una prepa de El Paso, Texas.",
+   "say": "Fue una empleada de una prepa de El Paso, Texas.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高校",
+       "学校 校舎"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "high school hallway",
+     "school hallway students"
+    ]
+   }
+  },
+  {
+   "text": "Lo contó una exalumna en TikTok.",
+   "say": "Lo contó una exalumna en TikTok.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 動画 女性",
+       "動画撮影 スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Según ella, en El Paso «nadie habla así».",
+   "say": "¡No manches! Según ella, en El Paso «nadie habla así».",
+   "sfx": "punch",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "説教 女性",
+       "怒る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "texas border city",
+     "el paso texas"
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Dice que pasó hace años… y que la empleada sigue ahí.",
+   "say": "Dice que pasó hace años… y que la empleada sigue ahí.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "事務員 女性",
+       "受付 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "Su video pasó las cien mil vistas y dividió opiniones.",
+   "say": "Su video pasó las cien mil vistas y dividió opiniones.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "口論 男女",
+       "議論 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "people arguing debate",
+     "mexican friends talking"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "La escuela no ha dicho ni pío.",
+   "say": "La escuela no ha dicho ni pío.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "沈黙",
+       "無言 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤐",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Racismo o exageración?",
+   "say": "¿Racismo o exageración?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Fue discriminación",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Solo fue incómodo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Unos alumnos dijeron «wey» en la prepa… y una empleada les soltó esto 😳 #shorts",
+  "description": "Una exalumna de una preparatoria de El Paso, Texas, contó en TikTok que una empleada criticó a unos alumnos por decir \"wey\" y le dijo \"seguramente eres de Juárez\". Según ella, pasó hace unos años y la empleada sigue trabajando ahí; su video superó las 100 mil vistas y dividió opiniones. La escuela no se ha pronunciado.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "wey",
+   "juárez",
+   "el paso"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/05/trabajadora-de-preparatoria-en-texas-arremete-contra-alumnos-por-usar-expresiones-mexicanas-siempre-dicen-guey/",
+ "facts_used": [
+  "Una exalumna de Coronado High School (El Paso, Texas) acusó en TikTok a una empleada de la escuela de criticar a un grupo de alumnos por decir \"wey\" [Infobae 2026-11-05, NetNoticias 2026-11]",
+  "Según la exalumna, la empleada le dijo \"seguramente eres de Juárez\" y que la gente de El Paso nunca hablaría así [Infobae 2026-11-05, NetNoticias 2026-11]",
+  "La exalumna dice que ocurrió hace 3 o 4 años y que lo publicó tras recibir mensajes de personas ligadas a la escuela [Infobae 2026-11-05]",
+  "Según ella, alumnos actuales le contaron que la empleada sigue trabajando ahí [Infobae 2026-11-05, NetNoticias 2026-11]",
+  "El video superó las 100 mil vistas y dividió opiniones: unos lo ven inapropiado, otros incómodo pero no necesariamente racista [Infobae 2026-11-05]",
+  "Ni el distrito EPISD ni la escuela han emitido una postura pública [Infobae 2026-11-05, NetNoticias 2026-11]"
+ ],
+ "brief": "lane MX - Infobae México / NetNoticias. 유형: 직장·학교 갈등(멕시코 말투 차별 논란). 점수 재미4+이해4+반전3+편가르기5=16. 이해검사: 엘파소 고등학교 직원이 학생들이 wey 라고 하자 '너 후아레스 출신이지' → 엘파소 사람은 그렇게 말 안 한다 → 졸업생이 틱톡 폭로, 10만 뷰 찬반. 주의: 전부 졸업생 주장이라 'según ella' 로만 씀, 3~4년 전 일."
+}

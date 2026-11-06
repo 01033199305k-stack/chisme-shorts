@@ -1,0 +1,306 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-tijuana-gym-instructor-parking-fight",
+ "title_lines": [
+  "Cacheteó al del gym…",
+  "y ese no fue el bueno"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Cacheteó al instructor del gym… y no fue todo.",
+   "say": "Cacheteó al instructor del gym… y no fue todo.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ビンタ 女性",
+       "平手打ち"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "indignado, como soltando un chisme"
+  },
+  {
+   "text": "Pasó en un gimnasio de Plaza Monarca, en Tijuana.",
+   "say": "Pasó en un gimnasio de Plaza Monarca, en Tijuana.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ジム トレーニング",
+       "インストラクター ジム"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏋️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "gym workout weights",
+     "mexican gym training"
+    ]
+   }
+  },
+  {
+   "text": "Discutía señalando un celular en el piso, y ¡zas!",
+   "say": "Discutía señalando un celular en el piso, y ¡zas!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性 スマートフォン",
+       "スマートフォン 落とす"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Él ni respondió; una empleada tuvo que calmarla.",
+   "say": "Él ni respondió; una empleada tuvo que calmarla.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "なだめる 女性",
+       "落ち着いて"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "gym staff talking",
+     "fitness center reception"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Luego salió otro video, en el estacionamiento.",
+   "say": "¡No manches! Luego salió otro video, en el estacionamiento.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Le tiró patadas a un conductor, al parecer por un cajón.",
+   "say": "Le tiró patadas a un conductor, al parecer por un cajón.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キック 女性",
+       "蹴る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "shopping mall parking lot",
+     "mexico parking lot cars"
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "Él solo se cubrió y ella se fue gritando.",
+   "say": "Él solo se cubrió y ella se fue gritando.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "運転 女性 怒る",
+       "車 運転"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "¿Él debió defenderse?",
+   "say": "¿Él debió defenderse?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, ya era demasiado",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② No, hizo bien",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Le dio una cachetada al instructor del gym… y luego pasó esto en el estacionamiento 😱 #shorts",
+  "description": "En Plaza Monarca, en Tijuana, una mujer fue grabada discutiendo con un instructor de gimnasio y dándole una cachetada; él no respondió y una empleada intervino. En otro video, en el estacionamiento, lanzó golpes y patadas a un automovilista, al parecer por un cajón, mientras él solo se cubría. No hay denuncias formales confirmadas.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "tijuana",
+   "gimnasio",
+   "estacionamiento"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/04/captan-a-mujer-golpeando-a-instructor-de-gimnasio-y-lanzando-patadas-a-un-automovilista-en-tijuana/",
+ "facts_used": [
+  "En un gimnasio de Plaza Monarca, en Tijuana, una mujer discutió con un instructor y le dio una cachetada; él no respondió y mantuvo distancia [Infobae 2026-11-04, Heraldo de México 2026-11-04, Latinus 2026-11-03]",
+  "Ella señalaba un celular en el piso que parecía ligado a su reclamo; otra empleada intervino para calmarla [Infobae 2026-11-04, Heraldo de México 2026-11-04]",
+  "En otro video, en el estacionamiento de la plaza, lanzó golpes y patadas a un automovilista, presuntamente por un cajón; él solo se cubrió [Infobae 2026-11-04, Latinus 2026-11-03, Hoy Tamaulipas 2026-11]",
+  "Después se fue gritando, se subió a su vehículo y se retiró [Infobae 2026-11-04]",
+  "Usuarios ligaron ambos videos por su parecido y ropa; vecinos piden frenar sus agresiones [Infobae 2026-11-04, Heraldo de México 2026-11-04]",
+  "No se ha confirmado su identidad ni denuncias formales [Infobae 2026-11-04, Latinus 2026-11-03]"
+ ],
+ "brief": "lane MX - Infobae México / Heraldo de México / Latinus. 유형: lady 민폐(폭행·주차 자리 다툼). 점수 재미4+이해5+반전3+편가르기3=15. 이해검사: 티후아나 헬스장에서 여자가 강사 뺨 때림 → 강사는 안 맞받아침 → 같은 여자가 주차장에서 운전자에게 발차기(주차칸 때문인 듯) → 남자는 막기만 하고 여자는 소리치며 차 타고 떠남. 증거없음: 신원·고소 미확인."
+}
