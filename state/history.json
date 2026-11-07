@@ -1705,5 +1705,88 @@
   "privacy": "private",
   "scheduled_for": "2026-11-07T03:00:00Z",
   "seconds": 101
+ },
+ {
+  "key": "2026-11-08-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-08T09:00:00+09:00",
+  "started": "2026-11-07T22:10:16.261415+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-148317/",
+   "https://pixabay.com/videos/id-2165/",
+   "https://pixabay.com/videos/id-36733/"
+  ],
+  "duration": 17.61,
+  "matches": [
+   1.0,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Le reclamó al chofer por ir con el celular… y él le contestó así 📱 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/06/taxista-por-aplicacion-es-exhibido-en-redes-por-conducir-mientras-habla-por-celular-yo-se-manejar-asi-no-es-su-problema/",
+  "facts_used": [
+   "Una pasajera grabó a un conductor de taxi por aplicación que usaba el celular de forma continua con el vehículo en movimiento [Infobae 2026-11-06]",
+   "Ella le dijo que estaba pagando un servicio y que su seguridad física dependía de su concentración en el camino [Infobae 2026-11-06]",
+   "El chofer no se disculpó, no cambió su actitud ni colgó la llamada [Infobae 2026-11-06]",
+   "Respondió: «Yo sé manejar así, no es su problema» (cita del titular); siguió manejando y ella se bajó del vehículo [Infobae 2026-11-06]",
+   "El video se difundió rápido, lo retomó Radio Fórmula y causó indignación entre miles de internautas [Infobae 2026-11-06]",
+   "No se publicaron ciudad, plataforma ni nombre del chofer [Infobae 2026-11-06]"
+  ],
+  "slug": "2026-11-08_0900_mx-app-driver-phone-passenger-complains",
+  "late": false,
+  "video_id": "eynbCb_jVng",
+  "url": "https://youtube.com/shorts/eynbCb_jVng",
+  "privacy": "private",
+  "scheduled_for": "2026-11-08T00:00:00Z",
+  "seconds": 90
+ },
+ {
+  "key": "2026-11-08-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-08T12:00:00+09:00",
+  "started": "2026-11-07T22:11:46.209601+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-36962/",
+   "https://pixabay.com/videos/id-21115/"
+  ],
+  "duration": 17.18,
+  "matches": [
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 4,
+  "cuts": 8,
+  "title": "Tres en una moto pasaron sobre los tapetes de Día de Muertos… y el pueblo hizo esto 🏍️ #shorts",
+  "source_post": "https://www.excelsior.com.mx/estado-de-mexico/les-valio-trabajo-pueblo-moto-destrozan-tapetes-dia-muertos-atenco",
+  "facts_used": [
+   "Vecinos de San Francisco Acuexcomac, Atenco, hicieron tapetes de aserrín para Día de Muertos [Excélsior 2026-11-03, Uno TV 2026-11-03]",
+   "Los tapetes cubrían más de cuatro cuadras, del templo de San Francisco de Asís al panteón [Excélsior 2026-11-03]",
+   "Tres personas en una motocicleta pasaron sobre los tapetes; uno bajaba los pies y pisaba las figuras [Uno TV 2026-11-03, Excélsior 2026-11-03]",
+   "Según Excélsior, lo hicieron solo por 'diversión', hacia las 7:00 del 2 de noviembre [Excélsior 2026-11-03]",
+   "El comité organizador pidió ayuda para identificarlos tras difundirse los videos [Excélsior 2026-11-03]",
+   "Horas después la policía municipal de Atenco detuvo a los tres y los puso ante un juez cívico [Uno TV 2026-11-03, Excélsior 2026-11-03]"
+  ],
+  "slug": "2026-11-08_1200_mx-atenco-motorbike-day-of-dead-carpets",
+  "late": false,
+  "video_id": "gY0LME_2XYI",
+  "url": "https://youtube.com/shorts/gY0LME_2XYI",
+  "privacy": "private",
+  "scheduled_for": "2026-11-08T03:00:00Z",
+  "seconds": 76
  }
 ]
