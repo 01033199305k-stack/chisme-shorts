@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-atenco-motorbike-day-of-dead-carpets",
+ "title_lines": [
+  "Pasaron en moto…",
+  "sobre los tapetes"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Tres en una moto pasaron sobre los tapetes de muertos…",
+   "say": "Tres en una moto pasaron sobre los tapetes de muertos…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク 三人乗り",
+       "バイク 若者"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "indignado, como soltando un chisme"
+  },
+  {
+   "text": "Eran de aserrín, obra de vecinos de Atenco.",
+   "say": "Eran de aserrín, obra de vecinos de Atenco.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガイコツ 祭り",
+       "花 飾り"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "day of the dead sawdust carpet",
+     "day of the dead street mexico"
+    ]
+   }
+  },
+  {
+   "text": "Cubrían más de cuatro cuadras, hasta el panteón.",
+   "say": "Cubrían más de cuatro cuadras, hasta el panteón.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お墓参り 花",
+       "花 飾り きれい"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌼",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Uno hasta pisaba las figuras.",
+   "say": "¡No manches! Uno hasta pisaba las figuras.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "踏みつける 足",
+       "いたずら 若者"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "motorcycle riders town street",
+     "mexico motorcycle street"
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Y según la prensa, nomás por diversión.",
+   "say": "Y según la prensa, nomás por diversión.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 若者 男性",
+       "ふざける 若者"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "Los vecinos difundieron el video.",
+   "say": "Los vecinos difundieron el video.",
+   "sfx": "question",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン SNS 投稿",
+       "怒る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican town street neighbors",
+     "small town mexico street"
+    ]
+   }
+  },
+  {
+   "text": "Horas después, la policía detuvo a los tres.",
+   "say": "Horas después, la policía detuvo a los tres.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官 逮捕",
+       "パトカー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Qué castigo les darías?",
+   "say": "¿Qué castigo les darías?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Que rehagan los tapetes",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Una multa y ya",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Tres en una moto pasaron sobre los tapetes de Día de Muertos… y el pueblo hizo esto 🏍️ #shorts",
+  "description": "En San Francisco Acuexcomac, Atenco, tres hombres en una motocicleta pasaron sobre los tapetes de aserrín que vecinos hicieron para Día de Muertos, y uno bajaba los pies para deshacer las figuras. Tras difundirse el video, la policía municipal los detuvo y quedaron ante un juez cívico.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "día de muertos",
+   "atenco",
+   "tapetes de aserrín"
+  ]
+ },
+ "source_post": "https://www.excelsior.com.mx/estado-de-mexico/les-valio-trabajo-pueblo-moto-destrozan-tapetes-dia-muertos-atenco",
+ "facts_used": [
+  "Vecinos de San Francisco Acuexcomac, Atenco, hicieron tapetes de aserrín para Día de Muertos [Excélsior 2026-11-03, Uno TV 2026-11-03]",
+  "Los tapetes cubrían más de cuatro cuadras, del templo de San Francisco de Asís al panteón [Excélsior 2026-11-03]",
+  "Tres personas en una motocicleta pasaron sobre los tapetes; uno bajaba los pies y pisaba las figuras [Uno TV 2026-11-03, Excélsior 2026-11-03]",
+  "Según Excélsior, lo hicieron solo por 'diversión', hacia las 7:00 del 2 de noviembre [Excélsior 2026-11-03]",
+  "El comité organizador pidió ayuda para identificarlos tras difundirse los videos [Excélsior 2026-11-03]",
+  "Horas después la policía municipal de Atenco detuvo a los tres y los puso ante un juez cívico [Uno TV 2026-11-03, Excélsior 2026-11-03]"
+ ],
+ "brief": "lane MX - Excélsior / Uno TV. 유형: 동네 민폐(공동체 vs 장난꾼). 점수 재미3+이해5+반전4+편가르기3=15. 이해검사: 아텐코 마을 주민들이 만든 망자의 날 톱밥 카펫 위로 3명이 오토바이를 타고 지나가며 발로 그림을 망침 → 재미로 했다는 보도 → 주민들이 영상 퍼뜨림 → 몇 시간 뒤 경찰이 3명 체포, 즉결 판사에게 넘김. 처벌 수위는 미정."
+}

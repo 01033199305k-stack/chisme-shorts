@@ -1,0 +1,305 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-app-driver-phone-passenger-complains",
+ "title_lines": [
+  "Le reclamó al chofer…",
+  "y él le soltó esto"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "«Yo sé manejar así, no es su problema», dijo el chofer.",
+   "say": "«Yo sé manejar así, no es su problema», dijo el chofer.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タクシー 運転手 男性",
+       "運転手 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "indignado, como soltando un chisme"
+  },
+  {
+   "text": "Manejaba un taxi de app hablando por celular.",
+   "say": "Manejaba un taxi de app hablando por celular.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "運転中 スマートフォン",
+       "ながら運転"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico city taxi traffic",
+     "driver talking on phone car"
+    ]
+   }
+  },
+  {
+   "text": "La pasajera lo grabó y le reclamó.",
+   "say": "La pasajera lo grabó y le reclamó.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 撮影 女性",
+       "動画撮影 スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Ella paga un servicio y su seguridad depende de él.",
+   "say": "Ella paga un servicio y su seguridad depende de él.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "シートベルト 女性",
+       "乗客 女性 車"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "car driving city road mexico",
+     "mexico highway traffic"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Ni se disculpó ni colgó.",
+   "say": "¡No manches! Ni se disculpó ni colgó.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 男性 無視",
+       "電話する 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Siguió manejando… y ella mejor se bajó.",
+   "say": "Siguió manejando… y ella mejor se bajó.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "車から降りる 女性",
+       "怒る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "El video indignó a miles en redes.",
+   "say": "El video indignó a miles en redes.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "炎上 SNS",
+       "スマートフォン 怒る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico city street traffic night",
+     "people looking at phones"
+    ]
+   }
+  },
+  {
+   "text": "¿Exagerada o tiene razón?",
+   "say": "¿Exagerada o tiene razón?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Tiene toda la razón",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Exageró, él sabe manejar",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Le reclamó al chofer por ir con el celular… y él le contestó así 📱 #shorts",
+  "description": "Una pasajera grabó a un conductor de taxi por aplicación que hablaba por celular mientras manejaba y le reclamó que su seguridad dependía de su atención al camino. Él no se disculpó ni colgó, y respondió que sabía manejar así; ella terminó bajándose y el video desató indignación en redes.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "taxi de app",
+   "chofer",
+   "celular al volante"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/06/taxista-por-aplicacion-es-exhibido-en-redes-por-conducir-mientras-habla-por-celular-yo-se-manejar-asi-no-es-su-problema/",
+ "facts_used": [
+  "Una pasajera grabó a un conductor de taxi por aplicación que usaba el celular de forma continua con el vehículo en movimiento [Infobae 2026-11-06]",
+  "Ella le dijo que estaba pagando un servicio y que su seguridad física dependía de su concentración en el camino [Infobae 2026-11-06]",
+  "El chofer no se disculpó, no cambió su actitud ni colgó la llamada [Infobae 2026-11-06]",
+  "Respondió: «Yo sé manejar así, no es su problema» (cita del titular); siguió manejando y ella se bajó del vehículo [Infobae 2026-11-06]",
+  "El video se difundió rápido, lo retomó Radio Fórmula y causó indignación entre miles de internautas [Infobae 2026-11-06]",
+  "No se publicaron ciudad, plataforma ni nombre del chofer [Infobae 2026-11-06]"
+ ],
+ "brief": "lane MX - Infobae México (1곳만 확인, 그 매체가 직접 쓴 사실만 사용; Radio Fórmula 보도는 Infobae 언급만 확인). 유형: 운전자 vs 승객(앱 택시). 점수 재미4+이해5+반전2+편가르기4=15. 이해검사: 앱 택시 기사가 통화하며 운전 → 승객이 촬영하며 항의 → 기사는 사과도 안 하고 '나는 이렇게 운전할 줄 안다' → 승객이 내림 → 영상 확산. 도시·플랫폼 미공개라 대본에 안 씀."
+}
