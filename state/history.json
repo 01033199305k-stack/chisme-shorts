@@ -1788,5 +1788,88 @@
   "privacy": "private",
   "scheduled_for": "2026-11-08T03:00:00Z",
   "seconds": 76
+ },
+ {
+  "key": "2026-11-09-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-09T09:00:00+09:00",
+  "started": "2026-11-08T22:10:08.908154+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-148317/",
+   "https://pixabay.com/videos/id-27183/",
+   "https://pixabay.com/videos/id-31822/"
+  ],
+  "duration": 19.91,
+  "matches": [
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 8,
+  "title": "Le ofreció un refresco a un policía para no ir al corralón… y esto le contestó 🥤 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/07/motociclista-ofrece-un-refresco-a-policia-para-evitar-una-multa-en-cdmx-y-termina-exhibido-todos-aceptan-chesco/",
+  "facts_used": [
+   "Un motociclista fue detenido en la CDMX por circular sin casco y ofreció un refresco al oficial para evitar la sanción y el depósito vehicular [Infobae 2026-11-07]",
+   "El policía respondió: «No tomo refresco, tomo puro juguito y agua natural» y «Aquí no hay paro para nadie» [Infobae 2026-11-07]",
+   "El motociclista dijo: «todos aceptan chesco» [Infobae 2026-11-07]",
+   "Su licencia era tipo A permanente expedida en 2000; el oficial explicó que el reglamento solo valida las emitidas entre 2003 y 2007, y él aceptó [Infobae 2026-11-07]",
+   "El oficial siguió el procedimiento y comenzó a preparar el traslado de la moto al corralón [Infobae 2026-11-07]",
+   "El video circuló en TikTok y lo difundió la cuenta «Somos Más Los Buenos» [Infobae 2026-11-07]"
+  ],
+  "slug": "2026-11-09_0900_mx-biker-offers-soda-to-cop",
+  "late": false,
+  "video_id": "RP9X3F1exxc",
+  "url": "https://youtube.com/shorts/RP9X3F1exxc",
+  "privacy": "private",
+  "scheduled_for": "2026-11-09T00:00:00Z",
+  "seconds": 98
+ },
+ {
+  "key": "2026-11-09-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-09T12:00:00+09:00",
+  "started": "2026-11-08T22:11:47.715867+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-26209/",
+   "https://pixabay.com/videos/id-339340/",
+   "https://pixabay.com/videos/id-38084/"
+  ],
+  "duration": 18.93,
+  "matches": [
+   1.0,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Apareció un alacrán en el Tren Ligero… y una pasajera hizo esto 🦂 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/07/alacran-sorprende-a-pasajeros-del-tren-ligero-de-la-cdmx-y-mujer-lo-expulsa-del-vagon-con-ayuda-de-un-folder/",
+  "facts_used": [
+   "Un alacrán apareció en un vagón del Tren Ligero de la CDMX, en la estación Registro Federal [Infobae 2026-11-07]",
+   "Otro pasajero habría notado primero al animal y alertó al resto del convoy [Infobae 2026-11-07]",
+   "Una pasajera usó un folder como barrera para guiar al alacrán hacia una ventana, sin tocarlo con las manos [Infobae 2026-11-07]",
+   "El alacrán salió por la ventana del tren; no se reportaron lesionados [Infobae 2026-11-07]",
+   "El video se viralizó; un internauta preguntó: «¿Dísculpe este tren me deja en Durango?» [Infobae 2026-11-07]"
+  ],
+  "slug": "2026-11-09_1200_mx-scorpion-tren-ligero-folder",
+  "late": false,
+  "video_id": "KEjPISyfC9g",
+  "url": "https://youtube.com/shorts/KEjPISyfC9g",
+  "privacy": "private",
+  "scheduled_for": "2026-11-09T03:00:00Z",
+  "seconds": 78
  }
 ]
