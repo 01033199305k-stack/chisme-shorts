@@ -1,0 +1,306 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-biker-offers-soda-to-cop",
+ "title_lines": [
+  "Le ofreció un chesco…",
+  "y el poli le dijo esto"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Le ofreció un refresco a un policía para salvarse…",
+   "say": "Le ofreció un refresco a un policía para salvarse…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官 男性",
+       "警察官"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Lo pararon en CDMX por andar en moto sin casco.",
+   "say": "Lo pararon en CDMX por andar en moto sin casco.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク 運転 男性",
+       "バイク"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico city motorcycle traffic",
+     "motorcycle police stop street"
+    ]
+   }
+  },
+  {
+   "text": "El poli le contestó: «No tomo refresco, tomo puro juguito».",
+   "say": "El poli le contestó: «No tomo refresco, tomo puro juguito».",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ジュース 飲む 男性",
+       "ジュース"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¡No manches! Y remató: «Aquí no hay paro para nadie».",
+   "say": "¡No manches! Y remató: «Aquí no hay paro para nadie».",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官 断る",
+       "断る 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "El motociclista se defendió: «Todos aceptan chesco».",
+   "say": "El motociclista se defendió: «Todos aceptan chesco».",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "言い訳 男性",
+       "困る 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤷",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico city traffic police officer",
+     "mexican street traffic"
+    ]
+   },
+   "cap": "quote",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "Encima, su licencia del 2000 ya no era válida.",
+   "say": "Encima, su licencia del dos mil ya no era válida.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "運転免許証",
+       "免許証"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🪪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y su moto iba directo al corralón.",
+   "say": "Y su moto iba directo al corralón.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レッカー車",
+       "レッカー移動"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "tow truck motorcycle",
+     "mexico city street police"
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¿Quién tiene la razón?",
+   "say": "¿Quién tiene la razón?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① El poli, cero mordidas",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Exagerado, era un chesco",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Le ofreció un refresco a un policía para no ir al corralón… y esto le contestó 🥤 #shorts",
+  "description": "Un motociclista detenido en la CDMX por circular sin casco le ofreció un refresco a un policía para evitar la sanción. El oficial lo rechazó con un «No tomo refresco, tomo puro juguito» y le dijo que no había paro para nadie; además, su licencia permanente de 2000 ya no era válida y comenzó el traslado de la moto al corralón.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "policía cdmx",
+   "motociclista",
+   "corralón"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/07/motociclista-ofrece-un-refresco-a-policia-para-evitar-una-multa-en-cdmx-y-termina-exhibido-todos-aceptan-chesco/",
+ "facts_used": [
+  "Un motociclista fue detenido en la CDMX por circular sin casco y ofreció un refresco al oficial para evitar la sanción y el depósito vehicular [Infobae 2026-11-07]",
+  "El policía respondió: «No tomo refresco, tomo puro juguito y agua natural» y «Aquí no hay paro para nadie» [Infobae 2026-11-07]",
+  "El motociclista dijo: «todos aceptan chesco» [Infobae 2026-11-07]",
+  "Su licencia era tipo A permanente expedida en 2000; el oficial explicó que el reglamento solo valida las emitidas entre 2003 y 2007, y él aceptó [Infobae 2026-11-07]",
+  "El oficial siguió el procedimiento y comenzó a preparar el traslado de la moto al corralón [Infobae 2026-11-07]",
+  "El video circuló en TikTok y lo difundió la cuenta «Somos Más Los Buenos» [Infobae 2026-11-07]"
+ ],
+ "brief": "lane MX - Infobae México (1곳만 확인, 다른 매체 보도 검색 안 됨; 그 매체가 직접 쓴 사실만). 유형: 시민 vs 교통경찰(뇌물 제안). 점수 재미4+이해5+반전3+편가르기4=16. 오토바이 운전자의 비속어 발언(cabrón/chinga)은 빼고 'todos aceptan chesco'만 인용. 벌금 액수·장소 미공개라 안 씀."
+}

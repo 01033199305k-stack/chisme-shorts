@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-scorpion-tren-ligero-folder",
+ "title_lines": [
+  "Un alacrán en el tren…",
+  "y una mujer hizo esto"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Ibas en el Tren Ligero y de repente… ¡un alacrán!",
+   "say": "Ibas en el Tren Ligero y de repente… ¡un alacrán!",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サソリ",
+       "さそり"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, asustado"
+  },
+  {
+   "text": "Pasó en la estación Registro Federal, en CDMX.",
+   "say": "Pasó en la estación Registro Federal, en CDMX.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電車 乗客",
+       "電車 車内"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico city light rail train",
+     "mexico city tren ligero"
+    ]
+   }
+  },
+  {
+   "text": "Un pasajero lo vio y alertó a todos.",
+   "say": "Un pasajero lo vio y alertó a todos.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性 指差す",
+       "指差す 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Una mujer sacó un folder y se lanzó.",
+   "say": "¡No manches! Una mujer sacó un folder y se lanzó.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ファイル 持つ 女性",
+       "書類 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Lo fue guiando hacia la ventana… sin tocarlo.",
+   "say": "Lo fue guiando hacia la ventana… sin tocarlo.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "窓 電車",
+       "電車の窓"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🪟",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "train window passengers",
+     "mexico city train interior"
+    ]
+   }
+  },
+  {
+   "text": "Y el alacrán salió por la ventana del tren.",
+   "say": "Y el alacrán salió por la ventana del tren.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サソリ 逃げる",
+       "サソリ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "En redes preguntaban: «¿Este tren me deja en Durango?»",
+   "say": "En redes preguntaban: «¿Este tren me deja en Durango?»",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 笑う 人々",
+       "SNS 笑う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "people laughing at phone",
+     "mexico city street people phones"
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¿Valiente o muy arriesgada?",
+   "say": "¿Valiente o muy arriesgada?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Valiente, bien hecho",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Arriesgada, ¿y si pica?",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   },
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero"
+  }
+ ],
+ "youtube": {
+  "title": "Apareció un alacrán en el Tren Ligero… y una pasajera hizo esto 🦂 #shorts",
+  "description": "En la estación Registro Federal del Tren Ligero de la CDMX, un pasajero vio un alacrán dentro del vagón y alertó a todos. Una mujer usó un folder como barrera para guiarlo hasta la ventana sin tocarlo, y el animal salió del tren; el video se viralizó y llenó las redes de bromas sobre Durango.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "tren ligero",
+   "alacrán",
+   "cdmx"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/07/alacran-sorprende-a-pasajeros-del-tren-ligero-de-la-cdmx-y-mujer-lo-expulsa-del-vagon-con-ayuda-de-un-folder/",
+ "facts_used": [
+  "Un alacrán apareció en un vagón del Tren Ligero de la CDMX, en la estación Registro Federal [Infobae 2026-11-07]",
+  "Otro pasajero habría notado primero al animal y alertó al resto del convoy [Infobae 2026-11-07]",
+  "Una pasajera usó un folder como barrera para guiar al alacrán hacia una ventana, sin tocarlo con las manos [Infobae 2026-11-07]",
+  "El alacrán salió por la ventana del tren; no se reportaron lesionados [Infobae 2026-11-07]",
+  "El video se viralizó; un internauta preguntó: «¿Dísculpe este tren me deja en Durango?» [Infobae 2026-11-07]"
+ ],
+ "brief": "lane MX - Infobae México (1곳만 확인, 다른 매체 보도 검색 안 됨; 그 매체가 직접 쓴 사실만). 유형: 동물·대중교통 황당. 점수 재미4+이해5+반전3+편가르기2=14. 댓글 인용은 맞춤법만 다듬음(Dísculpe 생략)."
+}
