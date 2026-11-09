@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-fan-punches-luchador-ring",
+ "title_lines": [
+  "Se subió al ring…",
+  "a pegarle al ganador"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Un fan se subió al ring a pegarle a un luchador…",
+   "say": "Un fan se subió al ring a pegarle a un luchador…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "プロレスラー",
+       "プロレス"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤼",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Pasó en Tijuana, en el aniversario de The Crash.",
+   "say": "Pasó en Tijuana, en el aniversario de The Crash.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "プロレス 観客",
+       "観客 応援"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏟️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican lucha libre arena crowd",
+     "lucha libre mexico wrestling ring"
+    ]
+   }
+  },
+  {
+   "text": "El Hijo de Rey Misterio acababa de ganar una máscara.",
+   "say": "El Hijo de Rey Misterio acababa de ganar una máscara.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "覆面レスラー",
+       "マスク プロレス"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Y un señor de primera fila brincó al ring y le pegó.",
+   "say": "Y un señor de primera fila brincó al ring y le pegó.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "殴る 男性",
+       "パンチ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "wrestling ring ropes close up",
+     "boxing ring spotlight"
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "¡No manches! Al segundo golpe, el luchador contestó.",
+   "say": "¡No manches! Al segundo golpe, el luchador contestó.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "プロレスラー 怒る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Dos golpes a la cara y el fan se cayó del ring.",
+   "say": "Dos golpes a la cara y el fan se cayó del ring.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "倒れる 男性",
+       "気絶"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "lucha libre wrestler jumping ring",
+     "mexican wrestling match action"
+    ]
+   }
+  },
+  {
+   "text": "Quedó varios minutos en el piso y lo sacaron del lugar.",
+   "say": "Quedó varios minutos en el piso y lo sacaron del lugar.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "担架",
+       "倒れる 人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "¿Se lo buscó o se pasó?",
+   "say": "¿Se lo buscó o se pasó?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Se lo buscó, él empezó",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Se pasó, era un fan",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Un fan se subió al ring a pegarle a un luchador que acababa de ganar… y esto pasó 🤼 #shorts",
+  "description": "Durante el XV aniversario de The Crash en el Auditorio Fausto Gutiérrez de Tijuana, un aficionado de primera fila subió al ring y golpeó al Hijo de Rey Misterio, que acababa de ganarle la máscara a Xtreme Tiger. Al segundo golpe, el luchador respondió con dos golpes al rostro; el aficionado cayó del ring, quedó varios minutos en el piso y fue sacado del lugar.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "lucha libre",
+   "hijo de rey misterio",
+   "tijuana"
+  ]
+ },
+ "source_post": "https://www.unotv.com/deportes/de-espectador-a-rival-aficionado-sube-al-ring-para-golpear-al-hijo-de-rey-misterio/",
+ "facts_used": [
+  "En el XV aniversario de The Crash, en el Auditorio Fausto Gutiérrez de Tijuana, el Hijo de Rey Misterio venció a Xtreme Tiger en máscara contra máscara y ganó su cuarta máscara [Excélsior 2026-11-07, UnoTV 2026-11-07]",
+  "Un aficionado que estaba en primera fila subió al ring y golpeó al luchador durante la ceremonia de revelación de identidad [Excélsior 2026-11-07, UnoTV 2026-11-07]",
+  "El luchador no respondió hasta el segundo golpe del aficionado [Excélsior 2026-11-07, UnoTV 2026-11-07]",
+  "El Hijo de Rey Misterio respondió con dos golpes directos al rostro y el aficionado cayó desde el ring [UnoTV 2026-11-07]",
+  "El aficionado quedó varios minutos en el piso, recibió atención y fue sacado del auditorio [UnoTV 2026-11-07, Excélsior 2026-11-07]",
+  "Varios asistentes grabaron el momento y el video se viralizó; aficionados cuestionaron la seguridad del evento [Excélsior 2026-11-07, UnoTV 2026-11-07]"
+ ],
+ "brief": "lane MX - Excélsior, UnoTV (también El Heraldo SLP, Periódico Correo). 유형: 관객 vs 레슬러(링 난입). 점수 재미5+이해5+반전4+편가르기4=18. 기사마다 첫 타격 부위(가슴/복부)가 달라 'le pegó'로만 씀. 날짜(금 6일 밤/7일) 불일치라 요일 안 씀. 부상 정도 미확인이라 안 씀."
+}

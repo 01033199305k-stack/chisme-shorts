@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-lion-cub-in-pickup-aguascalientes",
+ "title_lines": [
+  "Algo se asomaba…",
+  "de una camioneta roja"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Algo se asomaba por la ventana de una camioneta…",
+   "say": "Algo se asomaba por la ventana de una camioneta…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "車 窓",
+       "ドライブ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Pasó en Aguascalientes, en una Ford F-150 roja.",
+   "say": "Pasó en Aguascalientes, en una Ford efe ciento cincuenta roja.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ピックアップトラック",
+       "トラック"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛻",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "red pickup truck driving mexico",
+     "mexican city traffic road"
+    ]
+   }
+  },
+  {
+   "text": "Era un cachorro de león africano de unos ocho meses.",
+   "say": "Era un cachorro de león africano de unos ocho meses.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ライオン 子供",
+       "ライオン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Iba con correa y cadena, viendo la calle.",
+   "say": "¡No manches! Iba con correa y cadena, viendo la calle.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ライオン",
+       "首輪 リード"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⛓️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "La gente lo grabó y lo reportó a la policía.",
+   "say": "La gente lo grabó y lo reportó a la policía.",
+   "sfx": "question",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 撮影",
+       "通報"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "people filming with phone street",
+     "mexico city street people phones"
+    ]
+   }
+  },
+  {
+   "text": "Detuvieron a tres jóvenes: no tenían papeles del león.",
+   "say": "Detuvieron a tres jóvenes: no tenían papeles del león.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "逮捕 男性",
+       "手錠"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "El cachorro quedó con la Profepa.",
+   "say": "El cachorro quedó con la Profepa.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ライオン 子供",
+       "動物 保護"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐾",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "lion cub close up",
+     "lion cub resting"
+    ]
+   }
+  },
+  {
+   "text": "¿Detenerlos fue exagerado?",
+   "say": "¿Detenerlos fue exagerado?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① No, un león no es perro",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Sí, solo era un cachorro",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Algo se asomaba por la ventana de una camioneta en Aguascalientes… y nadie lo podía creer 🦁 #shorts",
+  "description": "En el norte de Aguascalientes, ciudadanos grabaron y reportaron un cachorro de león africano de unos ocho meses que se asomaba, con correa y cadena, por la ventana de una camioneta Ford F-150 roja. La policía municipal ubicó el vehículo en la calle Sierra de la Canela; los tres jóvenes a bordo no acreditaron la procedencia legal del animal, quedaron a disposición de la FGR y el cachorro quedó bajo resguardo de la Profepa.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "león",
+   "aguascalientes",
+   "profepa"
+  ]
+ },
+ "source_post": "https://www.excelsior.com.mx/nacional/detienen-tres-jovenes-por-transportar-leon-africano-sin-permisos",
+ "facts_used": [
+  "En el norte de Aguascalientes, un cachorro de león africano de unos ocho meses viajaba en una camioneta Ford F-150 roja [Excélsior 2026-11-08, UnoTV 2026-11-07]",
+  "El león se asomaba por las ventanas mientras avanzaba; el video ciudadano lo muestra con correa y cadena [Excélsior 2026-11-08, UnoTV 2026-11-07]",
+  "Ciudadanos grabaron y reportaron al animal; policías del Grupo Motorizado Centauro ubicaron la camioneta en la calle Sierra de la Canela [UnoTV 2026-11-07, Excélsior 2026-11-08]",
+  "Tres jóvenes de 21, 22 y 29 años fueron detenidos por no acreditar la procedencia legal ni permisos del ejemplar, y quedaron a disposición de la FGR [Excélsior 2026-11-08, UnoTV 2026-11-07]",
+  "El cachorro quedó bajo resguardo de la Profepa [Excélsior 2026-11-08, UnoTV 2026-11-07, Milenio]"
+ ],
+ "brief": "lane MX - Excélsior, UnoTV (también Milenio, N+). 유형: 동물·황당(이국 동물 반려). 점수 재미5+이해5+반전3+편가르기3=16. 피의자 이름(Marcos/José/Ian N) 안 씀. 어디서 구했는지·목적지는 당국 미공개라 안 씀."
+}
