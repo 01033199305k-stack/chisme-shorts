@@ -1871,5 +1871,87 @@
   "privacy": "private",
   "scheduled_for": "2026-11-09T03:00:00Z",
   "seconds": 78
+ },
+ {
+  "key": "2026-11-10-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-10T09:00:00+09:00",
+  "started": "2026-11-09T22:11:39.868972+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-8291/",
+   "https://pixabay.com/videos/id-52101/",
+   "https://pixabay.com/videos/id-8293/"
+  ],
+  "duration": 19.1,
+  "matches": [
+   0.99,
+   1.0,
+   0.98,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 8,
+  "title": "Un fan se subió al ring a pegarle a un luchador que acababa de ganar… y esto pasó 🤼 #shorts",
+  "source_post": "https://www.unotv.com/deportes/de-espectador-a-rival-aficionado-sube-al-ring-para-golpear-al-hijo-de-rey-misterio/",
+  "facts_used": [
+   "En el XV aniversario de The Crash, en el Auditorio Fausto Gutiérrez de Tijuana, el Hijo de Rey Misterio venció a Xtreme Tiger en máscara contra máscara y ganó su cuarta máscara [Excélsior 2026-11-07, UnoTV 2026-11-07]",
+   "Un aficionado que estaba en primera fila subió al ring y golpeó al luchador durante la ceremonia de revelación de identidad [Excélsior 2026-11-07, UnoTV 2026-11-07]",
+   "El luchador no respondió hasta el segundo golpe del aficionado [Excélsior 2026-11-07, UnoTV 2026-11-07]",
+   "El Hijo de Rey Misterio respondió con dos golpes directos al rostro y el aficionado cayó desde el ring [UnoTV 2026-11-07]",
+   "El aficionado quedó varios minutos en el piso, recibió atención y fue sacado del auditorio [UnoTV 2026-11-07, Excélsior 2026-11-07]",
+   "Varios asistentes grabaron el momento y el video se viralizó; aficionados cuestionaron la seguridad del evento [Excélsior 2026-11-07, UnoTV 2026-11-07]"
+  ],
+  "slug": "2026-11-10_0900_mx-fan-punches-luchador-ring",
+  "late": false,
+  "video_id": "uPaBTJkIeBU",
+  "url": "https://youtube.com/shorts/uPaBTJkIeBU",
+  "privacy": "private",
+  "scheduled_for": "2026-11-10T00:00:00Z",
+  "seconds": 101
+ },
+ {
+  "key": "2026-11-10-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-10T12:00:00+09:00",
+  "started": "2026-11-09T22:13:21.166142+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-2165/",
+   "https://pixabay.com/videos/id-38084/"
+  ],
+  "duration": 19.65,
+  "matches": [
+   1.0,
+   0.93,
+   1.0,
+   1.0,
+   0.96,
+   0.99,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Algo se asomaba por la ventana de una camioneta en Aguascalientes… y nadie lo podía creer 🦁 #shorts",
+  "source_post": "https://www.excelsior.com.mx/nacional/detienen-tres-jovenes-por-transportar-leon-africano-sin-permisos",
+  "facts_used": [
+   "En el norte de Aguascalientes, un cachorro de león africano de unos ocho meses viajaba en una camioneta Ford F-150 roja [Excélsior 2026-11-08, UnoTV 2026-11-07]",
+   "El león se asomaba por las ventanas mientras avanzaba; el video ciudadano lo muestra con correa y cadena [Excélsior 2026-11-08, UnoTV 2026-11-07]",
+   "Ciudadanos grabaron y reportaron al animal; policías del Grupo Motorizado Centauro ubicaron la camioneta en la calle Sierra de la Canela [UnoTV 2026-11-07, Excélsior 2026-11-08]",
+   "Tres jóvenes de 21, 22 y 29 años fueron detenidos por no acreditar la procedencia legal ni permisos del ejemplar, y quedaron a disposición de la FGR [Excélsior 2026-11-08, UnoTV 2026-11-07]",
+   "El cachorro quedó bajo resguardo de la Profepa [Excélsior 2026-11-08, UnoTV 2026-11-07, Milenio]"
+  ],
+  "slug": "2026-11-10_1200_mx-lion-cub-in-pickup-aguascalientes",
+  "late": false,
+  "video_id": "YAu7WcMTTXU",
+  "url": "https://youtube.com/shorts/YAu7WcMTTXU",
+  "privacy": "private",
+  "scheduled_for": "2026-11-10T03:00:00Z",
+  "seconds": 92
  }
 ]
