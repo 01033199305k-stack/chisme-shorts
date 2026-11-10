@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-cheating-song-sung-to-nodal",
+ "title_lines": [
+  "Le cantaron a Nodal…",
+  "una de infieles"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Le cantaron una de infieles a Nodal… con Ángela al lado.",
+   "say": "Le cantaron una de infieles a Nodal… con Ángela al lado.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌手 男性",
+       "歌う 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "En pleno show, saludó a todos… menos a Ángela.",
+   "say": "En pleno show, saludó a todos… menos a Ángela.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "挨拶 男性",
+       "手を振る 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican concert stage lights crowd",
+     "mariachi concert stage night"
+    ]
+   }
+  },
+  {
+   "text": "Josi Cuén cantó «¿Qué me vas a dar?» frente a los Aguilar.",
+   "say": "Josi Cuén cantó «¿Qué me vas a dar?» frente a los Aguilar.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カラオケ 歌う",
+       "マイク"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "Y a Nodal le preguntó si quería cantarla.",
+   "say": "Y a Nodal le preguntó si quería cantarla.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "質問 男性",
+       "マイク 向ける"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "singer pointing microphone audience",
+     "concert singer stage microphone"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Nodal solo se rio.",
+   "say": "¡No manches! Nodal solo se rio.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 男性",
+       "大笑い 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "En el verso de los dos amores, le dijo a Leonardo: «Bien portado».",
+   "say": "En el verso de los dos amores, le dijo a Leonardo: «Bien portado».",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "指差す 男性",
+       "ウインク 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican band live concert crowd",
+     "concert audience cheering night"
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Ángela sonrió… pero muchos la vieron incómoda.",
+   "say": "Ángela sonrió… pero muchos la vieron incómoda.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "苦笑い 女性",
+       "困る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "¿Indirecta o pura broma?",
+   "say": "¿Indirecta o pura broma?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Indirecta en su cara",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Pura broma de fiesta",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Le cantaron una de infieles a Nodal con Ángela al lado… y él hizo esto 🎤 #shorts",
+  "description": "En el show Sinfónico Hasta los Huesos del Festival Cultural de Calaveras en Aguascalientes, Josi Cuén cantó «¿Qué me vas a dar?» frente a Pepe, Ángela y Leonardo Aguilar y Christian Nodal. Saludó a los presentes sin mencionar a Ángela, le preguntó a Nodal si quería cantar el verso y le dijo «Bien portado» a Leonardo; Nodal se rio y los videos se llenaron de comentarios divididos.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "nodal",
+   "ángela aguilar",
+   "josi cuén"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/10/la-cancion-de-infieles-que-josi-cuen-le-canto-a-nodal-y-angela-aguilar-frente-a-todos/",
+ "facts_used": [
+  "El 6 de noviembre, en el show Sinfónico Hasta los Huesos del Festival Cultural de Calaveras 2026 en Aguascalientes, estuvieron Pepe, Ángela y Leonardo Aguilar, Christian Nodal y Josi Cuén [Infobae 2026-11-10, Infobae 2026-11-09]",
+  "Josi Cuén saludó a los presentes pero omitió a Ángela, y cantó «¿Qué me vas a dar?» [Infobae 2026-11-10]",
+  "En un verso le preguntó a Nodal si se lo sabía o si quería cantarlo; Nodal declinó con una sonrisa y le pidió que siguiera [Infobae 2026-11-10]",
+  "En el verso «el que sirve a dos amores» volteó con Leonardo Aguilar y le dijo «Bien portado»; el público rio [Infobae 2026-11-10]",
+  "Ángela también sonrió, con lo que la nota describe como una sonrisa incómoda; los comentarios se dividieron entre «se las cantó en su cara» y si fue planeado [Infobae 2026-11-10]",
+  "Esa misma noche Pepe Aguilar y Nodal intercambiaron mensajes de cariño («Se te quiere bien, yerno») tras cantar juntos [La Opinión 2026-11-07, Infobae 2026-11-07]"
+ ],
+ "brief": "lane MX - Infobae (también La Opinión). 유형: 연예인 무대 위 '돌려까기'(가수 vs 커플). 점수 재미4+이해4+반전3+편가르기5=16. Josi Cuén 노래 장면 자체는 Infobae 만 보도(La Opinión 은 같은 공연 Pepe-Nodal 메시지만) - 1곳 예외, Infobae 가 영상으로 직접 묘사한 사실만 씀. Cazzu 불륜 의혹은 대본에 안 넣음."
+}

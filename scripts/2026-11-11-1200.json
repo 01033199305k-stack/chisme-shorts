@@ -1,0 +1,305 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-karol-g-camerawoman-lifted",
+ "title_lines": [
+  "Grababa a Karol G…",
+  "y salió volando"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Una cámara voladora levantó a una camarógrafa en pleno show…",
+   "say": "Una cámara voladora levantó a una camarógrafa en pleno show…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カメラマン 女性",
+       "ビデオカメラ 撮影"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Fue con Karol G en Monterrey, el sábado 7.",
+   "say": "Fue con Karol G en Monterrey, el sábado siete.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンサート 観客",
+       "ライブ 観客"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏟️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "stadium concert crowd lights night",
+     "mexico stadium concert fans"
+    ]
+   }
+  },
+  {
+   "text": "Sonaba «Te llevas to» y ella grababa junto al escenario.",
+   "say": "Sonaba «Te llevas to» y ella grababa junto al escenario.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "撮影 カメラマン",
+       "カメラ 撮影"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "La cámara se enredó con su equipo… y la subió.",
+   "say": "La cámara se enredó con su equipo… y la subió.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "宙に浮く 人",
+       "吊り上げる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "concert camera crane stage",
+     "cable camera stadium flying"
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¡No manches! La cargó varios metros y luego la aventó.",
+   "say": "¡No manches! La cargó varios metros y luego la aventó.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ちる 人",
+       "転落"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "cam": "punch"
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Y Karol G, de espaldas, siguió cantando.",
+   "say": "Y Karol G, de espaldas, siguió cantando.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌手 女性",
+       "歌う 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "female singer stage concert lights",
+     "pop concert singer stage performance"
+    ]
+   }
+  },
+  {
+   "text": "Desde el hospital dijo: «Fracturada en cuatro partes».",
+   "say": "Desde el hospital dijo: «Fracturada en cuatro partes».",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "入院 女性",
+       "骨折 ギプス"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🩼",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "¿Alguien tiene la culpa?",
+   "say": "¿Alguien tiene la culpa?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, la producción",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② No, fue un accidente",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Grababa a Karol G en pleno concierto… y una cámara la levantó por los aires 🎥 #shorts",
+  "description": "En el segundo concierto de Karol G en Monterrey, el sábado 7 de noviembre, mientras sonaba «Te llevas to», una cámara aérea se enredó con el equipo de una camarógrafa, la levantó varios metros y la arrojó. Karol G no se dio cuenta y siguió el show; la camarógrafa contó desde el hospital que tiene una fractura en cuatro partes y necesita cirugía.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "karol g",
+   "monterrey",
+   "concierto"
+  ]
+ },
+ "source_post": "https://www.infobae.com/colombia/2026/11/10/camarografa-de-karol-g-sufrio-aparatoso-accidente-en-pleno-concierto-de-la-bichota-en-mexico-salio-volando-del-escenario-y-se-fracturo-la-pierna-en-tres-partes/",
+ "facts_used": [
+  "El sábado 7 de noviembre, en el segundo concierto de Karol G en Monterrey, mientras sonaba «Te llevas to», una camarógrafa grababa cerca del escenario [Infobae 2026-11-10, N+ 2026-11-09]",
+  "Una estructura de cámara aérea (tipo grúa) se enredó con su equipo y la levantó por los aires [N+ 2026-11-09, Infobae 2026-11-10]",
+  "La cargó varios metros durante varios segundos y luego la arrojó (hacia el público según Infobae, a un costado del escenario según N+) [Infobae 2026-11-10, N+ 2026-11-09]",
+  "Karol G estaba de espaldas, no se dio cuenta y siguió cantando sin interrupción [Infobae 2026-11-10, N+ 2026-11-09]",
+  "Desde el hospital la camarógrafa escribió «Fracturada en cuatro partes y necesito cirugía» [Infobae 2026-11-10, N+ 2026-11-09]",
+  "Ni Karol G ni la producción habían dado postura sobre el accidente [Infobae 2026-11-10, N+ 2026-11-09]"
+ ],
+ "brief": "lane MX - Infobae, N+ (también La Razón, Uniradio). 유형: 콘서트 황당 사고. 점수 재미4+이해5+반전4+편가르기2=15. 카메라맨 실명 안 씀. 떨어진 위치(관객 쪽/무대 옆)가 매체마다 달라 'la aventó'로만 씀. 골절 3/4곳 불일치 - 본인 인용(cuatro)만 씀."
+}
