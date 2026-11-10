@@ -1953,5 +1953,88 @@
   "privacy": "private",
   "scheduled_for": "2026-11-10T03:00:00Z",
   "seconds": 92
+ },
+ {
+  "key": "2026-11-11-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-11T09:00:00+09:00",
+  "started": "2026-11-10T22:14:59.790746+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-321720/",
+   "https://pixabay.com/videos/id-1275/"
+  ],
+  "duration": 19.36,
+  "matches": [
+   0.99,
+   1.0,
+   0.98,
+   0.98,
+   0.96,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Le cantaron una de infieles a Nodal con Ángela al lado… y él hizo esto 🎤 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/10/la-cancion-de-infieles-que-josi-cuen-le-canto-a-nodal-y-angela-aguilar-frente-a-todos/",
+  "facts_used": [
+   "El 6 de noviembre, en el show Sinfónico Hasta los Huesos del Festival Cultural de Calaveras 2026 en Aguascalientes, estuvieron Pepe, Ángela y Leonardo Aguilar, Christian Nodal y Josi Cuén [Infobae 2026-11-10, Infobae 2026-11-09]",
+   "Josi Cuén saludó a los presentes pero omitió a Ángela, y cantó «¿Qué me vas a dar?» [Infobae 2026-11-10]",
+   "En un verso le preguntó a Nodal si se lo sabía o si quería cantarlo; Nodal declinó con una sonrisa y le pidió que siguiera [Infobae 2026-11-10]",
+   "En el verso «el que sirve a dos amores» volteó con Leonardo Aguilar y le dijo «Bien portado»; el público rio [Infobae 2026-11-10]",
+   "Ángela también sonrió, con lo que la nota describe como una sonrisa incómoda; los comentarios se dividieron entre «se las cantó en su cara» y si fue planeado [Infobae 2026-11-10]",
+   "Esa misma noche Pepe Aguilar y Nodal intercambiaron mensajes de cariño («Se te quiere bien, yerno») tras cantar juntos [La Opinión 2026-11-07, Infobae 2026-11-07]"
+  ],
+  "slug": "2026-11-11_0900_mx-cheating-song-sung-to-nodal",
+  "late": false,
+  "video_id": "Y8mWwZbPxB4",
+  "url": "https://youtube.com/shorts/Y8mWwZbPxB4",
+  "privacy": "private",
+  "scheduled_for": "2026-11-11T00:00:00Z",
+  "seconds": 104
+ },
+ {
+  "key": "2026-11-11-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-11T12:00:00+09:00",
+  "started": "2026-11-10T22:16:43.863364+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-31822/",
+   "https://pixabay.com/videos/id-1275/",
+   "https://pixabay.com/videos/id-11720/"
+  ],
+  "duration": 20.2,
+  "matches": [
+   1.0,
+   0.97,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Grababa a Karol G en pleno concierto… y una cámara la levantó por los aires 🎥 #shorts",
+  "source_post": "https://www.infobae.com/colombia/2026/11/10/camarografa-de-karol-g-sufrio-aparatoso-accidente-en-pleno-concierto-de-la-bichota-en-mexico-salio-volando-del-escenario-y-se-fracturo-la-pierna-en-tres-partes/",
+  "facts_used": [
+   "El sábado 7 de noviembre, en el segundo concierto de Karol G en Monterrey, mientras sonaba «Te llevas to», una camarógrafa grababa cerca del escenario [Infobae 2026-11-10, N+ 2026-11-09]",
+   "Una estructura de cámara aérea (tipo grúa) se enredó con su equipo y la levantó por los aires [N+ 2026-11-09, Infobae 2026-11-10]",
+   "La cargó varios metros durante varios segundos y luego la arrojó (hacia el público según Infobae, a un costado del escenario según N+) [Infobae 2026-11-10, N+ 2026-11-09]",
+   "Karol G estaba de espaldas, no se dio cuenta y siguió cantando sin interrupción [Infobae 2026-11-10, N+ 2026-11-09]",
+   "Desde el hospital la camarógrafa escribió «Fracturada en cuatro partes y necesito cirugía» [Infobae 2026-11-10, N+ 2026-11-09]",
+   "Ni Karol G ni la producción habían dado postura sobre el accidente [Infobae 2026-11-10, N+ 2026-11-09]"
+  ],
+  "slug": "2026-11-11_1200_mx-karol-g-camerawoman-lifted",
+  "late": false,
+  "video_id": "vH0ejAid7o0",
+  "url": "https://youtube.com/shorts/vH0ejAid7o0",
+  "privacy": "private",
+  "scheduled_for": "2026-11-11T03:00:00Z",
+  "seconds": 91
  }
 ]
