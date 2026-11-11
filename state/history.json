@@ -2036,5 +2036,88 @@
   "privacy": "private",
   "scheduled_for": "2026-11-11T03:00:00Z",
   "seconds": 91
+ },
+ {
+  "key": "2026-11-12-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-12T09:00:00+09:00",
+  "started": "2026-11-11T22:09:40.282140+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-233024/",
+   "https://pixabay.com/videos/id-177164/",
+   "https://pixabay.com/videos/id-2176/"
+  ],
+  "duration": 19.68,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Le reclamó que no le dio los «buenos días»… y le aventó su café hirviendo ☕ #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/11/y-todo-por-un-buenos-dias-hombre-arroja-cafe-hirviendo-al-dueno-de-un-local-porque-no-le-respondio-el-saludo/",
+  "facts_used": [
+   "Un cliente llegó a un local de café para llevar en La Paz y pidió un café grande; una cámara de vigilancia grabó todo [Infobae 2026-11-11, Diario Humano 2026-11-10]",
+   "El cliente reclamó «Ni buenos días dices tú, ¿no?» y el encargado/dueño respondió que sí le había contestado [Infobae 2026-11-11, Diario Humano 2026-11-10]",
+   "La discusión escaló con insultos y el cliente le arrojó el vaso de café caliente y se retiró [Infobae 2026-11-11, El Siglo de Durango 2026-11-10]",
+   "El dueño subió el video de seguridad a sus redes [El Siglo de Durango 2026-11-10]",
+   "El dueño dijo que sufrió irritación en brazo y pecho y que quitarse la playera rápido evitó un daño mayor; el cliente no era habitual [Netnoticias 2026-11-10]",
+   "El dueño pidió disculpas por las groserías [Diario Humano 2026-11-10]"
+  ],
+  "slug": "2026-11-12_0900_mx-hot-coffee-over-buenos-dias",
+  "late": false,
+  "video_id": "AvOJk2UV0Rc",
+  "url": "https://youtube.com/shorts/AvOJk2UV0Rc",
+  "privacy": "private",
+  "scheduled_for": "2026-11-12T00:00:00Z",
+  "seconds": 73
+ },
+ {
+  "key": "2026-11-12-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-12T12:00:00+09:00",
+  "started": "2026-11-11T22:10:53.437664+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-31822/",
+   "https://pixabay.com/videos/id-122737/",
+   "https://pixabay.com/videos/id-2793/"
+  ],
+  "duration": 20.35,
+  "matches": [
+   1.0,
+   1.0,
+   0.98,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Firmaron miles para quitarles la voz a unos influencers… y pasó esto 🎬 #shorts",
+  "source_post": "https://www.eluniversal.com.mx/tendencias/escucharon-las-criticas-de-los-fans-la-pelicula-wildwood-estrenara-una-nueva-version-de-doblaje/",
+  "facts_used": [
+   "«Wildwood: El bosque salvaje», película stop-motion de LAIKA, se estrenó en cines de México el 29 de octubre [El Universal 2026-11-10, Xataka México 2026-11]",
+   "El doblaje latino con los star talents Macarena García, Natalia Téllez y Javier Ibarreche recibió críticas; una petición en Change.org con miles de firmas pidió actores de doblaje profesionales [El Universal 2026-11-10, Xataka México 2026-11]",
+   "Ibarreche: «No hubo malicia. Si acaso ignorancia, pero no malicia» y «No acepté un trabajo para quitárselo a un actor de doblaje, lo acepté para volverme uno» [Publimetro 2026-11-06, El Universal 2026-11-10]",
+   "Imagem Films Mx confirmó el 10 de noviembre una nueva versión de doblaje, en cines del país desde el jueves 12 de noviembre [El Universal 2026-11-10]",
+   "La distribuidora dijo que la segunda versión no busca invalidar ni desacreditar el trabajo del elenco original [El Universal 2026-11-10]"
+  ],
+  "slug": "2026-11-12_1200_mx-wildwood-influencer-dub-redone",
+  "late": false,
+  "video_id": "DS9FcZnG5CA",
+  "url": "https://youtube.com/shorts/DS9FcZnG5CA",
+  "privacy": "private",
+  "scheduled_for": "2026-11-12T03:00:00Z",
+  "seconds": 71
  }
 ]
