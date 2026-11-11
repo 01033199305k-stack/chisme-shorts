@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-hot-coffee-over-buenos-dias",
+ "title_lines": [
+  "Le aventó un café…",
+  "por un «buenos días»"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Le aventó un café hirviendo… por un «buenos días».",
+   "say": "Le aventó un café hirviendo… por un «buenos días».",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コーヒー こぼす",
+       "ホットコーヒー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☕",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Un cliente pidió un café grande en La Paz.",
+   "say": "Un cliente pidió un café grande en La Paz.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "cafe",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "注文 男性",
+       "カフェ 店員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican coffee shop counter",
+     "coffee to go cup counter"
+    ]
+   }
+  },
+  {
+   "text": "Y le reclamó al dueño: «Ni buenos días dices tú, ¿no?»",
+   "say": "Y le reclamó al dueño: «Ni buenos días dices tú, ¿no?»",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性 客",
+       "クレーマー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "El dueño juró que sí le había contestado.",
+   "say": "El dueño juró que sí le había contestado.",
+   "sfx": "question",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "否定する 男性",
+       "手を振る 違う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙋‍♂️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "small shop owner behind counter mexico",
+     "barista talking customer"
+    ]
+   }
+  },
+  {
+   "text": "Subieron los insultos… ¡y le lanzó el vaso encima!",
+   "say": "Subieron los insultos… ¡y le lanzó el vaso encima!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "投げる 男性",
+       "コップ 投げる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Se quitó la playera; quedó con brazo y pecho irritados.",
+   "say": "Se quitó la playera; quedó con brazo y pecho irritados.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "やけど",
+       "熱い 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "security camera footage shop",
+     "cctv camera store"
+    ]
+   }
+  },
+  {
+   "text": "Y aun así, el dueño pidió disculpas por sus groserías.",
+   "say": "Y aun así, el dueño pidió disculpas por sus groserías.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "謝る 男性",
+       "お辞儀 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "¿Quién empezó el pleito?",
+   "say": "¿Quién empezó el pleito?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① El dueño, por contestón",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② El cliente, se pasó",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Le reclamó que no le dio los «buenos días»… y le aventó su café hirviendo ☕ #shorts",
+  "description": "En un local de café en La Paz, un cliente pidió un café grande y le reclamó al dueño que no le contestó el saludo. La discusión subió de tono y le arrojó el café caliente; el dueño quedó con irritación en el brazo y el pecho, subió el video de su cámara y pidió disculpas por las groserías.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "buenos días",
+   "café",
+   "la paz"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/11/y-todo-por-un-buenos-dias-hombre-arroja-cafe-hirviendo-al-dueno-de-un-local-porque-no-le-respondio-el-saludo/",
+ "facts_used": [
+  "Un cliente llegó a un local de café para llevar en La Paz y pidió un café grande; una cámara de vigilancia grabó todo [Infobae 2026-11-11, Diario Humano 2026-11-10]",
+  "El cliente reclamó «Ni buenos días dices tú, ¿no?» y el encargado/dueño respondió que sí le había contestado [Infobae 2026-11-11, Diario Humano 2026-11-10]",
+  "La discusión escaló con insultos y el cliente le arrojó el vaso de café caliente y se retiró [Infobae 2026-11-11, El Siglo de Durango 2026-11-10]",
+  "El dueño subió el video de seguridad a sus redes [El Siglo de Durango 2026-11-10]",
+  "El dueño dijo que sufrió irritación en brazo y pecho y que quitarse la playera rápido evitó un daño mayor; el cliente no era habitual [Netnoticias 2026-11-10]",
+  "El dueño pidió disculpas por las groserías [Diario Humano 2026-11-10]"
+ ],
+ "brief": "lane MX - Infobae (también Diario Humano, El Siglo de Durango, Netnoticias). 유형: 손님 vs 가게. 점수 재미4+이해5+반전4+편가르기5=18. 일반인 실명(가게 주인)·가게 이름 안 씀. Infobae 는 'Baja California' 라 썼지만 La Paz 는 BCS - 대본엔 'La Paz' 만."
+}

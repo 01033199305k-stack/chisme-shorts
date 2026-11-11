@@ -1,0 +1,301 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-wildwood-influencer-dub-redone",
+ "title_lines": [
+  "Miles firmaron contra",
+  "unos influencers…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Firmaron miles para quitarles la voz a influencers…",
+   "say": "Firmaron miles para quitarles la voz a influencers…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "署名 運動",
+       "署名する 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "«Wildwood» llegó a cines el 29 de octubre.",
+   "say": "«Wildwood» llegó a cines el veintinueve de octubre.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "映画館",
+       "映画 観る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico movie theater audience",
+     "cinema audience watching screen"
+    ]
+   }
+  },
+  {
+   "text": "Pusieron voces Natalia Téllez y Javier Ibarreche, entre otros.",
+   "say": "Pusieron voces Natalia Téllez y Javier Ibarreche, entre otros.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "声優",
+       "マイク 録音"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎙️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y llovieron críticas: pedían actores de doblaje.",
+   "say": "Y llovieron críticas: pedían actores de doblaje.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "炎上 スマホ",
+       "ネット 炎上"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "recording studio microphone voice actor",
+     "dubbing studio microphone"
+    ]
+   }
+  },
+  {
+   "text": "Ibarreche dijo: «No hubo malicia. Si acaso ignorancia».",
+   "say": "Ibarreche dijo: «No hubo malicia. Si acaso ignorancia».",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "謝罪 会見",
+       "反省 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¡No manches! La distribuidora anunció otro doblaje.",
+   "say": "¡No manches! La distribuidora anunció otro doblaje.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "発表 男性",
+       "驚く 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Y llega a cines este 12 de noviembre.",
+   "say": "Y llega a cines este doce de noviembre.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ポップコーン",
+       "映画 チケット"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍿",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "cinema screen popcorn mexico",
+     "movie theater seats lights"
+    ]
+   }
+  },
+  {
+   "text": "¿Justo o se pasaron?",
+   "say": "¿Justo o se pasaron?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Justo, el público paga",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Se pasaron con ellos",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Firmaron miles para quitarles la voz a unos influencers… y pasó esto 🎬 #shorts",
+  "description": "El doblaje latino de la película animada «Wildwood», con Natalia Téllez, Macarena García y Javier Ibarreche, recibió muchas críticas y una petición pidió actores de doblaje profesionales. Ibarreche dijo que no hubo malicia, y la distribuidora Imagem Films Mx anunció una nueva versión del doblaje en cines desde el 12 de noviembre.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "wildwood",
+   "doblaje",
+   "javier ibarreche"
+  ]
+ },
+ "source_post": "https://www.eluniversal.com.mx/tendencias/escucharon-las-criticas-de-los-fans-la-pelicula-wildwood-estrenara-una-nueva-version-de-doblaje/",
+ "facts_used": [
+  "«Wildwood: El bosque salvaje», película stop-motion de LAIKA, se estrenó en cines de México el 29 de octubre [El Universal 2026-11-10, Xataka México 2026-11]",
+  "El doblaje latino con los star talents Macarena García, Natalia Téllez y Javier Ibarreche recibió críticas; una petición en Change.org con miles de firmas pidió actores de doblaje profesionales [El Universal 2026-11-10, Xataka México 2026-11]",
+  "Ibarreche: «No hubo malicia. Si acaso ignorancia, pero no malicia» y «No acepté un trabajo para quitárselo a un actor de doblaje, lo acepté para volverme uno» [Publimetro 2026-11-06, El Universal 2026-11-10]",
+  "Imagem Films Mx confirmó el 10 de noviembre una nueva versión de doblaje, en cines del país desde el jueves 12 de noviembre [El Universal 2026-11-10]",
+  "La distribuidora dijo que la segunda versión no busca invalidar ni desacreditar el trabajo del elenco original [El Universal 2026-11-10]"
+ ],
+ "brief": "lane MX - El Universal (también Publimetro, Xataka México). 유형: 인플루언서 vs 팬(연예 논란, 반전=실제 재더빙). 점수 재미3+이해4+반전5+편가르기5=17. 새 더빙 출연진은 기사에 없어 '전문 성우로 교체'라고 쓰지 않음."
+}
