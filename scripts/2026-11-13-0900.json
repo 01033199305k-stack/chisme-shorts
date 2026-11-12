@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-broom-stops-street-fight",
+ "title_lines": [
+  "Se agarraron a golpes…",
+  "y ella sacó la escoba"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Dos tipos a golpes en la calle… y ella sacó una escoba.",
+   "say": "Dos tipos a golpes en la calle… y ella sacó una escoba.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ほうき 女性",
+       "ほうき"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Fue una riña vial en la CDMX y no paraban de pegarse.",
+   "say": "Fue una riña vial en la CDMX y no paraban de pegarse.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喧嘩 男性",
+       "殴り合い"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico city street traffic",
+     "busy avenue cars mexico"
+    ]
+   }
+  },
+  {
+   "text": "Y uno de los que peleaba… era su acompañante.",
+   "say": "Y uno de los que peleaba… era su acompañante.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カップル 驚く",
+       "驚く 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Ella abrió la cajuela, sacó el palo… ¡y le dio al otro!",
+   "say": "Ella abrió la cajuela, sacó el palo… ¡y le dio al otro!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "棒 叩く",
+       "叩く 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "car trunk opening",
+     "open car trunk street"
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "¡No manches! La pelea se calmó en ese momento.",
+   "say": "¡No manches! La pelea se calmó en ese momento.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "仲直り 男性",
+       "落ち着く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😮‍💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Pero lo mejor: luego regañó a su propio compa por meterse.",
+   "say": "Pero lo mejor: luego regañó a su propio compa por meterse.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "叱る 女性",
+       "怒る 妻"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "woman scolding man street",
+     "couple arguing outdoors"
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "En redes le dijeron: «Le reseteó el Windows».",
+   "say": "En redes le dijeron: «Le reseteó el Windows».",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 再起動",
+       "スマートフォン 笑う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💻",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¿Heroína o se pasó?",
+   "say": "¿Heroína o se pasó?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Heroína, la paró rápido",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Se pasó con el palazo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Dos señores se agarraron a golpes en la calle… y ella sacó una escoba de la cajuela 🧹 #shorts",
+  "description": "En una riña vial en la Ciudad de México, dos hombres se golpeaban y uno de ellos era el acompañante de una mujer. Ella sacó un palo de escoba de la cajuela, golpeó al otro hombre y la pelea se calmó; después regañó a su propio acompañante.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "pelea callejera",
+   "escoba",
+   "cdmx"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/10/mujer-detiene-pelea-callejera-con-un-palo-de-escoba-y-termina-reganando-a-su-acompanante/",
+ "facts_used": [
+  "Dos hombres se golpeaban en la vía pública de la CDMX, en una riña vial, sin aparentemente detenerse [Infobae 2026-11-10, Grupo Marmor 2026-11-09]",
+  "Uno de los que peleaban era el acompañante de una mujer que estaba junto a su auto [Infobae 2026-11-10, Chihuahua en Red 2026-11-10]",
+  "La mujer abrió la cajuela, sacó un palo de escoba y golpeó al hombre que peleaba con su acompañante [Infobae 2026-11-10, La Lista 2026-11-10]",
+  "El golpe sorprendió a los involucrados y la pelea perdió intensidad [Infobae 2026-11-10]",
+  "Después regañó a su propio acompañante por meterse en la pelea [Infobae 2026-11-10, Chihuahua en Red 2026-11-10]",
+  "Comentario en redes citado: «Le reseteo el Windows» [Infobae 2026-11-10]"
+ ],
+ "brief": "lane MX - Infobae (también Grupo Marmor, Chihuahua en Red, La Lista). 유형: 길거리 싸움 반전(사이다/황당). 점수 재미5+이해5+반전4+편가르기3=17. 일반인 실명 안 씀. 원 댓글 철자 'reseteo' → 대본엔 'reseteó'. 증거없음: 보도에 금액·문구 등 소품으로 옮길 내용 없음."
+}

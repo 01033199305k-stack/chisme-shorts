@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-gas-attendant-soaks-biker",
+ "title_lines": [
+  "Fue a cargar gasolina…",
+  "y salió empapado"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Fue a cargar gasolina… y salió bañado en gasolina.",
+   "say": "Fue a cargar gasolina… y salió bañado en gasolina.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガソリンスタンド バイク",
+       "ガソリンスタンド"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⛽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "En Izcalli, el despachador no podía ni con la manguera.",
+   "say": "En Izcalli, el despachador no podía ni con la manguera.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "給油 店員",
+       "ガソリンスタンド 店員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧑‍🔧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico gas station",
+     "gas pump nozzle refueling"
+    ]
+   }
+  },
+  {
+   "text": "¡Y la gasolina cayó sobre la moto y sobre él!",
+   "say": "¡Y la gasolina cayó sobre la moto y sobre él!",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク 男性",
+       "びしょ濡れ 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Luego quiso cobrarle… con la impresora de facturas.",
+   "say": "Luego quiso cobrarle… con la impresora de facturas.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レシート プリンター",
+       "レジ 店員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧾",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "card payment terminal",
+     "receipt printer printing"
+    ]
+   }
+  },
+  {
+   "text": "Una compañera le avisó… y ni la peló.",
+   "say": "Una compañera le avisó… y ni la peló.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "無視する 男性",
+       "注意する 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "En redes dicen que andaba ebrio, pero nadie lo confirma.",
+   "say": "En redes dicen que andaba ebrio, pero nadie lo confirma.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "酔っぱらい 男性",
+       "スマートフォン 怒る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "motorcycle at gas station",
+     "biker filming phone"
+    ]
+   }
+  },
+  {
+   "text": "Otros dicen que el motociclista debió bajarse de la moto.",
+   "say": "Otros dicen que el motociclista debió bajarse de la moto.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク 降りる",
+       "バイク 運転手"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "¿Quién tuvo la culpa?",
+   "say": "¿Quién tuvo la culpa?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① El despachador, sin duda",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② El de la moto, no bajó",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Fue a cargar gasolina a su moto… y el despachador lo dejó empapado ⛽ #shorts",
+  "description": "En una gasolinera de Cuautitlán Izcalli, un despachador batalló con la manguera y derramó gasolina sobre la moto y el motociclista que lo grabó. Después intentó cobrar con la impresora de facturas en lugar de la terminal; en redes lo señalan como presuntamente ebrio, pero no hay confirmación oficial.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "gasolinera",
+   "motociclista",
+   "edomex"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/10/exhiben-a-despachador-presuntamente-ebrio-que-bano-de-gasolina-a-un-motociclista-en-cuautitlan-izcalli/",
+ "facts_used": [
+  "En una gasolinera de Cuautitlán Izcalli, un despachador tuvo problemas con la manguera al cargarle a un motociclista [Infobae 2026-11-10, La Nigua 2026-11-10]",
+  "La gasolina se derramó sobre la moto y alcanzó al motociclista, que grabó y difundió el video [Infobae 2026-11-10, La Nigua 2026-11-10]",
+  "Al cobrar, el despachador intentó usar la impresora de facturas en lugar de la terminal bancaria [Infobae 2026-11-10, La Nigua 2026-11-10]",
+  "Una compañera le advirtió que usaba el aparato equivocado, pero la ignoró [Infobae 2026-11-10]",
+  "Se le señala como presuntamente ebrio; no hay confirmación oficial ni sanción informada [Infobae 2026-11-10, La Nigua 2026-11-10]",
+  "Comentario en redes citado: «No justifico la bañada pero por seguridad se debe descender de la motocicleta» [Infobae 2026-11-10]"
+ ],
+ "brief": "lane MX - Infobae (también La Nigua). 유형: 손님 vs 직원(주유소). 점수 재미4+이해5+반전3+편가르기4=16. 영상 올린 운전자(크리에이터) 이름 안 씀. 만취는 '주장'으로만. 증거없음: 보도에 금액·영수증 문구 없음."
+}
