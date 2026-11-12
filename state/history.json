@@ -2119,5 +2119,89 @@
   "privacy": "private",
   "scheduled_for": "2026-11-12T03:00:00Z",
   "seconds": 71
+ },
+ {
+  "key": "2026-11-13-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-13T09:00:00+09:00",
+  "started": "2026-11-12T22:09:18.496900+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-27183/",
+   "https://pixabay.com/videos/id-2165/",
+   "https://pixabay.com/videos/id-275498/"
+  ],
+  "duration": 20.3,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Dos señores se agarraron a golpes en la calle… y ella sacó una escoba de la cajuela 🧹 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/10/mujer-detiene-pelea-callejera-con-un-palo-de-escoba-y-termina-reganando-a-su-acompanante/",
+  "facts_used": [
+   "Dos hombres se golpeaban en la vía pública de la CDMX, en una riña vial, sin aparentemente detenerse [Infobae 2026-11-10, Grupo Marmor 2026-11-09]",
+   "Uno de los que peleaban era el acompañante de una mujer que estaba junto a su auto [Infobae 2026-11-10, Chihuahua en Red 2026-11-10]",
+   "La mujer abrió la cajuela, sacó un palo de escoba y golpeó al hombre que peleaba con su acompañante [Infobae 2026-11-10, La Lista 2026-11-10]",
+   "El golpe sorprendió a los involucrados y la pelea perdió intensidad [Infobae 2026-11-10]",
+   "Después regañó a su propio acompañante por meterse en la pelea [Infobae 2026-11-10, Chihuahua en Red 2026-11-10]",
+   "Comentario en redes citado: «Le reseteo el Windows» [Infobae 2026-11-10]"
+  ],
+  "slug": "2026-11-13_0900_mx-broom-stops-street-fight",
+  "late": false,
+  "video_id": "N3fJq3qOi7Q",
+  "url": "https://youtube.com/shorts/N3fJq3qOi7Q",
+  "privacy": "private",
+  "scheduled_for": "2026-11-13T00:00:00Z",
+  "seconds": 97
+ },
+ {
+  "key": "2026-11-13-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-13T12:00:00+09:00",
+  "started": "2026-11-12T22:10:56.159364+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-31822/",
+   "https://pixabay.com/videos/id-209456/",
+   "https://pixabay.com/videos/id-21115/"
+  ],
+  "duration": 18.71,
+  "matches": [
+   1.0,
+   0.93,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Fue a cargar gasolina a su moto… y el despachador lo dejó empapado ⛽ #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/10/exhiben-a-despachador-presuntamente-ebrio-que-bano-de-gasolina-a-un-motociclista-en-cuautitlan-izcalli/",
+  "facts_used": [
+   "En una gasolinera de Cuautitlán Izcalli, un despachador tuvo problemas con la manguera al cargarle a un motociclista [Infobae 2026-11-10, La Nigua 2026-11-10]",
+   "La gasolina se derramó sobre la moto y alcanzó al motociclista, que grabó y difundió el video [Infobae 2026-11-10, La Nigua 2026-11-10]",
+   "Al cobrar, el despachador intentó usar la impresora de facturas en lugar de la terminal bancaria [Infobae 2026-11-10, La Nigua 2026-11-10]",
+   "Una compañera le advirtió que usaba el aparato equivocado, pero la ignoró [Infobae 2026-11-10]",
+   "Se le señala como presuntamente ebrio; no hay confirmación oficial ni sanción informada [Infobae 2026-11-10, La Nigua 2026-11-10]",
+   "Comentario en redes citado: «No justifico la bañada pero por seguridad se debe descender de la motocicleta» [Infobae 2026-11-10]"
+  ],
+  "slug": "2026-11-13_1200_mx-gas-attendant-soaks-biker",
+  "late": false,
+  "video_id": "P-d1-UDO6G4",
+  "url": "https://youtube.com/shorts/P-d1-UDO6G4",
+  "privacy": "private",
+  "scheduled_for": "2026-11-13T03:00:00Z",
+  "seconds": 81
  }
 ]
