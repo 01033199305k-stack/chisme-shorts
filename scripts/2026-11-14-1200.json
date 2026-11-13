@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-reynosa-surprise-wedding",
+ "title_lines": [
+  "Solo iban a preguntar…",
+  "y salieron así"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Fueron al Registro Civil a preguntar… y salieron casados.",
+   "say": "Fueron al Registro Civil a preguntar… y salieron casados.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "結婚 カップル 驚く",
+       "結婚届"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Una pareja de Reynosa quería casarse más adelante.",
+   "say": "Una pareja de Reynosa quería casarse más adelante.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カップル 相談",
+       "カップル"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico government office",
+     "city hall office counter"
+    ]
+   }
+  },
+  {
+   "text": "Les pidieron sus datos y unas firmas.",
+   "say": "Les pidieron sus datos y unas firmas.",
+   "sfx": "question",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類 サイン",
+       "窓口 受付"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Luego les tomaron unas fotos…",
+   "say": "Luego les tomaron unas fotos…",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "写真撮影 カップル",
+       "カメラ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "couple taking photo office",
+     "photographer camera flash"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Cuando se dieron cuenta, ya estaban casados.",
+   "say": "¡No manches! Cuando se dieron cuenta, ya estaban casados.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "結婚式 驚く",
+       "びっくり 男女"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Ella lo contó entre risas en redes.",
+   "say": "Ella lo contó entre risas en redes.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 笑う 女性",
+       "動画 撮影 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "woman laughing phone selfie video",
+     "woman recording video phone"
+    ]
+   }
+  },
+  {
+   "text": "«Yo no estaba ni maquillada, ando en crocs y ya me casé».",
+   "say": "«Yo no estaba ni maquillada, ando en crocs y ya me casé».",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サンダル",
+       "すっぴん 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🩴",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote",
+   "tone": "riendo, imitando a la novia"
+  },
+  {
+   "text": "¿Fue suerte o un error?",
+   "say": "¿Fue suerte o un error?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男女",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Suerte, boda exprés",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Error, así no se hace",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Fueron al Registro Civil solo a pedir informes… y salieron casados 💍 #shorts",
+  "description": "Una pareja de Reynosa, Tamaulipas, fue al Registro Civil a preguntar los requisitos para casarse más adelante. Les pidieron datos y firmas, les tomaron fotos y terminaron casados; la novia lo contó entre risas en redes.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "boda",
+   "registro civil",
+   "reynosa"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/12/pareja-de-reynosa-acude-al-registro-civil-para-pedir-informes-y-termina-casandose-por-sorpresa/",
+ "facts_used": [
+  "Una pareja de Reynosa, Tamaulipas, acudió al Registro Civil solo a pedir informes para casarse más adelante [Infobae 2026-11-12, ABC Noticias 2026-11-12]",
+  "Quien los atendió les pidió datos y unas firmas [ABC Noticias 2026-11-12, Infobae 2026-11-12]",
+  "Les tomaron unas fotos y, según su relato, de la nada ya estaban casados [ABC Noticias 2026-11-12, Hora Cero 2026-11-12]",
+  "La novia lo contó entre risas en un video en redes [Infobae 2026-11-12]",
+  "Cita: «Yo no estaba ni maquillada, ando en crocs y ya me casé» [Infobae 2026-11-12, ABC Noticias 2026-11-12]",
+  "No hay postura oficial del Registro Civil sobre el caso [Infobae 2026-11-12]"
+ ],
+ "brief": "lane MX - Infobae (también ABC Noticias, Hora Cero, El Congresista). 유형: 황당 결혼(관공서). 점수 재미5+이해5+반전5+편가르기3=18. 신부 실명은 언론에 나왔지만 대본엔 안 씀."
+}

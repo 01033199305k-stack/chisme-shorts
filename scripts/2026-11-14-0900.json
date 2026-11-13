@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-six-flags-clown-trip",
+ "title_lines": [
+  "Empujaron al payaso…",
+  "y él no se dejó"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Lo empujaron por la espalda… y el payaso no se dejó.",
+   "say": "Lo empujaron por la espalda… y el payaso no se dejó.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ピエロ 怒る",
+       "ピエロ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Pasó en el Festival del Terror de Six Flags México.",
+   "say": "Pasó en el Festival del Terror de Six Flags México.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お化け屋敷",
+       "遊園地"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "halloween theme park night",
+     "amusement park night lights"
+    ]
+   }
+  },
+  {
+   "text": "Dos jóvenes se le acercaron y una lo empujó.",
+   "say": "Dos jóvenes se le acercaron y una lo empujó.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "押す 女性",
+       "いたずら 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🫸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Se rieron y ya se iban a ir corriendo…",
+   "say": "Se rieron y ya se iban a ir corriendo…",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 女性 二人",
+       "走る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "girls laughing running night",
+     "friends running laughing"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Él estiró la pierna y una cayó al suelo.",
+   "say": "¡No manches! Él estiró la pierna y una cayó al suelo.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "転ぶ 女性",
+       "つまずく"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Otra persona la ayudó a levantarse.",
+   "say": "Otra persona la ayudó a levantarse.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "助け起こす",
+       "手を差し伸べる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "helping woman get up",
+     "helping hand stand up"
+    ]
+   }
+  },
+  {
+   "text": "En redes unos dicen que se defendió, y otros que se pasó.",
+   "say": "En redes unos dicen que se defendió, y otros que se pasó.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "口論 ネット",
+       "スマートフォン 怒る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "incrédulo, con risa contenida"
+  },
+  {
+   "text": "¿Quién tiene la razón?",
+   "say": "¿Quién tiene la razón?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Se defendió, bien hecho",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Se pasó, es su chamba",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Empujaron a un payaso en el Festival del Terror de Six Flags… y él respondió así 🤡 #shorts",
+  "description": "En el Festival del Terror de Six Flags México, dos jóvenes se acercaron a un actor disfrazado de payaso y una de ellas lo empujó. Cuando se iban riendo, el payaso estiró la pierna y una de las jóvenes cayó al suelo; el video dividió opiniones en redes.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "six flags",
+   "festival del terror",
+   "payaso"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/12/payaso-de-six-flags-mexico-hace-caer-a-una-joven-tras-ponerle-el-pie-y-desata-polemica-en-redes-sociales/",
+ "facts_used": [
+  "El video se grabó en el Festival del Terror de Six Flags México con un actor disfrazado de payaso [La Lista 2026-11-10, Grupo Marmor 2026-11-10]",
+  "Dos jóvenes se acercaron al payaso por la espalda y una de ellas lo empujó (Infobae: 'aparentemente lo empuja') [La Lista 2026-11-10, Infobae 2026-11-12]",
+  "Ambas comenzaron a reírse y se disponían a salir corriendo [La Lista 2026-11-10]",
+  "El payaso estiró la pierna / le puso el pie y una de las jóvenes cayó al pavimento [Infobae 2026-11-12, Heraldo de México 2026-11-11]",
+  "Otra persona la ayudó a levantarse [Infobae 2026-11-12]",
+  "Opiniones divididas: unos critican al trabajador, otros dicen que se defendió porque la joven lo empujó primero; no se informó de lesiones ni postura de Six Flags [Infobae 2026-11-12, Viva la Noticia 2026-11-11]"
+ ],
+ "brief": "lane MX - Infobae (también La Lista, Heraldo de México, Grupo Marmor, Viva la Noticia). 유형: 손님 vs 직원(편가르기). 점수 재미4+이해5+반전4+편가르기5=18. 일반인 실명 없음, 나이 미보도라 'jóvenes'."
+}
