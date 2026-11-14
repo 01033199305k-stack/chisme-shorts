@@ -1,0 +1,302 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-delivery-driver-locked-in",
+ "title_lines": [
+  "No le pagó la comida…",
+  "y él no pudo salir"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "«Señora, me está secuestrando», le decía un repartidor…",
+   "say": "«Señora, me está secuestrando», le decía un repartidor…",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "配達員 困る",
+       "宅配便 配達員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, intrigado"
+  },
+  {
+   "text": "Fue a entregar comida a un edificio en San Ángel.",
+   "say": "Fue a entregar comida a un edificio en San Ángel.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マンション 入口",
+       "高層マンション"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico city apartment building entrance",
+     "food delivery motorcycle mexico"
+    ]
+   }
+  },
+  {
+   "text": "Pero no traía cambio suficiente para cobrar.",
+   "say": "Pero no traía cambio suficiente para cobrar.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お釣り 足りない",
+       "財布 空っぽ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Ella agarró la comida y se fue sin pagar.",
+   "say": "¡No manches! Ella agarró la comida y se fue sin pagar.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "食べ物 持ち去る 女性",
+       "弁当 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "woman taking food delivery bag door",
+     "food delivery bag handover"
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, subiendo la voz"
+  },
+  {
+   "text": "Le propuso opciones, pero no hubo acuerdo.",
+   "say": "Le propuso opciones, pero no hubo acuerdo.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "口論 男女",
+       "言い争い"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🗣️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y según él, ya no lo dejaban salir del edificio.",
+   "say": "Y según él, ya no lo dejaban salir del edificio.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "閉じ込められる",
+       "警備員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "security guard building gate",
+     "closed gate apartment security"
+    ]
+   }
+  },
+  {
+   "text": "Llamó al 911 y mandó su ubicación a alguien.",
+   "say": "Llamó al nueve uno uno y mandó su ubicación a alguien.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 助けを求める",
+       "スマートフォン 電話する 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¿Quién tiene la razón?",
+   "say": "¿Quién tiene la razón?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Ella, sin cambio no pago",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Él, paga o regrésala",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Un repartidor no traía cambio… y la clienta se quedó con la comida 🛵 #shorts",
+  "description": "Un repartidor de comida por aplicación denunció que una clienta en un edificio de San Ángel, CDMX, se llevó el pedido sin pagar porque él no traía cambio suficiente. Según su video, grabado con la cámara de su casco, no lo dejaban salir del inmueble y pidió ayuda al 911; no se ha confirmado denuncia formal ni detenidos.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "repartidor",
+   "cdmx",
+   "san ángel"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/13/repartidor-denuncia-que-una-clienta-lo-retuvo-en-cdmx-tras-negarse-a-pagar-un-pedido-de-comida/",
+ "facts_used": [
+  "Un repartidor de comida por aplicación fue a entregar un pedido a un edificio de departamentos en la colonia San Ángel, CDMX [Infobae 2026-11-13, Heraldo de México 2026-11-12]",
+  "No tenía cambio suficiente; la clienta tomó los alimentos y se retiró sin pagar (versión del repartidor) [Infobae 2026-11-13, Ovaciones 2026-11-12]",
+  "Propuso distintas opciones para resolverlo, pero no hubo acuerdo [Infobae 2026-11-13]",
+  "Según su denuncia no pudo salir del inmueble; personal de seguridad del edificio aparece en el acceso / habría impedido su salida [Infobae 2026-11-13, Ovaciones 2026-11-12, El Tiempo MX 2026-11]",
+  "Frase en el video: 'Señora, me está secuestrando, porque no me deja salir de aquí' [Infobae 2026-11-13, Ovaciones 2026-11-12]",
+  "Llamó al 911 y envió su ubicación a una persona de confianza; no se ha confirmado denuncia formal ni detenidos [Infobae 2026-11-13]"
+ ],
+ "brief": "lane MX - Infobae (también Heraldo de México, Ovaciones, El Tiempo MX). 유형: 손님 vs 배달원(편가르기). 점수 재미3+이해5+반전3+편가르기5=16. 일반인 실명 없음, 결말 미보도라 'según él'로 주장 처리. 앱 이름·금액 미보도."
+}

@@ -1,0 +1,301 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-glue-gun-mixup-store",
+ "title_lines": [
+  "Entró a la tiendita…",
+  "y pidió un arma"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Entró a una tiendita y le pidió al señor… un arma.",
+   "say": "Entró a una tiendita y le pidió al señor… un arma.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "店員 驚く",
+       "びっくり 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Era una estadounidense que vive en México.",
+   "say": "Era una estadounidense que vive en México.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "アメリカ人 女性",
+       "外国人 観光客 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🇺🇸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican corner store abarrotes",
+     "small grocery store mexico"
+    ]
+   }
+  },
+  {
+   "text": "Buscaba algo para una manualidad y no dijo qué.",
+   "say": "Buscaba algo para una manualidad y no dijo qué.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "工作 女性",
+       "手芸"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✂️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "El tendero se quedó quieto, esperando que explicara.",
+   "say": "El tendero se quedó quieto, esperando que explicara.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "固まる 男性",
+       "店主 レジ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y cada pausa de ella ponía todo más tenso.",
+   "say": "Y cada pausa de ella ponía todo más tenso.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "沈黙 気まずい",
+       "汗 焦る 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "nervous shopkeeper counter",
+     "awkward silence store counter"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Hasta que dijo que era para pegar… Resistol.",
+   "say": "¡No manches! Hasta que dijo que era para pegar… Resistol.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "接着剤",
+       "のり"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧴",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, riéndose"
+  },
+  {
+   "text": "Era una pistola de silicón… y ya casi suma dos millones de vistas.",
+   "say": "Era una pistola de silicón… y ya casi suma dos millones de vistas.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "グルーガン",
+       "ホットボンド"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "hot glue gun crafts",
+     "glue gun close up"
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "¿Tú te habrías asustado?",
+   "say": "¿Tú te habrías asustado?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 男性",
+       "ほっとする 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, yo me escondo",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② No, se notaba que no",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Una gringa le pidió «un arma» al de la tiendita… y él se quedó helado 🔫 #shorts",
+  "description": "Una mujer estadounidense que vive en México entró a una tienda de abarrotes y pidió un «arma» sin aclarar que buscaba una pistola de silicón para una manualidad. El tendero se quedó esperando la explicación hasta que ella mencionó que era para pegar y dijo «Resistol»; el video ronda los dos millones de reproducciones.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "pistola de silicón",
+   "tienda de abarrotes",
+   "resistol"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/13/mujer-estadounidense-causa-terror-al-acudir-a-tienda-de-abarrotes-y-pedir-una-pistola-pero-de-silicon/",
+ "facts_used": [
+  "Una mujer estadounidense que vive en México acudió a una tienda de abarrotes [Infobae 2026-11-13, Diario de Tabasco 2026-11-13]",
+  "Quería una herramienta para una manualidad y pidió un 'arma' sin decir de inmediato que era una pistola de silicón [Infobae 2026-11-13, Diario de Tabasco 2026-11-13]",
+  "El tendero se quedó desconcertado y en pausa, esperando que aclarara; las pausas de ella hicieron más tenso el momento [Infobae 2026-11-13]",
+  "Ella dijo que necesitaba algo para pegar y mencionó el Resistol; ahí el tendero entendió y todo terminó en risas [Infobae 2026-11-13, Diario de Tabasco 2026-11-13]",
+  "El video acumula cerca de dos millones de reproducciones [Infobae 2026-11-13, Diario de Tabasco 2026-11-13]"
+ ],
+ "brief": "lane MX - Infobae (también Diario de Tabasco, NetNoticias). 유형: 가게 황당 오해(웃음). 점수 재미5+이해5+반전4+편가르기2=16. 크리에이터 계정명은 쓰지 않음."
+}
