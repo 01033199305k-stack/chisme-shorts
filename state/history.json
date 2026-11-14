@@ -2285,5 +2285,88 @@
   "privacy": "private",
   "scheduled_for": "2026-11-14T03:00:00Z",
   "seconds": 73
+ },
+ {
+  "key": "2026-11-15-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-15T09:00:00+09:00",
+  "started": "2026-11-14T22:09:15.541607+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-148311/",
+   "https://pixabay.com/videos/id-19706/",
+   "https://pixabay.com/videos/id-2176/"
+  ],
+  "duration": 19.36,
+  "matches": [
+   0.99,
+   0.99,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Un repartidor no traía cambio… y la clienta se quedó con la comida 🛵 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/13/repartidor-denuncia-que-una-clienta-lo-retuvo-en-cdmx-tras-negarse-a-pagar-un-pedido-de-comida/",
+  "facts_used": [
+   "Un repartidor de comida por aplicación fue a entregar un pedido a un edificio de departamentos en la colonia San Ángel, CDMX [Infobae 2026-11-13, Heraldo de México 2026-11-12]",
+   "No tenía cambio suficiente; la clienta tomó los alimentos y se retiró sin pagar (versión del repartidor) [Infobae 2026-11-13, Ovaciones 2026-11-12]",
+   "Propuso distintas opciones para resolverlo, pero no hubo acuerdo [Infobae 2026-11-13]",
+   "Según su denuncia no pudo salir del inmueble; personal de seguridad del edificio aparece en el acceso / habría impedido su salida [Infobae 2026-11-13, Ovaciones 2026-11-12, El Tiempo MX 2026-11]",
+   "Frase en el video: 'Señora, me está secuestrando, porque no me deja salir de aquí' [Infobae 2026-11-13, Ovaciones 2026-11-12]",
+   "Llamó al 911 y envió su ubicación a una persona de confianza; no se ha confirmado denuncia formal ni detenidos [Infobae 2026-11-13]"
+  ],
+  "slug": "2026-11-15_0900_mx-delivery-driver-locked-in",
+  "late": false,
+  "video_id": "pku-PuX602E",
+  "url": "https://youtube.com/shorts/pku-PuX602E",
+  "privacy": "private",
+  "scheduled_for": "2026-11-15T00:00:00Z",
+  "seconds": 81
+ },
+ {
+  "key": "2026-11-15-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-15T12:00:00+09:00",
+  "started": "2026-11-14T22:10:36.325552+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-219498/",
+   "https://pixabay.com/videos/id-159049/",
+   "https://pixabay.com/videos/id-8897/"
+  ],
+  "duration": 20.14,
+  "matches": [
+   1.0,
+   0.99,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.96,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "Una gringa le pidió «un arma» al de la tiendita… y él se quedó helado 🔫 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/13/mujer-estadounidense-causa-terror-al-acudir-a-tienda-de-abarrotes-y-pedir-una-pistola-pero-de-silicon/",
+  "facts_used": [
+   "Una mujer estadounidense que vive en México acudió a una tienda de abarrotes [Infobae 2026-11-13, Diario de Tabasco 2026-11-13]",
+   "Quería una herramienta para una manualidad y pidió un 'arma' sin decir de inmediato que era una pistola de silicón [Infobae 2026-11-13, Diario de Tabasco 2026-11-13]",
+   "El tendero se quedó desconcertado y en pausa, esperando que aclarara; las pausas de ella hicieron más tenso el momento [Infobae 2026-11-13]",
+   "Ella dijo que necesitaba algo para pegar y mencionó el Resistol; ahí el tendero entendió y todo terminó en risas [Infobae 2026-11-13, Diario de Tabasco 2026-11-13]",
+   "El video acumula cerca de dos millones de reproducciones [Infobae 2026-11-13, Diario de Tabasco 2026-11-13]"
+  ],
+  "slug": "2026-11-15_1200_mx-glue-gun-mixup-store",
+  "late": false,
+  "video_id": "bR0cL7SWcGk",
+  "url": "https://youtube.com/shorts/bR0cL7SWcGk",
+  "privacy": "private",
+  "scheduled_for": "2026-11-15T03:00:00Z",
+  "seconds": 80
  }
 ]
