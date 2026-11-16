@@ -2368,5 +2368,88 @@
   "privacy": "private",
   "scheduled_for": "2026-11-15T03:00:00Z",
   "seconds": 80
+ },
+ {
+  "key": "2026-11-17-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-17T09:00:00+09:00",
+  "started": "2026-11-16T22:12:35.294442+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-10024/",
+   "https://pixabay.com/videos/id-140346/",
+   "https://pixabay.com/videos/id-122965/"
+  ],
+  "duration": 18.96,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 5,
+  "cuts": 8,
+  "title": "Un mexicano le reclamó a João Neves por Cristiano… y él hizo esto ⚽ #shorts",
+  "source_post": "https://www.infobae.com/mexico/deportes/2026/11/16/fan-mexicano-encara-a-joao-neves-y-le-exige-respeto-para-cristiano-ronaldo/",
+  "facts_used": [
+   "Un aficionado mexicano confrontó a João Neves (PSG) durante una sesión de autógrafos [Infobae 2026-11-16, Récord 2026-11-16]",
+   "Le dijo: 'João, ¿por qué se les olvida quién los hizo grandes? Hay que respetar al más grande de la historia' [Infobae 2026-11-16, La Razón 2026-11-15]",
+   "Neves lo miró, no respondió y siguió firmando [Infobae 2026-11-16]",
+   "El video se viralizó horas después de que Portugal perdiera 4-1 ante Dinamarca, su primer partido sin Cristiano Ronaldo tras su retiro de la selección [Infobae 2026-11-16, La Razón 2026-11-15]",
+   "En el Mundial 2026 Neves dijo que Ronaldo 'es solo otro jugador aquí para ayudar. No es diferente a los demás' [Infobae 2026-11-16, Mediotiempo 2026-11]",
+   "Las reacciones se dividieron: unos respaldaron al fan y otros se burlaron ('Ni los portugueses están así') [Infobae 2026-11-16]"
+  ],
+  "slug": "2026-11-17_0900_mx-fan-confronts-joao-neves",
+  "late": false,
+  "video_id": "d3bwCwj_FX8",
+  "url": "https://youtube.com/shorts/d3bwCwj_FX8",
+  "privacy": "private",
+  "scheduled_for": "2026-11-17T00:00:00Z",
+  "seconds": 84
+ },
+ {
+  "key": "2026-11-17-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-17T12:00:00+09:00",
+  "started": "2026-11-16T22:13:59.255985+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-207982/",
+   "https://pixabay.com/videos/id-1360/"
+  ],
+  "duration": 19.43,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   0.99,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "Una influencer de libros se quejó de lo que leía su hija en la prepa… y le llovió 📚 #shorts",
+  "source_post": "https://www.infobae.com/mexico/2026/11/14/influencer-mexicana-desata-polemica-por-cuestionar-que-su-hija-de-16-anos-lea-pedro-paramo-en-preparatoria/",
+  "facts_used": [
+   "Una creadora de contenido poblana que promueve la lectura en TikTok cuestionó que a su hija de 16 años le dejaran leer Pedro Páramo en la preparatoria [Infobae 2026-11-14, El Universal 2026-11-15]",
+   "En su video dijo: 'No saben qué coraje traigo' [Infobae 2026-11-14]",
+   "Llamó a la novela 'una joya' y 'el libro de México', pero dijo que es para 'un lector maduro', no para 'una chavita de 16 años, que está en otra cosa' [Infobae 2026-11-14]",
+   "Propuso que los jóvenes lean primero libros más accesibles; aclaró que no critica la calidad de la obra [Infobae 2026-11-14, El Universal 2026-11-15]",
+   "Usuarios la criticaron; uno sugirió con sarcasmo que leyeran Bambi o Caperucita Roja [Infobae 2026-11-14]",
+   "Una maestra dijo que sus alumnos de secundaria leen cuentos de El Llano en llamas de Rulfo; las reacciones fueron divididas [Infobae 2026-11-14, El Universal 2026-11-15]"
+  ],
+  "slug": "2026-11-17_1200_mx-influencer-pedro-paramo-rant",
+  "late": false,
+  "video_id": "FKux7DiqMxA",
+  "url": "https://youtube.com/shorts/FKux7DiqMxA",
+  "privacy": "private",
+  "scheduled_for": "2026-11-17T03:00:00Z",
+  "seconds": 70
  }
 ]
