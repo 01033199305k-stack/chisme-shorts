@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-influencer-pedro-paramo-rant",
+ "title_lines": [
+  "Promueve la lectura…",
+  "y se quejó de un libro"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Promueve la lectura… y se enojó por un libro.",
+   "say": "Promueve la lectura… y se enojó por un libro.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "読書 女性",
+       "本を読む 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📚",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "A su hija le dejaron leer Pedro Páramo en la prepa.",
+   "say": "A su hija le dejaron leer Pedro Páramo en la prepa.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "宿題 女子高生",
+       "勉強 女子学生"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📖",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican high school students classroom",
+     "teenage students reading books classroom"
+    ]
+   }
+  },
+  {
+   "text": "Grabó un video: «No saben qué coraje traigo».",
+   "say": "Grabó un video: «No saben qué coraje traigo».",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 動画撮影 女性",
+       "怒る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Dijo que es una joya, pero para «un lector maduro».",
+   "say": "Dijo que es una joya, pero para «un lector maduro».",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "古い本",
+       "本 宝石"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "old book pages close up",
+     "reading classic novel"
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "No para «una chavita de 16 años, que está en otra cosa».",
+   "say": "No para «una chavita de dieciséis años, que está en otra cosa».",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 女子高生",
+       "スマホを見る 学生"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Neta? Hasta le sugirieron leer Bambi.",
+   "say": "¿Neta? Hasta le sugirieron leer Bambi.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "炎上 SNS",
+       "批判 ネット"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦌",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "people scrolling phone social media",
+     "phone comments social media"
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, riéndose"
+  },
+  {
+   "text": "Una maestra: sus alumnos de secundaria leen a Rulfo.",
+   "say": "Una maestra: sus alumnos de secundaria leen a Rulfo.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "先生 女性 授業",
+       "女性教師"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Tiene razón o exagera?",
+   "say": "¿Tiene razón o exagera?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Tiene razón, es pesado",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Exagera, es un clásico",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Una influencer de libros se quejó de lo que leía su hija en la prepa… y le llovió 📚 #shorts",
+  "description": "Una creadora de contenido que promueve la lectura se quejó en TikTok porque a su hija de 16 años le dejaron leer Pedro Páramo en la preparatoria. Dijo que la novela es una joya, pero para un lector maduro, y propuso empezar con libros más accesibles; muchos usuarios y docentes la criticaron y el debate se dividió.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "pedro páramo",
+   "juan rulfo",
+   "influencer"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/14/influencer-mexicana-desata-polemica-por-cuestionar-que-su-hija-de-16-anos-lea-pedro-paramo-en-preparatoria/",
+ "facts_used": [
+  "Una creadora de contenido poblana que promueve la lectura en TikTok cuestionó que a su hija de 16 años le dejaran leer Pedro Páramo en la preparatoria [Infobae 2026-11-14, El Universal 2026-11-15]",
+  "En su video dijo: 'No saben qué coraje traigo' [Infobae 2026-11-14]",
+  "Llamó a la novela 'una joya' y 'el libro de México', pero dijo que es para 'un lector maduro', no para 'una chavita de 16 años, que está en otra cosa' [Infobae 2026-11-14]",
+  "Propuso que los jóvenes lean primero libros más accesibles; aclaró que no critica la calidad de la obra [Infobae 2026-11-14, El Universal 2026-11-15]",
+  "Usuarios la criticaron; uno sugirió con sarcasmo que leyeran Bambi o Caperucita Roja [Infobae 2026-11-14]",
+  "Una maestra dijo que sus alumnos de secundaria leen cuentos de El Llano en llamas de Rulfo; las reacciones fueron divididas [Infobae 2026-11-14, El Universal 2026-11-15]"
+ ],
+ "brief": "lane MX - Infobae (también El Universal). 유형: 학부모/인플루언서 vs 학교 논쟁. 점수 재미3+이해4+반전3+편가르기5=15. 이름·계정 안 씀, 딸은 배경으로만."
+}

@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-fan-confronts-joao-neves",
+ "title_lines": [
+  "Un mexicano encaró",
+  "a un crack del PSG…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Un mexicano encaró a João Neves mientras firmaba…",
+   "say": "Un mexicano encaró a João Neves mientras firmaba…",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー選手 サイン",
+       "サイン 色紙"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "football player signing autographs fans",
+     "soccer fans autographs"
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "«¿Por qué se les olvida quién los hizo grandes?»",
+   "say": "«¿Por qué se les olvida quién los hizo grandes?»",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "文句を言う人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "«Hay que respetar al más grande de la historia».",
+   "say": "«Hay que respetar al más grande de la historia».",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー ファン",
+       "応援 サポーター 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐐",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Hablaba de Cristiano, que ya dejó la selección.",
+   "say": "Hablaba de Cristiano, que ya dejó la selección.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 引退",
+       "サッカー選手 泣く"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🇵🇹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "portugal football fans flag",
+     "soccer player leaving stadium"
+    ]
+   }
+  },
+  {
+   "text": "Neves dijo que Cristiano «no es diferente a los demás».",
+   "say": "Neves dijo que Cristiano «no es diferente a los demás».",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "インタビュー サッカー選手",
+       "記者会見"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Y Portugal acababa de perder 4 a 1 sin él.",
+   "say": "Y Portugal acababa de perder cuatro a uno sin él.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 負ける",
+       "落ち込む サッカー選手"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "soccer stadium crowd night match",
+     "sad football fans stadium"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Neves solo lo miró… y siguió firmando.",
+   "say": "¡No manches! Neves solo lo miró… y siguió firmando.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "無視する 男性",
+       "無言 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, riéndose"
+  },
+  {
+   "text": "¿Se pasó o tenía razón?",
+   "say": "¿Se pasó o tenía razón?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Se pasó, no era el lugar",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Tenía razón, ¡es CR7!",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Un mexicano le reclamó a João Neves por Cristiano… y él hizo esto ⚽ #shorts",
+  "description": "Durante una sesión de autógrafos, un aficionado mexicano le dijo a João Neves que hay que respetar al más grande de la historia, en referencia a Cristiano Ronaldo. El video se viralizó horas después de que Portugal perdiera 4-1 ante Dinamarca en su primer partido sin CR7; Neves solo lo miró y siguió firmando.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "joão neves",
+   "cristiano ronaldo",
+   "fútbol"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/deportes/2026/11/16/fan-mexicano-encara-a-joao-neves-y-le-exige-respeto-para-cristiano-ronaldo/",
+ "facts_used": [
+  "Un aficionado mexicano confrontó a João Neves (PSG) durante una sesión de autógrafos [Infobae 2026-11-16, Récord 2026-11-16]",
+  "Le dijo: 'João, ¿por qué se les olvida quién los hizo grandes? Hay que respetar al más grande de la historia' [Infobae 2026-11-16, La Razón 2026-11-15]",
+  "Neves lo miró, no respondió y siguió firmando [Infobae 2026-11-16]",
+  "El video se viralizó horas después de que Portugal perdiera 4-1 ante Dinamarca, su primer partido sin Cristiano Ronaldo tras su retiro de la selección [Infobae 2026-11-16, La Razón 2026-11-15]",
+  "En el Mundial 2026 Neves dijo que Ronaldo 'es solo otro jugador aquí para ayudar. No es diferente a los demás' [Infobae 2026-11-16, Mediotiempo 2026-11]",
+  "Las reacciones se dividieron: unos respaldaron al fan y otros se burlaron ('Ni los portugueses están así') [Infobae 2026-11-16]"
+ ],
+ "brief": "lane MX - Infobae (también La Razón, Récord, Mediotiempo). 유형: 팬 vs 선수 맞대면. 점수 재미4+이해4+반전3+편가르기5=16. 팬 이름·계정 안 씀."
+}
