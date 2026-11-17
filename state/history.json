@@ -2451,5 +2451,87 @@
   "privacy": "private",
   "scheduled_for": "2026-11-17T03:00:00Z",
   "seconds": 70
+ },
+ {
+  "key": "2026-11-18-0900",
+  "slot": "0900",
+  "publish_at": "2026-11-18T09:00:00+09:00",
+  "started": "2026-11-17T22:09:34.991813+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-148317/",
+   "https://pixabay.com/videos/id-1083/",
+   "https://pixabay.com/videos/id-31822/"
+  ],
+  "duration": 19.73,
+  "matches": [
+   1.0,
+   0.97,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 8,
+  "title": "Canceló su viaje en moto por la ruta… y se fue con el casco del chofer 🪖 #shorts",
+  "source_post": "https://www.eluniversal.com.mx/tendencias/lady-casco-desata-polemica-en-redes-pasajera-cancela-viaje-en-motocicleta-se-lleva-el-casco-y-amenaza-al-repartidor-con-llamar-a-su-hijo/",
+  "facts_used": [
+   "En la colonia Peralvillo, alcaldía Cuauhtémoc, CDMX, una pasajera de un viaje en moto por aplicación pidió cancelar el servicio por no estar de acuerdo con la ruta [El Universal 2026-11-16, nuevolaredo.tv 2026-11-16]",
+   "El conductor le pidió en repetidas ocasiones y de manera respetuosa que devolviera el casco; argumentó que era nuevo y su 'instrumento indispensable de trabajo' [El Universal 2026-11-16, guillermoortega.com 2026-11-16]",
+   "Ella se negó, alegando que no asume el costo de un viaje inconcluso y que él no siguió sus indicaciones de ruta [El Universal 2026-11-16]",
+   "Lo amenazó con llamar a su hijo y se retiró caminando con el casco [El Universal 2026-11-16, Yahoo Noticias 2026-11-16]",
+   "El video se difundió en Facebook, Instagram y X; usuarios la apodaron 'Lady Casco' [El Universal 2026-11-16]"
+  ],
+  "slug": "2026-11-18_0900_mx-lady-casco-moto-app",
+  "late": false,
+  "video_id": "GEMtz_ncs5I",
+  "url": "https://youtube.com/shorts/GEMtz_ncs5I",
+  "privacy": "private",
+  "scheduled_for": "2026-11-18T00:00:00Z",
+  "seconds": 78
+ },
+ {
+  "key": "2026-11-18-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-18T12:00:00+09:00",
+  "started": "2026-11-17T22:10:53.432680+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-122965/",
+   "https://pixabay.com/videos/id-202749/",
+   "https://pixabay.com/videos/id-86866/"
+  ],
+  "duration": 19.59,
+  "matches": [
+   1.0,
+   0.9,
+   1.0,
+   0.82,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 5,
+  "cuts": 8,
+  "title": "Jamaica le ganó al Tri… y un jugador le pidió esto a Gil Mora 📱 #shorts",
+  "source_post": "https://www.unotv.com/deportes/gilberto-mora-se-vuelve-viral-tras-derrota-de-mexico-jugador-de-jamaica-le-pide-un-saludo-por-videollamada/",
+  "facts_used": [
+   "México perdió 3-2 ante Jamaica en Kingston en la ida de cuartos de final de la Nations League de Concacaf, el 15 de noviembre [UnoTV 2026-11-16, Telemundo 2026-11-15]",
+   "Gilberto Mora anotó el primer gol de México al minuto 70, cuando perdían 3-0 [UnoTV 2026-11-16, TUDN 2026-11-15]",
+   "Al terminar el partido, el delantero jamaicano Javon East detuvo a Mora con su celular y le pidió saludar a alguien en una videollamada [UnoTV 2026-11-16, TUDN 2026-11-16]",
+   "Mora aceptó, saludó a la persona y mostró la playera de la Selección Mexicana [UnoTV 2026-11-16, TUDN 2026-11-16]",
+   "No se reveló quién estaba en la llamada; en redes se dijo que era el hijo de East, sin confirmación [UnoTV 2026-11-16]"
+  ],
+  "slug": "2026-11-18_1200_mx-gil-mora-jamaica-videocall",
+  "late": false,
+  "video_id": "EqVqeHro9DU",
+  "url": "https://youtube.com/shorts/EqVqeHro9DU",
+  "privacy": "private",
+  "scheduled_for": "2026-11-18T03:00:00Z",
+  "seconds": 63
  }
 ]
