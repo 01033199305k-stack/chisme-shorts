@@ -1,0 +1,300 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-gil-mora-jamaica-videocall",
+ "title_lines": [
+  "Le ganaron a México…",
+  "y le pidieron esto"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Le ganaron a México… y luego le pidieron una videollamada.",
+   "say": "Le ganaron a México… y luego le pidieron una videollamada.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー選手 スマホ",
+       "スマホ ビデオ通話"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Jamaica le ganó 3 a 2 al Tri en Kingston.",
+   "say": "Jamaica le ganó tres a dos al Tri en Kingston.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 負ける",
+       "落ち込む サッカー選手"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "soccer stadium night match",
+     "football match crowd stadium"
+    ]
+   }
+  },
+  {
+   "text": "Gilberto Mora había metido el primer gol de México.",
+   "say": "Gilberto Mora había metido el primer gol de México.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー シュート",
+       "ゴール サッカー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Al final, Javon East lo paró con su celular.",
+   "say": "Al final, Javon East lo paró con su celular.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホを持つ 男性",
+       "スマホ 見せる 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "soccer player walking off field",
+     "football players leaving pitch"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Le pidió saludar a alguien por videollamada.",
+   "say": "¡No manches! Le pidió saludar a alguien por videollamada.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ビデオ通話 スマホ",
+       "スマホ 手を振る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, riéndose"
+  },
+  {
+   "text": "Mora aceptó y hasta enseñó la playera de México.",
+   "say": "Mora aceptó y hasta enseñó la playera de México.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "手を振る 男性",
+       "笑顔 サッカー選手"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🇲🇽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "man waving at phone video call",
+     "video call smartphone smiling"
+    ]
+   }
+  },
+  {
+   "text": "En redes dicen que era su hijo; no está confirmado.",
+   "say": "En redes dicen que era su hijo; no está confirmado.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "SNS 噂",
+       "スマホ 見る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Debió aceptar o no?",
+   "say": "¿Debió aceptar o no?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Sí, qué buena onda",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② No, ¡acababan de perder!",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Jamaica le ganó al Tri… y un jugador le pidió esto a Gil Mora 📱 #shorts",
+  "description": "Tras la derrota 3-2 de México ante Jamaica en Kingston, en la ida de cuartos de final de la Nations League de Concacaf, el delantero jamaicano Javon East detuvo a Gilberto Mora con su celular y le pidió saludar a alguien por videollamada. Mora aceptó, saludó y mostró la playera de México.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "gilberto mora",
+   "selección mexicana",
+   "jamaica"
+  ]
+ },
+ "source_post": "https://www.unotv.com/deportes/gilberto-mora-se-vuelve-viral-tras-derrota-de-mexico-jugador-de-jamaica-le-pide-un-saludo-por-videollamada/",
+ "facts_used": [
+  "México perdió 3-2 ante Jamaica en Kingston en la ida de cuartos de final de la Nations League de Concacaf, el 15 de noviembre [UnoTV 2026-11-16, Telemundo 2026-11-15]",
+  "Gilberto Mora anotó el primer gol de México al minuto 70, cuando perdían 3-0 [UnoTV 2026-11-16, TUDN 2026-11-15]",
+  "Al terminar el partido, el delantero jamaicano Javon East detuvo a Mora con su celular y le pidió saludar a alguien en una videollamada [UnoTV 2026-11-16, TUDN 2026-11-16]",
+  "Mora aceptó, saludó a la persona y mostró la playera de la Selección Mexicana [UnoTV 2026-11-16, TUDN 2026-11-16]",
+  "No se reveló quién estaba en la llamada; en redes se dijo que era el hijo de East, sin confirmación [UnoTV 2026-11-16]"
+ ],
+ "brief": "lane MX - UnoTV (también TUDN, Telemundo). 유형: 스포츠 반전 훈훈/논쟁. 점수 재미4+이해5+반전4+편가르기3=16."
+}

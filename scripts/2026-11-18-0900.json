@@ -1,0 +1,301 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-lady-casco-moto-app",
+ "title_lines": [
+  "Canceló su viaje…",
+  "y no devolvió algo"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Canceló su viaje en moto… y se fue con el casco del chofer.",
+   "say": "Canceló su viaje en moto… y se fue con el casco del chofer.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ヘルメット 女性",
+       "ヘルメットを持つ人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🪖",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "En Peralvillo, CDMX, no le gustó la ruta.",
+   "say": "En Peralvillo, CDMX, no le gustó la ruta.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク タクシー",
+       "バイク 二人乗り"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexico city motorcycle traffic",
+     "motorcycle taxi city street"
+    ]
+   }
+  },
+  {
+   "text": "Él le pidió el casco una y otra vez, con respeto.",
+   "say": "Él le pidió el casco una y otra vez, con respeto.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お願いする 男性",
+       "困る 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Le dijo que era nuevo y que es para su chamba.",
+   "say": "Le dijo que era nuevo y que es para su chamba.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ヘルメット",
+       "バイク 配達員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "motorcycle helmet close up",
+     "delivery rider helmet"
+    ]
+   }
+  },
+  {
+   "text": "¡No manches! Ella dijo que no paga un viaje que no terminó.",
+   "say": "¡No manches! Ella dijo que no paga un viaje que no terminó.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る おばさん",
+       "怒る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "indignado, sorprendido"
+  },
+  {
+   "text": "Y lo amenazó con llamar a su hijo.",
+   "say": "Y lo amenazó con llamar a su hijo.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 電話 女性",
+       "電話をかける 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "Se fue caminando con el casco, y ya le dicen «Lady Casco».",
+   "say": "Se fue caminando con el casco, y ya le dicen «Lady Casco».",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歩く 女性 後ろ姿",
+       "歩く 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "woman walking away city street",
+     "mexico city sidewalk people"
+    ]
+   }
+  },
+  {
+   "text": "¿Quién tiene la razón?",
+   "say": "¿Quién tiene la razón?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① El chofer, es su chamba",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Ella, no la llevó bien",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Canceló su viaje en moto por la ruta… y se fue con el casco del chofer 🪖 #shorts",
+  "description": "En la colonia Peralvillo, CDMX, una pasajera de una app de mototaxi canceló su viaje porque no le gustó la ruta y se negó a devolver el casco que le prestó el conductor. Él se lo pidió varias veces porque era nuevo y es su herramienta de trabajo; ella lo amenazó con llamar a su hijo y se fue caminando con el casco. En redes la apodaron «Lady Casco».\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "lady casco",
+   "mototaxi",
+   "cdmx"
+  ]
+ },
+ "source_post": "https://www.eluniversal.com.mx/tendencias/lady-casco-desata-polemica-en-redes-pasajera-cancela-viaje-en-motocicleta-se-lleva-el-casco-y-amenaza-al-repartidor-con-llamar-a-su-hijo/",
+ "facts_used": [
+  "En la colonia Peralvillo, alcaldía Cuauhtémoc, CDMX, una pasajera de un viaje en moto por aplicación pidió cancelar el servicio por no estar de acuerdo con la ruta [El Universal 2026-11-16, nuevolaredo.tv 2026-11-16]",
+  "El conductor le pidió en repetidas ocasiones y de manera respetuosa que devolviera el casco; argumentó que era nuevo y su 'instrumento indispensable de trabajo' [El Universal 2026-11-16, guillermoortega.com 2026-11-16]",
+  "Ella se negó, alegando que no asume el costo de un viaje inconcluso y que él no siguió sus indicaciones de ruta [El Universal 2026-11-16]",
+  "Lo amenazó con llamar a su hijo y se retiró caminando con el casco [El Universal 2026-11-16, Yahoo Noticias 2026-11-16]",
+  "El video se difundió en Facebook, Instagram y X; usuarios la apodaron 'Lady Casco' [El Universal 2026-11-16]"
+ ],
+ "brief": "lane MX - El Universal (también nuevolaredo.tv, Yahoo Noticias). 유형: 손님 vs 기사 (lady 민폐). 점수 재미4+이해5+반전3+편가르기5=17. 실명·계정 안 씀."
+}
