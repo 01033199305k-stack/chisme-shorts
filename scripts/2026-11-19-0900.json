@@ -1,0 +1,301 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-jorge-campos-televisa-booth",
+ "title_lines": [
+  "Jorge Campos apareció",
+  "donde nadie esperaba"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Jorge Campos se metió a la transmisión… de Televisa.",
+   "say": "Jorge Campos se metió a la transmisión… de Televisa.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "テレビ中継 アナウンサー",
+       "テレビ局 スタジオ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Fue antes del México vs Jamaica, en Monterrey.",
+   "say": "Fue antes del México vs Jamaica, en Monterrey.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 試合",
+       "サッカー スタジアム"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "mexican soccer stadium crowd",
+     "football stadium night crowd"
+    ]
+   }
+  },
+  {
+   "text": "Faitelson lo vio en el pasillo y lo invitó.",
+   "say": "Faitelson lo vio en el pasillo y lo invitó.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "手招き 男性",
+       "招待する 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Andrés Vaca soltó: «Pásale, hombre, cambiándose de casa».",
+   "say": "Andrés Vaca soltó: «Pásale, hombre, cambiándose de casa».",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 男性",
+       "からかう 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏠",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "burlón, riéndose"
+  },
+  {
+   "text": "¡No manches! Campos es de TV Azteca.",
+   "say": "¡No manches! Campos es de TV Azteca.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裏切り 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "sports commentators broadcast booth",
+     "tv studio broadcast live"
+    ]
+   }
+  },
+  {
+   "text": "Luis García, su compañero, quiso pasar: «No, tú no».",
+   "say": "Luis García, su compañero, quiso pasar: «No, tú no».",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "断る 男性",
+       "ドア 閉める"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Campos dijo que México iba a ganar… y volvió a Azteca.",
+   "say": "Campos dijo que México iba a ganar… y volvió a Azteca.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歩く 男性 サングラス",
+       "帰る 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "man walking stadium corridor",
+     "stadium hallway walking"
+    ]
+   }
+  },
+  {
+   "text": "¿Traición o pura buena onda?",
+   "say": "¿Traición o pura buena onda?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Traición a Martinoli",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Buena onda, es leyenda",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Jorge Campos apareció en la transmisión de Televisa… y le dijeron esto 📺 #shorts",
+  "description": "Antes del México vs Jamaica en el Estadio BBVA, Jorge Campos, comentarista de TV Azteca, entró a la transmisión de Televisa invitado por David Faitelson. Andrés Vaca bromeó con que se estaba «cambiando de casa»; Campos dijo que México iba a ganar y regresó con Martinoli y García.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "jorge campos",
+   "tv azteca",
+   "televisa"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/18/jorge-campos-aparece-en-vivo-junto-a-andres-vaca-y-david-faitelson-se-equivoco-de-palco/",
+ "facts_used": [
+  "Antes del México vs Jamaica (vuelta de cuartos de la Nations League) en el Estadio BBVA de Monterrey, Jorge Campos apareció en la transmisión de Televisa/TUDN [Infobae 2026-11-18, El Universal 2026-11-17]",
+  "David Faitelson lo vio por los pasillos y lo invitó a la transmisión, llamándolo «una figura legendaria» [Infobae 2026-11-18, El Universal 2026-11-17]",
+  "Andrés Vaca le dijo: «Pásale, pásale hombre, cambiándose de casa» [Infobae 2026-11-18, El Universal 2026-11-17]",
+  "Campos normalmente comenta en TV Azteca con Christian Martinoli y el Dr. Luis García [Infobae 2026-11-18, Crónica 2026-11-17]",
+  "Faitelson dijo que García también quería pasar y lo rechazó: «No, tú no» [Infobae 2026-11-18]",
+  "Campos dijo «creo que México va a ganar hoy» y regresó a la transmisión de TV Azteca [Infobae 2026-11-18, El Universal 2026-11-17]"
+ ],
+ "brief": "lane MX - Infobae México (también El Universal, Crónica). 유형: 방송/스포츠 라이벌 소동. 점수 재미5+이해5+반전4+편가르기4=18."
+}

@@ -1,0 +1,300 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mx-lady-patos-queretaro-lake",
+ "title_lines": [
+  "Su perro se metió",
+  "al lago de los patos…"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "Su perro persiguió a los patos… y ella acabó en el lago.",
+   "say": "Su perro persiguió a los patos… y ella acabó en el lago.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 池",
+       "池 アヒル"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦆",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "como soltando un chisme, divertido"
+  },
+  {
+   "text": "Fue en un fraccionamiento de El Marqués, Querétaro.",
+   "say": "Fue en un fraccionamiento de El Marqués, Querétaro.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "住宅街",
+       "マンション 公園"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏘️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "residential park pond ducks",
+     "gated community lake"
+    ]
+   }
+  },
+  {
+   "text": "El perro andaba sin correa, en el lago de los patos.",
+   "say": "El perro andaba sin correa, en el lago de los patos.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 追いかける",
+       "アヒル 逃げる"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐕",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "Dos vecinos le reclamaron por no controlarlo.",
+   "say": "Dos vecinos le reclamaron por no controlarlo.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "注意する 人",
+       "苦情 近所"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🗣️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "dog running in pond",
+     "dog chasing ducks lake"
+    ]
+   }
+  },
+  {
+   "text": "Un vecino le dijo «estúpida»… y ella: «¡Naca!».",
+   "say": "Un vecino le dijo «estúpida»… y ella: «¡Naca!».",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性",
+       "口論 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit",
+   "tone": "sorprendido, escandalizado"
+  },
+  {
+   "text": "¡No manches! Salió del lago y se fue tras ellos.",
+   "say": "¡No manches! Salió del lago y se fue tras ellos.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "追いかける 女性",
+       "走る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏃‍♀️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "woman running park angry",
+     "woman chasing in park"
+    ]
+   }
+  },
+  {
+   "text": "Le dicen Lady Patos; dicen que es Lady Racista, sin confirmar.",
+   "say": "Le dicen Lady Patos; dicen que es Lady Racista, sin confirmar.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "SNS 噂",
+       "スマホ 見る 人々"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "¿Quién se pasó más?",
+   "say": "¿Quién se pasó más?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "preguntando a un amigo, ligero",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "¿Tú qué harías?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① Ella, por los insultos",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② Los vecinos también",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Su perro se metió al lago de los patos… y la pelea con los vecinos se hizo viral 🦆 #shorts",
+  "description": "En un fraccionamiento de El Marqués, Querétaro, una mujer dejó que su perro sin correa persiguiera a los patos de un lago artificial. Dos vecinos le reclamaron, hubo insultos de ambos lados y ella terminó en el lago y luego los persiguió. En redes la llaman «Lady Patos» y dicen que es «Lady Racista», sin confirmación oficial.\n\nNarración con voz generada por IA.\n\n#chismepon #chisme #viral #shorts",
+  "tags": [
+   "chisme",
+   "viral méxico",
+   "historias reales",
+   "lady patos",
+   "querétaro",
+   "vecinos"
+  ]
+ },
+ "source_post": "https://www.infobae.com/mexico/2026/11/18/lady-racista-regresa-habria-insultado-a-vecinos-de-un-fraccionamiento-en-queretaro/",
+ "facts_used": [
+  "En el fraccionamiento Zákia, en El Marqués, Querétaro, el perro de una mujer entró a un lago artificial donde viven patos [UnoTV 2026-11-17, Infobae 2026-11-18]",
+  "El perro iba sin correa y perseguía a los patos; dos vecinos le reclamaron que no lo controlaba [Infobae 2026-11-18, UnoTV 2026-11-17]",
+  "Un vecino le dijo «¿Qué haces, estúpida?» y ella respondió «Vas a ver... Naca, ¿por qué corres, estúpida?» [Infobae 2026-11-18]; los llamó «nacos» [UnoTV 2026-11-17]",
+  "Ella terminó en el lago, salió y siguió/persiguió a los vecinos [UnoTV 2026-11-17, Infobae 2026-11-18]",
+  "En redes la apodaron «Lady Patos» y dicen que es «Lady Racista», sin confirmación oficial [UnoTV 2026-11-17, Infobae 2026-11-18]"
+ ],
+ "brief": "lane MX - Infobae México (también UnoTV, Milenio). 유형: 이웃 갈등/lady. 점수 재미4+이해5+반전4+편가르기4=17."
+}
